@@ -1,5 +1,5 @@
 import { markText, analyzeWord, stripDizione } from './engine.js';
-import { regolaById } from './rules.js';
+import { regolaById, motivoVariante } from './rules.js';
 import { selectorHTML, bindSelector, getOpts, ensureLexicon, colorize, esc, store, $ } from './app.js';
 
 const FONTE = { dizionario: 'Dal dizionario', flessa: 'Forma flessa (da tabella di coniugazione/declinazione)', regole: 'Parola non nel dizionario: dedotta dalle regole' };
@@ -84,7 +84,13 @@ function showDetail(w) {
     return `<li><a class="rid" href="#teoria/${R.id}">${R.id}</a> <span>${esc(R.titolo)}</span> ${tag}</li>`;
   }).join('');
   const full = w.marked;
-  const alts = w.alternative.length ? `<p><b>Varianti ammesse:</b> ${w.alternative.map(a => `<span style="font-family:var(--serif);font-size:1.15rem">${colorize(a)}</span>`).join(', ')}</p>` : '';
+  const alts = (w.varianti || []).length ? `<div class="varianti"><b>Altre pronunce registrate</b> <a class="rid" href="#teoria/B5">B5</a>
+    <p class="small muted" style="margin:4px 0 8px">In dizione vale la forma segnata sopra. Ecco perché il dizionario ne riporta anche altre:</p>
+    <ul class="rulelist">${w.varianti.map(v => {
+      const m = motivoVariante(v.code);
+      return `<li class="variante"><span class="vform">${colorize(v.forma)}</span><span>${m.tipi.map(t => `<b>${esc(t.titolo)}.</b> ${esc(t.testo)}`).join(' ')}
+        ${m.etichetta ? `<span class="tag warn">${esc(m.etichetta)}</span>` : ''} ${m.fonte ? `<span class="small muted">(${esc(m.fonte)})</span>` : ''}</span></li>`;
+    }).join('')}</ul></div>` : '';
   const homs = w.omografi.length ? `<p><span class="tag warn">Omografo</span> si scrive uguale ma cambia pronuncia con il significato: ${[w.marked, ...w.omografi].map(a => `<b style="font-family:var(--serif);font-size:1.2rem">${colorize(a)}</b>`).join(' oppure ')}. Scegli in base al contesto.</p>` : '';
   const dub = w.dubbi.length ? `<p><span class="tag warn">Dubbio</span> Le regole non bastano per: ${w.dubbi.map(d => ({ timbro: 'apertura della vocale', s: 'la s', z: 'la z' }[d])).join(', ')}. Verifica su un dizionario d’ortoepia.</p>` : '';
   const at = w.atona ? '<p class="muted small">Parola atona: non ha accento proprio (regola <a href="#teoria/B2">B2</a>).</p>' : '';

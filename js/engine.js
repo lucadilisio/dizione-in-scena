@@ -41,12 +41,14 @@ export function parseLexicon(text) {
     const derived = body.endsWith('!');
     const clean = derived ? body.slice(0, -1) : body;
     const [main, ...homs] = clean.split(';');
-    let [prim, ...vars] = main.split('~');
+    let [prim, ...rawVars] = main.split('~');
+    const vars = rawVars.map(v => v.split('@')[0]);
+    const vcodes = rawVars.map(v => v.split('@')[1] || 'V');
     let key = tab >= 0 ? line.slice(0, tab) : stripAll(prim);
     // É8: i composti di che e di tre sono sempre chiusi (perché, poiché, ventitré)
     const fixCT = x => x.replace(/(ch|tr)è$/, '$1é');
     prim = fixCT(prim); key = fixCT(key);
-    const e = { prim, vars, homs, derived };
+    const e = { prim, vars, vcodes, homs, derived };
     const list = LEX.get(key);
     if (list) list.push(e); else LEX.set(key, [e]);
     if (tab >= 0) { const k2 = stripAll(key); if (!LEX_NOACC.has(k2)) LEX_NOACC.set(k2, [e]); }
@@ -205,15 +207,17 @@ export function analyzeWord(word) {
     const e = entries[0];
     const homs = OMOGRAFI.has(plain) ? e.homs : [];
     const alt = [...e.vars, ...(OMOGRAFI.has(plain) ? [] : e.homs)];
-    res = { marked: fitLength(e.prim, key), alternative: alt.map(a => fitLength(a, key)), omografi: homs.map(a => fitLength(a, key)),
+    const varianti = [...e.vars.map((f, i) => ({ forma: fitLength(f, key), code: e.vcodes[i] })),
+      ...(OMOGRAFI.has(plain) ? [] : e.homs.map(f => ({ forma: fitLength(f, key), code: 'H' })))];
+    res = { marked: fitLength(e.prim, key), alternative: alt.map(a => fitLength(a, key)), varianti, omografi: homs.map(a => fitLength(a, key)),
       fonte: e.derived ? 'flessa' : 'dizionario', dubbi: [] };
     res.regole = explain(key, res.marked);
   } else {
     const g = guess(key);
-    res = { marked: g.marked, alternative: [], omografi: [], fonte: 'regole', regole: g.rules, dubbi: g.dubbi };
+    res = { marked: g.marked, alternative: [], varianti: [], omografi: [], fonte: 'regole', regole: g.rules, dubbi: g.dubbi };
   }
   if (ATONE.has(plain)) {
-    res = { ...res, marked: [...res.marked].map((c, i) => 'àèéìòóù'.includes(c) && !'àèéìòóù'.includes(key[i]) ? BASE[c] : c).join(''), atona: true, omografi: [], alternative: [], dubbi: [],
+    res = { ...res, marked: [...res.marked].map((c, i) => 'àèéìòóù'.includes(c) && !'àèéìòóù'.includes(key[i]) ? BASE[c] : c).join(''), atona: true, omografi: [], alternative: [], varianti: [], dubbi: [],
       regole: (res.regole || []).filter(r => r.feat === 's' || r.feat === 'z') };
   }
   const d = DIFF.get(plain);

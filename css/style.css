@@ -200,3 +200,6 @@ dialog#install-dialog { border: 1px solid var(--line); border-radius: var(--radi
 dialog#install-dialog::backdrop { background: rgba(0, 0, 0, .45); }
 dialog#install-dialog ol { padding-left: 1.2em; display: grid; gap: 8px; }
 @media (max-width: 640px) { .install > span { flex-basis: 100%; text-align: center; } }
+.varianti { margin: 12px 0; }
+.variante { align-items: flex-start; }
+.variante .vform { font: 700 1.15rem var(--serif); min-width: 5.5em; }

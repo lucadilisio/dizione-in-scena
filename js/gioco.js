@@ -27,7 +27,9 @@ async function loadPool() {
     const tab = line.indexOf('\t');
     const body = (tab >= 0 ? line.slice(tab + 1) : line).replace(/!$/, '');
     if (body.includes(';')) return;                       // omografi: ambigui, esclusi
-    const [prim, ...vars] = body.split('~');
+    const [prim, ...rawVars] = body.split('~');
+    // le varianti regionali (non registrate dal Wiktionary italiano) non rendono ambigua la domanda
+    const vars = rawVars.filter(v => (v.split('@')[1] || '').includes('+')).map(v => v.split('@')[0]);
     const key = tab >= 0 ? line.slice(0, tab) : stripAll(prim);
     if (key.length < 3 || ATONE.has(key) || [...prim].length !== [...key].length) return;
     const same = i => vars.every(v => v[i] === prim[i]);

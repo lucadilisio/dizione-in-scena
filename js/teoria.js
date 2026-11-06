@@ -1,4 +1,4 @@
-import { REGOLE, CATEGORIE, DIFFICILI, OMOGRAFI } from './rules.js';
+import { REGOLE, CATEGORIE, DIFFICILI, OMOGRAFI, VARIANTI } from './rules.js';
 import { analyzeWord, stripDizione, lexiconSize } from './engine.js';
 import { ensureLexicon, colorize, esc, $ } from './app.js';
 
@@ -22,6 +22,8 @@ export async function mount(app, focus) {
       ${r.testo ? `<p>${esc(r.testo)}</p>` : ''}
       ${r.esempi && r.esempi.length ? `<div class="ex">${r.esempi.map(exHTML).join('')}</div>` : ''}
       ${r.eccezioni && r.eccezioni.length ? `<p class="small"><b>Eccezioni:</b> ${r.eccezioni.map(e => colorize(e)).join(' · ')}</p>` : ''}
+      ${r.varianti ? `<ul class="rulelist">${Object.values(VARIANTI.tipi).map(t => `<li><span><b>${esc(t.titolo)}.</b> ${esc(t.testo)} <span class="ex" style="white-space:nowrap">${colorize(t.esempio)}</span></span></li>`).join('')}</ul>
+        <p class="small muted">Per ogni variante il programma dice anche da dove viene: se è ${esc(VARIANTI.accettata)}, oppure ${esc(VARIANTI.regionale)}. Quando Wiktionary lo specifica, aggiunge l’etichetta (per esempio “${esc(VARIANTI.etichette.N)}”).</p>` : ''}
       ${r.difficili ? `<div class="ex">${DIFFICILI.map(d => `<span>${colorize(d)}</span>`).join('')}</div>` : ''}
     </article>`;
   app.innerHTML = `

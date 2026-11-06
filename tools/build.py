@@ -4,12 +4,51 @@ from ipa import analyze, mark, orth_vowels, ORTHV
 raw, out = sys.argv[1:3]
 recs, forms = pickle.load(open(raw, 'rb'))
 
-def rec_analyses(w, ipas):
+def rec_analyses(w, ipas, src):
     res = []
-    for i in ipas:
-        a = analyze(w, i)
-        if a and a['stress'] is not None: res.append(a)
+    for item in ipas:
+        ipa, tags = item if isinstance(item, tuple) else (item, ())
+        a = analyze(w, ipa)
+        if a and a['stress'] is not None:
+            a['tags'] = tags; a['src'] = src
+            res.append(a)
     return res
+
+# etichette di Wiktionary -> codice breve (il testo per esteso è in js/rules.js, VARIANTI)
+def tag_code(tags):
+    t = ' '.join(tags).lower()
+    if not t: return ''
+    if 'proscribed' in t or 'nonstandard' in t or 'sconsigl' in t: return 'P'
+    if any(k in t for k in ('northern', 'milan', 'lombardy', 'settentrional', 'switzerland')): return 'N'
+    if 'rome' in t or 'roman' in t: return 'Rm'
+    if 'tuscan' in t: return 'To'
+    if 'central-and-southern' in t or 'southern' in t: return 'CS'
+    if 'traditional' in t or 'careful' in t or 'elevated' in t or 'formal' in t: return 'T'
+    if 'regional' in t or 'dialectal' in t: return 'Rg'
+    return ''
+
+STRESSED = 'àèéìòóù'
+def diff_types(P, v):
+    """che cosa cambia tra forma principale e variante: A accento, V timbro e/o, S s, Z z"""
+    if len(P) != len(v): return 'A'
+    stress = lambda w: next((i for i, c in enumerate(w) if c in STRESSED), -1)
+    sp, sv = stress(P), stress(v)
+    t = ''
+    if sp != sv: t += 'A'
+    elif sp >= 0 and P[sp] != v[sp]: t += 'V'
+    pairs = {(a, b) for a, b in zip(P, v) if a != b}
+    if any({a, b} == {'s', 'ṡ'} for a, b in pairs): t += 'S'
+    if any({a, b} == {'z', 'ż'} for a, b in pairs): t += 'Z'
+    return t or 'V'
+
+def variant_str(P, v, info):
+    code = diff_types(P, v)
+    if info:
+        if 'it' in info['src']: code += '+'          # registrata anche dall'edizione italiana
+        tc = next((tag_code(tg) for tg in info['tags'] if tag_code(tg)), '')
+        if info.get('moderna'): tc = tc or 'M'
+        if tc: code += ':' + tc
+    return v + '@' + code
 
 import re
 SORDA_TRAD = re.compile(r'^(cas[aeio]|cas[ae]tt|cos[aeio]$|cos[iì]$|nas[oi]$|mes[ei]$|pes[oi]$)')
@@ -18,7 +57,7 @@ for w, rs in recs.items():
     by_src = {'it': [], 'en': []}
     for src, pos, ipas in rs:
         if src in by_src and ipas:
-            an = rec_analyses(w, ipas)
+            an = rec_analyses(w, ipas, src)
             if an: by_src[src].append(an)
     if not by_src['it'] and not by_src['en']: continue
     first = lambda src: by_src[src][0][0] if by_src[src] else None
@@ -46,17 +85,23 @@ for w, rs in recs.items():
                 prs.append(m)
         if len(prs) > 1:
             hom = [m for m in prs if m != P]; break
-    var = []
+    var = []; info = {}
     for src in ('it', 'en'):
         for an in by_src[src]:
             for a in an:
                 m = mark(w, dict(a, s=a['s'] if a['s'] is not None else prim['s'], z=a['z'] if a['z'] is not None else prim['z']))
-                if m != P and m not in hom and m not in var: var.append(m)
+                if m == P or m in hom: continue
+                if m not in var: var.append(m)
+                inf = info.setdefault(m, {'src': set(), 'tags': []})
+                inf['src'].add(src)
+                if a['tags']: inf['tags'].append(a['tags'])
     # dizione tradizionale: s intervocalica sorda in casa/cosa/così, -oso/-osa e poche altre (vedi Teoria, regola S6)
     if 'ṡ' in P and (SORDA_TRAD.search(w) or re.search(r'óṡ([oaie]$|issim|aménte)', P)):
         alt = next((v for v in var if v == P.replace('ṡ', 's')), None)
         if alt:
+            info[P] = {'src': set(info.get(alt, {}).get('src', set())) | {'it', 'en'}, 'tags': [], 'moderna': True}
             var = [P] + [v for v in var if v != alt]; P = alt
+    var = [variant_str(P, v, info.get(v)) for v in var]
     lex[w] = (P, var, hom, prim)
 
 print('voci con pronuncia:', len(lex))
@@ -150,8 +195,9 @@ with open(out, 'w') as o:
         else:
             dl = [derived[w][0]] + [v for v in derived[w][1:] if any(c in 'àèéìòóù' for c in v)]
             derived[w] = dl
-            line = derived[w][0] + ''.join('~' + v for v in derived[w][1:]) + '!'   # ! = forma flessa derivata
+            line = derived[w][0] + ''.join('~' + variant_str(derived[w][0], v, None) for v in derived[w][1:]) + '!'   # ! = forma flessa derivata
         prim = line.split('~')[0].split(';')[0].rstrip('!')
+        assert '@' not in prim
         if prim.translate(STRIPALL) != w:
             line = w + '\t' + line      # grafia con accento ortografico (città, però, tè)
         o.write(line + '\n')

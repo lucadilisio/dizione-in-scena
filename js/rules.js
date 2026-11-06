@@ -28,8 +28,12 @@ export const REGOLE = [
     testo: 'Il programma usa prima il dizionario (≈96.000 voci di Wiktionary con trascrizione fonetica, più ≈330.000 forme flesse dalle tabelle di coniugazione e declinazione). Solo se una parola non c’è applica le regole di questa pagina, e lo dice. Quando il dizionario e le regole non coincidono, la parola viene indicata come eccezione.',
     esempi: [] },
   { id: 'B4', cat: 'base', titolo: 'Omografi e varianti',
-    testo: 'Omografi: parole scritte uguali ma pronunciate diversamente secondo il significato (pèsca/pésca). Il programma non può capire il significato, quindi le segnala e ti fa scegliere. Varianti: pronunce accettate entrambe (casa/caṡa); viene scelta quella della dizione tradizionale e l’altra viene mostrata.',
+    testo: 'Omografi: parole scritte uguali ma pronunciate diversamente secondo il significato (pèsca/pésca). Il programma non può capire il significato, quindi le segnala e ti fa scegliere. Varianti: altre pronunce che il dizionario registra oltre a quella principale. Il programma segna sempre la principale (quella della dizione tradizionale) e mostra le varianti con il loro motivo (B5).',
     esempi: ['pèsca (frutto) / pésca (il pescare)', 'vènti (plurale di vento) / vénti (20)', 'lègge (verbo) / légge (norma)', 'bòtte (percosse) / bótte (barile)', 'ancóra (avverbio) / àncora (della nave)', 'ròṡa (fiore) / rósa (rosicchiata)'] },
+
+  { id: 'B5', cat: 'base', titolo: 'Perché esistono le varianti',
+    testo: 'L’italiano standard nasce dal fiorentino colto, ma ogni regione lo pronuncia a modo suo: per questo i dizionari registrano più pronunce per molte parole. La dizione teatrale segue la pronuncia standard tradizionale, che è quella segnata dal programma. Accanto a ogni variante il programma indica che cosa cambia e perché:',
+    varianti: true, esempi: [] },
 
   // ---------------- E APERTA ----------------
   { id: 'E1', cat: 'E', q: 'open', titolo: 'Dittongo IE accentato → è',
@@ -209,3 +213,32 @@ export function regolaById(id) { return REGOLE.find(r => r.id === id); }
 export const OMOGRAFI = new Set(('pesca pesche venti legge leggi botte ancora rosa rose colto colta colti colte foro fori ' +
   'mento accetta accette porci esca volto volti tocco tocchi dotto dotti rocca rocche fosse corso corsi mozzo ' +
   'principi capitano subito ambito nocciolo camice intimo altero viola meta collega').split(' '));
+
+// Motivi delle varianti (B5). Codice nel dizionario: tipo [+] [:etichetta], es. "V:N", "S+:M", "A".
+export const VARIANTI = {
+  tipi: {
+    V: { titolo: 'Timbro della vocale (è/é, ò/ó)', testo: 'In molte regioni, soprattutto al Nord e in parte del Sud, la e e la o accentate si aprono o si chiudono in modo diverso dallo standard. In dizione vale la forma principale.', esempio: 'sèdia (standard) / sédia (regionale)' },
+    S: { titolo: 'S sorda o sonora tra vocali', testo: 'Tra due vocali la s è sorda nella pronuncia tradizionale toscana e in gran parte del Centro-Sud, sempre sonora al Nord. La pronuncia moderna accetta spesso entrambe; la dizione segue la tradizione (regole S6 e S9).', esempio: 'casa (tradizionale) / caṡa (moderna, Nord)' },
+    Z: { titolo: 'Z sorda o sonora', testo: 'La sonorità della z cambia da regione a regione, soprattutto a inizio parola e in alcune parole comuni. In dizione vale la forma principale (regole Z6 e Z7).', esempio: 'żio / zio' },
+    A: { titolo: 'Accento in un’altra posizione', testo: 'Di solito è un errore diffuso, oppure la pronuncia “alla latina” o “alla greca” di una parola dotta. In dizione vale la forma principale.', esempio: 'rubrìca (corretta) / rùbrica (diffusa ma sbagliata)' },
+    H: { titolo: 'Altra parola scritta uguale', testo: 'Esiste un’altra parola con la stessa grafia, un significato diverso e un uso molto più raro (omografo minore). Per questo il programma non chiede di scegliere.', esempio: 'sóno (verbo essere) / sòno (parola rara)' },
+  },
+  accettata: 'registrata anche dal Wiktionary italiano: presente anche nell’uso standard',
+  registrataIt: 'registrata anche dal Wiktionary italiano come pronuncia diffusa',
+  regionale: 'registrata solo dal Wiktionary inglese, che riporta anche le pronunce regionali',
+  etichette: {
+    N: 'pronuncia del Nord Italia', Rm: 'pronuncia romana', To: 'pronuncia toscana', CS: 'pronuncia del Centro-Sud',
+    T: 'pronuncia tradizionale o sorvegliata', Rg: 'pronuncia regionale', P: 'pronuncia sconsigliata (considerata un errore)',
+    M: 'pronuncia moderna, diffusa soprattutto al Nord',
+  },
+};
+export function motivoVariante(code) {
+  const m = /^([AVSZH]+)(\+)?(?::(\w+))?$/.exec(code || '') || [null, 'V', '', ''];
+  return {
+    tipi: [...m[1]].map(t => VARIANTI.tipi[t]).filter(Boolean),
+    // per gli accenti (A) la presenza nel Wiktionary italiano non la rende corretta: di solito è registrata come pronuncia diffusa
+    fonte: m[1] === 'H' ? '' : (m[2] ? (m[1].includes('A') ? VARIANTI.registrataIt : VARIANTI.accettata) : VARIANTI.regionale),
+    etichetta: m[3] ? VARIANTI.etichette[m[3]] || '' : '',
+    accettata: !!m[2],
+  };
+}

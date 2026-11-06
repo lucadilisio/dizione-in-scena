@@ -15,7 +15,9 @@ for src, path in (('it', it_path), ('en', en_path)):
             if d.get('lang_code') not in (None, 'it'): continue
             w = d.get('word', ''); pos = d.get('pos', '')
             if not ok(w): continue
-            ipas = [s['ipa'] for s in d.get('sounds', []) if s.get('ipa')]
+            # ogni pronuncia con le sue etichette (es. "Northern", "regional", nota "Rome")
+            ipas = [(s['ipa'], tuple((s.get('tags') or []) + (s.get('raw_tags') or []) + ([s['note']] if s.get('note') else [])))
+                    for s in d.get('sounds', []) if s.get('ipa')]
             fo = None
             for s in d.get('senses', []):
                 for x in s.get('form_of', []) or []:
