@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dizione in Scena</title>
+  <meta name="description" content="Segna automaticamente la dizione italiana su testi e copioni teatrali, consulta le regole e allenati giocando.">
+  <meta name="theme-color" content="#8e1b2c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%238e1b2c'/%3E%3Ctext x='32' y='46' font-family='Georgia' font-size='40' font-weight='700' text-anchor='middle' fill='%23fff'%3E%C3%A8%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="#testo">Dizione in Scena<small>è · é · ò · ó · ṡ · ż</small></a>
+      <nav class="tabs">
+        <a href="#testo" data-route="testo">Testo libero</a>
+        <a href="#copione" data-route="copione">Copione</a>
+        <a href="#teoria" data-route="teoria">Teoria</a>
+        <a href="#gioco" data-route="gioco">Gioco</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app"><div class="loading">Caricamento…</div></main>
+
+  <footer>
+    Dizionario: <a href="https://www.wiktionary.org/" target="_blank" rel="noopener">Wiktionary</a> (CC BY-SA), estratto da <a href="https://kaikki.org/" target="_blank" rel="noopener">kaikki.org</a>.
+    I segni sono un aiuto: in caso di dubbio vale il dizionario d’ortoepia.
+  </footer>
+
+  <script src="vendor/jszip.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
