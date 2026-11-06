@@ -18,7 +18,8 @@ self.addEventListener('fetch', e => {
     try {
       // 'no-cache': chiede sempre al server se il file è cambiato (risposta leggera se non lo è),
       // così dopo un aggiornamento del sito non si resta con la versione vecchia per 10 minuti
-      const res = await fetch(req, { cache: 'no-cache' });
+      // (le navigazioni non accettano opzioni sulla richiesta originale: si usa il suo URL)
+      const res = await fetch(req.mode === 'navigate' ? req.url : req, { cache: 'no-cache' });
       if (res.ok) { const copy = res.clone(); caches.open(CACHE).then(c => c.put(req, copy)); }
       return res;
     } catch {
