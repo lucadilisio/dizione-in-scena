@@ -43,6 +43,7 @@ Senza configurazione il gioco funziona lo stesso: record personali e duello sull
        "classifiche": {
          "$gruppo": { "$modo": { "$settimana": {
            ".read": true,
+           ".indexOn": "punti",
            "$uid": {
              ".write": "auth != null && auth.uid === $uid",
              ".validate": "newData.child('punti').isNumber() && newData.child('punti').val() >= 0 && newData.child('punti').val() <= 200000 && newData.child('nome').isString() && newData.child('nome').val().length <= 20"
