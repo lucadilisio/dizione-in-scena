@@ -83,3 +83,69 @@ export async function pushScore(code, punti, risposte) {
   await D.update(D.ref(db, `duelli/${code}/giocatori/${uid}`), { punti, risposte });
 }
 export async function serverNow() { const { now } = await init(); return now(); }
+
+// ---------- gruppi prefissati (creati dall'admin) ----------
+export async function listGroups() {
+  const { D, db } = await init();
+  const snap = await D.get(D.ref(db, 'gruppi'));
+  const out = [];
+  snap.forEach(c => { const g = c.val(); if (g && g.attivo !== false) out.push({ id: c.key, nome: g.nome || c.key }); });
+  return out.sort((a, b) => a.nome.localeCompare(b.nome, 'it'));
+}
+
+// ---------- admin: sessione separata (app Firebase con nome "admin") ----------
+let adm = null;
+async function initAdmin() {
+  if (adm) return adm;
+  if (!enabled) throw new Error('Firebase non configurato');
+  const [{ initializeApp }, A, D] = await Promise.all([
+    import(`https://www.gstatic.com/firebasejs/${V}/firebase-app.js`),
+    import(`https://www.gstatic.com/firebasejs/${V}/firebase-auth.js`),
+    import(`https://www.gstatic.com/firebasejs/${V}/firebase-database.js`),
+  ]);
+  const app = initializeApp(firebaseConfig, 'admin');
+  const auth = A.getAuth(app);
+  await auth.authStateReady();
+  adm = { A, D, auth, db: D.getDatabase(app) };
+  return adm;
+}
+export async function adminUser() { const { auth } = await initAdmin(); const u = auth.currentUser; return u && !u.isAnonymous ? u.email : null; }
+export async function adminLogin(email, password) {
+  const { A, auth } = await initAdmin();
+  try { await A.signInWithEmailAndPassword(auth, email.trim(), password); }
+  catch (e) { throw new Error(/invalid|wrong|not-found|credential/.test(e.code || '') ? 'Email o password sbagliate' : (e.code || e.message)); }
+}
+export async function adminLogout() { const { A, auth } = await initAdmin(); await A.signOut(auth); }
+export async function adminGroups() {
+  const { D, db } = await initAdmin();
+  const snap = await D.get(D.ref(db, 'gruppi'));
+  const out = []; snap.forEach(c => { out.push({ id: c.key, ...c.val() }); });
+  return out.sort((a, b) => (a.nome || a.id).localeCompare(b.nome || b.id, 'it'));
+}
+export async function adminSaveGroup(id, data) {
+  const { D, db } = await initAdmin();
+  await D.update(D.ref(db, `gruppi/${clean(id)}`), data);
+}
+export async function adminCreateGroup(nome) {
+  const id = clean(nome);
+  const { D, db } = await initAdmin();
+  const r = D.ref(db, `gruppi/${id}`);
+  if ((await D.get(r)).exists()) throw new Error('Esiste già un gruppo con questo nome');
+  await D.set(r, { nome: String(nome).trim().slice(0, 40), attivo: true, creato: Date.now() });
+  return id;
+}
+export async function adminDeleteGroup(id) {
+  const { D, db } = await initAdmin();
+  await D.remove(D.ref(db, `gruppi/${id}`));
+  await D.remove(D.ref(db, `classifiche/${id}`));
+}
+export async function adminScores(gruppo, mode = 'sfida', week = weekKey()) {
+  const { D, db } = await initAdmin();
+  const snap = await D.get(D.ref(db, `classifiche/${gruppo}/${mode}/${week}`));
+  const rows = []; snap.forEach(c => { rows.push({ uid: c.key, ...c.val() }); });
+  return rows.sort((a, b) => b.punti - a.punti);
+}
+export async function adminDeleteScore(gruppo, uid, mode = 'sfida', week = weekKey()) {
+  const { D, db } = await initAdmin();
+  await D.remove(D.ref(db, `classifiche/${gruppo}/${mode}/${week}/${uid}`));
+}

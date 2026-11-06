@@ -60,6 +60,7 @@ const routes = {
   copione: () => import('./copione.js'),
   teoria: () => import('./teoria.js'),
   gioco: () => import('./gioco.js'),
+  admin: () => import('./admin.js'),
 };
 let current = null;
 async function route() {

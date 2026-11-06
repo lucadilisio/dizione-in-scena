@@ -35,17 +35,22 @@ Senza configurazione il gioco funziona lo stesso: record personali e duello sull
 
 1. Vai su <https://console.firebase.google.com>, poi **Aggiungi progetto** (il piano gratuito Spark basta).
 2. **Build → Authentication → Inizia → Metodo di accesso**: attiva **Anonimo**.
-3. **Build → Realtime Database → Crea database** (posizione `europe-west1`), in modalità bloccata. Nella scheda **Regole** incolla:
+3. **Realtime Database → Crea database** (posizione `europe-west1`), in modalità bloccata. Nella scheda **Regole** incolla queste regole, sostituendo **due volte** `EMAIL-ADMIN` con l'email dell'account admin (punto 7):
 
    ```json
    {
      "rules": {
+       "gruppi": {
+         ".read": true,
+         ".write": "auth != null && auth.token.email === 'EMAIL-ADMIN'"
+       },
        "classifiche": {
          "$gruppo": { "$modo": { "$settimana": {
            ".read": true,
            ".indexOn": "punti",
+           ".write": "auth != null && auth.token.email === 'EMAIL-ADMIN'",
            "$uid": {
-             ".write": "auth != null && auth.uid === $uid",
+             ".write": "auth != null && auth.uid === $uid && root.child('gruppi').child($gruppo).child('attivo').val() === true",
              ".validate": "newData.child('punti').isNumber() && newData.child('punti').val() >= 0 && newData.child('punti').val() <= 200000 && newData.child('nome').isString() && newData.child('nome').val().length <= 20"
            }
          } } }
@@ -57,9 +62,23 @@ Senza configurazione il gioco funziona lo stesso: record personali e duello sull
    }
    ```
 
+   In questo modo i ragazzi possono salvare punteggi solo nei gruppi attivi creati dall'admin, e solo l'admin può creare gruppi o cancellare punteggi.
+
 4. **Impostazioni progetto → Generali → Le tue app → Web (`</>`)**: registra l'app e copia l'oggetto `firebaseConfig`.
-5. Incollalo in `js/firebase-config.js` (con `databaseURL`) e pubblica.
+5. Incollalo in `js/firebase-config.js` e pubblica.
 6. In **Authentication → Impostazioni → Domini autorizzati** aggiungi `<utente>.github.io`.
+7. **Account admin**: in **Authentication → Metodo di accesso** attiva anche **Email/password**. Poi in **Authentication → Utenti → Aggiungi utente** crea l'account admin (email e password a scelta, la stessa email messa nelle regole).
+8. Apri il sito su `#admin` (link "Area docente" in fondo alla pagina), entra con quell'account e crea i gruppi. Il nome del gruppo genera un codice (es. "Musical 1" → `musical-1`): ricreando un gruppo con lo stesso nome si ritrovano le sue classifiche.
+
+### Proteggere la chiave API (consigliato)
+
+GitHub segnala la `apiKey` come "secret": per le app web Firebase non è un segreto, ma conviene limitarla al proprio sito. In [Google Cloud Console → API e servizi → Credenziali](https://console.cloud.google.com/apis/credentials) apri la chiave "Browser key (auto created by Firebase)" e in **Limitazioni delle applicazioni** scegli **Siti web**, aggiungendo:
+
+- `https://<utente>.github.io/*`
+- `https://<progetto>.firebaseapp.com/*`
+- `http://localhost:8000/*` (solo se lo provi in locale)
+
+Salva, verifica che il gioco funzioni ancora, poi su GitHub chiudi l'avviso con **Close alert → Used in tests / False positive**.
 
 I valori di `firebaseConfig` non sono segreti (sono pensati per stare nel codice del sito): la protezione la danno le regole del database.
 

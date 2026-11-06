@@ -202,9 +202,11 @@ export async function mount(app, sub) {
     <div class="card" style="margin-bottom:16px">
       <div class="row">
         <label>Il tuo nome<br><input class="text" id="nome" maxlength="20" value="${esc(p.nome)}" placeholder="Es. Giulia"></label>
-        <label>Gruppo / classe<br><input class="text" id="gruppo" maxlength="30" value="${esc(p.gruppo)}" placeholder="Es. laboratorio-lunedi"></label>
+        ${online.enabled
+          ? `<label>Gruppo<br><select class="text" id="gruppo"><option value="">Caricamento…</option></select></label>`
+          : `<label>Gruppo / classe<br><input class="text" id="gruppo" maxlength="30" value="${esc(p.gruppo)}" placeholder="Es. laboratorio-lunedi"></label>`}
       </div>
-      <p class="small muted" style="margin:8px 0 0">Chi usa lo stesso nome di gruppo compete nella stessa classifica settimanale. ${online.enabled ? '' : '<b>Classifica online non ancora attiva</b>: i record restano su questo dispositivo.'}</p>
+      <p class="small muted" style="margin:8px 0 0">${online.enabled ? 'Scegli il tuo gruppo: compete nella stessa classifica settimanale. Se il tuo gruppo non c’è, chiedi al docente.' : '<b>Classifica online non attiva</b>: i record restano su questo dispositivo.'}</p>
     </div>
     <div class="modes">
       <a class="card mode" href="#gioco/sfida" style="text-decoration:none;color:inherit"><div class="emoji">⏱️</div><h3>Sfida a tempo</h3><p class="muted">60 secondi, più rispondi giusto più sale la combo. Il tuo record: <b>${best}</b></p></a>
@@ -212,8 +214,19 @@ export async function mount(app, sub) {
       <a class="card mode" href="#gioco/percorso" style="text-decoration:none;color:inherit"><div class="emoji">🗺️</div><h3>Percorso a livelli</h3><p class="muted">Un livello per ogni regola, con le sue eccezioni. Guadagna stelle e sblocca i livelli successivi.</p></a>
     </div>
     <div id="lb" style="margin-top:20px"></div>`;
-  const save = () => store.set('profilo', { nome: $('#nome', app).value.trim(), gruppo: $('#gruppo', app).value.trim() });
-  $('#nome', app).addEventListener('change', save); $('#gruppo', app).addEventListener('change', save);
+  const save = () => { store.set('profilo', { nome: $('#nome', app).value.trim(), gruppo: $('#gruppo', app).value.trim(), gruppoNome: $('#gruppo', app).selectedOptions?.[0]?.textContent || '' }); };
+  $('#nome', app).addEventListener('change', save);
+  $('#gruppo', app).addEventListener('change', () => { save(); showLeaderboard($('#lb', app), 'sfida'); });
+  if (online.enabled) {
+    try {
+      const gruppi = await online.listGroups();
+      const sel = $('#gruppo', app);
+      sel.innerHTML = gruppi.length
+        ? `<option value="">— scegli —</option>` + gruppi.map(g => `<option value="${esc(g.id)}" ${g.id === p.gruppo ? 'selected' : ''}>${esc(g.nome)}</option>`).join('')
+        : '<option value="">Nessun gruppo disponibile</option>';
+      if (p.gruppo && !gruppi.some(g => g.id === p.gruppo)) save();   // gruppo eliminato o disattivato
+    } catch { $('#gruppo', app).innerHTML = '<option value="">Gruppi non disponibili</option>'; }
+  }
   showLeaderboard($('#lb', app), 'sfida');
 }
 
@@ -224,10 +237,11 @@ async function showLeaderboard(box, mode) {
     box.innerHTML = loc.length ? `<div class="card"><h3>I tuoi migliori punteggi</h3><table class="lb">${loc.map((r, i) => `<tr><td>${i + 1}</td><td>${r.punti} pt</td><td class="muted small">${new Date(r.data).toLocaleDateString('it')}</td></tr>`).join('')}</table></div>` : '';
     return;
   }
+  if (!p.gruppo) { box.innerHTML = '<div class="card"><h3>Classifica della settimana</h3><p class="muted">Scegli il tuo gruppo per vedere la classifica.</p></div>'; return; }
   box.innerHTML = '<div class="card"><h3>Classifica della settimana</h3><p class="muted">Carico…</p></div>';
   try {
     const rows = await online.topScores(p.gruppo, mode);
-    box.innerHTML = `<div class="card"><h3>Classifica della settimana · gruppo “${esc(online.clean(p.gruppo))}”</h3>${rows.length ? `<table class="lb"><tr><th>#</th><th>Nome</th><th>Punti</th></tr>${rows.map((r, i) => `<tr class="${r.me ? 'me' : ''}"><td>${['🥇', '🥈', '🥉'][i] || i + 1}</td><td>${esc(r.nome)}</td><td><b>${r.punti}</b></td></tr>`).join('')}</table>` : '<p class="muted">Ancora nessun punteggio: sii il primo!</p>'}</div>`;
+    box.innerHTML = `<div class="card"><h3>Classifica della settimana · ${esc(p.gruppoNome || p.gruppo)}</h3>${rows.length ? `<table class="lb"><tr><th>#</th><th>Nome</th><th>Punti</th></tr>${rows.map((r, i) => `<tr class="${r.me ? 'me' : ''}"><td>${['🥇', '🥈', '🥉'][i] || i + 1}</td><td>${esc(r.nome)}</td><td><b>${r.punti}</b></td></tr>`).join('')}</table>` : '<p class="muted">Ancora nessun punteggio: sii il primo!</p>'}</div>`;
   } catch (e) { box.innerHTML = `<p class="small muted">Classifica non disponibile (${esc(e.message)}).</p>`; }
 }
 
@@ -244,7 +258,7 @@ function sfida(app) {
       const st = store.get('storico', []); st.push({ punti: res.punti, data: Date.now() }); st.sort((a, b) => b.punti - a.punti); store.set('storico', st.slice(0, 20));
       endScreen(app, res, nuovo, 'sfida', () => sfida(app));
       const p = profile();
-      if (online.enabled && p.nome) { try { await online.submitScore(p.gruppo, p.nome, 'sfida', res.punti); showLeaderboard($('#lb2', app), 'sfida'); } catch { /* offline */ } }
+      if (online.enabled && p.nome && p.gruppo) { try { await online.submitScore(p.gruppo, p.nome, 'sfida', res.punti); showLeaderboard($('#lb2', app), 'sfida'); } catch { /* offline */ } }
     },
   });
 }
@@ -261,7 +275,7 @@ function endScreen(app, res, nuovo, mode, again, extra = '') {
     ${errs ? `<div class="card" style="text-align:left"><h3>Da ripassare</h3><ul class="rulelist">${errs}</ul></div>` : ''}
     <div id="lb2" style="margin-top:16px;text-align:left"></div></div>`;
   $('#again', app).addEventListener('click', again);
-  if (!online.enabled || !profile().nome) showLeaderboard($('#lb2', app), mode);
+  if (!online.enabled || !profile().nome || !profile().gruppo) showLeaderboard($('#lb2', app), mode);
 }
 
 // ---------- Duello ----------
