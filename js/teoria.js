@@ -40,7 +40,8 @@ export async function mount(app, focus) {
     <div id="rules">
       ${CATEGORIE.map(c => `<section id="r-cat-${c.id}"><h2 style="margin-top:22px">${esc(c.titolo)}</h2>${REGOLE.filter(r => r.cat === c.id).map(ruleHTML).join('')}</section>`).join('')}
       <section id="r-omografi"><h2 style="margin-top:22px">Omografi per cui il programma chiede di scegliere</h2>
-        <div class="card"><div class="ex" style="font-family:var(--serif);font-size:1.1rem">${[...OMOGRAFI].map(k => { const a = analyzeWord(k); return `<span style="margin-right:14px">${[a.marked, ...a.omografi].map(colorize).join(' / ')}</span>`; }).join('')}</div></div>
+        <div class="card"><table class="lb omo-table">${[...OMOGRAFI].map(k => { const a = analyzeWord(k); const d = a.descrizioni || {};
+          return `<tr>${[a.marked, ...a.omografi].map(f => `<td><b style="font:700 1.1rem var(--serif)">${colorize(f)}</b><br><span class="small muted">${esc(d[f] || '')}</span></td>`).join('')}</tr>`; }).join('')}</table></div>
       </section>
     </div>`;
   $('#q', app).addEventListener('input', e => {

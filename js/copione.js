@@ -64,7 +64,7 @@ function render() {
     const cur = state.choices.get(w.key) || w.marked;
     return `<div class="amb-item">
       <div class="ctx">${ctx(w)} ${w.count > 1 ? `<span class="tag">${w.count} volte</span>` : ''}</div>
-      ${opts.map(o => `<label class="choice"><input type="radio" name="omo-${esc(w.key)}" value="${esc(o)}" data-key="${esc(w.key)}" ${o === cur ? 'checked' : ''}> ${colorize(o)}</label>`).join('')}
+      <div class="choices">${opts.map(o => `<label class="choice"><input type="radio" name="omo-${esc(w.key)}" value="${esc(o)}" data-key="${esc(w.key)}" ${o === cur ? 'checked' : ''}> <b>${colorize(o)}</b> <span class="choice-desc">${esc((w.descrizioni || {})[o] || '')}</span></label>`).join('')}</div>
     </div>`;
   }).join('');
   const dubHTML = [...dubbi.values()].slice(0, 60).map(w => `<span class="tag warn" style="font-family:var(--serif);font-size:1rem;margin:2px">${colorize(w.out)}</span>`).join(' ');

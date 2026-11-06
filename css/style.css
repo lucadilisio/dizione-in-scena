@@ -203,3 +203,8 @@ dialog#install-dialog ol { padding-left: 1.2em; display: grid; gap: 8px; }
 .varianti { margin: 12px 0; }
 .variante { align-items: flex-start; }
 .variante .vform { font: 700 1.15rem var(--serif); min-width: 5.5em; }
+.choices { display: grid; gap: 4px; margin-top: 6px; }
+.choices .choice { margin: 0; align-items: baseline; font-size: 1rem; }
+.choices .choice b { font: 700 1.15rem var(--serif); min-width: 5.5em; }
+.choice-desc { color: var(--muted); font-family: var(--sans); font-size: .92rem; }
+.omo-table td { vertical-align: top; width: 50%; }

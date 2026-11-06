@@ -91,6 +91,7 @@ curl -O https://kaikki.org/itwiktionary/Italiano/kaikki.org-dictionary-Italiano.
 python3 tools/extract.py kaikki.org-dictionary-Italian.jsonl kaikki.org-dictionary-Italiano.jsonl raw.pkl
 cd tools && python3 build.py ../raw.pkl ../data/lessico.txt && cd ..
 python3 tools/gioco.py data/lessico.txt data/frequenti.txt
+cd tools && python3 omografi.py ../kaikki.org-dictionary-Italian.jsonl ../kaikki.org-dictionary-Italiano.jsonl ../data/lessico.txt ../data/omografi.txt && cd ..
 node tools/test_engine.mjs     # verifica gli esempi della Teoria contro il dizionario
 ```
 

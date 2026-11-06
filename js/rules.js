@@ -209,10 +209,51 @@ export const ATONE = new Set(('il lo la i gli le l un uno una di del dello della
 export function regolaById(id) { return REGOLE.find(r => r.id === id); }
 
 // Omografi "veri": solo per questi il programma chiede di scegliere (B4).
-// Per le altre coppie segnalate dal dizionario mostra l'alternativa senza fermarsi.
-export const OMOGRAFI = new Set(('pesca pesche venti legge leggi botte ancora rosa rose colto colta colti colte foro fori ' +
-  'mento accetta accette porci esca volto volti tocco tocchi dotto dotti rocca rocche fosse corso corsi mozzo ' +
-  'principi capitano subito ambito nocciolo camice intimo altero viola meta collega').split(' '));
+// Ogni voce: [forma segnata, descrizione]. La prima forma NON è necessariamente quella predefinita:
+// come predefinita si usa quella principale del dizionario.
+// Per le altre parole con omografi le descrizioni vengono da Wiktionary (data/omografi.txt).
+const C = (a, da, b, db) => [[a, da], [b, db]];
+const coltoForme = (suf, plur) => C('còlt' + suf, `raccolt${suf} (participio di cogliere)`, 'cólt' + suf, `istruit${suf}, che ${plur ? 'hanno' : 'ha'} cultura`);
+export const OMOGRAFI_DESC = {
+  pesca: C('pèsca', 'frutto del pesco; colore', 'pésca', 'il pescare; verbo pescare (egli pesca)'),
+  pesche: C('pèsche', 'plurale di pèsca (frutti)', 'pésche', 'plurale di pésca (il pescare)'),
+  venti: C('vènti', 'plurale di vento', 'vénti', 'il numero 20'),
+  legge: C('lègge', 'verbo leggere (egli legge)', 'légge', 'norma, regola'),
+  leggi: C('lèggi', 'verbo leggere (tu leggi; leggi!)', 'léggi', 'plurale di légge (norme)'),
+  botte: C('bòtte', 'colpi, percosse (plurale di botta)', 'bótte', 'grande barile per il vino'),
+  ancora: C('ancóra', 'avverbio: di nuovo, un’altra volta', 'àncora', 'oggetto che tiene ferma la nave; verbo ancorare'),
+  rosa: C('ròṡa', 'fiore; colore', 'róṡa', 'rosicchiata (participio di rodere)'),
+  rose: C('ròṡe', 'plurale di rosa (fiori)', 'róṡe', 'rosicchiate; verbo rodere (egli rose)'),
+  colto: coltoForme('o', false), colta: coltoForme('a', false), colti: coltoForme('i', true), colte: coltoForme('e', true),
+  foro: C('fòro', 'piazza dell’antica Roma; tribunale', 'fóro', 'buco'),
+  fori: C('fòri', 'plurale di fòro (piazze, tribunali)', 'fóri', 'plurale di fóro (buchi)'),
+  mento: C('mènto', 'verbo mentire (io mento)', 'ménto', 'parte del viso sotto la bocca'),
+  accetta: C('accètta', 'verbo accettare (egli accetta)', 'accétta', 'piccola scure'),
+  accette: C('accètte', 'gradite (femminile plurale di accetto)', 'accétte', 'plurale di accétta (scuri)'),
+  porci: C('pòrci', 'plurale di porco (maiali)', 'pórci', 'porre + ci (metterci)'),
+  esca: C('èsca', 'verbo uscire (che io esca)', 'ésca', 'cibo per attirare pesci o animali'),
+  volto: C('vòlto', 'girato (participio di volgere)', 'vólto', 'viso, faccia'),
+  volti: C('vòlti', 'girati (participio di volgere)', 'vólti', 'plurale di vólto (visi)'),
+  tocco: C('tòcco', 'verbo toccare (io tocco)', 'tócco', 'il toccare, colpo leggero; rintocco'),
+  tocchi: C('tòcchi', 'verbo toccare (tu tocchi)', 'tócchi', 'plurale di tócco (colpi leggeri, rintocchi)'),
+  dotto: C('dòtto', 'istruito, erudito', 'dótto', 'condotto, canale (in anatomia)'),
+  dotti: C('dòtti', 'plurale di dòtto (eruditi)', 'dótti', 'plurale di dótto (condotti)'),
+  rocca: C('ròcca', 'fortezza', 'rócca', 'strumento per filare la lana'),
+  rocche: C('ròcche', 'plurale di ròcca (fortezze)', 'rócche', 'plurale di rócca (strumenti per filare)'),
+  corso: C('córso', 'strada principale; corso di studi; participio di correre', 'còrso', 'della Corsica'),
+  corsi: C('córsi', 'plurale di córso; verbo correre (io corsi)', 'còrsi', 'abitanti della Corsica'),
+  principi: C('prìncipi', 'plurale di principe', 'princìpi', 'plurale di principio'),
+  capitano: C('capitàno', 'comandante', 'càpitano', 'verbo capitare (essi capitano)'),
+  subito: C('sùbito', 'immediatamente', 'subìto', 'participio di subire'),
+  ambito: C('àmbito', 'campo, ambiente', 'ambìto', 'desiderato (participio di ambire)'),
+  nocciolo: C('nòcciolo', 'seme duro della frutta; parte essenziale', 'nocciòlo', 'albero delle nocciole'),
+  intimo: C('ìntimo', 'profondo, privato; amico stretto', 'intìmo', 'verbo intimare (io intimo)'),
+  altero: C('altèro', 'superbo, orgoglioso', 'àltero', 'verbo alterare (io altero)'),
+  viola: C('viòla', 'fiore; colore; strumento musicale', 'vìola', 'verbo violare (egli viola)'),
+  meta: C('mèta', 'traguardo, obiettivo', 'méta', 'mucchio (di paglia, di fieno)'),
+  collega: C('collèga', 'compagno di lavoro', 'colléga', 'verbo collegare (egli collega)'),
+};
+export const OMOGRAFI = new Set(Object.keys(OMOGRAFI_DESC));
 
 // Motivi delle varianti (B5). Codice nel dizionario: tipo [+] [:etichetta], es. "V:N", "S+:M", "A".
 export const VARIANTI = {

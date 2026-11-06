@@ -1,5 +1,5 @@
 // Motore di dizione: dizionario + regole.
-import { REGOLE, DIFFICILI, ATONE, OMOGRAFI } from './rules.js';
+import { REGOLE, DIFFICILI, ATONE, OMOGRAFI, OMOGRAFI_DESC } from './rules.js';
 
 const ACC_E_O = 'èéòó';
 const ACC_TONICO = 'àìù';
@@ -23,8 +23,9 @@ let loaded = null;
 export function loadLexicon(url = 'data/lessico.txt', onProgress) {
   if (loaded) return loaded;
   loaded = (async () => {
-    const res = await fetch(url);
+    const [res, omo] = await Promise.all([fetch(url), fetch(url.replace('lessico.txt', 'omografi.txt')).catch(() => null)]);
     const text = await res.text();
+    if (omo && omo.ok) parseOmografi(await omo.text());
     if (onProgress) onProgress(0.6);
     parseLexicon(text);
     if (onProgress) onProgress(1);
@@ -56,6 +57,18 @@ export function parseLexicon(text) {
 }
 
 export const lexiconSize = () => LEX.size;
+
+// descrizioni automatiche degli omografi (da Wiktionary): chiave -> { forma senza ṡż: descrizione }
+const OMO_AUTO = new Map();
+const noSZ = f => f.replace(/ṡ/g, 's').replace(/ż/g, 'z');
+export function parseOmografi(text) {
+  for (const line of text.split('\n')) {
+    const tab = line.indexOf('\t'); if (tab < 0) continue;
+    const m = {};
+    for (const part of line.slice(tab + 1).split('|')) { const eq = part.indexOf('='); if (eq > 0) m[noSZ(part.slice(0, eq))] = part.slice(eq + 1); }
+    OMO_AUTO.set(line.slice(0, tab), m);
+  }
+}
 
 // ---------- utilità fonologiche ----------
 function sGroups(w) {        // inizio dei gruppi di s pronunciati s/z (esclude sc+e/i)
@@ -205,16 +218,32 @@ export function analyzeWord(word) {
     (key !== plain ? LEX.get(plain) : LEX_NOACC.get(plain));
   if (entries) {
     const e = entries[0];
-    const homs = OMOGRAFI.has(plain) ? e.homs : [];
-    const alt = [...e.vars, ...(OMOGRAFI.has(plain) ? [] : e.homs)];
-    const varianti = [...e.vars.map((f, i) => ({ forma: fitLength(f, key), code: e.vcodes[i] })),
-      ...(OMOGRAFI.has(plain) ? [] : e.homs.map(f => ({ forma: fitLength(f, key), code: 'H' })))];
-    res = { marked: fitLength(e.prim, key), alternative: alt.map(a => fitLength(a, key)), varianti, omografi: homs.map(a => fitLength(a, key)),
-      fonte: e.derived ? 'flessa' : 'dizionario', dubbi: [] };
+    const cur = OMOGRAFI_DESC[plain];
+    let prim = e.prim, homs = [], descrizioni = {};
+    if (cur) {
+      // omografo vero: le forme e le descrizioni sono quelle scritte a mano (rules.js)
+      const forms = cur.map(c => c[0]);
+      const soft = f => noSZ(f).replace(/[àìù]/g, c => BASE[c]);
+      prim = forms.find(f => f === prim) || forms.find(f => noSZ(f) === noSZ(prim)) || forms.find(f => soft(f) === soft(prim)) || forms[0];
+      homs = forms.filter(f => f !== prim);
+      for (const [f, d] of cur) descrizioni[f] = d;
+    } else {
+      const auto = OMO_AUTO.get(plain) || {};
+      for (const f of [prim, ...e.homs]) if (auto[noSZ(f)]) descrizioni[f] = auto[noSZ(f)];
+    }
+    const inCur = f => cur && cur.some(c => noSZ(c[0]) === noSZ(f));
+    const vIdx = e.vars.map((f, i) => i).filter(i => !inCur(e.vars[i]) && e.vars[i] !== prim);
+    const alt = [...vIdx.map(i => e.vars[i]), ...(cur ? [] : e.homs)];
+    const varianti = [...vIdx.map(i => ({ forma: fitLength(e.vars[i], key), code: e.vcodes[i] })),
+      ...(cur ? [] : e.homs.map(f => ({ forma: fitLength(f, key), code: 'H', descrizione: descrizioni[f] })))];
+    res = { marked: fitLength(prim, key), alternative: alt.map(a => fitLength(a, key)), varianti, omografi: homs.map(a => fitLength(a, key)),
+      descrizioni, fonte: e.derived ? 'flessa' : 'dizionario', dubbi: [] };
     res.regole = explain(key, res.marked);
+    // negli omografi veri la vocale la decide il significato, non una regola
+    if (OMOGRAFI_DESC[plain]) res.regole = res.regole.filter(r => r.feat !== 'v');
   } else {
     const g = guess(key);
-    res = { marked: g.marked, alternative: [], varianti: [], omografi: [], fonte: 'regole', regole: g.rules, dubbi: g.dubbi };
+    res = { marked: g.marked, alternative: [], varianti: [], omografi: [], descrizioni: {}, fonte: 'regole', regole: g.rules, dubbi: g.dubbi };
   }
   if (ATONE.has(plain)) {
     res = { ...res, marked: [...res.marked].map((c, i) => 'àèéìòóù'.includes(c) && !'àèéìòóù'.includes(key[i]) ? BASE[c] : c).join(''), atona: true, omografi: [], alternative: [], varianti: [], dubbi: [],
