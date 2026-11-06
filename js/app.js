@@ -1,4 +1,5 @@
 import { loadLexicon } from './engine.js';
+import { initInstall } from './install.js';
 
 // ---------- stato condiviso ----------
 export const store = {
@@ -82,3 +83,4 @@ async function route() {
 }
 window.addEventListener('hashchange', route);
 route();
+initInstall();

@@ -6,6 +6,12 @@
   <title>Dizione in Scena</title>
   <meta name="description" content="Segna automaticamente la dizione italiana su testi e copioni teatrali, consulta le regole e allenati giocando.">
   <meta name="theme-color" content="#8e1b2c">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Dizione">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%238e1b2c'/%3E%3Ctext x='32' y='46' font-family='Georgia' font-size='40' font-weight='700' text-anchor='middle' fill='%23fff'%3E%C3%A8%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,6 +34,7 @@
   <main id="app"><div class="loading">Caricamento…</div></main>
 
   <footer>
+    <div id="install" class="install" hidden></div>
     Dizionario: <a href="https://www.wiktionary.org/" target="_blank" rel="noopener">Wiktionary</a> (CC BY-SA), estratto da <a href="https://kaikki.org/" target="_blank" rel="noopener">kaikki.org</a>.
     I segni sono un aiuto: in caso di dubbio vale il dizionario d’ortoepia.
     · <a href="#admin">Area docente</a>

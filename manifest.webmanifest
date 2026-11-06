@@ -1,0 +1,22 @@
+{
+  "name": "Dizione in Scena",
+  "short_name": "Dizione",
+  "description": "Segna la dizione italiana su testi e copioni, consulta le regole e allenati giocando.",
+  "lang": "it",
+  "id": "./",
+  "start_url": "./#testo",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f2ea",
+  "theme_color": "#8e1b2c",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Gioco", "url": "./#gioco", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Copione", "url": "./#copione", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
