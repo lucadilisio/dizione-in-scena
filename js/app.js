@@ -63,14 +63,20 @@ const routes = {
   admin: () => import('./admin.js'),
 };
 let current = null;
+let navId = 0;
 async function route() {
+  const id = ++navId;
   const hash = location.hash.slice(1) || 'testo';
   const [name, ...rest] = hash.split('/');
   const r = routes[name] ? name : (name.match(/^[A-ZÉÓ]\d+$/) ? 'teoria' : 'testo');
   document.querySelectorAll('nav.tabs a').forEach(a => a.classList.toggle('active', a.dataset.route === r));
   const app = $('#app');
   if (current && current.unmount) current.unmount();
+  // cambio immediato: la sezione vecchia sparisce subito, anche se il modulo nuovo deve ancora arrivare dalla rete
+  app.innerHTML = '<div class="loading">Caricamento…</div>';
+  window.scrollTo(0, 0);
   const mod = await routes[r]();
+  if (id !== navId) return;          // l'utente ha già cambiato sezione
   current = mod;
   await mod.mount(app, rest.join('/') || (r === 'teoria' && name !== 'teoria' ? name : ''));
 }

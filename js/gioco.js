@@ -200,11 +200,11 @@ export async function mount(app, sub) {
     <h1>Gioco</h1>
     <p class="lead">Allenati sulla dizione e sfida il tuo gruppo. Ogni errore ti mostra la parola corretta e la regola da ripassare.</p>
     <div class="card" style="margin-bottom:16px">
-      <div class="row">
-        <label>Il tuo nome<br><input class="text" id="nome" maxlength="20" value="${esc(p.nome)}" placeholder="Es. Giulia"></label>
+      <div class="form-grid">
+        <label class="field"><span>Il tuo nome</span><input class="text" id="nome" maxlength="20" value="${esc(p.nome)}" placeholder="Es. Giulia"></label>
         ${online.enabled
-          ? `<label>Gruppo<br><select class="text" id="gruppo"><option value="">Caricamento…</option></select></label>`
-          : `<label>Gruppo / classe<br><input class="text" id="gruppo" maxlength="30" value="${esc(p.gruppo)}" placeholder="Es. laboratorio-lunedi"></label>`}
+          ? `<label class="field"><span>Gruppo</span><select class="text" id="gruppo"><option value="">Caricamento…</option></select></label>`
+          : `<label class="field"><span>Gruppo / classe</span><input class="text" id="gruppo" maxlength="30" value="${esc(p.gruppo)}" placeholder="Es. laboratorio-lunedi"></label>`}
       </div>
       <p class="small muted" style="margin:8px 0 0">${online.enabled ? 'Scegli il tuo gruppo: compete nella stessa classifica settimanale. Se il tuo gruppo non c’è, chiedi al docente.' : '<b>Classifica online non attiva</b>: i record restano su questo dispositivo.'}</p>
     </div>

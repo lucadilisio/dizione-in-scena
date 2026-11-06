@@ -11,12 +11,12 @@ export async function mount(app) {
     <h1>Testo libero</h1>
     <p class="lead">Scrivi una parola, una frase o una battuta: la dizione compare mentre scrivi. Tocca una parola per sapere perché si pronuncia così.</p>
     ${selectorHTML()}
-    <div class="grid2">
-      <div>
+    <div class="grid2 editor">
+      <div class="input-col">
         <textarea class="input" id="in" placeholder="Es. Essere o non essere, questo è il problema." spellcheck="false"></textarea>
         <div class="row small muted" style="margin-top:6px"><span id="count"></span></div>
       </div>
-      <div class="card">
+      <div class="card output-card">
         <div class="output" id="out" aria-live="polite"></div>
         <div class="row" style="margin-top:12px">
           <button class="btn" id="copy">Copia testo segnato</button>
