@@ -73,10 +73,17 @@ main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 80px; }
 .hidden { display: none !important; }
 
 /* ---------- bottoni ---------- */
-.btn { border: 1px solid var(--line); background: var(--paper); padding: 9px 16px; border-radius: 10px; cursor: pointer; font-weight: 600; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 0 16px; border: 1px solid var(--line);
+  background: var(--paper); color: var(--ink); border-radius: 10px; cursor: pointer; font-weight: 600; line-height: 1.2; text-align: center;
+  text-decoration: none; vertical-align: middle; }
+a.btn:hover, a.btn:focus { text-decoration: none; }
 .btn:hover { border-color: var(--accent); }
 .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
-.btn.big { padding: 14px 22px; font-size: 1.1rem; border-radius: 14px; }
+.btn.big { min-height: 52px; padding: 0 22px; font-size: 1.1rem; border-radius: 14px; }
+.btn.small { min-height: 34px; padding: 0 10px; font-size: .85rem; }
+/* righe di pulsanti d'azione (Rigioca / Menu …): su telefono si dividono la riga in parti uguali */
+.cta { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 16px 0; }
+@media (max-width: 520px) { .cta > .btn { flex: 1 1 0; min-width: 0; padding: 0 12px; } }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
 
 /* ---------- selettore segni ---------- */
@@ -195,7 +202,7 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 24
 /* ---------- installazione come app ---------- */
 .install { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; margin: 0 auto 16px; max-width: 1100px; font-size: .95rem; color: var(--ink); }
 .install[hidden] { display: none; }
-.install .btn { padding: 7px 14px; }
+.install .btn { min-height: 40px; padding: 0 14px; }
 dialog#install-dialog { border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); color: var(--ink); max-width: min(440px, calc(100vw - 32px)); padding: 20px; box-shadow: var(--shadow); }
 dialog#install-dialog::backdrop { background: rgba(0, 0, 0, .45); }
 dialog#install-dialog ol { padding-left: 1.2em; display: grid; gap: 8px; }
@@ -337,3 +344,15 @@ a.mode.disabled { opacity: .55; pointer-events: none; }
 .g-es .answers { grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); gap: 6px; margin-top: 6px; }
 .g-es .ans { padding: 8px 4px; font-size: 1.05rem; border-radius: 10px; cursor: default; }
 .g-es .ans small { font-size: .65rem; }
+
+/* intestazione del Gioco e del Profilo */
+.gioco-head { display: flex; justify-content: space-between; align-items: center; gap: 10px 16px; flex-wrap: wrap; }
+.gioco-head h1 { margin: 0; }
+.gh-right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.gh-btns { display: flex; gap: 8px; }
+@media (max-width: 640px) {
+  .gh-right { width: 100%; justify-content: space-between; }
+  .gh-btns { flex: 1 1 100%; }
+  .gh-btns .btn { flex: 1 1 0; }
+}
+.ex-var { display: block; margin-top: 2px; }

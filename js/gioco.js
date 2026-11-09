@@ -356,16 +356,16 @@ function menu(app) {
   const nErr = Object.keys(s.errori).length;
   const nTrofei = Object.keys(s.trofei).length, totTrofei = P.trofei(mondiMap()).length;
   app.innerHTML = `
-    <div class="row" style="justify-content:space-between;align-items:baseline">
-      <h1 style="margin:0">Gioco</h1>
-      <div class="row small"><span>Ciao, <b>${esc(s.nome)}</b> · ${esc(s.gruppoNome || s.gruppo)}</span>
-        <a class="btn" href="#gioco/profilo">👤 Profilo</a><a class="btn" href="#gioco/guida">❓ Come si gioca</a></div>
+    <div class="gioco-head">
+      <h1>Gioco</h1>
+      <div class="gh-right"><span class="small">Ciao, <b>${esc(s.nome)}</b> · ${esc(s.gruppoNome || s.gruppo)}</span>
+        <div class="gh-btns"><a class="btn" href="#gioco/profilo">👤 Profilo</a><a class="btn" href="#gioco/guida">❓ Come si gioca</a></div></div>
     </div>
     ${testata()}
     <div class="modes">
       <a class="card mode" href="#gioco/sfida"><div class="emoji">⏱️</div><h3>Sfida a tempo</h3><p class="muted">60 secondi: più rispondi giusto di fila, più sale la combo. Il tuo record: <b>${s.stats.record}</b></p></a>
       <a class="card mode" href="#gioco/percorso"><div class="emoji">🗺️</div><h3>Percorso a livelli</h3><p class="muted">Un livello per ogni regola, con le sue eccezioni. Stelle: <b>${Object.values(s.percorso).reduce((a, b) => a + b, 0)}</b></p></a>
-      <a class="card mode ${nErr ? '' : 'disabled'}" href="${nErr ? '#gioco/ripasso' : '#gioco'}"><div class="emoji">🔁</div><h3>Ripasso errori</h3><p class="muted">${nErr ? `Ripassa le <b>${nErr}</b> parole che hai sbagliato. Quando le indovini escono dalla lista.` : 'Nessun errore da ripassare: complimenti!'}</p></a>
+      <a class="card mode ${nErr ? '' : 'disabled'}" href="${nErr ? '#gioco/ripasso' : '#gioco'}"><div class="emoji">🔁</div><h3>Ripasso errori</h3><p class="muted">${nErr === 1 ? 'Ripassa la parola che hai sbagliato: quando la indovini esce dalla lista.' : nErr ? `Ripassa le <b>${nErr}</b> parole che hai sbagliato. Quando le indovini escono dalla lista.` : 'Nessun errore da ripassare: complimenti!'}</p></a>
       <a class="card mode" href="#gioco/duello"><div class="emoji">⚔️</div><h3>Duello</h3><p class="muted">Stesse parole, stesso tempo: vince chi fa più punti. Online con un codice stanza, fino a 8 giocatori.</p></a>
     </div>
     <a class="card trofei-link" href="#gioco/profilo"><span>🏆 Trofei: <b>${nTrofei}</b> / ${totTrofei}</span><span class="muted small">Vedi il profilo →</span></a>
@@ -404,7 +404,7 @@ function endScreen(app, res, premi, mode, again, extra = '') {
     <p>${res.giuste} giuste su ${res.n} · precisione ${acc}%</p>
     ${premiHTML(premi)}
     ${extra}
-    <div class="row" style="justify-content:center;margin:16px 0"><button class="btn primary big" id="again">Rigioca</button><a class="btn big" href="#gioco">Menu</a></div>
+    <div class="cta"><button class="btn primary big" id="again">Rigioca</button><a class="btn big" href="#gioco">Menu</a></div>
     ${errs ? `<div class="card" style="text-align:left"><h3>Da ripassare</h3><p class="small muted">Le trovi anche in “Ripasso errori”.</p><ul class="rulelist">${errs}</ul></div>` : ''}
     <div id="lb2" style="margin-top:16px;text-align:left"></div></div>`;
   $('#again', app).addEventListener('click', again);
@@ -423,7 +423,7 @@ function ripasso(app) {
       const premi = chiudiPartita({ modo: 'ripasso', giuste: res.giuste, n: res.n, comboMax: res.comboMax }, res.xp);
       const rimaste = Object.keys(ME.s.errori).length;
       endScreen(app, res, premi, 'ripasso', () => ripasso(app),
-        `<p>${rimaste ? `Restano <b>${rimaste}</b> parole da ripassare. Ogni parola esce dalla lista quando la indovini abbastanza volte.` : '🎉 Hai ripassato tutto!'}</p>`);
+        `<p>${rimaste ? `${rimaste === 1 ? 'Resta <b>1</b> parola' : `Restano <b>${rimaste}</b> parole`} da ripassare. Ogni parola esce dalla lista quando la indovini abbastanza volte.` : '🎉 Hai ripassato tutto!'}</p>`);
       $('#app h1').textContent = res.giuste === res.n ? '🎉 Ripasso perfetto!' : 'Ripasso finito';
     },
   });
@@ -446,7 +446,7 @@ function duello(app) {
       <div class="row" style="justify-content:center"><input class="text" id="g1" placeholder="Giocatore 1" value="${esc(ME.s.nome)}"><input class="text" id="g2" placeholder="Giocatore 2"></div>
       <div class="row" style="justify-content:center;margin-top:10px"><button class="btn primary" id="locale">Inizia</button></div>
     </div>
-    <a class="btn" href="#gioco" style="margin-top:14px">Menu</a></div>`;
+    <div class="cta"><a class="btn" href="#gioco">← Menu</a></div></div>`;
   $('#locale', app).addEventListener('click', () => duelloLocale(app, $('#g1', app).value.trim() || 'Giocatore 1', $('#g2', app).value.trim() || 'Giocatore 2'));
   $('#crea', app).addEventListener('click', async () => { try { stanza(app, await online.createRoom(ME.s.nome)); } catch (e) { $('#err', app).textContent = e.message; } });
   $('#entra', app).addEventListener('click', async () => { try { stanza(app, await online.joinRoom($('#cod', app).value, ME.s.nome)); } catch (e) { $('#err', app).textContent = e.message; } });
@@ -466,7 +466,7 @@ function duelloLocale(app, n1, n2) {
   const fine = () => {
     const [a, b] = res; const win = a.punti === b.punti ? 'Pareggio!' : `Vince ${esc(a.punti > b.punti ? n1 : n2)}!`;
     app.innerHTML = `<div class="play"><h1>🏆 ${win}</h1><table class="lb"><tr><td>${esc(n1)}</td><td><b>${a.punti}</b> pt</td><td>${a.giuste}/${a.n}</td></tr><tr><td>${esc(n2)}</td><td><b>${b.punti}</b> pt</td><td>${b.giuste}/${b.n}</td></tr></table>
-      <div class="row" style="justify-content:center;margin-top:16px"><button class="btn primary big" id="rv">Rivincita</button><a class="btn big" href="#gioco">Menu</a></div></div>`;
+      <div class="cta"><button class="btn primary big" id="rv">Rivincita</button><a class="btn big" href="#gioco">Menu</a></div></div>`;
     $('#rv', app).addEventListener('click', () => duelloLocale(app, n1, n2));
   };
   turno(0);
@@ -494,7 +494,7 @@ async function stanza(app, code) {
           onScore: (punti, n) => { online.pushScore(code, punti, n); },
           onEnd: r => {
             online.pushScore(code, r.punti, r.n);
-            app.innerHTML = `<div class="play"><h1>Fine!</h1><div id="classifica"></div><div id="premi-duello"></div><a class="btn big" href="#gioco" style="margin-top:14px">Menu</a></div>`;
+            app.innerHTML = `<div class="play"><h1>Fine!</h1><div id="classifica"></div><div id="premi-duello"></div><div class="cta"><a class="btn big" href="#gioco">← Menu</a></div></div>`;
             render(lastRoom, uid);
             // aspetta gli ultimi punteggi degli altri prima di decidere chi ha vinto
             setTimeout(() => {
@@ -584,7 +584,7 @@ function livello(app, l) {
       app.innerHTML = `<div class="play"><h1>${stelle ? 'Livello superato!' : 'Riprova!'}</h1><div class="stars" style="font-size:2.6rem;color:var(--gold)">${'★'.repeat(stelle)}${'☆'.repeat(3 - stelle)}</div><p>${res.giuste} giuste su ${res.n}</p>
         ${premiHTML(premi)}
         ${res.errori.length ? `<div class="card" style="text-align:left"><h3>Da ripassare</h3><ul class="rulelist">${res.errori.map(q => `<li><span style="font:1.15rem var(--serif)">${colorize(q.prim)}</span> ${q.rule && !q.rule.ok ? '<span class="tag bad">eccezione</span>' : ''}</li>`).join('')}</ul></div>` : ''}
-        <div class="row" style="justify-content:center;margin-top:16px"><button class="btn primary big" id="rt">Rigioca</button><button class="btn big" id="mp">Percorso</button></div></div>`;
+        <div class="cta"><button class="btn primary big" id="rt">Rigioca</button><button class="btn big" id="mp">Percorso</button></div></div>`;
       $('#rt', app).addEventListener('click', () => livello(app, l));
       $('#mp', app).addEventListener('click', () => percorso(app));
     },
@@ -608,7 +608,7 @@ async function profilo(app) {
   const stat = [['Partite', s.stats.partite], ['Risposte giuste', s.stats.giuste], ['Precisione', s.stats.risposte ? Math.round(s.stats.giuste / s.stats.risposte * 100) + '%' : '—'],
     ['Record Sfida', s.stats.record], ['Combo migliore', s.stats.comboMax], ['Eccezioni indovinate', s.stats.eccezioni], ['Stelle', Object.values(s.percorso).reduce((a, b) => a + b, 0)], ['Duelli vinti', s.stats.duelliVinti]];
   app.innerHTML = `
-    <div class="row" style="justify-content:space-between"><h1 style="margin:0">👤 Profilo</h1><a class="btn" href="#gioco">← Menu</a></div>
+    <div class="gioco-head"><h1>👤 Profilo</h1><a class="btn" href="#gioco">← Menu</a></div>
     ${testata()}
     <div class="grid2">
       <div class="card"><h3>🔥 Calendario della streak</h3>
@@ -662,7 +662,7 @@ function guida(app, primaVolta) {
         <li>🔁 <span><b>Ripasso errori</b>: le parole che hai sbagliato, finché non le impari.</span></li>
         <li>⚔️ <span><b>Duello</b>: stesse parole per tutti, vince chi fa più punti.</span></li>
       </ul></div>
-    <div class="row" style="justify-content:center;margin:16px 0">
+    <div class="cta">
       <button class="btn primary big" id="prova">Prova 3 domande</button>
       <button class="btn big" id="fine">${primaVolta ? 'Ho capito, si gioca!' : 'Torna al menu'}</button></div></div>`;
   const chiudi = async () => { if (!ME.s.guida) { ME.s.guida = true; await salva(true); } location.hash = '#gioco'; mount(app, ''); };
