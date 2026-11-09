@@ -41,11 +41,11 @@ Per provarlo in locale: `python3 -m http.server` nella cartella, poi apri `http:
 
 ## Classifica online e duelli (Firebase)
 
-Senza configurazione il gioco funziona lo stesso: record personali e duello sullo stesso telefono. Per la classifica condivisa e i duelli online:
+Il Gioco richiede Firebase: ogni ragazzo entra con il proprio account Google, e progressi, streak e trofei vengono salvati in `/utenti/{uid}`. Le altre sezioni funzionano senza account.
 
 1. Vai su <https://console.firebase.google.com>, poi **Aggiungi progetto** (il piano gratuito Spark basta).
-2. **Build → Authentication → Inizia → Metodo di accesso**: attiva **Anonimo**.
-3. **Realtime Database → Crea database** (posizione `europe-west1`), in modalità bloccata. Nella scheda **Regole** incolla queste regole, sostituendo **due volte** `EMAIL-ADMIN` con l'email dell'account admin (punto 7):
+2. **Authentication → Metodo di accesso**: attiva **Google** (accesso dei ragazzi al Gioco) ed **Email/password** (area docente).
+3. **Realtime Database → Crea database** (posizione `europe-west1`), in modalità bloccata. Nella scheda **Regole** incolla queste regole, sostituendo **ogni volta** (tre) `EMAIL-ADMIN` con l'email dell'account admin (punto 7):
 
    ```json
    {
@@ -54,11 +54,20 @@ Senza configurazione il gioco funziona lo stesso: record personali e duello sull
          ".read": true,
          ".write": "auth != null && auth.token.email === 'EMAIL-ADMIN'"
        },
+       "utenti": {
+         ".read": "auth != null && auth.token.email === 'EMAIL-ADMIN'",
+         ".indexOn": ["gruppo"],
+         "$uid": {
+           ".read": "auth != null && auth.uid === $uid",
+           ".write": "auth != null && auth.uid === $uid",
+           ".validate": "newData.child('nome').isString() && newData.child('nome').val().length <= 20"
+         }
+       },
        "classifiche": {
+         ".write": "auth != null && auth.token.email === 'EMAIL-ADMIN'",
          "$gruppo": { "$modo": { "$settimana": {
            ".read": true,
            ".indexOn": "punti",
-           ".write": "auth != null && auth.token.email === 'EMAIL-ADMIN'",
            "$uid": {
              ".write": "auth != null && auth.uid === $uid && root.child('gruppi').child($gruppo).child('attivo').val() === true",
              ".validate": "newData.child('punti').isNumber() && newData.child('punti').val() >= 0 && newData.child('punti').val() <= 200000 && newData.child('nome').isString() && newData.child('nome').val().length <= 20"

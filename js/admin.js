@@ -1,7 +1,8 @@
 // Area docente: gestione dei gruppi e moderazione delle classifiche.
 // La protezione vera è nelle regole del database: solo l'account admin può scrivere in /gruppi.
 import * as online from './online.js';
-import { esc, $ } from './app.js';
+import { esc, colorize, $ } from './app.js';
+import * as P from './progressi.js';
 
 export async function mount(app) {
   if (!online.enabled) { app.innerHTML = '<h1>Area docente</h1><p>Firebase non è configurato (vedi README).</p>'; return; }
@@ -66,6 +67,7 @@ async function lista(app) {
         <div class="row">
           <button class="btn" data-act="rinomina">Rinomina</button>
           <button class="btn" data-act="attiva">${g.attivo === false ? 'Riattiva' : 'Disattiva'}</button>
+          <button class="btn" data-act="ragazzi">Ragazzi</button>
           <button class="btn" data-act="classifica">Classifica</button>
           <button class="btn" data-act="elimina" style="color:var(--bad)">Elimina</button>
         </div>
@@ -82,6 +84,8 @@ async function lista(app) {
         await online.adminSaveGroup(id, { attivo: g.attivo === false }); lista(app);
       } else if (b.dataset.act === 'elimina') {
         if (confirm(`Eliminare "${g.nome || id}" e tutte le sue classifiche? Non si può annullare.`)) { await online.adminDeleteGroup(id); lista(app); }
+      } else if (b.dataset.act === 'ragazzi') {
+        ragazzi(card.querySelector('.cls'), id);
       } else if (b.dataset.act === 'classifica') {
         classifica(card.querySelector('.cls'), id);
       }
@@ -100,6 +104,34 @@ async function classifica(box, id) {
     if (!confirm('Rimuovere questo punteggio?')) return;
     try { await online.adminDeleteScore(id, b.dataset.uid); classifica(box, id); } catch (e) { alert(errore(e)); }
   }));
+}
+
+// riepilogo dei progressi dei ragazzi del gruppo
+async function ragazzi(box, id) {
+  box.innerHTML = '<p class="muted small">Carico…</p>';
+  let rows;
+  try { rows = (await online.adminRagazzi(id)).map(r => ({ ...r, s: P.normalizza(r) })); }
+  catch (e) { box.innerHTML = `<p style="color:var(--bad)">${esc(errore(e))}</p>`; return; }
+  if (!rows.length) { box.innerHTML = '<p class="muted small" style="margin-top:12px">Nessun ragazzo ha ancora scelto questo gruppo.</p>'; return; }
+  rows.sort((a, b) => b.s.xp - a.s.xp);
+  // parole più sbagliate dal gruppo
+  const err = new Map();
+  for (const r of rows) for (const e of Object.values(r.s.errori)) {
+    const k = e.prim; const v = err.get(k) || { prim: e.prim, n: 0, chi: 0 };
+    v.n += e.tot || e.n || 1; v.chi++; err.set(k, v);
+  }
+  const top = [...err.values()].sort((a, b) => b.chi - a.chi || b.n - a.n).slice(0, 15);
+  const quando = t => { if (!t) return '—'; const g = Math.floor((Date.now() - t) / 864e5); return g <= 0 ? 'oggi' : g === 1 ? 'ieri' : `${g} giorni fa`; };
+  box.innerHTML = `<h3 style="margin-top:14px">Progressi (${rows.length})</h3>
+    <div style="overflow-x:auto"><table class="lb small">
+      <tr><th>Nome</th><th>Livello</th><th>Streak</th><th>Oggi</th><th>Stelle</th><th>Giuste</th><th>Precisione</th><th>Trofei</th><th>Ultima attività</th></tr>
+      ${rows.map(r => { const s = r.s, st = P.streakInfo(s), lv = P.livello(s.xp);
+        return `<tr><td><b>${esc(s.nome)}</b></td><td>${lv.n} · ${esc(lv.titolo)}</td><td>🔥 ${st.corrente} <span class="muted">(rec. ${st.migliore})</span></td>
+          <td>${Math.min(st.oggi, st.obiettivo)}/${st.obiettivo}</td><td>${Object.values(s.percorso).reduce((a, b) => a + b, 0)}</td><td>${s.stats.giuste}</td>
+          <td>${s.stats.risposte ? Math.round(s.stats.giuste / s.stats.risposte * 100) + '%' : '—'}</td><td>${Object.keys(s.trofei).length}</td><td>${quando(r.aggiornato)}</td></tr>`; }).join('')}
+    </table></div>
+    ${top.length ? `<h3 style="margin-top:14px">Parole più sbagliate dal gruppo</h3><p class="small muted">Tra parentesi: quanti ragazzi la stanno ancora sbagliando. Utile per scegliere su cosa lavorare a lezione.</p>
+      <div class="ex" style="font:1.1rem var(--serif);display:flex;flex-wrap:wrap;gap:6px 16px">${top.map(t => `<span>${colorize(t.prim)} <span class="small muted">(${t.chi})</span></span>`).join('')}</div>` : ''}`;
 }
 
 export function unmount() {}

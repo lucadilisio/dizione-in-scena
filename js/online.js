@@ -1,26 +1,71 @@
-// Classifiche e duelli online con Firebase Realtime Database (autenticazione anonima).
+// Account (Google), progressi, classifiche e duelli online con Firebase Realtime Database.
 import { firebaseConfig } from './firebase-config.js';
 
 export const enabled = !!(firebaseConfig && firebaseConfig.apiKey && firebaseConfig.databaseURL);
 const V = '10.12.2';
-let api = null;
+let core = null;
+
+async function sdk() {
+  if (core) return core;
+  if (!enabled) throw new Error('Firebase non configurato');
+  core = (async () => {
+    const [{ initializeApp }, A, D] = await Promise.all([
+      import(`https://www.gstatic.com/firebasejs/${V}/firebase-app.js`),
+      import(`https://www.gstatic.com/firebasejs/${V}/firebase-auth.js`),
+      import(`https://www.gstatic.com/firebasejs/${V}/firebase-database.js`),
+    ]);
+    const app = initializeApp(firebaseConfig);
+    const auth = A.getAuth(app);
+    await A.getRedirectResult(auth).catch(() => null);      // ritorno da un accesso con reindirizzamento
+    await auth.authStateReady();
+    // le vecchie sessioni anonime (versioni precedenti del sito) non valgono come account
+    if (auth.currentUser && auth.currentUser.isAnonymous) await A.signOut(auth);
+    const db = D.getDatabase(app);
+    let offset = 0;
+    D.onValue(D.ref(db, '.info/serverTimeOffset'), s => { offset = s.val() || 0; });
+    return { A, D, auth, db, now: () => Date.now() + offset };
+  })();
+  return core;
+}
+
+// ---------- account Google ----------
+export async function utente() {
+  const c = await sdk();
+  const u = c.auth.currentUser;
+  return u ? { uid: u.uid, nome: u.displayName || '', foto: u.photoURL || '' } : null;
+}
+export async function entraConGoogle() {
+  const { A, auth } = await sdk();
+  const provider = new A.GoogleAuthProvider();
+  provider.setCustomParameters({ prompt: 'select_account' });
+  try { await A.signInWithPopup(auth, provider); }
+  catch (e) {
+    const code = e.code || '';
+    if (/popup-blocked|operation-not-supported|web-storage-unsupported/.test(code)) { await A.signInWithRedirect(auth, provider); return; }
+    if (/popup-closed-by-user|cancelled-popup-request/.test(code)) throw new Error('Accesso annullato.');
+    if (/unauthorized-domain/.test(code)) throw new Error('Questo sito non è ancora autorizzato in Firebase (Domini autorizzati).');
+    if (/operation-not-allowed/.test(code)) throw new Error('L’accesso con Google non è ancora attivo in Firebase.');
+    throw new Error(e.message || code);
+  }
+}
+export async function esci() { const { A, auth } = await sdk(); await A.signOut(auth); }
 
 async function init() {
-  if (api) return api;
-  if (!enabled) throw new Error('Classifica online non configurata');
-  const [{ initializeApp }, A, D] = await Promise.all([
-    import(`https://www.gstatic.com/firebasejs/${V}/firebase-app.js`),
-    import(`https://www.gstatic.com/firebasejs/${V}/firebase-auth.js`),
-    import(`https://www.gstatic.com/firebasejs/${V}/firebase-database.js`),
-  ]);
-  const app = initializeApp(firebaseConfig);
-  const auth = A.getAuth(app);
-  const cred = await A.signInAnonymously(auth);
-  const db = D.getDatabase(app);
-  let offset = 0;
-  D.onValue(D.ref(db, '.info/serverTimeOffset'), s => { offset = s.val() || 0; });
-  api = { D, db, uid: cred.user.uid, now: () => Date.now() + offset };
-  return api;
+  const c = await sdk();
+  const u = c.auth.currentUser;
+  if (!u) throw new Error('Accedi con Google per giocare.');
+  return { D: c.D, db: c.db, uid: u.uid, now: c.now };
+}
+
+// ---------- progressi del giocatore: /utenti/{uid} ----------
+export async function caricaProgressi() {
+  const { D, db, uid } = await init();
+  const snap = await D.get(D.ref(db, `utenti/${uid}`));
+  return snap.exists() ? snap.val() : null;
+}
+export async function salvaProgressi(stato) {
+  const { D, db, uid } = await init();
+  await D.set(D.ref(db, `utenti/${uid}`), { ...stato, aggiornato: Date.now() });
 }
 
 export const clean = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 30) || 'tutti';
@@ -148,4 +193,11 @@ export async function adminScores(gruppo, mode = 'sfida', week = weekKey()) {
 export async function adminDeleteScore(gruppo, uid, mode = 'sfida', week = weekKey()) {
   const { D, db } = await initAdmin();
   await D.remove(D.ref(db, `classifiche/${gruppo}/${mode}/${week}/${uid}`));
+}
+
+export async function adminRagazzi(gruppo) {
+  const { D, db } = await initAdmin();
+  const snap = await D.get(D.query(D.ref(db, 'utenti'), D.orderByChild('gruppo'), D.equalTo(gruppo)));
+  const rows = []; snap.forEach(c => { rows.push({ uid: c.key, ...c.val() }); });
+  return rows;
 }
