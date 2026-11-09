@@ -208,3 +208,7 @@ dialog#install-dialog ol { padding-left: 1.2em; display: grid; gap: 8px; }
 .choices .choice b { font: 700 1.15rem var(--serif); min-width: 5.5em; }
 .choice-desc { color: var(--muted); font-family: var(--sans); font-size: .92rem; }
 .omo-table td { vertical-align: top; width: 50%; }
+.preview .skip { color: var(--muted); }
+.preview .skip-didascalia { font-style: italic; }
+.preview .skip-nome { font-weight: 600; }
+.preview .skip-altro { opacity: .75; }

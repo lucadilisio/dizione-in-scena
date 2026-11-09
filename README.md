@@ -7,7 +7,7 @@ Sito per segnare automaticamente la dizione italiana (è/é, ò/ó, accento toni
 | Sezione | Cosa fa |
 |---|---|
 | **Testo libero** | Scrivi una parola o un testo: la dizione compare mentre scrivi. Tocchi una parola per vedere da dove viene il segno (dizionario o regole), varianti, omografi e regole collegate. |
-| **Copione** | Carichi un `.docx`: il programma sostituisce solo i caratteri (sostituzioni 1:1), quindi impaginazione, stili, tabelle, intestazioni, piè di pagina e note restano identici. Prima del download chiede la pronuncia degli omografi (pèsca/pésca…). Il file non lascia il dispositivo. |
+| **Copione** | Carichi un `.docx`: il programma sostituisce solo i caratteri (sostituzioni 1:1), quindi impaginazione, stili, tabelle, intestazioni, piè di pagina e note restano identici. Riconosce le parti del copione (battute, nomi dei personaggi, didascalie, altro) e di default segna solo le battute; le caselle "Nel copione" permettono di segnare anche le altre parti. Prima del download chiede la pronuncia degli omografi (pèsca/pésca…). Il file non lascia il dispositivo. |
 | **Teoria** | Tutte le regole usate dal programma, generate dallo stesso file usato dal motore (`js/rules.js`). Gli esempi vengono verificati dal vivo sul dizionario. |
 | **Gioco** | Sfida a tempo (60 s, combo, classifica settimanale per gruppo), Duello (online fino a 8 giocatori con codice stanza, oppure sullo stesso telefono), Percorso a livelli (un livello per regola, con eccezioni e stelle). |
 
@@ -18,6 +18,15 @@ In Testo libero e Copione c'è il **selettore** per scegliere cosa segnare: E/O 
 1. **Dizionario** (`data/lessico.txt`): circa 96.000 voci di Wiktionary con trascrizione IPA (edizione italiana e inglese, via [kaikki.org](https://kaikki.org)), convertite in forma segnata, più circa 330.000 forme flesse dalle tabelle di coniugazione e declinazione. Formato di una riga: `forma~variante@motivo;omografo` (`!` finale = forma flessa; `parola<TAB>…` quando la grafia ha un accento scritto, come città o però). Il motivo della variante è un codice: tipo (`V` timbro, `S` s, `Z` z, `A` accento), `+` se registrata anche dal Wiktionary italiano, `:N`/`:Rm`/`:T`… per l'etichetta regionale di Wiktionary (testi in `js/rules.js`, `VARIANTI`; regola B5 della Teoria).
 2. **Regole** (`js/rules.js`): servono a spiegare le parole del dizionario (regola o eccezione) e a segnare quelle sconosciute (nomi propri, parole rare). Per le parole sconosciute il programma segna solo dove la regola è sicura e lascia il resto come "da controllare".
 3. **Scelte di dizione tradizionale**: per le vocali prevale l'edizione italiana di Wiktionary; per la s intervocalica si usa la pronuncia tradizionale in *casa, cosa, così* e nel suffisso *-oso* (regola S6), mostrando la sonora come variante; i composti di *che* e *tre* sono sempre chiusi (perché, ventitré).
+
+## Come riconosce le battute
+
+In `js/docx.js` (`classify`):
+
+- **battuta**: paragrafo `Nome` + tabulazione (o `NOME:`), con il rientro più frequente tra questi paragrafi; continuazioni che iniziano con una tabulazione o hanno lo stesso rientro; nome su una riga a parte (solo nei copioni che non usano il formato con tabulazione); righe di canzone con il nome in MAIUSCOLO grassetto anche con altro rientro;
+- **nome**: la parte prima della tabulazione, i nomi in MAIUSCOLO grassetto dentro le battute, e i nomi dei personaggi (parole non presenti nel dizionario) citati nelle battute;
+- **didascalia**: paragrafi interamente in corsivo o tra parentesi; dentro le battute il testo tra parentesi o quadre e il corsivo non tra virgolette;
+- **altro**: titoli (stili Titolo/Heading), elenco attori, schede, note, intestazioni, piè di pagina e note a piè di pagina.
 
 ## Pubblicare su GitHub Pages
 

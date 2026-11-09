@@ -1,8 +1,18 @@
-import { analyzeDocx, buildDocx } from './docx.js';
+import { analyzeDocx, buildDocx, PARTI } from './docx.js';
 import { stats } from './engine.js';
-import { selectorHTML, bindSelector, getOpts, ensureLexicon, colorize, esc, $ } from './app.js';
+import { selectorHTML, bindSelector, getOpts, ensureLexicon, colorize, esc, store, $ } from './app.js';
 
-let state = null;   // { name, buffer, words, preview, choices: Map }
+let state = null;   // { name, buffer, words, preview, count, choices: Map }
+
+// quali parti del copione segnare (di default solo le battute)
+const getParti = () => ({ ...Object.fromEntries(PARTI.map(p => [p.id, p.def])), ...store.get('parti', {}) });
+function partiHTML() {
+  const o = getParti();
+  return `<div class="selector" role="group" aria-label="Parti del copione da segnare">
+    <span class="label">Nel copione:</span>
+    ${PARTI.map(p => `<label class="chip"><input type="checkbox" data-parte="${p.id}" ${o[p.id] ? 'checked' : ''}><span class="tick"></span> ${esc(p.label)}</label>`).join('')}
+  </div>`;
+}
 
 export async function mount(app) {
   await ensureLexicon(app);
@@ -10,6 +20,7 @@ export async function mount(app) {
     <h1>Copione</h1>
     <p class="lead">Carica un copione in formato Word (.docx). Il programma cambia solo i caratteri (e → è/é, o → ò/ó, s → ṡ, z → ż, accenti tonici): impaginazione, stili, tabelle, intestazioni e note restano identici.</p>
     ${selectorHTML()}
+    ${partiHTML()}
     <label class="drop" id="drop">
       <input type="file" id="file" accept=".docx,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
       <div class="icon">🎭</div>
@@ -23,6 +34,9 @@ export async function mount(app) {
   drop.addEventListener('dragleave', () => drop.classList.remove('over'));
   drop.addEventListener('drop', e => { e.preventDefault(); drop.classList.remove('over'); const f = e.dataTransfer.files[0]; if (f) load(f); });
   bindSelector(app, () => state && analyze());
+  app.querySelectorAll('[data-parte]').forEach(inp => inp.addEventListener('change', () => {
+    const o = getParti(); o[inp.dataset.parte] = inp.checked; store.set('parti', o); if (state) analyze();
+  }));
   if (state) analyze();
 }
 
@@ -36,8 +50,8 @@ async function analyze() {
   const res = $('#result');
   res.innerHTML = '<div class="loading">Analizzo il copione…</div>';
   try {
-    const { words, preview } = await analyzeDocx(state.buffer, getOpts());
-    state.words = words; state.preview = preview;
+    const { words, preview, count } = await analyzeDocx(state.buffer, getOpts(), getParti());
+    state.words = words; state.preview = preview; state.count = count;
     render();
   } catch (e) {
     res.innerHTML = `<p class="tag bad">Non riesco a leggere il file: ${esc(e.message)}</p>`;
@@ -82,7 +96,10 @@ function render() {
       <span id="dlmsg" class="small muted"></span>
     </div>
     <h2>Anteprima</h2>
-    <div class="card preview">${state.preview.slice(0, 400).map(p => colorize(p)).join('\n')}${state.preview.length > 400 ? '\n…' : ''}</div>`;
+    <p class="small muted">Riconosciuti: ${state.count.battuta} battute · ${state.count.didascalia} didascalie · ${state.count.nome} nomi · ${state.count.altro} altre parti.
+      In grigio le parti che <b>non</b> vengono segnate (passa sopra per vedere di che tipo sono). Se il riconoscimento sbaglia, cambia le caselle “Nel copione”.</p>
+    <div class="card preview">${state.preview.slice(0, 500).map(segs => segs.map(sg => getParti()[sg.k]
+      ? colorize(sg.t) : `<span class="skip skip-${sg.k}" title="${esc(PARTI.find(p => p.id === sg.k).label)}: non segnato">${esc(sg.t)}</span>`).join('')).join('\n')}${state.preview.length > 500 ? '\n…' : ''}</div>`;
   document.querySelectorAll('#omo input[type=radio]').forEach(r => r.addEventListener('change', () => {
     state.choices.set(r.dataset.key, r.value);
   }));
@@ -92,7 +109,7 @@ function render() {
 async function download() {
   const btn = $('#dl'); btn.disabled = true; $('#dlmsg').textContent = 'Preparo il file…';
   try {
-    const { blob, changed } = await buildDocx(state.buffer, getOpts(), state.choices);
+    const { blob, changed } = await buildDocx(state.buffer, getOpts(), state.choices, getParti());
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = state.name.replace(/\.docx$/i, '') + ' - dizione.docx';
