@@ -19,6 +19,30 @@ export async function mount(app) {
   app.innerHTML = `
     <h1>Copione</h1>
     <p class="lead">Carica un copione in formato Word (.docx). Il programma cambia solo i caratteri (e → è/é, o → ò/ó, s → ṡ, z → ż, accenti tonici): impaginazione, stili, tabelle, intestazioni e note restano identici.</p>
+    <section class="formato" aria-labelledby="formato-t">
+      <h2 id="formato-t">⚠️ Funziona solo con copioni formattati così</h2>
+      <p class="small">Il programma riconosce battute, canzoni e didascalie dalla <b>formattazione</b> del file Word. Se il copione è impaginato in modo diverso il riconoscimento può sbagliare: controlla sempre l’anteprima prima di scaricare.</p>
+      <div class="formato-grid">
+        <ul class="formato-regole">
+          <li><b>File Word .docx.</b> I PDF non sono supportati: usa il file Word originale (oppure apri il PDF con Word e salvalo come .docx, controllando l’impaginazione).</li>
+          <li><b>Battute:</b> il nome del personaggio all’inizio del paragrafo, poi una <b>tabulazione</b> (tasto Tab) e la battuta. Va bene anche <code>NOME: battuta</code>, oppure il nome da solo su una riga e la battuta sotto. Tutte le battute con lo <b>stesso rientro</b>; se una battuta continua in un nuovo paragrafo, inizia con una tabulazione.</li>
+          <li><b>Didascalie:</b> paragrafi a parte <b>tutti in corsivo</b>; dentro le battute, tra parentesi <code>(pausa)</code> o quadre <code>[…]</code>. Non vengono segnate.</li>
+          <li><b>Canzoni:</b> precedute da un titolo che inizia con <b>“Canzone - ”</b>, con i nomi in <b>MAIUSCOLO grassetto</b>. Non vengono segnate, fino alla scena successiva o finché il dialogo riprende con i nomi normali.</li>
+          <li><b>Titoli di atti e scene:</b> con gli stili di Word <b>Titolo 1, Titolo 2…</b> Non vengono segnati, come l’elenco dei personaggi, le note, le intestazioni e i piè di pagina.</li>
+        </ul>
+        <figure class="formato-esempio" aria-label="Esempio di copione formattato correttamente">
+          <figcaption>Esempio</figcaption>
+          <div class="fx-h">SCENA 1 - SCAR IN ESILIO <span class="fx-note">stile Titolo</span></div>
+          <div class="fx-d">Entra Zazu con una pergamena</div>
+          <div class="fx-b"><span class="fx-n">Zazu</span><span><i>(schiarendosi la voce)</i> Buongiorno, Altezza.</span></div>
+          <div class="fx-b"><span class="fx-n">Scar</span><span>Oh, guarda. Il pranzo è arrivato.</span></div>
+          <div class="fx-b"><span class="fx-n"></span><span>Che servizio impeccabile.</span></div>
+          <div class="fx-h fx-h4">Canzone - Sarò re <span class="fx-note">non segnata</span></div>
+          <div class="fx-b"><span class="fx-n"><b>SCAR</b></span><span>Riga cantata</span></div>
+          <p class="fx-legenda"><span class="fx-tab">⇥</span> = tabulazione dopo il nome</p>
+        </figure>
+      </div>
+    </section>
     ${selectorHTML()}
     ${partiHTML()}
     <label class="drop" id="drop">
@@ -27,11 +51,6 @@ export async function mount(app) {
       <div><b>Trascina qui il copione</b> oppure tocca per sceglierlo</div>
       <div class="small muted">Solo .docx. Il file resta sul tuo dispositivo: niente viene caricato su internet.</div>
     </label>
-    <div class="notice" role="note">
-      <b>Solo file Word (.docx).</b> I PDF non sono supportati: in un PDF le lettere non si possono sostituire senza rovinare l’impaginazione.
-      Se il copione ti è arrivato in PDF, chiedi a chi l’ha scritto il file Word originale da cui è stato esportato.
-      In alternativa puoi aprire il PDF con Word (File → Apri) e salvarlo come .docx: Word lo converte, ma controlla l’impaginazione prima di usarlo.
-    </div>
     <div id="result"></div>`;
   const drop = $('#drop', app), file = $('#file', app);
   file.addEventListener('change', () => file.files[0] && load(file.files[0]));

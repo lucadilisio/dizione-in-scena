@@ -215,3 +215,23 @@ dialog#install-dialog ol { padding-left: 1.2em; display: grid; gap: 8px; }
 .notice { margin: 12px 0; padding: 12px 14px; border-radius: 12px; background: var(--warn-bg); color: var(--ink); border: 1px solid color-mix(in srgb, var(--warn) 35%, transparent); font-size: .93rem; }
 .notice.bad { background: color-mix(in srgb, var(--bad) 12%, var(--paper)); border-color: color-mix(in srgb, var(--bad) 40%, transparent); }
 .preview .skip-canzone { font-style: normal; }
+
+/* ---------- copione: formato richiesto ---------- */
+.formato { background: var(--warn-bg); border: 1px solid color-mix(in srgb, var(--warn) 35%, transparent); border-radius: var(--radius); padding: 14px 16px; margin: 0 0 16px; }
+.formato h2 { font-size: 1.1rem; margin: 0 0 4px; }
+.formato p { margin: 0 0 10px; }
+.formato code { font-size: .9em; background: color-mix(in srgb, var(--ink) 7%, transparent); padding: 0 4px; border-radius: 4px; }
+.formato-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 16px; align-items: start; }
+@media (max-width: 820px) { .formato-grid { grid-template-columns: 1fr; } }
+.formato-regole { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: .92rem; }
+.formato-esempio { margin: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font: .92rem/1.5 var(--sans); }
+.formato-esempio figcaption { font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 6px; }
+.fx-h { font-weight: 700; color: var(--closed); margin: 2px 0 4px; }
+.fx-h4 { font-weight: 600; margin-top: 8px; }
+.fx-note { font-weight: 400; font-size: .75rem; color: var(--muted); margin-left: 6px; }
+.fx-d { font-style: italic; color: var(--open); margin: 2px 0; }
+.fx-b { display: grid; grid-template-columns: 4.5em 1fr; gap: 6px; margin: 2px 0; }
+.fx-n::after { content: "⇥"; color: var(--muted); font-size: .8em; margin-left: 4px; }
+.fx-n:empty::after { content: "⇥"; margin-left: 0; }
+.fx-legenda { margin: 8px 0 0 !important; font-size: .78rem; color: var(--muted); }
+.fx-tab { font-weight: 700; }
