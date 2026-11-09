@@ -7,7 +7,7 @@ Sito per segnare automaticamente la dizione italiana (è/é, ò/ó, accento toni
 | Sezione | Cosa fa |
 |---|---|
 | **Testo libero** | Scrivi una parola o un testo: la dizione compare mentre scrivi. Tocchi una parola per vedere da dove viene il segno (dizionario o regole), varianti, omografi e regole collegate. |
-| **Copione** | Carichi un `.docx`: il programma sostituisce solo i caratteri (sostituzioni 1:1), quindi impaginazione, stili, tabelle, intestazioni, piè di pagina e note restano identici. Riconosce le parti del copione (battute, nomi dei personaggi, didascalie, altro) e di default segna solo le battute; le caselle "Nel copione" permettono di segnare anche le altre parti. Prima del download chiede la pronuncia degli omografi (pèsca/pésca…). Il file non lascia il dispositivo. |
+| **Copione** | Carichi un `.docx`: il programma sostituisce solo i caratteri (sostituzioni 1:1), quindi impaginazione, stili, tabelle, intestazioni, piè di pagina e note restano identici. Riconosce le parti del copione (battute, nomi dei personaggi, didascalie, altro) e di default segna solo le battute (non canzoni, didascalie come *(pausa)*, nomi, titoli); le caselle "Nel copione" permettono di segnare anche le altre parti. Prima del download chiede la pronuncia degli omografi (pèsca/pésca…). Il file non lascia il dispositivo. I PDF non sono supportati: serve il .docx originale. |
 | **Teoria** | Tutte le regole usate dal programma, generate dallo stesso file usato dal motore (`js/rules.js`). Gli esempi vengono verificati dal vivo sul dizionario. |
 | **Gioco** | Sfida a tempo (60 s, combo, classifica settimanale per gruppo), Duello (online fino a 8 giocatori con codice stanza, oppure sullo stesso telefono), Percorso a livelli (un livello per regola, con eccezioni e stelle). |
 
@@ -25,6 +25,7 @@ In `js/docx.js` (`classify`):
 
 - **battuta**: paragrafo `Nome` + tabulazione (o `NOME:`), con il rientro più frequente tra questi paragrafi; continuazioni che iniziano con una tabulazione o hanno lo stesso rientro; nome su una riga a parte (solo nei copioni che non usano il formato con tabulazione); righe di canzone con il nome in MAIUSCOLO grassetto anche con altro rientro;
 - **nome**: la parte prima della tabulazione, i nomi in MAIUSCOLO grassetto dentro le battute, e i nomi dei personaggi (parole non presenti nel dizionario) citati nelle battute;
+- **canzone**: dal titolo "Canzone - …" (o Song, Brano, Reprise) fino alla scena successiva o alla ripresa del dialogo normale (nome non in MAIUSCOLO); di default non viene segnata;
 - **didascalia**: paragrafi interamente in corsivo o tra parentesi; dentro le battute il testo tra parentesi o quadre e il corsivo non tra virgolette;
 - **altro**: titoli (stili Titolo/Heading), elenco attori, schede, note, intestazioni, piè di pagina e note a piè di pagina.
 

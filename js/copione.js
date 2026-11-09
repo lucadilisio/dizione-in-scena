@@ -27,6 +27,11 @@ export async function mount(app) {
       <div><b>Trascina qui il copione</b> oppure tocca per sceglierlo</div>
       <div class="small muted">Solo .docx. Il file resta sul tuo dispositivo: niente viene caricato su internet.</div>
     </label>
+    <div class="notice" role="note">
+      <b>Solo file Word (.docx).</b> I PDF non sono supportati: in un PDF le lettere non si possono sostituire senza rovinare l’impaginazione.
+      Se il copione ti è arrivato in PDF, chiedi a chi l’ha scritto il file Word originale da cui è stato esportato.
+      In alternativa puoi aprire il PDF con Word (File → Apri) e salvarlo come .docx: Word lo converte, ma controlla l’impaginazione prima di usarlo.
+    </div>
     <div id="result"></div>`;
   const drop = $('#drop', app), file = $('#file', app);
   file.addEventListener('change', () => file.files[0] && load(file.files[0]));
@@ -41,7 +46,12 @@ export async function mount(app) {
 }
 
 async function load(f) {
-  if (!/\.docx$/i.test(f.name)) { $('#result').innerHTML = `<p class="tag bad">Serve un file .docx. Se hai un .doc o un PDF, aprilo con Word e salvalo come .docx.</p>`; return; }
+  if (!/\.docx$/i.test(f.name)) {
+    const pdf = /\.pdf$/i.test(f.name);
+    $('#result').innerHTML = `<div class="notice bad" role="alert"><b>${pdf ? 'I PDF non sono supportati.' : 'Serve un file Word in formato .docx.'}</b>
+      ${pdf ? 'Carica il file Word originale del copione. Se hai solo il PDF, aprilo con Word (File → Apri) e salvalo come .docx, poi caricalo qui.' : 'Se hai un .doc (Word vecchio) aprilo con Word e scegli File → Salva con nome → Documento di Word (.docx).'}</div>`;
+    return;
+  }
   state = { name: f.name, buffer: await f.arrayBuffer(), choices: new Map() };
   analyze();
 }
@@ -96,7 +106,7 @@ function render() {
       <span id="dlmsg" class="small muted"></span>
     </div>
     <h2>Anteprima</h2>
-    <p class="small muted">Riconosciuti: ${state.count.battuta} battute · ${state.count.didascalia} didascalie · ${state.count.nome} nomi · ${state.count.altro} altre parti.
+    <p class="small muted">Riconosciuti: ${state.count.battuta} battute · ${state.count.canzone} righe di canzoni · ${state.count.didascalia} didascalie · ${state.count.nome} nomi · ${state.count.altro} altre parti.
       In grigio le parti che <b>non</b> vengono segnate (passa sopra per vedere di che tipo sono). Se il riconoscimento sbaglia, cambia le caselle “Nel copione”.</p>
     <div class="card preview">${state.preview.slice(0, 500).map(segs => segs.map(sg => getParti()[sg.k]
       ? colorize(sg.t) : `<span class="skip skip-${sg.k}" title="${esc(PARTI.find(p => p.id === sg.k).label)}: non segnato">${esc(sg.t)}</span>`).join('')).join('\n')}${state.preview.length > 500 ? '\n…' : ''}</div>`;

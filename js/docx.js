@@ -10,6 +10,7 @@ const SEP = '\u0001';   // tabulazione / a capo dentro il paragrafo (non apparti
 
 export const PARTI = [
   { id: 'battuta', label: 'Battute', def: true },
+  { id: 'canzone', label: 'Canzoni', def: false },
   { id: 'didascalia', label: 'Didascalie', def: false },
   { id: 'nome', label: 'Nomi dei personaggi', def: false },
   { id: 'altro', label: 'Titoli e altro testo', def: false },
@@ -138,6 +139,9 @@ export function classify(paras) {
         if (w.length >= 3 && analyzeWord(w.toLowerCase()).fonte === 'regole') nomi.add(w.toLowerCase());
   }
   let inDialogue = false, afterNameLine = false;
+  // canzoni: dal titolo "Canzone - …" fino alla scena successiva o alla ripresa del dialogo normale (nome non in MAIUSCOLO)
+  const SONG = /^(canzone|song|brano|reprise)\b/i;
+  let inSong = false;
   for (let idx = 0; idx < paras.length; idx++) {
     const p = paras[idx];
     const kinds = new Array(p.text.length).fill('altro');
@@ -148,6 +152,9 @@ export function classify(paras) {
     // Un nome di personaggio "noto" non basta: l'elenco attori ("Nala<tab>Nome Cognome") sembrerebbe una battuta.
     const isSpeaker = sp && (dialogInd === null || p.indent === dialogInd || best < 3
       || (allCaps(p.text.slice(sp.a, sp.b)) && share(p.bold, sp.a, sp.b) > 0.8));
+    if (SONG.test(trimmed)) inSong = true;
+    else if (p.heading) inSong = false;
+    else if (inSong && isSpeaker && !allCaps(p.text.slice(sp.a, sp.b))) inSong = false;
     if (p.heading) { inDialogue = afterNameLine = false; }
     else if (isSpeaker) {      // prima del corsivo: "B (un respiro...) Sì." è una battuta, non una didascalia
       set(0, kinds.length, 'battuta'); set(sp.a, sp.b, 'nome'); inDialogue = true; afterNameLine = false;
@@ -186,6 +193,7 @@ export function classify(paras) {
         if (kinds[m.index] === 'battuta' && /^\p{Lu}/u.test(m[0]) && nomi.has(m[0].toLowerCase())) set(m.index, m.index + m[0].length, 'nome');
       }
     }
+    if (inSong) for (let x = 0; x < kinds.length; x++) if (kinds[x] === 'battuta') kinds[x] = 'canzone';
     p.kinds = kinds;
   }
   return paras;
@@ -220,7 +228,7 @@ function markParagraph(p, opts, parti, choices) {
 export async function analyzeDocx(buffer, opts, parti) {
   const { parts } = await load(buffer);
   const all = [], preview = [];
-  const count = { battuta: 0, didascalia: 0, nome: 0, altro: 0 };
+  const count = { battuta: 0, canzone: 0, didascalia: 0, nome: 0, altro: 0 };
   for (const part of parts) for (const p of part.paras) {
     const { out, words } = markParagraph(p, opts, parti);
     for (const w of words) all.push({ ...w, context: p.text.replaceAll(SEP, ' '), part: part.name });
