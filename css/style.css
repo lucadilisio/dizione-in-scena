@@ -356,3 +356,12 @@ a.mode.disabled { opacity: .55; pointer-events: none; }
   .gh-btns .btn { flex: 1 1 0; }
 }
 .ex-var { display: block; margin-top: 2px; }
+
+/* area docente: modifica dei progressi */
+.editor { margin-top: 14px; display: grid; gap: 12px; border-color: var(--accent); }
+.ed-riga { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; padding-top: 10px; border-top: 1px solid var(--line); }
+.ed-riga .field { display: flex; flex-direction: column; gap: 6px; flex: 1 1 200px; min-width: 0; }
+.ed-riga .field .text { width: 100%; }
+.ed-nota { flex-basis: 100%; margin: 0; }
+.btn.danger { color: var(--bad); border-color: color-mix(in srgb, var(--bad) 45%, var(--line)); }
+.btn.danger:hover { background: color-mix(in srgb, var(--bad) 10%, var(--paper)); }

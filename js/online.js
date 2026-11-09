@@ -1,5 +1,6 @@
 // Account (Google), progressi, classifiche e duelli online con Firebase Realtime Database.
 import { firebaseConfig } from './firebase-config.js';
+import { normalizza, applicaOperazione } from './progressi.js';
 
 export const enabled = !!(firebaseConfig && firebaseConfig.apiKey && firebaseConfig.databaseURL);
 const V = '10.12.2';
@@ -62,6 +63,13 @@ export async function caricaProgressi() {
   const { D, db, uid } = await init();
   const snap = await D.get(D.ref(db, `utenti/${uid}`));
   return snap.exists() ? snap.val() : null;
+}
+// modifiche del docente da applicare ai propri progressi (vedi progressi.js, applicaOperazione)
+export async function caricaOperazioni() {
+  const { D, db, uid } = await init();
+  const snap = await D.get(D.ref(db, `operazioni/${uid}`));
+  const ops = []; snap.forEach(c => { ops.push({ id: c.key, ...c.val() }); });
+  return ops.sort((a, b) => (a.t || 0) - (b.t || 0));
 }
 export async function salvaProgressi(stato) {
   const { D, db, uid } = await init();
@@ -200,4 +208,24 @@ export async function adminRagazzi(gruppo) {
   const snap = await D.get(D.query(D.ref(db, 'utenti'), D.orderByChild('gruppo'), D.equalTo(gruppo)));
   const rows = []; snap.forEach(c => { rows.push({ uid: c.key, ...c.val() }); });
   return rows;
+}
+
+// il docente modifica i progressi di un ragazzo: registra l'operazione e la applica subito
+export async function adminOperazione(uid, op) {
+  const { D, db } = await initAdmin();
+  const id = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+  const full = { ...op, id, t: Date.now() };
+  const { id: _, ...salvata } = full;
+  await D.set(D.ref(db, `operazioni/${uid}/${id}`), salvata);
+  const snap = await D.get(D.ref(db, `utenti/${uid}`));
+  const stato = normalizza(snap.val());
+  applicaOperazione(stato, full);
+  await D.set(D.ref(db, `utenti/${uid}`), { ...stato, aggiornato: snap.val()?.aggiornato || Date.now() });
+  return stato;
+}
+// aggiorna il nome nella classifica della settimana (se il ragazzo ha già un punteggio)
+export async function adminRinominaClassifica(gruppo, uid, nome) {
+  const { D, db } = await initAdmin();
+  const r = D.ref(db, `classifiche/${gruppo}/sfida/${weekKey()}/${uid}`);
+  if ((await D.get(r)).exists()) await D.update(r, { nome });
 }

@@ -119,16 +119,27 @@ function ruleLine(q) {
 let ME = null;            // { uid, nomeGoogle, s: stato dei progressi }
 let saveTimer = null;
 const mondiMap = () => { const m = {}; for (const l of livelli()) (m[l.mondo] = m[l.mondo] || []).push(l.id); return m; };
+// applica le modifiche fatte dal docente (XP bonus, streak ripristinata, ecc.) e avvisa il ragazzo
+async function applicaDocente() {
+  let ops = [];
+  try { ops = await online.caricaOperazioni(); } catch { return 0; }
+  const fatte = ops.filter(op => P.applicaOperazione(ME.s, op));
+  if (fatte.length) toast(fatte.map(op => esc(P.descriviOperazione(op))).join('<br>'), 'festa');
+  return fatte.length;
+}
 function salva(subito = false) {
   clearTimeout(saveTimer);
-  const go = () => online.salvaProgressi(ME.s).catch(e => toast(`<b>Salvataggio non riuscito</b><br>${esc(e.message)}. Controlla la connessione.`));
+  const go = async () => {
+    try { await applicaDocente(); await online.salvaProgressi(ME.s); }
+    catch (e) { toast(`<b>Salvataggio non riuscito</b><br>${esc(e.message)}. Controlla la connessione.`); }
+  };
   if (subito) return go();
   saveTimer = setTimeout(go, 1500);
 }
 async function caricaAccount() {
   const u = await online.utente();
   if (!u) return null;
-  if (ME && ME.uid === u.uid) return ME;
+  if (ME && ME.uid === u.uid) { if (await applicaDocente()) await online.salvaProgressi(ME.s); return ME; }
   let dati = await online.caricaProgressi();
   const nuovo = !dati;
   const s = P.normalizza(dati || P.nuovoStato((u.nome || '').split(' ')[0].slice(0, 20)));
@@ -140,6 +151,7 @@ async function caricaAccount() {
   }
   ME = { uid: u.uid, nomeGoogle: u.nome, s };
   if (nuovo) await online.salvaProgressi(s);
+  else if (await applicaDocente()) await online.salvaProgressi(s);
   return ME;
 }
 

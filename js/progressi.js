@@ -28,7 +28,8 @@ export function normalizza(s) {
   const out = { ...n, ...(s || {}) };
   out.stats = { ...n.stats, ...((s && s.stats) || {}) };
   out.streak = { ...n.streak, ...((s && s.streak) || {}) };
-  for (const k of ['percorso', 'giorni', 'trofei', 'errori']) out[k] = { ...((s && s[k]) || {}) };
+  for (const k of ['percorso', 'giorni', 'trofei', 'errori', 'opDocente']) out[k] = { ...((s && s[k]) || {}) };
+  out.bonus = [...((s && s.bonus) || [])];
   return out;
 }
 
@@ -160,4 +161,54 @@ export function umore(s, oggi = dayKey()) {
   if (st.stato === 'rischio') return { umore: 'assonnata', msg: `La tua streak di ${st.corrente} ${st.corrente === 1 ? 'giorno' : 'giorni'} è a rischio! Ancora ${manca} risposte giuste oggi.` };
   if (st.stato === 'persa') return { umore: 'triste', msg: `Oh no, la streak di ${st.persa} ${st.persa === 1 ? 'giorno' : 'giorni'} si è interrotta. Ricominciamo? Servono ${manca} risposte giuste.` };
   return { umore: 'felice', msg: `Ciao! Fai ${OBIETTIVO} risposte giuste oggi per iniziare la tua streak.` };
+}
+
+// ---------- modifiche del docente ----------
+// Ogni modifica è un'operazione con un id unico, salvata in /operazioni/{uid}/{id}.
+// Il docente la applica subito ai progressi; il telefono del ragazzo la applica alla propria copia
+// prima di salvare. opDocente ricorda le operazioni già applicate, così nessuna viene applicata due volte.
+// op: { id, t, tipo: 'nome'|'gruppo'|'streak'|'xp'|'errori'|'reset', valore, motivo, ieri }
+export function applicaOperazione(s, op) {
+  s.opDocente = s.opDocente || {};
+  if (!op || !op.id || s.opDocente[op.id]) return false;
+  switch (op.tipo) {
+    case 'nome': s.nome = String(op.valore || '').trim().slice(0, 20) || s.nome; break;
+    case 'gruppo': s.gruppo = op.valore.id; s.gruppoNome = op.valore.nome || op.valore.id; break;
+    case 'streak': {
+      const n = Math.max(0, Math.min(3650, Math.round(+op.valore || 0)));
+      s.streak.corrente = n;
+      s.streak.ultimo = n > 0 ? op.ieri : null;          // "ieri" del docente: se oggi gioca, la streak continua
+      s.streak.migliore = Math.max(s.streak.migliore, n);
+      break;
+    }
+    case 'xp': {
+      const n = Math.max(-100000, Math.min(100000, Math.round(+op.valore || 0)));
+      s.xp = Math.max(0, s.xp + n);
+      s.bonus = [...(s.bonus || []), { xp: n, motivo: String(op.motivo || '').slice(0, 80), t: op.t }].slice(-20);
+      break;
+    }
+    case 'errori': s.errori = {}; break;
+    case 'reset': {
+      // tiene anche la memoria delle operazioni già applicate: altrimenti verrebbero riapplicate dopo l'azzeramento
+      const keep = { nome: s.nome, gruppo: s.gruppo, gruppoNome: s.gruppoNome, guida: s.guida, creato: s.creato, opDocente: s.opDocente };
+      const fresh = nuovoStato();
+      for (const k of Object.keys(s)) delete s[k];
+      Object.assign(s, fresh, keep);
+      break;
+    }
+    default: return false;
+  }
+  s.opDocente[op.id] = op.t || Date.now();
+  return true;
+}
+export function descriviOperazione(op) {
+  switch (op.tipo) {
+    case 'nome': return `Il docente ha cambiato il tuo nome in classifica in “${op.valore}”.`;
+    case 'gruppo': return `Il docente ti ha spostato nel gruppo “${op.valore.nome}”.`;
+    case 'streak': return `Il docente ha ripristinato la tua streak: ${op.valore} ${+op.valore === 1 ? 'giorno' : 'giorni'}.`;
+    case 'xp': return `${+op.valore >= 0 ? `Il docente ti ha dato ${op.valore} XP bonus` : `Il docente ha tolto ${-op.valore} XP`}${op.motivo ? `: ${op.motivo}` : ''}.`;
+    case 'errori': return 'Il docente ha azzerato la tua lista di errori da ripassare.';
+    case 'reset': return 'Il docente ha azzerato i tuoi progressi.';
+    default: return '';
+  }
 }

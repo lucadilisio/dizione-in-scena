@@ -124,14 +124,85 @@ async function ragazzi(box, id) {
   const quando = t => { if (!t) return '—'; const g = Math.floor((Date.now() - t) / 864e5); return g <= 0 ? 'oggi' : g === 1 ? 'ieri' : `${g} giorni fa`; };
   box.innerHTML = `<h3 style="margin-top:14px">Progressi (${rows.length})</h3>
     <div style="overflow-x:auto"><table class="lb small">
-      <tr><th>Nome</th><th>Livello</th><th>Streak</th><th>Oggi</th><th>Stelle</th><th>Giuste</th><th>Precisione</th><th>Trofei</th><th>Ultima attività</th></tr>
+      <tr><th>Nome</th><th>Livello</th><th>Streak</th><th>Oggi</th><th>Stelle</th><th>Giuste</th><th>Precisione</th><th>Trofei</th><th>Ultima attività</th><th></th></tr>
       ${rows.map(r => { const s = r.s, st = P.streakInfo(s), lv = P.livello(s.xp);
         return `<tr><td><b>${esc(s.nome)}</b></td><td>${lv.n} · ${esc(lv.titolo)}</td><td>🔥 ${st.corrente} <span class="muted">(rec. ${st.migliore})</span></td>
           <td>${Math.min(st.oggi, st.obiettivo)}/${st.obiettivo}</td><td>${Object.values(s.percorso).reduce((a, b) => a + b, 0)}</td><td>${s.stats.giuste}</td>
-          <td>${s.stats.risposte ? Math.round(s.stats.giuste / s.stats.risposte * 100) + '%' : '—'}</td><td>${Object.keys(s.trofei).length}</td><td>${quando(r.aggiornato)}</td></tr>`; }).join('')}
+          <td>${s.stats.risposte ? Math.round(s.stats.giuste / s.stats.risposte * 100) + '%' : '—'}</td><td>${Object.keys(s.trofei).length}</td><td>${quando(r.aggiornato)}</td>
+          <td><button class="btn small" data-modifica="${esc(r.uid)}">Modifica</button></td></tr>`; }).join('')}
     </table></div>
+    <div class="editor-box"></div>
     ${top.length ? `<h3 style="margin-top:14px">Parole più sbagliate dal gruppo</h3><p class="small muted">Tra parentesi: quanti ragazzi la stanno ancora sbagliando. Utile per scegliere su cosa lavorare a lezione.</p>
       <div class="ex" style="font:1.1rem var(--serif);display:flex;flex-wrap:wrap;gap:6px 16px">${top.map(t => `<span>${colorize(t.prim)} <span class="small muted">(${t.chi})</span></span>`).join('')}</div>` : ''}`;
+  box.querySelectorAll('[data-modifica]').forEach(b => b.addEventListener('click', () => {
+    const r = rows.find(x => x.uid === b.dataset.modifica);
+    editor(box.querySelector('.editor-box'), r, id, () => ragazzi(box, id));
+  }));
+}
+
+// pannello di modifica dei progressi di un ragazzo
+async function editor(el, r, gruppo, ricarica) {
+  const s = r.s, st = P.streakInfo(s);
+  const ieri = P.addDays(P.dayKey(), -1);
+  let gruppi = [];
+  try { gruppi = await online.adminGroups(); } catch { /* lista vuota */ }
+  el.innerHTML = `<div class="card editor" id="ed">
+    <div class="row" style="justify-content:space-between"><h3 style="margin:0">Modifica: ${esc(s.nome)}</h3><button class="btn small" data-chiudi>Chiudi</button></div>
+    <p class="small muted">Le modifiche arrivano sul telefono del ragazzo la prossima volta che apre il gioco o salva una partita, con un avviso.</p>
+    <form class="ed-riga" data-op="nome">
+      <label class="field"><span>Nome in classifica</span><input class="text" name="v" maxlength="20" required value="${esc(s.nome)}"></label>
+      <button class="btn" type="submit">Cambia nome</button></form>
+    <form class="ed-riga" data-op="gruppo">
+      <label class="field"><span>Gruppo</span><select class="text" name="v">${gruppi.map(g => `<option value="${esc(g.id)}" ${g.id === s.gruppo ? 'selected' : ''}>${esc(g.nome || g.id)}${g.attivo === false ? ' (disattivato)' : ''}</option>`).join('')}</select></label>
+      <button class="btn" type="submit">Sposta</button></form>
+    <form class="ed-riga" data-op="streak">
+      <label class="field"><span>Ripristina la streak a (giorni)</span><input class="text" name="v" type="number" min="0" max="3650" required value="${st.persa || st.corrente || s.streak.migliore || 1}"></label>
+      <button class="btn" type="submit">Ripristina</button>
+      <p class="small muted ed-nota">Oggi: streak ${st.corrente}${st.persa ? ` (persa: era ${st.persa})` : ''}, record ${st.migliore}. Se il ragazzo gioca oggi, la streak continua dal numero scelto.</p></form>
+    <form class="ed-riga" data-op="xp">
+      <label class="field"><span>XP bonus (negativi per toglierli)</span><input class="text" name="v" type="number" min="-10000" max="10000" required value="100"></label>
+      <label class="field"><span>Motivo (lo vede il ragazzo)</span><input class="text" name="m" maxlength="80" placeholder="Es. ottimo monologo a lezione"></label>
+      <button class="btn" type="submit">Assegna</button></form>
+    <div class="ed-riga ed-pericolo">
+      <button class="btn" data-op-btn="errori">Azzera gli errori da ripassare (${Object.keys(s.errori).length})</button>
+      <button class="btn danger" data-op-btn="reset">Azzera tutti i progressi</button>
+    </div>
+    <p class="small" id="ed-msg" role="status"></p>
+  </div>`;
+  const msg = (t, bad) => { const m = el.querySelector('#ed-msg'); m.textContent = t; m.style.color = bad ? 'var(--bad)' : 'var(--ok)'; };
+  const esegui = async (op, okMsg) => {
+    el.querySelectorAll('button').forEach(b => { b.disabled = true; });
+    try {
+      await online.adminOperazione(r.uid, op);
+      if (op.tipo === 'nome') await online.adminRinominaClassifica(s.gruppo, r.uid, op.valore).catch(() => {});
+      msg(okMsg);
+      setTimeout(ricarica, 900);
+    } catch (e) { msg(errore(e), true); el.querySelectorAll('button').forEach(b => { b.disabled = false; }); }
+  };
+  el.querySelector('[data-chiudi]').addEventListener('click', () => { el.innerHTML = ''; });
+  el.querySelectorAll('form[data-op]').forEach(f => f.addEventListener('submit', e => {
+    e.preventDefault();
+    const v = f.elements.v.value, tipo = f.dataset.op;
+    if (tipo === 'nome') return esegui({ tipo, valore: v.trim().slice(0, 20) }, 'Nome cambiato.');
+    if (tipo === 'gruppo') {
+      const g = gruppi.find(x => x.id === v); if (!g || g.id === s.gruppo) return msg('Scegli un gruppo diverso da quello attuale.', true);
+      return esegui({ tipo, valore: { id: g.id, nome: g.nome || g.id } }, `Spostato in “${g.nome || g.id}”.`);
+    }
+    if (tipo === 'streak') return esegui({ tipo, valore: Math.max(0, Math.round(+v)), ieri }, `Streak ripristinata a ${Math.round(+v)}.`);
+    if (tipo === 'xp') {
+      const n = Math.round(+v); if (!n) return msg('Scrivi un numero diverso da zero.', true);
+      return esegui({ tipo, valore: n, motivo: f.elements.m.value.trim() }, n > 0 ? `${n} XP assegnati.` : `${-n} XP tolti.`);
+    }
+  }));
+  el.querySelector('[data-op-btn=errori]').addEventListener('click', () => {
+    if (confirm(`Azzerare la lista degli errori da ripassare di ${s.nome}?`)) esegui({ tipo: 'errori' }, 'Errori azzerati.');
+  });
+  el.querySelector('[data-op-btn=reset]').addEventListener('click', () => {
+    const conferma = prompt(`Questo azzera livello, XP, streak, stelle, trofei, statistiche ed errori di ${s.nome}. Nome e gruppo restano.\n\nNon si può annullare. Per confermare scrivi AZZERA:`);
+    if (conferma && conferma.trim().toUpperCase() === 'AZZERA') esegui({ tipo: 'reset' }, 'Progressi azzerati.');
+    else if (conferma !== null) msg('Azzeramento annullato: non hai scritto AZZERA.', true);
+  });
+  el.querySelector('#ed').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 export function unmount() {}
