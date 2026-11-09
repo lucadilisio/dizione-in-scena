@@ -166,6 +166,10 @@ async function editor(el, r, gruppo, ricarica) {
     <div class="ed-riga ed-pericolo">
       <button class="btn" data-op-btn="errori">Azzera gli errori da ripassare (${Object.keys(s.errori).length})</button>
       <button class="btn danger" data-op-btn="reset">Azzera tutti i progressi</button>
+      <button class="btn danger" data-op-btn="elimina">Elimina il ragazzo</button>
+      <p class="small muted ed-nota"><b>Elimina</b> cancella progressi, modifiche e tutti i suoi punteggi in classifica, e lo toglie dal gruppo.
+        Se rientra nel gioco con lo stesso account Google riparte da zero; per impedirgli l’accesso disattiva il suo account in
+        <a href="https://console.firebase.google.com/project/dizione-in-scena/authentication/users" target="_blank" rel="noopener">Firebase → Authentication → Utenti</a>.</p>
     </div>
     <p class="small" id="ed-msg" role="status"></p>
   </div>`;
@@ -201,6 +205,17 @@ async function editor(el, r, gruppo, ricarica) {
     const conferma = prompt(`Questo azzera livello, XP, streak, stelle, trofei, statistiche ed errori di ${s.nome}. Nome e gruppo restano.\n\nNon si può annullare. Per confermare scrivi AZZERA:`);
     if (conferma && conferma.trim().toUpperCase() === 'AZZERA') esegui({ tipo: 'reset' }, 'Progressi azzerati.');
     else if (conferma !== null) msg('Azzeramento annullato: non hai scritto AZZERA.', true);
+  });
+  el.querySelector('[data-op-btn=elimina]').addEventListener('click', async () => {
+    const conferma = prompt(`Eliminare ${s.nome}? Verranno cancellati tutti i suoi progressi e i suoi punteggi in classifica.\n\nNon si può annullare. Per confermare scrivi ELIMINA:`);
+    if (conferma === null) return;
+    if (conferma.trim().toUpperCase() !== 'ELIMINA') return msg('Eliminazione annullata: non hai scritto ELIMINA.', true);
+    el.querySelectorAll('button').forEach(b => { b.disabled = true; });
+    try {
+      const n = await online.adminEliminaRagazzo(r.uid);
+      msg(`${s.nome} eliminato${n ? ` (e ${n} ${n === 1 ? 'punteggio' : 'punteggi'} in classifica)` : ''}.`);
+      setTimeout(ricarica, 1200);
+    } catch (e) { msg(errore(e), true); el.querySelectorAll('button').forEach(b => { b.disabled = false; }); }
   });
   el.querySelector('#ed').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }

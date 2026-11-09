@@ -130,7 +130,17 @@ async function applicaDocente() {
 function salva(subito = false) {
   clearTimeout(saveTimer);
   const go = async () => {
-    try { await applicaDocente(); await online.salvaProgressi(ME.s); }
+    try {
+      // se nel frattempo il docente ha eliminato il ragazzo, non risalvare i vecchi progressi
+      const el = await online.caricaEliminazione().catch(() => null);
+      if (el && (ME.s.creato || 0) < el) {
+        ME = null;
+        toast('Il docente ha eliminato i tuoi progressi: ricominci da capo.', 'triste');
+        const app = document.getElementById('app'); if (location.hash.startsWith('#gioco') && app) mount(app, '');
+        return;
+      }
+      await applicaDocente(); await online.salvaProgressi(ME.s);
+    }
     catch (e) { toast(`<b>Salvataggio non riuscito</b><br>${esc(e.message)}. Controlla la connessione.`); }
   };
   if (subito) return go();
@@ -139,8 +149,20 @@ function salva(subito = false) {
 async function caricaAccount() {
   const u = await online.utente();
   if (!u) return null;
-  if (ME && ME.uid === u.uid) { if (await applicaDocente()) await online.salvaProgressi(ME.s); return ME; }
+  if (ME && ME.uid === u.uid) {
+    const el = await online.caricaEliminazione().catch(() => null);
+    if (!(el && (ME.s.creato || 0) < el)) { if (await applicaDocente()) await online.salvaProgressi(ME.s); return ME; }
+    ME = null;      // eliminato dal docente mentre il gioco era aperto: si ricarica da capo
+  }
   let dati = await online.caricaProgressi();
+  // eliminato dal docente: i progressi più vecchi dell'eliminazione non valgono più
+  const eliminato = await online.caricaEliminazione().catch(() => null);
+  const scartati = !!(eliminato && dati && (dati.creato || 0) < eliminato);
+  const ripartito = scartati || !!(eliminato && !dati);
+  if (ripartito) {
+    dati = null;
+    for (const k of ['record', 'percorso', 'profilo', 'storico']) store.set(k, k === 'record' ? 0 : k === 'storico' ? [] : {});
+  }
   const nuovo = !dati;
   const s = P.normalizza(dati || P.nuovoStato((u.nome || '').split(' ')[0].slice(0, 20)));
   if (nuovo) {
@@ -150,6 +172,7 @@ async function caricaAccount() {
     if (p.gruppo) { s.gruppo = p.gruppo; s.gruppoNome = p.gruppoNome || p.gruppo; }
   }
   ME = { uid: u.uid, nomeGoogle: u.nome, s };
+  if (ripartito) toast('Il docente ha eliminato i tuoi progressi: ricominci da capo.', 'triste');
   if (nuovo) await online.salvaProgressi(s);
   else if (await applicaDocente()) await online.salvaProgressi(s);
   return ME;

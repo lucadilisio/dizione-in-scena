@@ -45,7 +45,7 @@ Il Gioco richiede Firebase: ogni ragazzo entra con il proprio account Google, e 
 
 1. Vai su <https://console.firebase.google.com>, poi **Aggiungi progetto** (il piano gratuito Spark basta).
 2. **Authentication → Metodo di accesso**: attiva **Google** (accesso dei ragazzi al Gioco) ed **Email/password** (area docente).
-3. **Realtime Database → Crea database** (posizione `europe-west1`), in modalità bloccata. Nella scheda **Regole** incolla queste regole, sostituendo **ogni volta** (cinque) `EMAIL-ADMIN` con l'email dell'account admin (punto 7):
+3. **Realtime Database → Crea database** (posizione `europe-west1`), in modalità bloccata. Nella scheda **Regole** incolla queste regole, sostituendo **ogni volta** (sette) `EMAIL-ADMIN` con l'email dell'account admin (punto 7):
 
    ```json
    {
@@ -68,7 +68,12 @@ Il Gioco richiede Firebase: ogni ragazzo entra con il proprio account Google, e 
          ".write": "auth != null && auth.token.email === 'EMAIL-ADMIN'",
          "$uid": { ".read": "auth != null && auth.uid === $uid" }
        },
+       "eliminati": {
+         ".write": "auth != null && auth.token.email === 'EMAIL-ADMIN'",
+         "$uid": { ".read": "auth != null && auth.uid === $uid" }
+       },
        "classifiche": {
+         ".read": "auth != null && auth.token.email === 'EMAIL-ADMIN'",
          ".write": "auth != null && auth.token.email === 'EMAIL-ADMIN'",
          "$gruppo": { "$modo": { "$settimana": {
            ".read": true,
@@ -86,7 +91,7 @@ Il Gioco richiede Firebase: ogni ragazzo entra con il proprio account Google, e 
    }
    ```
 
-   In questo modo i ragazzi possono salvare punteggi solo nei gruppi attivi creati dall'admin, e solo l'admin può creare gruppi, cancellare punteggi e modificare i progressi dei ragazzi (nome, gruppo, streak, XP bonus, azzeramenti). Ogni modifica del docente è registrata in `/operazioni/{uid}` e applicata anche dal telefono del ragazzo prima del salvataggio successivo, così non viene sovrascritta (vedi `applicaOperazione` in `js/progressi.js`).
+   In questo modo i ragazzi possono salvare punteggi solo nei gruppi attivi creati dall'admin, e solo l'admin può creare gruppi, cancellare punteggi e modificare i progressi dei ragazzi (nome, gruppo, streak, XP bonus, azzeramenti). Ogni modifica del docente è registrata in `/operazioni/{uid}` e applicata anche dal telefono del ragazzo prima del salvataggio successivo, così non viene sovrascritta (vedi `applicaOperazione` in `js/progressi.js`). Quando il docente elimina un ragazzo, la data dell'eliminazione resta in `/eliminati/{uid}`: il telefono del ragazzo scarta i progressi più vecchi invece di risalvarli.
 
 4. **Impostazioni progetto → Generali → Le tue app → Web (`</>`)**: registra l'app e copia l'oggetto `firebaseConfig`.
 5. Incollalo in `js/firebase-config.js` e pubblica.

@@ -64,6 +64,12 @@ export async function caricaProgressi() {
   const snap = await D.get(D.ref(db, `utenti/${uid}`));
   return snap.exists() ? snap.val() : null;
 }
+// data dell'eventuale eliminazione da parte del docente (i progressi più vecchi vanno scartati)
+export async function caricaEliminazione() {
+  const { D, db, uid } = await init();
+  const snap = await D.get(D.ref(db, `eliminati/${uid}`));
+  return snap.exists() ? snap.val() : null;
+}
 // modifiche del docente da applicare ai propri progressi (vedi progressi.js, applicaOperazione)
 export async function caricaOperazioni() {
   const { D, db, uid } = await init();
@@ -228,4 +234,14 @@ export async function adminRinominaClassifica(gruppo, uid, nome) {
   const { D, db } = await initAdmin();
   const r = D.ref(db, `classifiche/${gruppo}/sfida/${weekKey()}/${uid}`);
   if ((await D.get(r)).exists()) await D.update(r, { nome });
+}
+
+// il docente elimina un ragazzo: progressi, modifiche e tutti i suoi punteggi in classifica
+export async function adminEliminaRagazzo(uid) {
+  const { D, db } = await initAdmin();
+  const upd = { [`utenti/${uid}`]: null, [`operazioni/${uid}`]: null, [`eliminati/${uid}`]: Date.now() };
+  const cl = await D.get(D.ref(db, 'classifiche'));
+  cl.forEach(g => g.forEach(m => m.forEach(w => { const v = w.val(); if (v && v[uid]) upd[`classifiche/${g.key}/${m.key}/${w.key}/${uid}`] = null; })));
+  await D.update(D.ref(db), upd);
+  return Object.keys(upd).filter(k => k.startsWith('classifiche/')).length;
 }
