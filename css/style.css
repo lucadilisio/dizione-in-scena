@@ -365,3 +365,4 @@ a.mode.disabled { opacity: .55; pointer-events: none; }
 .ed-nota { flex-basis: 100%; margin: 0; }
 .btn.danger { color: var(--bad); border-color: color-mix(in srgb, var(--bad) 45%, var(--line)); }
 .btn.danger:hover { background: color-mix(in srgb, var(--bad) 10%, var(--paper)); }
+.duello-lb th:nth-child(n+3), .duello-lb td:nth-child(n+3) { text-align: right; }

@@ -105,37 +105,84 @@ export async function topScores(gruppo, mode, week = weekKey()) {
   return rows.sort((a, b) => b.punti - a.punti);
 }
 
-// ---------- duelli (2–8 giocatori) ----------
+// ---------- duelli (2–8 giocatori, più partite nella stessa stanza) ----------
+// duelli/{codice}: { seed, stato: 'attesa'|'via', round, host, inizio, durata,
+//                    giocatori: { uid: { nome, punti (del round), totale (dei round precedenti), vinte, risposte, pronto } } }
 const LETTERS = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
+const nuovoSeme = () => Math.floor(Math.random() * 2 ** 31);
 export async function createRoom(nome) {
   const { D, db, uid } = await init();
   for (let i = 0; i < 5; i++) {
     const code = Array.from({ length: 4 }, () => LETTERS[Math.floor(Math.random() * LETTERS.length)]).join('');
     const r = D.ref(db, `duelli/${code}`);
     const ok = await D.runTransaction(r, cur => cur ? undefined : {
-      seed: Math.floor(Math.random() * 2 ** 31), stato: 'attesa', host: uid, creato: Date.now(),
-      giocatori: { [uid]: { nome: String(nome).slice(0, 20), punti: 0, risposte: 0 } },
+      seed: nuovoSeme(), stato: 'attesa', round: 1, host: uid, creato: Date.now(),
+      giocatori: { [uid]: { nome: String(nome).slice(0, 20), punti: 0, totale: 0, vinte: 0, risposte: 0, pronto: true } },
     });
     if (ok.committed) return code;
   }
   throw new Error('Non riesco a creare la stanza, riprova.');
 }
-export async function joinRoom(code, nome) {
-  const { D, db, uid } = await init();
-  code = code.toUpperCase().trim();
-  const snap = await D.get(D.ref(db, `duelli/${code}`));
-  if (!snap.exists()) throw new Error('Stanza non trovata');
-  if (snap.val().stato !== 'attesa') throw new Error('La sfida è già iniziata');
-  await D.set(D.ref(db, `duelli/${code}/giocatori/${uid}`), { nome: String(nome).slice(0, 20), punti: 0, risposte: 0 });
+// entrare (o rientrare) in una stanza pronti per la prossima partita.
+// Se l'ultima partita è finita, la stanza si prepara per una nuova partita con parole nuove.
+export async function giocaAncora(code, nome) {
+  const { D, db, uid, now } = await init();
+  code = String(code).toUpperCase().trim();
+  const t = now();
+  let inCorso = false;
+  const res = await D.runTransaction(D.ref(db, `duelli/${code}`), room => {
+    if (!room) return room;
+    if (room.stato === 'via') {
+      if (t < (room.inizio || 0) + (room.durata || 60) * 1000 + 3000) { inCorso = true; return undefined; }
+      // chiude il round: i punti si sommano al totale, chi ha fatto più punti vince il round
+      const tutti = Object.values(room.giocatori || {});
+      const giocato = tutti.filter(g => g.pronto);
+      const max = Math.max(0, ...giocato.map(g => g.punti || 0));
+      const primi = giocato.filter(g => max > 0 && (g.punti || 0) === max);
+      for (const g of tutti) {
+        g.totale = (g.totale || 0) + (g.punti || 0);
+        if (primi.length === 1 && primi[0] === g) g.vinte = (g.vinte || 0) + 1;
+        g.pronto = false; g.punti = 0; g.risposte = 0;
+      }
+      room.stato = 'attesa'; room.seed = nuovoSeme(); room.round = (room.round || 1) + 1;
+    }
+    room.giocatori = room.giocatori || {};
+    if (!room.giocatori[uid] && Object.keys(room.giocatori).length >= 8) { inCorso = 'piena'; return undefined; }
+    const prima = room.giocatori[uid] || {};
+    room.giocatori[uid] = { ...prima, nome: String(nome).slice(0, 20), punti: 0, totale: prima.totale || 0, vinte: prima.vinte || 0, risposte: 0, pronto: true };
+    if (!room.host || !room.giocatori[room.host]) room.host = uid;
+    return room;
+  });
+  if (inCorso === 'piena') throw new Error('La stanza è piena (8 giocatori).');
+  if (inCorso) throw new Error('C’è una partita in corso in questa stanza: riprova tra qualche secondo.');
+  if (!res.committed || !res.snapshot.exists()) throw new Error('Stanza non trovata');
   return code;
 }
+export const joinRoom = giocaAncora;
 export async function watchRoom(code, cb) {
   const { D, db, uid } = await init();
   return D.onValue(D.ref(db, `duelli/${code}`), s => cb(s.val(), uid));
 }
+// fa partire la partita (una sola volta, anche se più persone premono "Via!")
 export async function startRoom(code, secondi) {
   const { D, db, now } = await init();
-  await D.update(D.ref(db, `duelli/${code}`), { stato: 'via', inizio: now() + 4000, durata: secondi });
+  const t = now();
+  await D.runTransaction(D.ref(db, `duelli/${code}`), room => {
+    if (!room) return room;
+    if (room.stato !== 'attesa') return undefined;
+    return { ...room, stato: 'via', inizio: t + 4000, durata: secondi };
+  });
+}
+export async function esciStanza(code) {
+  const { D, db, uid } = await init();
+  await D.runTransaction(D.ref(db, `duelli/${code}`), room => {
+    if (!room) return room;
+    const g = { ...(room.giocatori || {}) };
+    delete g[uid];
+    const rimasti = Object.keys(g);
+    if (!rimasti.length) return null;                     // ultimo che esce: la stanza si chiude
+    return { ...room, giocatori: g, host: room.host === uid ? rimasti[0] : room.host };
+  });
 }
 export async function pushScore(code, punti, risposte) {
   const { D, db, uid } = await init();

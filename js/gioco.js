@@ -512,47 +512,120 @@ function duelloLocale(app, n1, n2) {
 }
 
 async function stanza(app, code) {
-  let started = false, finito = null;
-  let lastRoom = null;
+  let lastRoom = null, myUid = null;
+  let vista = 'lobby';          // 'lobby' (sala d'attesa) | 'gioco' | 'risultati'
+  let roundGiocato = 0;         // ultimo round giocato da me
+  let roundPremiato = 0;        // round per cui ho già ricevuto XP e trofei
+  let fotoRound = [];           // punteggi dell'ultimo round giocato (prima che una rivincita li azzeri)
+  const lista = room => Object.entries((room && room.giocatori) || {}).map(([id, g]) => ({ id, punti: 0, totale: 0, vinte: 0, ...g }));
+  const tot = g => (g.totale || 0) + (g.punti || 0);
+  const medaglia = i => ['🥇', '🥈', '🥉'][i] || i + 1;
+  // classifica: punti del round, totale della stanza, round vinti
+  // nei risultati il round appena finito conta già tra i round vinti (in archivio entra alla rivincita)
+  const tabella = (players, uid) => {
+    const max = Math.max(0, ...players.map(g => g.punti || 0));
+    const primi = players.filter(g => max > 0 && (g.punti || 0) === max);
+    const vinte = g => (g.vinte || 0) + (primi.length === 1 && primi[0] === g ? 1 : 0);
+    return `<table class="lb duello-lb"><tr><th>#</th><th>Nome</th><th>Round</th><th>Totale</th><th title="Round vinti">🏆</th></tr>
+    ${players.map((g, i) => `<tr class="${g.id === uid ? 'me' : ''}"><td>${medaglia(i)}</td><td>${esc(g.nome)}</td><td><b>${g.punti || 0}</b></td><td>${tot(g)}</td><td>${vinte(g)}</td></tr>`).join('')}</table>
+    <p class="small muted" style="text-align:left">Round: punti di questa partita · Totale: tutte le partite giocate in questa stanza · 🏆 round vinti${primi.length > 1 ? ' · questo round è finito in pareggio' : ''}.</p>`;
+  };
+
+  const lobby = (room, uid) => {
+    const pl = lista(room).sort((a, b) => tot(b) - tot(a));
+    const pronti = pl.filter(g => g.pronto);
+    const io = room.giocatori[uid] || {};
+    const hostPronto = room.giocatori[room.host] && room.giocatori[room.host].pronto;
+    const puoPartire = io.pronto && (room.host === uid || !hostPronto);
+    app.innerHTML = `<div class="play"><h1>Stanza ${room.round > 1 ? `· partita ${room.round}` : ''}</h1>
+      <p>Codice da condividere:</p><div class="code">${code}</div>
+      <div class="card" style="margin:14px 0;text-align:left"><h3>Giocatori (${pl.length}/8)</h3>
+        <table class="lb"><tr><th>Nome</th><th></th>${room.round > 1 ? '<th>Totale</th><th title="Round vinti">🏆</th>' : ''}</tr>
+        ${pl.map(g => `<tr class="${g.id === uid ? 'me' : ''}"><td>🎭 ${esc(g.nome)}${g.id === room.host ? ' <span class="tag">host</span>' : ''}</td>
+          <td>${g.pronto ? '<span class="tag ok">✓ pronto</span>' : '<span class="small muted">guarda i risultati…</span>'}</td>
+          ${room.round > 1 ? `<td>${tot(g)}</td><td>${g.vinte || 0}</td>` : ''}</tr>`).join('')}</table></div>
+      ${puoPartire ? `<button class="btn primary big" id="via" ${pronti.length < 2 ? 'disabled' : ''}>Via!</button>
+        <p class="small muted">${pronti.length < 2 ? 'Serve almeno un altro giocatore pronto.' : `Giocano i ${pronti.length} giocatori pronti.`}</p>`
+        : '<p class="muted">In attesa che l’host faccia partire la sfida…</p>'}
+      <div class="cta"><button class="btn" id="esci">Esci dalla stanza</button></div></div>`;
+    $('#via', app)?.addEventListener('click', e => { e.target.disabled = true; online.startRoom(code, DURATA); });
+    $('#esci', app).addEventListener('click', esci);
+  };
+
+  const gioca = (room, uid) => {
+    vista = 'gioco'; roundGiocato = room.round || 1;
+    const round = roundGiocato;
+    online.serverNow().then(now => {
+      playRound(app, {
+        title: `⚔️ ${code}${round > 1 ? ` · ${round}` : ''}`, seconds: room.durata || DURATA, startAt: Date.now() + (room.inizio - now), next: picker(POOL, rng(room.seed)),
+        onScore: (punti, n) => { online.pushScore(code, punti, n); },
+        onEnd: r => {
+          online.pushScore(code, r.punti, r.n);
+          vista = 'risultati';
+          app.innerHTML = `<div class="play"><h1>Fine della partita ${round > 1 ? round : ''}</h1>
+            <div id="classifica"></div><div id="premi-duello"></div><p id="rivincita-info" class="small"></p>
+            <div class="cta"><button class="btn primary big" id="ancora">🔁 Gioca ancora</button><button class="btn big" id="esci">Esci dalla stanza</button></div></div>`;
+          $('#ancora', app).addEventListener('click', ancora);
+          $('#esci', app).addEventListener('click', esci);
+          render(lastRoom, uid);
+          // aspetta gli ultimi punteggi degli altri prima di decidere chi ha vinto il round
+          setTimeout(() => {
+            if (roundPremiato >= round) return;
+            roundPremiato = round;
+            const base = lastRoom && (lastRoom.round || 1) === round ? lista(lastRoom) : fotoRound;
+            const pl = base.filter(g => g.pronto || g.id === uid).map(g => g.id === uid ? { ...g, punti: r.punti } : g);
+            const max = Math.max(...pl.map(g => g.punti || 0));
+            const vinto = r.punti > 0 && r.punti === max && pl.filter(g => (g.punti || 0) === max).length === 1;
+            const premi = chiudiPartita({ modo: 'duello', vinto, comboMax: r.comboMax, giuste: r.giuste, n: r.n }, r.xp);
+            const box = document.getElementById('premi-duello');
+            if (box) box.innerHTML = (vinto ? '<h2>🏆 Hai vinto il round!</h2>' : '') + premiHTML(premi);
+          }, 2500);
+        },
+      });
+    });
+  };
+
+  async function ancora() {
+    const b = $('#ancora', app); if (b) b.disabled = true;
+    try { await online.giocaAncora(code, ME.s.nome); vista = 'lobby'; render(lastRoom, myUid); }
+    catch (e) { const info = document.getElementById('rivincita-info'); if (info) { info.textContent = e.message; info.style.color = 'var(--bad)'; } if (b) b.disabled = false; }
+  }
+  async function esci() {
+    if (unwatch) { unwatch(); unwatch = null; }
+    try { await online.esciStanza(code); } catch { /* già uscito */ }
+    location.hash = '#gioco';
+  }
+
   const render = (room, uid) => {
-    if (!room) { app.innerHTML = '<div class="play"><h1>Stanza chiusa</h1><a class="btn" href="#gioco">Menu</a></div>'; return; }
-    const players = Object.entries(room.giocatori || {}).map(([id, g]) => ({ id, ...g })).sort((a, b) => b.punti - a.punti);
-    if (room.stato === 'attesa') {
-      app.innerHTML = `<div class="play"><h1>Stanza</h1><p>Codice da condividere:</p><div class="code">${code}</div>
-        <div class="card" style="margin:14px 0;text-align:left"><h3>Giocatori (${players.length}/8)</h3>${players.map(g => `<div>🎭 ${esc(g.nome)}${g.id === room.host ? ' <span class="tag">host</span>' : ''}</div>`).join('')}</div>
-        ${room.host === uid ? `<button class="btn primary big" id="via" ${players.length < 2 ? 'disabled' : ''}>Via!</button><p class="small muted">Serve almeno un altro giocatore.</p>` : '<p class="muted">In attesa che l’host faccia partire la sfida…</p>'}</div>`;
-      $('#via', app)?.addEventListener('click', () => online.startRoom(code, DURATA));
+    myUid = uid;
+    if (!room) { if (vista !== 'risultati') app.innerHTML = '<div class="play"><h1>Stanza chiusa</h1><div class="cta"><a class="btn" href="#gioco">← Menu</a></div></div>'; return; }
+    const io = (room.giocatori || {})[uid];
+    if (roundGiocato && (room.round || 1) === roundGiocato && room.stato === 'via') fotoRound = lista(room);
+    // parte una nuova partita a cui sono pronto
+    if (room.stato === 'via' && io && io.pronto && (room.round || 1) !== roundGiocato && vista !== 'gioco') return gioca(room, uid);
+    if (vista === 'lobby') {
+      if (room.stato === 'attesa') return lobby(room, uid);
+      app.innerHTML = '<div class="play"><h1>Partita in corso</h1><p class="muted">Aspetta la fine: poi potrai unirti alla prossima.</p><div class="cta"><button class="btn" id="esci">Esci dalla stanza</button></div></div>';
+      $('#esci', app).addEventListener('click', esci);
       return;
     }
-    if (room.stato === 'via' && !started) {
-      started = true;
-      online.serverNow().then(now => {
-        const startAt = Date.now() + (room.inizio - now);
-        playRound(app, {
-          title: `⚔️ ${code}`, seconds: room.durata || DURATA, startAt, next: picker(POOL, rng(room.seed)),
-          onScore: (punti, n) => { online.pushScore(code, punti, n); },
-          onEnd: r => {
-            online.pushScore(code, r.punti, r.n);
-            app.innerHTML = `<div class="play"><h1>Fine!</h1><div id="classifica"></div><div id="premi-duello"></div><div class="cta"><a class="btn big" href="#gioco">← Menu</a></div></div>`;
-            render(lastRoom, uid);
-            // aspetta gli ultimi punteggi degli altri prima di decidere chi ha vinto
-            setTimeout(() => {
-              const pl = Object.entries((lastRoom && lastRoom.giocatori) || {}).map(([id, g]) => ({ id, ...g }));
-              const max = Math.max(...pl.map(g => g.id === uid ? r.punti : g.punti));
-              const vinto = r.punti === max && pl.filter(g => (g.id === uid ? r.punti : g.punti) === max).length === 1;
-              finito = chiudiPartita({ modo: 'duello', vinto, comboMax: r.comboMax, giuste: r.giuste, n: r.n }, r.xp);
-              const box = document.getElementById('premi-duello');
-              if (box) box.innerHTML = (vinto ? '<h2>🏆 Hai vinto!</h2>' : '') + premiHTML(finito);
-            }, 2500);
-          },
-        });
-      });
+    const pl = lista(room).sort((a, b) => (b.punti || 0) - (a.punti || 0));
+    if (vista === 'gioco') {
+      const opp = document.getElementById('opp');
+      if (opp) opp.innerHTML = pl.filter(g => g.id !== uid && g.pronto).map(g => `${esc(g.nome)}: <b>${g.punti || 0}</b>`).join(' · ');
+      return;
     }
-    const tbl = `<table class="lb">${players.map((g, i) => `<tr class="${g.id === uid ? 'me' : ''}"><td>${['🥇', '🥈', '🥉'][i] || i + 1}</td><td>${esc(g.nome)}</td><td><b>${g.punti}</b></td></tr>`).join('')}</table>`;
+    // risultati: classifica del round appena giocato (finché nessuno riparte) e avvisi di rivincita
     const c = document.getElementById('classifica');
-    if (c) c.innerHTML = tbl;
-    const opp = document.getElementById('opp');
-    if (opp) opp.innerHTML = players.filter(g => g.id !== uid).map(g => `${esc(g.nome)}: <b>${g.punti}</b>`).join(' · ');
+    if (c && !(room.round > roundGiocato)) c.innerHTML = tabella(pl.filter(g => g.pronto), uid);
+    const info = document.getElementById('rivincita-info');
+    if (info && room.round > roundGiocato) {
+      const pronti = pl.filter(g => g.pronto && g.id !== uid).map(g => esc(g.nome));
+      info.style.color = '';
+      info.innerHTML = room.stato === 'attesa'
+        ? `🔁 ${pronti.length ? `<b>${pronti.join(', ')}</b> ${pronti.length === 1 ? 'vuole' : 'vogliono'} giocare ancora: premi “Gioca ancora”.` : 'Si sta preparando un’altra partita.'}`
+        : '⏳ È iniziata un’altra partita: premi “Gioca ancora” per la prossima.';
+    }
   };
   app.innerHTML = '<div class="loading">Entro nella stanza…</div>';
   unwatch = await online.watchRoom(code, (room, uid) => { lastRoom = room; render(room, uid); });
