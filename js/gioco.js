@@ -1,11 +1,12 @@
 // Il gioco: Sfida a tempo, Duello (online o sullo stesso telefono), Percorso a livelli, Ripasso errori.
 // Serve un account Google: progressi, streak e trofei sono salvati online (/utenti/{uid}).
 import { explain, sGroups, zGroups, nuclei, stripAll } from './engine.js';
-import { REGOLE, ATONE, DIFFICILI, regolaById } from './rules.js';
+import { REGOLE, ATONE, DIFFICILI, OMOGRAFI, regolaById } from './rules.js';
 import { store, colorize, esc, $ } from './app.js';
 import * as online from './online.js';
 import * as P from './progressi.js';
 import { mascotte } from './mascotte.js';
+import { componiLivello } from './livelli.js';
 
 const DURATA = 60;
 let POOL = null;            // domande per tipo
@@ -26,7 +27,10 @@ async function loadPool() {
   const text = await (await fetch('data/frequenti.txt')).text();
   const pool = { eo: [], s: [], z: [], acc: [] };
   const diff = new Set(DIFFICILI.map(d => stripAll(d.toLowerCase())));
-  text.split('\n').forEach((line, rank) => {
+  const righe = text.split('\n');
+  // parole che sono solo la versione senza accento di un'altra (cosi/così, perche/perché): ambigue, escluse
+  const conAccento = new Set(righe.map(l => l.split('\t')[0]).filter(k => /[àèéìòóù]$/.test(k)).map(k => stripAll(k)));
+  righe.forEach((line, rank) => {
     if (!line) return;
     const tab = line.indexOf('\t');
     const body = (tab >= 0 ? line.slice(tab + 1) : line).replace(/!$/, '');
@@ -35,7 +39,7 @@ async function loadPool() {
     // le varianti regionali (non registrate dal Wiktionary italiano) non rendono ambigua la domanda
     const vars = rawVars.filter(v => (v.split('@')[1] || '').includes('+')).map(v => v.split('@')[0]);
     const key = tab >= 0 ? line.slice(0, tab) : stripAll(prim);
-    if (key.length < 3 || ATONE.has(key) || [...prim].length !== [...key].length) return;
+    if (key.length < 3 || ATONE.has(key) || OMOGRAFI.has(key) || conAccento.has(key) || [...prim].length !== [...key].length) return;
     const same = i => vars.every(v => v[i] === prim[i]);
     const ex = explain(key, prim);
     const ruleAt = (feat, pos) => ex.find(r => r.feat === feat && r.pos === pos) || null;
@@ -572,7 +576,13 @@ function livelli() {
       let qs = POOL[m.tipo].filter(q => q.rule && q.rule.id === r.id);
       if (m.tipo === 'eo') qs = qs.filter(q => (m.id === 'E' ? 'èé' : 'òó').includes(q.prim[q.pos]));
       const regolari = qs.filter(q => q.rule.ok), ecc = qs.filter(q => !q.rule.ok);
-      if (regolari.length >= 5) out.push({ id: r.id, mondo: m.id, titolo: r.titolo, regolari, ecc });
+      if (regolari.length < 5) continue;
+      // parole di confronto: stessa lettera, risposta opposta, da altre regole (non eccezioni)
+      const ans = String(regolari[0].ans);
+      const contrasto = m.tipo === 'acc' ? [] : POOL[m.tipo].filter(q => String(q.ans) !== ans && q.rank < 8000
+        && (!q.rule || (q.rule.ok && q.rule.id !== r.id))
+        && (m.tipo !== 'eo' || (m.id === 'E' ? 'èé' : 'òó').includes(q.prim[q.pos])));
+      out.push({ id: r.id, mondo: m.id, titolo: r.titolo, regolari, ecc, contrasto });
     }
     const mix = POOL[m.tipo].filter(q => q.rank < 6000 && (m.tipo !== 'eo' || (m.id === 'E' ? 'èé' : 'òó').includes(q.prim[q.pos])));
     if (mix.length >= 10) out.push({ id: m.id + '-mix', mondo: m.id, titolo: 'Ripasso misto', regolari: mix, ecc: [] });
@@ -583,7 +593,7 @@ function percorso(app) {
   const prog = ME.s.percorso;
   const L = livelli();
   const totStelle = Object.values(prog).reduce((s, v) => s + v, 0);
-  let html = `<h1>🗺️ Percorso</h1><p class="lead">Ogni livello allena una regola: 10 parole, prima quelle regolari poi le eccezioni. ⭐⭐⭐ con zero errori. Stelle totali: <b>${totStelle}</b> / ${L.length * 3}</p>`;
+  let html = `<h1>🗺️ Percorso</h1><p class="lead">Ogni livello allena una regola: 10 parole mescolate, tra parole che la seguono, eccezioni e parole che seguono altre regole. ⭐⭐⭐ con zero errori. Stelle totali: <b>${totStelle}</b> / ${L.length * 3}</p>`;
   for (const m of MONDI) {
     const ls = L.filter(l => l.mondo === m.id); if (!ls.length) continue;
     html += `<h2 style="margin-top:20px">${esc(m.titolo)}</h2><div class="levels">`;
@@ -600,16 +610,13 @@ function percorso(app) {
 }
 function livello(app, l) {
   const R = regolaById(l.id);
-  const rand = rng(Math.floor(Math.random() * 2 ** 31));
-  const shuffle = a => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
-  const reg = shuffle(l.regolari.filter(q => q.rank < 8000).length >= 7 ? l.regolari.filter(q => q.rank < 8000) : l.regolari);
-  const ecc = shuffle(l.ecc);
-  const nEcc = Math.min(3, ecc.length);
-  const seq = [...reg.slice(0, 10 - nEcc), ...ecc.slice(0, nEcc)];
+  // parole della regola, eccezioni e parole di confronto, mescolate (vedi livelli.js)
+  const seq = componiLivello(l, rng(Math.floor(Math.random() * 2 ** 31)));
   app.innerHTML = `<div class="play">
     <span class="rid">${esc(l.id)}</span><h1 style="margin-top:8px">${esc(l.titolo)}</h1>
     ${R ? `<div class="card" style="text-align:left">${R.testo ? `<p>${esc(R.testo)}</p>` : ''}<div style="font:1.15rem var(--serif)">${(R.esempi || []).map(colorize).join(' · ')}</div>${R.eccezioni ? `<p class="small"><b>Eccezioni:</b> ${R.eccezioni.map(colorize).join(' · ')}</p>` : ''}</div>` : ''}
-    <button class="btn primary big" id="go" style="margin-top:16px">Inizia</button></div>`;
+    ${l.id.endsWith('-mix') ? '' : `<p class="small muted" style="margin-top:12px">👀 Occhio: non tutte le parole seguono questa regola! Ci sono anche eccezioni e parole che seguono altre regole. Leggi bene ogni parola.</p>`}
+    <button class="btn primary big" id="go" style="margin-top:8px">Inizia</button></div>`;
   $('#go', app).addEventListener('click', () => playRound(app, {
     title: l.id, count: seq.length, next: n => seq[n],
     onEnd: res => {
