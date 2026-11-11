@@ -166,12 +166,17 @@ textarea.input { width: 100%; min-height: 180px; resize: vertical; display: bloc
 .hud .timer { font: 700 1.6rem var(--serif); }
 .timerbar { height: 6px; background: var(--line); border-radius: 99px; overflow: hidden; margin-bottom: 18px; }
 .timerbar div { height: 100%; background: var(--accent); transition: width .2s linear; }
-.qword { font: 700 clamp(2.4rem, 11vw, 3.6rem)/1.2 var(--serif); margin: 18px 0 6px; letter-spacing: .02em; }
+.qword { font: 700 clamp(2.4rem, 11vw, 3.6rem)/1.2 var(--serif); margin: 18px 0 6px; letter-spacing: .02em; overflow-wrap: anywhere; }
+.qword.lunga { font-size: clamp(1.9rem, 8.5vw, 3rem); }
+.qword.lunghissima { font-size: clamp(1.5rem, 6.2vw, 2.4rem); letter-spacing: 0; }
 .qword .hl { color: var(--accent); text-decoration: underline; text-underline-offset: 6px; }
 .qhint { color: var(--muted); margin-bottom: 20px; min-height: 1.5em; }
 .answers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.answers.many { grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); }
-.ans { padding: 18px 10px; font: 700 1.5rem var(--serif); border-radius: 16px; border: 2px solid var(--line); background: var(--paper); cursor: pointer; touch-action: manipulation; }
+.answers.many { grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); }
+.ans { min-width: 0; overflow-wrap: anywhere; padding: 18px 10px; font: 700 1.5rem var(--serif); border-radius: 16px; border: 2px solid var(--line); background: var(--paper); cursor: pointer; touch-action: manipulation; }
+/* domande sull'accento (3-5 opzioni, parole lunghe): testo un po' più piccolo; su telefono una sotto l'altra */
+.answers.many .ans { font-size: clamp(1.15rem, 3.6vw, 1.4rem); padding: 14px 10px; }
+@media (max-width: 520px) { .answers.many { grid-template-columns: 1fr; gap: 10px; } }
 .ans small { display: block; font: 500 .8rem var(--sans); color: var(--muted); }
 .ans.ok { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 14%, var(--paper)); }
 .ans.bad { border-color: var(--bad); background: color-mix(in srgb, var(--bad) 14%, var(--paper)); }

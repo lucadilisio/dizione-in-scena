@@ -243,7 +243,10 @@ function playRound(root, cfg) {
   const show = () => {
     q = cfg.next(n);
     const v = questionView(q);
-    $('#qw', root).innerHTML = v.word;
+    const qw = $('#qw', root);
+    qw.innerHTML = v.word;
+    // parole lunghe: testo più piccolo, così restano su una riga anche sul telefono
+    qw.className = 'qword' + (q.key.length > 15 ? ' lunghissima' : q.key.length > 10 ? ' lunga' : '');
     $('#qh', root).textContent = v.hint;
     const ans = $('#ans', root);
     ans.className = 'answers' + (v.many ? ' many' : '');
