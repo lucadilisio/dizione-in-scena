@@ -26,7 +26,10 @@ async function loadPool() {
   if (POOL) return POOL;
   const text = await (await fetch('data/frequenti.txt')).text();
   const pool = { eo: [], s: [], z: [], acc: [] };
-  const diff = new Set(DIFFICILI.map(d => stripAll(d.toLowerCase())));
+  // parole dall'accento difficile: forma segnata (edìle). Nel dizionario le piane non hanno il segno,
+  // quindi la posizione dell'accento va presa da qui, altrimenti la risposta giusta non esisterebbe.
+  const diffForma = new Map(DIFFICILI.map(d => [stripAll(d.toLowerCase()), d.toLowerCase()]));
+  const diff = new Set(diffForma.keys());
   const righe = text.split('\n');
   // parole che sono solo la versione senza accento di un'altra (cosi/così, perche/perché): ambigue, escluse
   const conAccento = new Set(righe.map(l => l.split('\t')[0]).filter(k => /[àèéìòóù]$/.test(k)).map(k => stripAll(k)));
@@ -57,16 +60,30 @@ async function loadPool() {
       pool.z.push({ type: 'z', key, prim, pos: g, rank, ans: prim[g] === 'ż' ? 'z' : 's', rule: ruleAt('z', g) });
     }
     // accento: sdrucciole e parole difficili
-    const st = [...prim].findIndex(c => 'àèéìòóù'.includes(c));
+    const df = diffForma.get(key);
+    const accentata = df && df.length === prim.length ? df : prim;
+    const st = [...accentata].findIndex(c => 'àèéìòóù'.includes(c));
     const after = st >= 0 ? nuc.filter(k => k > st).length : -1;
-    if ((after >= 2 || diff.has(key)) && nuc.length >= 3 && nuc.length <= 5 && same(st)) {
-      pool.acc.push({ type: 'acc', key, prim, pos: st, rank, ans: st, nuc, rule: diff.has(key) ? { id: 'T3', ok: true } : null });
+    if (st >= 0 && (after >= 2 || df) && nuc.length >= 3 && nuc.length <= 5 && (df || same(st))) {
+      // un pulsante per vocale: nel gruppo di vocali che contiene l'accento (baùle, guaìna) il pulsante va sulla vocale accentata
+      const opz = nuc.map(k => gruppoVocalico(key, k).includes(st) ? st : k);
+      const mostra = [...prim].map((c, i) => i === st ? accentata[st] : c).join('');
+      pool.acc.push({ type: 'acc', key, prim: mostra, pos: st, rank, ans: st, nuc: opz, rule: df ? { id: 'T3', ok: true } : null });
     }
   });
   POOL = pool;
   POOL_BY_ID = new Map();
   for (const list of Object.values(pool)) for (const q of list) POOL_BY_ID.set(P.idDomanda(q), q);
   return pool;
+}
+
+// posizioni del gruppo di vocali consecutive che contiene la posizione k (es. "au" in baule)
+function gruppoVocalico(w, k) {
+  const voc = c => 'aeiouàèéìòóù'.includes(c);
+  let a = k, b = k;
+  while (a > 0 && voc(w[a - 1])) a--;
+  while (b + 1 < w.length && voc(w[b + 1])) b++;
+  return Array.from({ length: b - a + 1 }, (_, i) => a + i);
 }
 
 // ---------- presentazione di una domanda ----------
@@ -180,6 +197,20 @@ async function caricaAccount() {
   if (nuovo) await online.salvaProgressi(s);
   else if (await applicaDocente()) await online.salvaProgressi(s);
   return ME;
+}
+
+// ripulisce la lista degli errori: voci salvate con la vecchia posizione sbagliata dell'accento ("edile|acc|-1")
+// vengono collegate alla domanda giusta; quelle che non corrispondono più a nessuna domanda vengono tolte
+function ripulisciErrori() {
+  if (!ME || !POOL_BY_ID) return false;
+  let cambiato = false;
+  for (const [id, e] of Object.entries(ME.s.errori)) {
+    if (POOL_BY_ID.has(id)) continue;
+    const q = e.type === 'acc' ? POOL.acc.find(x => x.key === e.key) : null;
+    if (q) { const nid = P.idDomanda(q); ME.s.errori[nid] = { ...e, pos: q.pos, prim: q.prim, ...(ME.s.errori[nid] || {}) }; }
+    delete ME.s.errori[id]; cambiato = true;
+  }
+  return cambiato;
 }
 
 // notifiche brevi (trofei, obiettivo del giorno)
@@ -318,6 +349,7 @@ export async function mount(app, sub) {
   try { [acc] = await Promise.all([caricaAccount(), loadPool()]); }
   catch (e) { app.innerHTML = `<div class="play"><h1>Gioco</h1><p style="color:var(--bad)">Non riesco a collegarmi (${esc(e.message)}). Controlla la connessione e ricarica la pagina.</p></div>`; return; }
   if (!acc) return login(app);
+  if (ripulisciErrori()) salva();
   if (!ME.s.nome || !ME.s.gruppo) return benvenuto(app, sub);
   if (!ME.s.guida && sub !== 'guida') return guida(app, true);
   if (sub === 'sfida') return sfida(app);
@@ -796,3 +828,12 @@ function guida(app, primaVolta) {
 }
 
 export function unmount() { clearTimers(); if (unwatch) { unwatch(); unwatch = null; } if (ME) salva(true); }
+
+// controllo di coerenza (usato dai test): domande la cui risposta giusta non è tra i pulsanti
+export async function domandeSenzaRisposta() {
+  await loadPool();
+  const out = [];
+  for (const q of POOL.acc) if (!q.nuc.includes(q.ans)) out.push(q.key);
+  for (const t of ['eo', 's', 'z']) for (const q of POOL[t]) if (!['open', 'closed', 's', 'z'].includes(q.ans)) out.push(q.key);
+  return { totaleAccento: POOL.acc.length, problemi: out };
+}
