@@ -21,6 +21,7 @@ for line in open(lex_path, encoding='utf-8'):
     key, _, body = line.rpartition('\t')
     body = body.rstrip('!')
     main, *homs = body.split(';')
+    homs = [h.split('@')[0] for h in homs]
     prim, *vars_ = main.split('~')
     forms = [prim] + homs + [v.split('@')[0] for v in vars_ if v.split('@')[1:2] == ['H']]
     if homs:

@@ -169,11 +169,19 @@ def from_accented(f, key, lemma_marked, lemma):
         if lemma_marked[i] in 'ṡż' and i != k: w[i] = lemma_marked[i]
     return ''.join(w)
 
+# imperativi con pronome attaccato (arrèstati, fèrmati, àlzati): scritti come altre forme
+# (arrestati participio) ma pronunciati diversamente. key -> forme segnate dell'imperativo
+CLITICO = re.compile(r'(mi|ti|si|ci|vi|lo|la|li|le|ne|gli|glie\w+|melo|mela|telo|tela|celo|cela|selo|sela|velo|vela)$')
+IMPCL = collections.defaultdict(set)
+NOSZ = str.maketrans('ṡż', 'sz')
 for lemma, fl in form_by_lemma.items():
     if lemma not in lex: continue
     LP, _, _, la = lex[lemma]
     for fw, pos, tags in fl:
         key = plain_key(fw)
+        if 'imperative' in tags and CLITICO.search(key) and any(c in ACC for c in fw[:-1]):
+            mi = from_accented(fw, key, LP, lemma)
+            if mi: IMPCL[key].add(mi.translate(NOSZ))
         if key in lex or key == lemma: continue
         if any(c in ACC for c in fw[:-1]) or (fw[-1] in ACC and any(c in ACC for c in fw)):
             m = from_accented(fw, key, LP, lemma)
@@ -189,13 +197,27 @@ print('forme derivate:', len(derived))
 STRIPALL = str.maketrans('àèéìíòóùúṡż', 'aeeiioouusz')
 with open(out, 'w') as o:
     for w in sorted(set(lex) | set(derived)):
+        imp = IMPCL.get(w, set())
+        isImp = lambda f: f.translate(NOSZ) in imp
         if w in lex:
             P, var, hom, _ = lex[w]
-            line = P + ''.join('~' + v for v in var) + ''.join(';' + h for h in hom)
+            cands = [P] + list(hom)
+            if any(map(isImp, cands)) and not all(map(isImp, cands)):
+                # la lettura principale è quella che non è un imperativo con pronome (arrestati participio)
+                P = next(c for c in cands if not isImp(c))
+                hom = [c for c in cands if c != P]
+            line = P + ''.join('~' + v for v in var) + ''.join(';' + h + ('@I' if isImp(h) else '') for h in hom)
         else:
-            dl = [derived[w][0]] + [v for v in derived[w][1:] if any(c in 'àèéìòóù' for c in v)]
-            derived[w] = dl
-            line = derived[w][0] + ''.join('~' + variant_str(derived[w][0], v, None) for v in derived[w][1:]) + '!'   # ! = forma flessa derivata
+            cands = derived[w]
+            if any(map(isImp, cands)) and not all(map(isImp, cands)):
+                altri = [c for c in cands if not isImp(c)]
+                P = altri[0]
+                vari = [v for v in altri[1:] if any(c in 'àèéìòóù' for c in v)]
+                line = P + ''.join('~' + variant_str(P, v, None) for v in vari) + ''.join(';' + h + '@I' for h in cands if isImp(h)) + '!'
+            else:
+                dl = [cands[0]] + [v for v in cands[1:] if any(c in 'àèéìòóù' for c in v)]
+                derived[w] = dl
+                line = derived[w][0] + ''.join('~' + variant_str(derived[w][0], v, None) for v in derived[w][1:]) + '!'   # ! = forma flessa derivata
         prim = line.split('~')[0].split(';')[0].rstrip('!')
         assert '@' not in prim
         if prim.translate(STRIPALL) != w:

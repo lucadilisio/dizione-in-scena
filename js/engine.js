@@ -41,7 +41,10 @@ export function parseLexicon(text) {
     const body = tab >= 0 ? line.slice(tab + 1) : line;
     const derived = body.endsWith('!');
     const clean = derived ? body.slice(0, -1) : body;
-    const [main, ...homs] = clean.split(';');
+    const [main, ...homsRaw] = clean.split(';');
+    // @I = imperativo con pronome attaccato (arrèstati!): si sceglie in base al contesto (markText)
+    const homs = homsRaw.map(h => h.split('@')[0]);
+    const imp = homsRaw.filter(h => h.endsWith('@I')).map(h => h.split('@')[0]);
     let [prim, ...rawVars] = main.split('~');
     const vars = rawVars.map(v => v.split('@')[0]);
     const vcodes = rawVars.map(v => v.split('@')[1] || 'V');
@@ -49,7 +52,7 @@ export function parseLexicon(text) {
     // É8: i composti di che e di tre sono sempre chiusi (perché, poiché, ventitré)
     const fixCT = x => x.replace(/(ch|tr)è$/, '$1é');
     prim = fixCT(prim); key = fixCT(key);
-    const e = { prim, vars, vcodes, homs, derived };
+    const e = { prim, vars, vcodes, homs, imp, derived };
     const list = LEX.get(key);
     if (list) list.push(e); else LEX.set(key, [e]);
     if (tab >= 0) { const k2 = stripAll(key); if (!LEX_NOACC.has(k2)) LEX_NOACC.set(k2, [e]); }
@@ -235,9 +238,13 @@ export function analyzeWord(word) {
     const vIdx = e.vars.map((f, i) => i).filter(i => !inCur(e.vars[i]) && e.vars[i] !== prim);
     const alt = [...vIdx.map(i => e.vars[i]), ...(cur ? [] : e.homs)];
     const varianti = [...vIdx.map(i => ({ forma: fitLength(e.vars[i], key), code: e.vcodes[i] })),
-      ...(cur ? [] : e.homs.map(f => ({ forma: fitLength(f, key), code: 'H', descrizione: descrizioni[f] })))];
+      ...(cur ? [] : e.homs.map(f => ({ forma: fitLength(f, key), code: e.imp.includes(f) ? 'I' : 'H', descrizione: e.imp.includes(f) ? `imperativo con il pronome attaccato (${f}!)` : descrizioni[f] })))];
     res = { marked: fitLength(prim, key), alternative: alt.map(a => fitLength(a, key)), varianti, omografi: homs.map(a => fitLength(a, key)),
       descrizioni, fonte: e.derived ? 'flessa' : 'dizionario', dubbi: [] };
+    if (!cur && e.imp.length) {
+      res.imperativo = fitLength(e.imp[0], key);
+      res.descrizioni = { ...descrizioni, [res.marked]: descrizioni[res.marked] || 'participio, aggettivo o nome', [res.imperativo]: `imperativo con il pronome attaccato (${res.imperativo}!)` };
+    }
     res.regole = explain(key, res.marked);
     // negli omografi veri la vocale la decide il significato, non una regola
     if (OMOGRAFI_DESC[plain]) res.regole = res.regole.filter(r => r.feat !== 'v');
@@ -293,15 +300,58 @@ export function tokenize(text) {
 
 // ritorna il testo segnato (stessa lunghezza in caratteri) e la lista delle parole
 // choices: Map(chiave parola -> forma scelta) per omografi
+// ---------- contesto: imperativo con pronome (arrèstati!) o participio/nome (siamo stati arrestati)? ----------
+const AUSILIARI = new Set(('sono sei è siamo siete ero eri era eravamo eravate erano fui fosti fu fummo foste furono sarò sarai sarà saremo sarete saranno ' +
+  'sarei saresti sarebbe saremmo sareste sarebbero sia siate siano fossi fosse fossimo fossero essere essendo stato stata stati state ' +
+  'ho hai ha abbiamo avete hanno avevo avevi aveva avevamo avevate avevano ebbi avesti ebbe avemmo aveste ebbero avrò avrai avrà avremo avrete avranno ' +
+  'avrei avresti avrebbe avremmo avreste avrebbero abbia abbiano avessi avesse avessimo avessero avere avendo avuto ' +
+  'vengo vieni viene veniamo venite vengono veniva venivano venne vennero verrà verranno resta restano restò rimane rimangono rimasti rimaste ' +
+  'sembra sembrano sembrava sembravano pare paiono appare appaiono risulta risultano rimanere restare sembrare').split(' '));
+const AVVERBI = new Set('già mai appena ormai ancora sempre poi anche quasi subito proprio davvero tutti tutte entrambi stati state stato stata ben bene male non più'.split(' '));
+const DAVANTI_NOME = new Set(('i gli le dei degli delle ai agli alle nei negli nelle sui sugli sulle dai dagli dalle coi tra fra per con di da in su ' +
+  'questi queste quelli quelle quei tanti tante molti molte pochi poche tutti tutte altri altre due tre quattro cinque miei tuoi suoi nostri vostri loro').split(' '));
+// ritorna { scelta: 'imperativo' | 'participio', certo, perche }
+function sceltaVerbale(prev, sepPrima, sepDopo) {
+  const inizio = !prev.length || /[.!?…:;\u0001\n—–«"“(]\s*$/.test(sepPrima);
+  for (let i = prev.length - 1; i >= 0 && i >= prev.length - 3; i--) {
+    const w = prev[i];
+    if (AUSILIARI.has(w)) return { scelta: 'participio', certo: true, perche: `dopo “${w}”` };
+    if (!AVVERBI.has(w)) break;
+  }
+  if (/^\s*!/.test(sepDopo)) return { scelta: 'imperativo', certo: true, perche: 'seguito da “!”' };
+  if (inizio) return { scelta: 'imperativo', certo: true, perche: 'all’inizio della frase' };
+  if (DAVANTI_NOME.has(prev[prev.length - 1])) return { scelta: 'participio', certo: true, perche: `dopo “${prev[prev.length - 1]}”` };
+  return { scelta: 'participio', certo: false, perche: 'contesto non chiaro' };
+}
+
 export function markText(text, opts, choices) {
   let out = '';
   const words = [];
-  for (const tk of tokenize(text)) {
-    if (tk.t !== undefined) { out += tk.t; continue; }
-    const a = analyzeWord(tk.w);
+  const tks = tokenize(text);
+  const prev = [];                 // parole precedenti nella stessa frase (minuscole)
+  let sepPrima = '';
+  tks.forEach((tk, idx) => {
+    if (tk.t !== undefined) {
+      out += tk.t; sepPrima += tk.t;
+      if (/[.!?…\n\u0001]/.test(tk.t)) prev.length = 0;
+      return;
+    }
+    let a = analyzeWord(tk.w);
     const key = stripDizione(tk.w.toLowerCase());
     const chosen = choices && choices.get(key);
     let marked = chosen || a.marked;
+    if (a.imperativo) {
+      const sepDopo = tks[idx + 1] && tks[idx + 1].t !== undefined ? tks[idx + 1].t : '';
+      const c = sceltaVerbale(prev, sepPrima, sepDopo);
+      const scelto = c.certo || !chosen ? (c.scelta === 'imperativo' ? a.imperativo : a.marked) : chosen;
+      marked = scelto;
+      // nei casi incerti la parola va controllata (nel Copione compare tra quelle da scegliere)
+      const altra = scelto === a.imperativo ? a.marked : a.imperativo;
+      a = { ...a, contesto: c, marked: scelto, omografi: c.certo ? [] : [altra],
+        varianti: (a.varianti || []).map(v => v.code === 'I' ? { ...v, forma: altra, descrizione: altra === a.imperativo ? v.descrizione : 'participio, aggettivo o nome' } : v),
+        dubbi: c.certo ? a.dubbi : [...a.dubbi, 'contesto'] };
+    }
+    prev.push(tk.w.toLowerCase()); sepPrima = '';
     const userMarks = userMarked(tk.w.toLowerCase());
     if (!chosen && userMarks) {
       // l'utente ha già scritto un segno (àncora, pèsca): scegli la forma compatibile o rispetta la sua
@@ -311,7 +361,7 @@ export function markText(text, opts, choices) {
     const res = applyMarks(tk.w, marked, opts, a.difficile);
     out += res;
     words.push({ ...a, word: tk.w, key, out: res, index: tk.i });
-  }
+  });
   return { text: out, words };
 }
 

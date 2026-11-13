@@ -1,21 +1,21 @@
 abbacchiati	abbacchiati=plurale di abbacchiato|abbàcchiati=forma di abbacchiarsi
-abbagliati	abbàgliati=verbo|abbagliati=plurale di abbagliato
+abbagliati	abbagliati=plurale di abbagliato|abbàgliati=verbo
 abbaino	abbaino=piccola costruzione sopra il tetto, con una finestra per dar luce al…|abbàino=terza persona plurale del congiuntivo presente di abbaiare
-abbarbicati	abbàrbicati=forma di abbarbicarsi|abbarbicati=plurale di abbarbicato
-abbaruffati	abbarùffati=forma di abbaruffarsi|abbaruffati=forma di abbaruffato
-abbeverati	abbéverati=forma di abbeverarsi|abbeverati=plurale di abbeverato
+abbarbicati	abbarbicati=plurale di abbarbicato|abbàrbicati=forma di abbarbicarsi
+abbaruffati	abbaruffati=forma di abbaruffato|abbarùffati=forma di abbaruffarsi
+abbeverati	abbeverati=plurale di abbeverato|abbéverati=forma di abbeverarsi
 abbigliati	abbiglìati=forma di abbigliarsi|abbigliati=plurale di abbigliato
 abbioccati	abbiòccati=forma di abbioccarsi|abbioccati=plurale di abbioccato
 abbonacciati	abbonàcciati=forma di abbonacciarsi|abbonacciati=forma di abbonacciato
-abbonati	abbònati=imperativo del verbo abbonarsi|abbonati=plurale di abbonato
+abbonati	abbonati=plurale di abbonato|abbònati=imperativo del verbo abbonarsi
 abbottonati	abbottonati=plurale di abbottonato|abbottónati=forma di abbottonarsi
-abbozzolati	abbòzzolati=forma di abbozzolarsi|abbozzolati=forma di abbozzolato
-abbracciati	abbràcciati=forma di abbracciarsi|abbracciati=plurale di abbracciato
+abbozzolati	abbozzolati=forma di abbozzolato|abbòzzolati=forma di abbozzolarsi
+abbracciati	abbracciati=plurale di abbracciato|abbràcciati=forma di abbracciarsi
 abbrancati	abbràncati=forma di abbrancarsi|abbrancati=forma di abbrancato
-abbrunati	abbrùnati=forma di abbrunarsi|abbrunati=plurale di abbrunato
+abbrunati	abbrunati=plurale di abbrunato|abbrùnati=forma di abbrunarsi
 abbuiati	abbùiati=forma di abbuiarsi|abbuiati=forma di abbuiato
 abitino	abitino=diminutivo di abito|àbitino=terza persona plurale del congiuntivo presente di abitare
-abituati	abìtuati=forma di abituarsi|abituati=forma di abituato
+abituati	abituati=forma di abituato|abìtuati=forma di abituarsi
 abomini	abomini=forma di abominio|abòmini=seconda persona singolare dell'indicativo presente di abominare
 accalcati	accalcati=plurale di accalcato|accàlcati=forma di accalcarsi
 accaldati	accaldati=plurale di accaldato|accàldati=forma di accaldarsi
@@ -38,7 +38,7 @@ accodati	accodati=forma di accodato|accódati=forma di accodarsi
 accollati	accollati=plurale di accollato|accòllati=forma di accollarsi
 accomiatati	accomiatati=forma di accomiatato|accomiàtati=forma di accomiatarsi
 accommiatati	accommiatati=forma di accommiatato|accommiàtati=forma di accommiatarsi
-accomodati	accòmodati=verbo|accomodati=forma di accomodato
+accomodati	accomodati=forma di accomodato|accòmodati=verbo
 acconciati	acconciati=forma di acconciato|accónciati=forma di acconciarsi
 accorre	accòrre=variante di accogliere|accórre=terza persona singolare dell'indicativo presente di accorrere
 accorsi	accórsi=prima persona singolare dell'indicativo passato remoto di accorrere · forma di accorso|accòrsi=prima persona singolare dell'indicativo passato remoto di accorgersi
@@ -70,7 +70,7 @@ adulteri	adùlteri=maschile plurale di adultero · seconda persona singolare del
 adultero	adùltero=relativo all'adulterio · uomo che ha commesso o che commette adulterio|adultèro=variante di adulterio
 affacciati	affacciati=forma di affacciato|affàcciati=forma di affacciarsi
 affannati	affannati=plurale di affannato|affànnati=forma di affannarsi
-affaticati	affatìcati=forma di affaticarsi|affaticati=plurale di affaticato
+affaticati	affaticati=plurale di affaticato|affatìcati=forma di affaticarsi
 afferrati	afferrati=forma di afferrato|affèrrati=forma di afferrarsi
 affetta	affètta=forma di affetto
 affetti	affètti=femminile plurale di affetto
@@ -95,7 +95,7 @@ aggrumati	aggrumati=forma di aggrumato|aggrùmati=forma di aggrumarsi
 aggruppati	aggruppati=forma di aggruppato|aggrùppati=forma di aggrupparsi
 agguagliati	agguagliati=forma di agguagliato|agguàgliati=forma di agguagliarsi
 agita	agita=forma di agito|àgita=terza persona singolare dell'indicativo presente di agitare
-agitati	àgitati=verbo|agitati=plurale di agitato
+agitati	agitati=plurale di agitato|àgitati=verbo
 agiti	agiti=forma di agito|àgiti=seconda persona singolare indicativo presente di agitare
 agito	agito=participio passato di agire|àgito=prima persona singolare dell'indicativo presente di agitare
 aguzzino	agużżino=chi controllava e infliggeva castighi ai rematori delle navi|agùżżino=terza persona plurale del congiuntivo presente di aguzzare
@@ -117,9 +117,9 @@ alteri	altèri=maschile plurale di altero|àlteri=seconda persona singolare dell
 alternati	alternati=forma di alternato|altèrnati=forma di alternarsi
 altero	altèro=che ha una alta opinione di sé|àltero=prima persona singolare dell'indicativo presente di alterare
 alzati	alzati=plurale di alzato|àlzati=seconda persona singolare imperativo di alzarsi
-amalgamati	amàlgamati=forma di amalgamarsi|amalgamati=forma di amalgamato
+amalgamati	amalgamati=forma di amalgamato|amàlgamati=forma di amalgamarsi
 amareggiati	amareggiati=plurale di amareggiato|amaréggiati=forma di amareggiarsi
-amati	àmati=verbo|amati=forma di amato
+amati	amati=forma di amato|àmati=verbo
 amatori	amatòri=plurale di amatorio|amatóri=plurale di amatore
 amazzoni	amazzóni=forma di amazzone|amazzòni=forma di amazzonio
 ambito	ambito=participio passato maschile di ambire · che è grandemente desiderato|àmbito=spazio delimitato in cui si compie un'azione
@@ -162,7 +162,7 @@ apparentati	apparèntati=forma di apparentarsi|apparentati=forma di apparentato
 appellati	appellati=forma di appellato|appèllati=forma di appellarsi
 appianati	appianati=forma di appianato|appiànati=forma di appianarsi
 appiccicati	appiccicati=forma di appiccicato|appìccicati=forma di appiccicarsi
-appisolati	appìṡolati=forma di appisolarsi|appiṡolati=forma di appisolato
+appisolati	appiṡolati=forma di appisolato|appìṡolati=forma di appisolarsi
 appoggiati	appoggiati=plurale di appoggiato|appòggiati=forma di appoggiarsi
 appollaiati	appollaiati=forma di appollaiato|appollàiati=forma di appollaiarsi
 appoppati	appoppati=forma di appoppato|appóppati=forma di appopparsi
@@ -198,7 +198,7 @@ aruspici	arùspici=forma di aruspice|aruspici=forma di aruspicio
 ascesi	ascèṡi=pratica spirituale e fisica, composta di preghiera, meditazione,…|ascéṡi=prima persona singolare dell'indicativo passato remoto di ascendere · forma di asceso
 asciugati	asciugati=forma di asciugato|asciùgati=forma di asciugarsi
 asfissiati	asfissiati=forma di asfissiato|asfissìati=forma di asfissiarsi
-aspettati	aspèttati=verbo|aspettati=forma di aspettato
+aspettati	aspettati=forma di aspettato|aspèttati=verbo
 assaggino	assaggino=diminutivo di assaggio|assàggino=terza persona plurale del congiuntivo presente di assaggiare
 assegnatele	assegnàtele=forma di assegnatole
 assegnati	asségnati=verbo|assegnati=forma di assegnato
@@ -244,7 +244,7 @@ autoinvitati	autoinvitati=forma di autoinvitato|autoinvìtati=forma di autoinvit
 autolimitati	autolimitati=forma di autolimitato|autolìmitati=forma di autolimitarsi
 autoproclamati	autoproclamati=forma di autoproclamato|autoproclàmati=forma di autoproclamarsi
 autoregolamentati	autoregolamentati=forma di autoregolamentato|autoregolaméntati=forma di autoregolamentarsi
-autoregolati	autorègolati=forma di autoregolarsi|autoregolati=forma di autoregolato
+autoregolati	autoregolati=forma di autoregolato|autorègolati=forma di autoregolarsi
 autoriparati	autoriparati=forma di autoriparato|autoripàrati=forma di autoripararsi
 autosuggestionati	autosuggestionati=forma di autosuggestionato|autosuggestiónati=forma di autosuggestionarsi
 autotassati	autotassati=forma di autotassato|autotàssati=forma di autotassarsi
@@ -271,7 +271,7 @@ azzurrati	ażżurrati=forma di azzurrato|ażżùrrati=forma di azzurrarsi
 baciati	bàciati=forma di baciarsi|baciati=forma di baciato
 bacino	bacino=recipiente adatto a contenere acqua o liquidi in genere di forma… · forma di bacio|bàcino=forma di baciare
 badati	badati=forma di badato|bàdati=forma di badarsi
-bagnati	bàgnati=participio passato plurale di bagnare|bagnati=maschile plurale di bagnato
+bagnati	bagnati=maschile plurale di bagnato|bàgnati=participio passato plurale di bagnare
 bagnino	bagnino=chi vigila sulla sicurezza di chi frequenta stabilimenti balneari e…|bàgnino=forma di bagnare
 baloccati	baloccati=forma di baloccato|balòccati=forma di baloccarsi
 balzano	balzano=detto di cavallo che presenta delle balze sugli arti|bàlzano=terza persona plurale del presente semplice indicativo di balzare
@@ -283,7 +283,7 @@ batrachi	bàtrachi=forma di batraco|batrachi=forma di batrachio
 battibeccati	battibeccati=forma di battibeccato|battibéccati=forma di battibeccarsi
 bazzica	bàzzica=terza persona singolare dell'indicativo presente di bazzicare
 beati	beati=plurale di beato|bèati=forma di bearsi
-beccati	béccati=forma di beccarsi|beccati=forma di beccato
+beccati	beccati=forma di beccato|béccati=forma di beccarsi
 becchettati	becchettati=forma di becchettato|becchéttati=forma di becchettarsi
 becchino	becchino=persona che per mestiere si occupa della sepoltura o della…|bécchino=terza persona plurale del congiuntivo presente di beccare
 beffati	beffati=forma di beffato|bèffati=forma di beffarsi
@@ -362,7 +362,7 @@ cicatrizzati	cicatriżżati=forma di cicatrizzato|cicatrìżżati=forma di cicat
 cicchino	cicchino=aggettivo|cìcchino=terza persona plurale del congiuntivo presente di ciccare
 ciclopia	ciclopia=presenza di un solo occhio in mezzo alla fronte|ciclòpia=forma di ciclopio
 ciclopie	ciclopie=forma di ciclopia|ciclòpie=forma di ciclopio
-cimentati	ciméntati=forma di cimentarsi|cimentati=forma di cimentato
+cimentati	cimentati=forma di cimentato|ciméntati=forma di cimentarsi
 cinesi	cinéṡi=plurale di cinese
 ciondolino	ciondolino=forma di ciondolo|cióndolino=terza persona plurale del congiuntivo presente di ciondolare
 circolino	circolino=forma di circolo|cìrcolino=terza persona plurale del congiuntivo presente di circolare
@@ -391,16 +391,16 @@ compiti	còmpiti=seconda persona singolare dell'indicativo presente di compitare
 compito	cómpito=ripartizione di un lavoro che si affida a qualcuno o che ci si…|còmpito=prima persona singolare dell'indicativo presente di compitare|compito=arrivato alla fine
 completino	completino=sostantivo|complètino=terza persona plurale del congiuntivo presente di completare
 complimentati	complimentati=forma di complimentato|compliméntati=participio passato maschile plurale di complimentare, complimentarsi
-comprati	cómprati=forma di comprarsi|comprati=forma di comprato
+comprati	comprati=forma di comprato|cómprati=forma di comprarsi
 comunicati	comunicati=forma di comunicato|comùnicati=forma di comunicarsi
-concentrati	concèntrati=verbo|concentrati=plurale di concentrato
+concentrati	concentrati=plurale di concentrato|concèntrati=verbo
 concertati	concertati=forma di concertato|concèrtati=forma di concertarsi
 conciliati	conciliati=forma di conciliato|concilìati=forma di conciliarsi
 concretizzati	concretiżżati=forma di concretizzato|concretìżżati=forma di concretizzarsi
 condannati	condannati=plurale di condannato|condànnati=forma di condannarsi
 condomini	condòmini=(comproprietari)) plurale di condomino|condomini=forma di condominio
 confederati	confederati=forma di confederato|confèderati=forma di confederarsi
-confidati	confìdati=verbo|confidati=forma di confidato
+confidati	confidati=forma di confidato|confìdati=verbo
 confortati	confortati=forma di confortato|confòrtati=forma di confortarsi
 confrontati	confrontati=forma di confrontato|confróntati=forma di confrontarsi
 congestionati	congestionati=forma di congestionato|congestiónati=forma di congestionarsi
@@ -418,7 +418,7 @@ consigliati	consigliati=forma di consigliato|consiglìati=forma di consigliarsi
 consociati	consociati=forma di consociato|consòciati=forma di consociarsi
 consolati	consolati=forma di consolato|consólati=forma di consolarsi
 consolatori	consolatóri=forma di consolatore|consolatòri=forma di consolatorio
-consoli	consóli=seconda persona singolare dell'indicativo presente di consolare|cònsoli=plurale di console · forma di consolo
+consoli	cònsoli=plurale di console · forma di consolo|consóli=seconda persona singolare dell'indicativo presente di consolare
 consolo	cònsolo=variante di console|consólo=prima persona dell'indicativo presente di consolare
 contaci	contaci=forma di contacio|cóntaci=verbo
 contaminati	contaminati=forma di contaminato|contàminati=forma di contaminarsi
@@ -450,7 +450,7 @@ cosino	coṡino=forma di coso|còṡino=terza persona plurale del congiuntivo pr
 costernati	costernati=forma di costernato|costèrnati=forma di costernarsi
 cotesti	cotésti=pronome
 cotesto	cotésto=pronome|cotèsto=sostantivo
-creati	crèati=verbo|creati=mschile plurale di creato
+creati	creati=mschile plurale di creato|crèati=verbo
 cremino	cremino=cioccolatino con più strati, per esempio alla crema di cioccolato…|crèmino=terza persona plurale del congiuntivo presente di cremare
 crespino	crespino=pianta appartenente alla famiglia delle Berberidacee; la sua…|créspino=forma di crespare
 cristallizzati	cristalliżżati=maschile plurale di cristallizzato|cristallìżżati=forma di cristallizzarsi
@@ -469,7 +469,7 @@ decadi	dècadi=plurale di decade|decadi=seconda persona singolare dell'indicativ
 deconcentrati	deconcentrati=forma di deconcentrato|deconcèntrati=forma di deconcentrarsi
 decongestionati	decongestionati=forma di decongestionato|decongestiónati=forma di decongestionarsi
 decuplicati	decuplicati=forma di decuplicato|decùplicati=forma di decuplicarsi
-dedicati	dèdicati=forma di dedicarsi|dedicati=plurale di dedicato
+dedicati	dedicati=plurale di dedicato|dèdicati=forma di dedicarsi
 degnati	degnati=forma di degnato|dégnati=forma di degnarsi
 deliziati	deliziati=forma di deliziato|delizìati=forma di deliziarsi
 demoni	dèmoni=plurale di demone|demòni=forma di demonio
@@ -516,14 +516,14 @@ disegnino	diṡegnino=forma di disegno|diṡégnino=terza persona plurale del co
 disgelati	diṡgelati=forma di disgelato|diṡgèlati=forma di disgelarsi
 disgregati	diṡgregati=forma di disgregato|diṡgrègati=forma di disgregarsi
 disgustati	diṡgustati=maschile plurale di disgustato|diṡgùstati=forma di disgustarsi
-disidratati	diṡidràtati=forma di disidratarsi|diṡidratati=plurale di disidratato
+disidratati	diṡidratati=plurale di disidratato|diṡidràtati=forma di disidratarsi
 disimpegnati	diṡimpegnati=forma di disimpegnato|diṡimpégnati=forma di disimpegnarsi
 disincagliati	diṡincagliati=forma di disincagliato|diṡincàgliati=forma di disincagliarsi
 disincrostati	diṡincrostati=forma di disincrostato|diṡincròstati=forma di disincrostarsi
 disingannati	diṡingannati=forma di disingannato|diṡingànnati=forma di disingannarsi
 disinnamorati	diṡinnamorati=forma di disinnamorato|diṡinnamórati=forma di disinnamorarsi
 disintegrati	diṡintegrati=forma di disintegrato|diṡìntegrati=forma di disintegrarsi
-disinteressati	diṡinterèssati=forma di disinteressarsi|diṡinteressati=plurale di disinteressato
+disinteressati	diṡinteressati=plurale di disinteressato|diṡinterèssati=forma di disinteressarsi
 disintossicati	diṡintossicati=forma di disintossicato|diṡintòssicati=forma di disintossicarsi
 disobbligati	diṡobbligati=forma di disobbligato|diṡòbbligati=forma di disobbligarsi
 disorganizzati	diṡorganiżżati=forma di disorganizzato|diṡorganìżżati=forma di disorganizzarsi
@@ -544,7 +544,7 @@ disumanati	diṡumanati=forma di disumanato|diṡumànati=forma di disumanarsi
 disumanizzati	diṡumaniżżati=forma di disumanizzato|diṡumanìżżati=forma di disumanizzarsi
 disviati	diṡviati=forma di disviato|diṡvìati=forma di disviarsi
 divagati	divagati=forma di divagato|divàgati=forma di divagarsi
-divertiti	divèrtiti=forma di divertirsi|divertiti=forma di divertito
+divertiti	divertiti=forma di divertito|divèrtiti=forma di divertirsi
 divinatori	divinatóri=forma di divinatore|divinatòri=forma di divinatorio
 divincolati	divincolati=forma di divincolato|divìncolati=forma di divincolarsi
 divorati	divorati=forma di divorato|divórati=forma di divorarsi
@@ -561,7 +561,7 @@ dotati	dotati=forma di dotato|dòtati=forma di dotarsi
 dotto	dòtto=che conosce molti argomenti
 drappeggiati	drappeggiati=forma di drappeggiato|drappéggiati=forma di drappeggiarsi
 drizzati	drizzati=forma di drizzato|drìzzati=forma di drizzarsi
-drogati	drògati=forma di drogarsi|drogati=maschile plurale di drogato
+drogati	drogati=maschile plurale di drogato|drògati=forma di drogarsi
 eccitati	eccitati=forma di eccitato|èccitati=forma di eccitarsi
 eclissati	eclissati=forma di eclissato|eclìssati=forma di eclissarsi
 edotto	edòtto=condotto fuori|edótto=forma di edurre
@@ -624,7 +624,7 @@ fedi	fédi=plurale di fede|fèdi=forma di fedo · forma di fedare
 feltrati	feltrati=forma di feltrato|féltrati=forma di feltrarsi
 feltrino	feltrino=della città di Feltre o del suo distretto · cittadino di Feltre|féltrino=forma di feltrare
 fermano	fermano=di Fermo · abitante di Fermo|férmano=terza persona plurale dell'indicativo presente di fermare
-fermati	férmati=forma di fermarsi|fermati=forma di fermato
+fermati	fermati=forma di fermato|férmati=forma di fermarsi
 fesse	fésse=forma di fessa
 fesso	fésso=participio passato maschile di fendere · che si comporta da stupido
 fiaccati	fiaccati=forma di fiaccato|fiàccati=forma di fiaccarsi
@@ -691,11 +691,11 @@ grandine	gràndine=tipo di precipitazione atmosferica formata da acqua allo stat
 grandini	grandini=forma di grandino|gràndini=forma di grandine · seconda persona singolare dell'indicativo presente di grandinare
 grandino	grandino=forma di grande|gràndino=prima persona singolare dell'indicativo presente di grandinare
 gratificati	gratificati=forma di gratificato|gratìficati=forma di gratificarsi
-grattati	gràttati=forma di grattarsi|grattati=forma di grattato
+grattati	grattati=forma di grattato|gràttati=forma di grattarsi
 grattino	grattino=sostantivo|gràttino=terza persona plurale del congiuntivo presente di grattare
 grippati	grippati=forma di grippato|grìppati=forma di gripparsi
-guardati	guàrdati=forma di guardarsi|guardati=forma di guardato
-identificati	identìficati=forma di identificarsi|identificati=forma di identificato
+guardati	guardati=forma di guardato|guàrdati=forma di guardarsi
+identificati	identificati=forma di identificato|identìficati=forma di identificarsi
 idratati	idratati=forma di idratato|idràtati=forma di idratarsi
 illuminati	illuminati=forma di illuminato|illùminati=forma di illuminarsi
 imbacuccati	imbacuccati=forma di imbacuccato|imbacùccati=forma di imbacuccarsi
@@ -704,26 +704,26 @@ imbarcati	imbarcati=forma di imbarcato|imbàrcati=forma di imbarcarsi
 imbellettati	imbellettati=plurale di imbellettato|imbelléttati=forma di imbellettarsi
 imbianchino	imbianchino=chi per mestiere imbianca o colora ambienti esterni, interni o muri|imbiànchino=terza persona plurale del congiuntivo presente di imbiancare
 imboscati	imboscati=forma di imboscato|imbòscati=forma di imboscarsi
-imbrancati	imbràncati=forma di imbrancarsi|imbrancati=forma di imbrancato
+imbrancati	imbrancati=forma di imbrancato|imbràncati=forma di imbrancarsi
 imbrattati	imbrattati=forma di imbrattato|imbràttati=forma di imbrattarsi
 imbrigliati	imbrigliati=forma di imbrigliato|imbriglìati=forma di imbrigliarsi
-imbrillantinati	imbrillantìnati=forma di imbrillantinarsi|imbrillantinati=forma di imbrillantinato
+imbrillantinati	imbrillantinati=forma di imbrillantinato|imbrillantìnati=forma di imbrillantinarsi
 imbronciati	imbronciati=femminile di imbronciato|imbrónciati=forma di imbronciarsi
-immaginati	immàginati=verbo|immaginati=forma di immaginato
+immaginati	immaginati=forma di immaginato|immàginati=verbo
 immatricolati	immatricolati=forma di immatricolato|immatrìcolati=forma di immatricolarsi
 immedesimati	immedeṡimati=forma di immedesimato|immedéṡimati=forma di immedesimarsi
 immolati	immolati=forma di immolato|immòlati=forma di immolarsi
 immunizzati	immuniżżati=forma di immunizzato|immunìżżati=forma di immunizzarsi
-impallati	impàllati=forma di impallarsi|impallati=forma di impallato
+impallati	impallati=forma di impallato|impàllati=forma di impallarsi
 impallino	impallino=prima persona singolare dell'indicativo presente di impallinare|impàllino=forma di impallare
 impaludati	impaludati=forma di impaludato|impalùdati=forma di impaludarsi
-impancati	impàncati=verbo|impancati=forma di impancato
+impancati	impancati=forma di impancato|impàncati=verbo
 impaniati	impàniati=forma di impaniarsi|impaniati=forma di impaniato
 impantanati	impantanati=forma di impantanato|impantànati=forma di impantanarsi
 impappinati	impappinati=forma di impappinato|impappìnati=forma di impappinarsi
 impari	ìmpari=che non è pari|impari=seconda persona singolare dell'indicativo presente di imparare
-imparruccati	imparrùccati=forma di imparruccarsi|imparruccati=forma di imparruccato
-impataccati	impatàccati=forma di impataccarsi|impataccati=forma di impataccato
+imparruccati	imparruccati=forma di imparruccato|imparrùccati=forma di imparruccarsi
+impataccati	impataccati=forma di impataccato|impatàccati=forma di impataccarsi
 impeditivi	impedìtivi=forma di impeditovi|impeditivi=forma di impeditivo
 impelagati	impelagati=forma di impelagato|impèlagati=forma di impelagarsi
 impennati	impennati=forma di impennato|impénnati=forma di impennarsi
@@ -743,7 +743,7 @@ imporporati	imporporati=forma di imporporato|impórporati=forma di imporporarsi
 impossessati	impossessati=forma di impossessato|impossèssati=forma di impossessarsi
 impuntati	impuntati=forma di impuntato|impùntati=forma di impuntarsi
 impupati	impupati=forma di impupato|impùpati=forma di impuparsi
-inabissati	inabìssati=forma di inabissarsi|inabissati=forma di inabissato
+inabissati	inabissati=forma di inabissato|inabìssati=forma di inabissarsi
 inalberati	inalberati=forma di inalberato|inàlberati=forma di inalberarsi
 inarcati	inarcati=forma di inarcato|inàrcati=forma di inarcarsi
 incacchiati	incacchiati=forma di incacchiato|incàcchiati=forma di incacchiarsi
@@ -758,7 +758,7 @@ incaricati	incaricati=plurale di incaricato|incàricati=forma di incaricarsi
 incarnati	incarnati=forma di incarnato|incàrnati=forma di incarnarsi
 incasinati	incaṡinati=forma di incasinato|incaṡìnati=forma di incasinarsi
 incastrati	incastrati=forma di incastrato|incàstrati=forma di incastrarsi
-incavolati	incàvolati=forma di incavolarsi|incavolati=forma di incavolato
+incavolati	incavolati=forma di incavolato|incàvolati=forma di incavolarsi
 incentrati	incentrati=forma di incentrato|incèntrati=forma di incentrarsi
 inceppati	inceppati=forma di inceppato|incéppati=forma di incepparsi
 incipriati	incipriati=forma di incipriato|inciprìati=forma di incipriarsi
@@ -807,7 +807,7 @@ infrattati	infrattati=forma di infrattato|infràttati=forma di infrattarsi
 infreddati	infreddati=forma di infreddato|infréddati=forma di infreddarsi
 infuocati	infuocati=plurale di infuocato|infuòcati=forma di infuocarsi
 ingarbugliati	ingarbugliati=plurale di ingarbugliato|ingarbùgliati=forma di ingarbugliarsi
-ingavonati	ingavónati=forma di ingavonarsi|ingavonati=forma di ingavonato
+ingavonati	ingavonati=forma di ingavonato|ingavónati=forma di ingavonarsi
 ingegnati	ingegnati=forma di ingegnato|ingégnati=forma di ingegnarsi
 ingobbi	ingòbbi=plurale di ingobbio|ingóbbi=forma di ingobbiare
 ingobbio	ingòbbio=impasto argilloso liquido con cui si riveste una ceramica prima di…
@@ -828,7 +828,7 @@ inoltrati	inoltrati=plurale di inoltrato|inóltrati=forma di inoltrarsi
 inquietati	inquietati=forma di inquietato|inquiètati=forma di inquietarsi
 insabbiati	insabbiati=forma di insabbiato|insàbbiati=forma di insabbiarsi
 insanguinati	insanguinati=plurale di insanguinato|insànguinati=forma di insanguinarsi
-insaponati	insapónati=forma di insaponarsi|insaponati=forma di insaponato
+insaponati	insaponati=forma di insaponato|insapónati=forma di insaponarsi
 insozzati	insozzati=forma di insozzato|insózzati=forma di insozzarsi
 insudiciati	insudiciati=forma di insudiciato|insùdiciati=forma di insudiciarsi
 intarlati	intarlati=forma di intarlato|intàrlati=forma di intarlarsi
@@ -842,10 +842,10 @@ intrecciati	intrecciati=forma di intrecciato|intrécciati=forma di intrecciarsi
 intrigati	intrigati=forma di intrigato|intrìgati=forma di intrigarsi
 intrippati	intrippati=forma di intrippato|intrìppati=forma di intripparsi
 intrugliati	intrugliati=forma di intrugliato|intrùgliati=forma di intrugliarsi
-intruppati	intrùppati=forma di intrupparsi|intruppati=forma di intruppato
-inurbati	inùrbati=forma di inurbarsi|inurbati=forma di inurbato
-invaginati	invagìnati=forma di invaginarsi|invaginati=forma di invaginato
-inviati	invìati=forma di inviarsi|inviati=forma di inviato
+intruppati	intruppati=forma di intruppato|intrùppati=forma di intrupparsi
+inurbati	inurbati=forma di inurbato|inùrbati=forma di inurbarsi
+invaginati	invaginati=forma di invaginato|invagìnati=forma di invaginarsi
+inviati	inviati=forma di inviato|invìati=forma di inviarsi
 invischiati	invischiati=forma di invischiato|invischìati=forma di invischiarsi
 involati	involati=forma di involato|invólati=forma di involarsi
 involtati	involtati=forma di involtato|invòltati=forma di involtarsi
@@ -863,7 +863,7 @@ lacerati	lacerati=forma di lacerato|làcerati=forma di lacerarsi
 lagnati	lagnati=forma di lagnato|làgnati=forma di lagnarsi
 lambiccati	lambiccati=plurale di lambiccato|lambìccati=forma di lambiccarsi
 lampeggio	lampéggio=prima persona singolare dell'indicativo presente di lampeggiare
-lasciati	làsciati=forma di lasciarsi|lasciati=forma di lasciato
+lasciati	lasciati=forma di lasciato|làsciati=forma di lasciarsi
 laureati	laureati=plurale di laureato|làureati=seconda persona singolare dell'imperativo di laurearsi
 lavorati	lavorati=plurale di lavorato|lavórati=forma di lavorarsi
 lavoratori	lavoratóri=plurale di lavoratore|lavoratòri=forma di lavoratorio
@@ -875,11 +875,11 @@ leggere	leggère=plurale di leggero|lèggere=interpretare la scrittura al fine d
 legnati	legnati=forma di legnato|légnati=forma di legnarsi
 lesionati	leṡionati=forma di lesionato|leṡiónati=forma di lesionarsi
 lesse	lèsse=terza persona singolare (irregolare) dell'indicativo passato remoto…|lésse=femminile plurale di lesso
-lessi	léssi=maschile plurale di lesso · seconda persona singolare dell'indicativo presente di lessare|lèssi=prima persona singolare dell'indicativo passato remoto di leggere
+lessi	lèssi=prima persona singolare dell'indicativo passato remoto di leggere|léssi=maschile plurale di lesso · seconda persona singolare dell'indicativo presente di lessare
 lettone	lèttone=della Lettonia
 levita	levita="secondo" livello di sacerdozio nella religione ebraica|lèvita=terza persona singolare dell'indicativo presente di levitare
 leviti	leviti=forma di levita|lèviti=seconda persona singolare dell'indicativo presente di levitare
-liberati	lìberati=verbo|liberati=plurale di liberato
+liberati	liberati=plurale di liberato|lìberati=verbo
 liberatori	liberatóri=forma di liberatore|liberatòri=forma di liberatorio
 licenziati	licenziati=forma di licenziato|licènziati=forma di licenziarsi
 lignificati	lignificati=forma di lignificato|lignìficati=forma di lignificarsi
@@ -976,7 +976,7 @@ nevrotizzati	nevrotiżżati=forma di nevrotizzato|nevrotìżżati=forma di nevro
 no	nò=per niente
 nullificati	nullificati=forma di nullificato|nullìficati=forma di nullificarsi
 numerino	numerino=forma di numero|nùmerino=terza persona plurale del congiuntivo presente di numerare
-nutriti	nùtriti=forma di nutrirsi|nutriti=plurale di nutrito
+nutriti	nutriti=plurale di nutrito|nùtriti=forma di nutrirsi
 obiettivati	obiettivati=forma di obiettivato|obiettìvati=forma di obiettivarsi
 obliati	obliati=forma di obliato|oblìati=forma di obliarsi
 obnubilati	obnubilati=forma di obnubilato|obnùbilati=forma di obnubilarsi
@@ -990,11 +990,11 @@ omini	omini=plurale di omino|òmini=forma di omo
 omologati	omologati=forma di omologato|omòlogati=forma di omologarsi
 oncogene	oncogène=gene che può indurre una cellula a replicarsi fuori controllo…|oncògene=forma di oncogeno
 oncogeni	oncògeni=plurale di oncogeno|oncogèni=forma di oncogene
-operati	òperati=verbo|operati=forma di operato
+operati	operati=forma di operato|òperati=verbo
 oppiano	oppiano=aggettivo|òppiano=terza persona plurale dell'indicativo presente di oppiare
 ora	óra=con senso temporale: in questo momento, in questo istante · si usa in relazione con almeno un altro "ora" e il significato è "in…|òra=indicativo presente, terza persona singolare di orare
 orecchino	orecchino=oggetto ornamentale di varie forme e materiali che viene indossato…|orécchino=forma di orecchiare
-organizzati	organìżżati=forma di organizzarsi|organiżżati=forma di organizzato
+organizzati	organiżżati=forma di organizzato|organìżżati=forma di organizzarsi
 orientati	orientati=forma di orientato|orièntati=forma di orientarsi
 orino	orino=prima persona singolare dell'indicativo presente di orinare|òrino=forma di orare
 orizzontati	oriżżontati=forma di orizzontato|oriżżóntati=forma di orizzontarsi
@@ -1035,7 +1035,7 @@ pendolino	pendolino=minuto pendolo utilizzato da radiestesisti nelle loro sperim
 pene	pène=organo esterno riproduttivo maschile del corpo animale e umano (in…|péne=plurale di pena
 peni	pèni=plurale di pene|péni=forma di penare
 pentiti	pentiti=plurale di pentito|pèntiti=participio passato plurale di pentirsi
-perdonati	perdónati=forma di perdonarsi|perdonati=forma di perdonato
+perdonati	perdonati=forma di perdonato|perdónati=forma di perdonarsi
 perdono	perdóno=remissione del danno o dell'offesa che è stata recata · prima persona singolare presente indicativo di perdonare|pèrdono=terza persona plurale del presente indicativo di perdere
 perfezionati	perfezionati=plurale di perfezionato|perfeziónati=forma di perfezionarsi
 perturbati	perturbati=forma di perturbato|pertùrbati=forma di perturbarsi
@@ -1045,13 +1045,13 @@ peschino	peschino=forma di pesco|péschino=terza persona plurale del congiuntivo
 pesco	pèsco=albero da frutto della famiglia delle Rosacee, alto pressappoco 4-5…|pésco=forma di pescare
 peso	péso=pesante · prima persona singolare dell'indicativo presente di pesare
 peste	péste=femminile plurale di pesto · plurale di pesta|pèste=malattia infettiva e contagiosa, in passato oggetto di numerose…
-pesti	pésti=seconda persona singolare dell' indicativo presente, di pestare · maschile plurale di pesto|pèsti=plurale di peste
+pesti	pèsti=plurale di peste|pésti=seconda persona singolare dell' indicativo presente, di pestare · maschile plurale di pesto
 pettino	pettino=sostantivo|pèttino=prima persona singolare dell'indicativo presente di pettinare
 piano	piano=definizione mancante; se vuoi, aggiungila tu · con flemma|pìano=forma di piare
 piazzati	piazzati=plurale di piazzato|piàzzati=forma di piazzarsi
 picchiati	picchiati=plurale di picchiato|picchìati=forma di picchiarsi
 picciolo	piccìolo=aggettivo
-piegati	piègati=forma di piegarsi|piegati=forma di piegato
+piegati	piegati=forma di piegato|piègati=forma di piegarsi
 pietrificati	pietrificati=forma di pietrificato|pietrìficati=forma di pietrificarsi
 pigmentati	pigmentati=forma di pigmentato|pigméntati=forma di pigmentarsi
 pinace	pinace=sostantivo|pìnace=variante di pinax
@@ -1091,7 +1091,7 @@ predico	prèdico=prima persona singolare dell'indicativo presente di predicare|p
 pregiudicati	pregiudicati=forma di pregiudicato|pregiùdicati=forma di pregiudicarsi
 premurati	premurati=forma di premurato|premùrati=forma di premurarsi
 preoccupati	preoccupati=plurale di preoccupato|preòccupati=forma di preoccuparsi
-preparati	prepàrati=verbo|preparati=plurale di preparato
+preparati	preparati=plurale di preparato|prepàrati=verbo
 prepensionati	prepensionati=forma di prepensionato|prepensiónati=forma di prepensionarsi
 presentino	preṡentino=forma di presente|preṡèntino=terza persona plurale del congiuntivo presente di presentare
 preservati	preservati=forma di preservato|presèrvati=forma di preservarsi
@@ -1120,7 +1120,7 @@ puntino	puntino=diminutivo di punto|pùntino=terza persona plurale del congiunti
 punzecchiati	punżecchiati=forma di punzecchiato|punżécchiati=forma di punzecchiarsi
 punzecchio	punżécchio=prima persona singolare dell'indicativo presente di punzecchiare
 purgati	purgati=forma di purgato|pùrgati=forma di purgarsi
-purificati	purìficati=forma di purificarsi|purificati=forma di purificato
+purificati	purificati=forma di purificato|purìficati=forma di purificarsi
 purificatori	purificatòri=forma di purificatorio|purificatóri=forma di purificatore
 qualificati	qualificati=forma di qualificato|qualìficati=forma di qualificarsi
 quintuplicati	quintuplicati=forma di quintuplicato|quintùplicati=forma di quintuplicarsi
@@ -1138,12 +1138,12 @@ raggelati	raggelati=forma di raggelato|raggèlati=forma di raggelarsi
 raggiustati	raggiustati=forma di raggiustato|raggiùstati=forma di raggiustarsi
 raggomitolati	raggomitolati=plurale di raggomitolato|raggomìtolati=forma di raggomitolarsi
 raggrumati	raggrumati=forma di raggrumato|raggrùmati=forma di raggrumarsi
-raggruppati	raggrùppati=forma di raggrupparsi|raggruppati=plurale di raggruppato
+raggruppati	raggruppati=plurale di raggruppato|raggrùppati=forma di raggrupparsi
 ramificati	ramificati=forma di ramificato|ramìficati=forma di ramificarsi
 ramino	ramino=gioco di carte a punti|ràmino=terza persona plurale del congiuntivo presente di ramare
 rammaricati	rammaricati=plurale di rammaricato|rammàricati=forma di rammaricarsi
 rammemorati	rammemorati=forma di rammemorato|rammèmorati=forma di rammemorarsi
-rammentati	ramméntati=forma di rammentarsi|rammentati=forma di rammentato
+rammentati	rammentati=forma di rammentato|ramméntati=forma di rammentarsi
 rampichino	rampichino=piccolo uccello dei passeriformi|ràmpichino=terza persona plurale del congiuntivo presente di rampicare
 rannicchiati	rannicchiati=forma di rannicchiato|rannicchìati=forma di rannicchiarsi
 rannuvolati	rannuvolati=forma di rannuvolato|rannùvolati=forma di rannuvolarsi
@@ -1151,7 +1151,7 @@ rappacificati	rappacificati=forma di rappacificato|rappacìficati=forma di rappa
 rapportati	rapportati=forma di rapportato|rappòrtati=forma di rapportarsi
 rasati	raṡati=forma di rasato|ràṡati=forma di rasarsi
 rasserenati	rasserenati=forma di rasserenato|rasserénati=forma di rasserenarsi
-rassicurati	rassicùrati=forma di rassicurarsi|rassicurati=forma di rassicurato
+rassicurati	rassicurati=forma di rassicurato|rassicùrati=forma di rassicurarsi
 rassodati	rassodati=forma di rassodato|rassòdati=forma di rassodarsi
 rassottigliati	rassottigliati=forma di rassottigliato|rassottiglìati=forma di rassottigliarsi
 rastremati	rastremati=forma di rastremato|rastrèmati=forma di rastremarsi
@@ -1160,7 +1160,7 @@ ravviati	ravviati=forma di ravviato|ravvìati=forma di ravviarsi
 ravviluppati	ravviluppati=forma di ravviluppato|ravvilùppati=forma di ravvilupparsi
 ravvivati	ravvivati=forma di ravvivato|ravvìvati=forma di ravvivarsi
 ravvoltolati	ravvoltolati=forma di ravvoltolato|ravvòltolati=forma di ravvoltolarsi
-recati	rècati=verbo|recati=forma di recato
+recati	recati=forma di recato|rècati=verbo
 reclinati	reclinati=forma di reclinato|reclìnati=forma di reclinarsi
 reduce	rèduce=ex combattente|reduce=forma di (archaic) redurre
 reduci	rèduci=forma di reduce|reduci=forma di (archaic) redurre
@@ -1209,7 +1209,7 @@ riassorbiti	riassorbiti=forma di riassorbito|riassòrbiti=forma di riassorbirsi
 riavventati	riavventati=forma di riavventato|riavvèntati=forma di riavventarsi
 riavvicinati	riavvicinati=forma di riavvicinato|riavvicìnati=forma di riavvicinarsi
 riazzuffati	riażżuffati=forma di riazzuffato|riażżùffati=forma di riazzuffarsi
-ribaltati	ribàltati=forma di ribaltarsi|ribaltati=forma di ribaltato
+ribaltati	ribaltati=forma di ribaltato|ribàltati=forma di ribaltarsi
 ribolla	ribòlla=sostantivo|ribólla=prima persona singolare del congiuntivo presente di ribollire
 ributtati	ributtati=forma di ributtato|ribùttati=forma di ributtarsi
 ricacciati	ricacciati=forma di ricacciato|ricàcciati=forma di ricacciarsi
@@ -1226,7 +1226,7 @@ riconfermati	riconfermati=forma di riconfermato|riconférmati=forma di riconferm
 riconfortati	riconfortati=forma di riconfortato|riconfòrtati=forma di riconfortarsi
 riconsolati	riconsolati=forma di riconsolato|riconsólati=forma di riconsolarsi
 riconvertiti	riconvertiti=forma di riconvertito|riconvèrtiti=forma di riconvertirsi
-ricordati	ricòrdati=forma di ricordarsi|ricordati=forma di ricordato
+ricordati	ricordati=forma di ricordato|ricòrdati=forma di ricordarsi
 ricordino	ricordino=diminutivo di ricordo|ricòrdino=terza persona plurale del congiuntivo presente di ricordare
 ricoricati	ricoricati=forma di ricoricato|ricòricati=forma di ricoricarsi
 ricristallizzati	ricristalliżżati=forma di ricristallizzato|ricristallìżżati=forma di ricristallizzarsi
@@ -1275,7 +1275,7 @@ riparatori	riparatóri=forma di riparatore|riparatòri=forma di riparatorio
 ripiegati	ripiegati=plurale di ripiegato|ripiègati=forma di ripiegarsi
 ripigliati	ripigliati=forma di ripigliato|ripiglìati=forma di ripigliarsi
 riposati	ripoṡati=plurale di riposato|ripòṡati=forma di riposarsi
-riposi	ripòṡi=forma di riposo · seconda persona singolare dell'indicativo presente di riposare|ripóṡi=terza persona singolare dell'indicativo passato remoto di riporre
+riposi	ripóṡi=terza persona singolare dell'indicativo passato remoto di riporre|ripòṡi=forma di riposo · seconda persona singolare dell'indicativo presente di riposare
 riposino	ripoṡino=momento di riposo di durata limitata, così definito soprattutto per…|ripòṡino=terza persona plurale del congiuntivo presente di riposare
 riposizionati	ripoṡizionati=forma di riposizionato|ripoṡiziónati=forma di riposizionarsi
 ripresentati	ripreṡentati=forma di ripresentato|ripreṡèntati=forma di ripresentarsi
@@ -1294,7 +1294,7 @@ rispecchiati	rispecchiati=forma di rispecchiato|rispècchiati=forma di rispecchi
 risposati	rispoṡati=forma di risposato|rispòṡati=forma di risposarsi
 rissati	rissati=forma di rissato|rìssati=forma di rissarsi
 ristorati	ristorati=forma di ristorato|ristòrati=forma di ristorarsi
-risvegliati	riṡvégliati=forma di risvegliarsi|riṡvegliati=forma di risvegliato
+risvegliati	riṡvegliati=forma di risvegliato|riṡvégliati=forma di risvegliarsi
 ritagliati	ritagliati=forma di ritagliato|ritàgliati=forma di ritagliarsi
 ritemprati	ritemprati=forma di ritemprato|ritémprati=forma di ritemprarsi
 rituffati	rituffati=forma di rituffato|ritùffati=forma di rituffarsi
@@ -1302,7 +1302,7 @@ rivaccinati	rivaccinati=forma di rivaccinato|rivaccìnati=forma di rivaccinarsi
 riverberati	riverberati=forma di riverberato|rivèrberati=forma di riverberarsi
 riversati	riversati=forma di riversato|rivèrsati=forma di riversarsi
 rivestiti	rivestiti=forma di rivestito|rivèstiti=forma di rivestirsi
-rivitalizzati	rivitalìżżati=forma di rivitalizzarsi|rivitaliżżati=forma di rivitalizzato
+rivitalizzati	rivitaliżżati=forma di rivitalizzato|rivitalìżżati=forma di rivitalizzarsi
 rivoli	rìvoli=forma di rivolo|rivóli=seconda persona singolare dell'indicativo presente di rivolare
 rivolo	rìvolo=definizione mancante; se vuoi, aggiungila tu rio, rivo, ruscello,…|rivólo=prima persona singolare dell'indicativo presente di rivolare
 rivoltati	rivoltati=forma di rivoltato|rivòltati=forma di rivoltarsi
@@ -1329,7 +1329,7 @@ sacramentino	sacramentino=aggettivo|sacraméntino=terza persona plurale del cong
 sacrificati	sacrificati=forma di sacrificato|sacrìficati=forma di sacrificarsi
 sagrino	sagrino=sostantivo|sàgrino=terza persona plurale del congiuntivo presente di sagrare
 salino	salino=proprio di un sale|sàlino=terza persona plurale del congiuntivo presente di salare
-sanati	sànati=forma di sanarsi|sanati=forma di sanato
+sanati	sanati=forma di sanato|sànati=forma di sanarsi
 sanguina	sanguina=variante di sanguigna|sànguina=terza persona singolare dell'indicativo presente di sanguinare
 saziati	sàziati=forma di saziarsi|saziati=forma di saziato
 sbaciucchiati	ṡbaciucchiati=forma di sbaciucchiato|ṡbaciùcchiati=forma di sbaciucchiarsi
@@ -1342,12 +1342,12 @@ sbattezzati	ṡbatteżżati=forma di sbattezzato|ṡbattéżżati=forma di sbatt
 sbellicati	ṡbellicati=forma di sbellicato|ṡbèllicati=forma di sbellicarsi
 sbilanciati	ṡbilanciati=plurale di sbilanciato|ṡbilànciati=forma di sbilanciarsi
 sbisorio	ṡbiṡorio=sostantivo|ṡbiṡòrio=prima persona singolare dell'indicativo presente di sbisoriare
-sbloccati	ṡblòccati=forma di sbloccarsi|ṡbloccati=forma di sbloccato
+sbloccati	ṡbloccati=forma di sbloccato|ṡblòccati=forma di sbloccarsi
 sborniati	ṡborniati=forma di sborniato|ṡbòrniati=forma di sborniarsi
 sbottonati	ṡbottonati=forma di sbottonato|ṡbottónati=forma di sbottonarsi
 sbracciati	ṡbracciati=forma di sbracciato|ṡbràcciati=forma di sbracciarsi
 sbramino	ṡbramino=sostantivo|ṡbràmino=terza persona plurale del congiuntivo presente di sbramare
-sbranati	ṡbrànati=forma di sbranarsi|ṡbranati=forma di sbranato
+sbranati	ṡbranati=forma di sbranato|ṡbrànati=forma di sbranarsi
 sbriciolati	ṡbriciolati=forma di sbriciolato|ṡbricìolati=forma di sbriciolarsi
 sbrigati	ṡbrigati=forma di sbrigato|ṡbrìgati=forma di sbrigarsi
 sbrigliati	ṡbrigliati=forma di sbrigliato|ṡbriglìati=forma di sbrigliarsi
@@ -1358,7 +1358,7 @@ sbudellati	ṡbudellati=forma di sbudellato|ṡbudèllati=forma di sbudellarsi
 sbugiardati	ṡbugiardati=forma di sbugiardato|ṡbugiàrdati=forma di sbugiardarsi
 scaccolati	scaccolati=forma di scaccolato|scàccolati=forma di scaccolarsi
 scagionati	scagionati=forma di scagionato|scagiónati=forma di scagionarsi
-scagliati	scàgliati=forma di scagliarsi|scagliati=forma di scagliato
+scagliati	scagliati=forma di scagliato|scàgliati=forma di scagliarsi
 scaldati	scaldati=forma di scaldato|scàldati=forma di scaldarsi
 scaldino	scaldino=definizione mancante; se vuoi, aggiungila tu|scàldino=terza persona plurale del congiuntivo presente di scaldare
 scalino	scalino=elemento orizzontale costitutivo di una scala, che permette…|scàlino=terza persona plurale del congiuntivo presente di scalare
@@ -1376,7 +1376,7 @@ scardinati	scardinati=forma di scardinato|scàrdinati=forma di scardinarsi
 scarmigliati	scarmigliati=plurale di scarmigliato|scarmiglìati=forma di scarmigliarsi
 scartino	scartino=forma di scartinare|scàrtino=terza persona plurale del congiuntivo presente di scartare
 scassati	scassati=forma di scassato|scàssati=forma di scassarsi
-scatenati	scaténati=verbo|scatenati=forma di scatenato
+scatenati	scatenati=forma di scatenato|scaténati=verbo
 scavino	scavino=definizione mancante; se vuoi, aggiungila tu|scàvino=terza persona plurale del congiuntivo presente di scavare
 scervellati	scervellati=plurale di scervellato|scervèllati=forma di scervellarsi
 schiacciati	schiacciati=plurale di schiacciato|schiàcciati=forma di schiacciarsi
@@ -1385,7 +1385,7 @@ schiodati	schiodati=forma di schiodato|schiòdati=forma di schiodarsi
 sciamano	sciamano=in alcune religioni primitive, individuo a cui si attribuisce…|sciàmano=forma di sciamare
 sciancati	sciancati=forma di sciancato|sciàncati=forma di sciancarsi
 sciocchino	sciocchino=forma di sciocco|sciòcchino=terza persona plurale del congiuntivo presente di scioccare
-sciupati	sciùpati=forma di sciuparsi|sciupati=forma di sciupato
+sciupati	sciupati=forma di sciupato|sciùpati=forma di sciuparsi
 scleroso	scleróso=aggettivo|scleròṡo=prima persona singolare dell'indicativo presente di sclerosare
 sclerotizzati	sclerotiżżati=forma di sclerotizzato|sclerotìżżati=forma di sclerotizzarsi
 scola	scòla=variante di scuola|scóla=forma di scolare
@@ -1406,7 +1406,7 @@ scopo	scòpo=intento a cui si mira|scópo=prima persona singolare dell'indicativ
 scoraggiati	scoraggiati=forma di scoraggiato|scoràggiati=forma di scoraggiarsi
 scorati	scorati=forma di scorato|scòrati=forma di scorarsi
 scorciati	scorciati=forma di scorciato|scórciati=forma di scorciarsi
-scordati	scòrdati=forma di scordarsi|scordati=forma di scordato
+scordati	scordati=forma di scordato|scòrdati=forma di scordarsi
 scornati	scornati=forma di scornato|scòrnati=forma di scornarsi
 scorregge	scorrégge=forma di scorreggia|scorrègge=forma di scorreggere
 scorticati	scorticati=forma di scorticato|scórticati=forma di scorticarsi
@@ -1423,7 +1423,7 @@ scultori	scultòri=forma di scultorio|scultóri=maschile plurale di scultore
 sdebitati	ṡdebitati=forma di sdebitato|ṡdébitati=forma di sdebitarsi
 sdegnati	ṡdegnati=forma di sdegnato|ṡdégnati=forma di sdegnarsi
 sdentati	ṡdentati=forma di sdentato|ṡdèntati=forma di sdentarsi
-sdoppiati	ṡdóppiati=forma di sdoppiarsi|ṡdoppiati=forma di sdoppiato
+sdoppiati	ṡdoppiati=forma di sdoppiato|ṡdóppiati=forma di sdoppiarsi
 sdraiati	ṡdraiati=forma di sdraiato|ṡdràiati=forma di sdraiarsi
 sdruciti	ṡdruciti=plurale di sdrucito|ṡdrùciti=forma di sdrucirsi
 seccati	seccati=forma di seccato|séccati=forma di seccarsi
@@ -1434,7 +1434,7 @@ sellino	sellino=Oggetto di forma triangolare costituito da gomma piuma nel quale
 semita	semita=aggettivo
 seni	séni=plurale di seno|sèni=forma di sene · forma di senio
 sensori	sensóri=plurale di sensore|sensòri=forma di sensorio
-sentiti	sèntiti=participio passato plurale di sentire|sentiti=forma di sentito
+sentiti	sentiti=forma di sentito|sèntiti=participio passato plurale di sentire
 serbati	serbati=forma di serbato|sèrbati=forma di serbarsi
 serenati	serenati=forma di serenato|serénati=forma di serenarsi
 serrati	serrati=forma di serrato|sèrrati=forma di serrarsi
@@ -1474,7 +1474,7 @@ situati	situati=plurale di situato|sìtuati=forma di situarsi
 slacciati	ṡlacciati=forma di slacciato|ṡlàcciati=forma di slacciarsi
 slanciati	ṡlànciati=forma di slanciarsi|ṡlanciati=forma di slanciato
 slargati	ṡlargati=forma di slargato|ṡlàrgati=forma di slargarsi
-slegati	ṡlégati=forma di slegarsi|ṡlegati=forma di slegato
+slegati	ṡlegati=forma di slegato|ṡlégati=forma di slegarsi
 slittino	ṡlittino=definizione mancante; se vuoi, aggiungila tu|ṡlìttino=terza persona plurale del congiuntivo presente di slittare
 smagliati	ṡmagliati=forma di smagliato|ṡmàgliati=forma di smagliarsi
 smagnetizzati	ṡmagnetiżżati=forma di smagnetizzato|ṡmagnetìżżati=forma di smagnetizzarsi
@@ -1504,11 +1504,11 @@ somigliati	somigliati=forma di somigliato|somiglìati=forma di somigliarsi
 sonniloqui	sonnilòqui=forma di sonniloquio|sonnìloqui=forma di sonniloquo
 sono	sóno=1ª pers sing presente semplice indicativo di essere|sòno=variante di suono · forma di suonare
 sopraelevati	sopraelevati=forma di sopraelevato|sopraelèvati=forma di sopraelevarsi
-sopravvalutati	sopravvàlutati=forma di sopravvalutarsi|sopravvalutati=forma di sopravvalutato
+sopravvalutati	sopravvalutati=forma di sopravvalutato|sopravvàlutati=forma di sopravvalutarsi
 sorbino	sorbino=aggettivo|sòrbino=terza persona plurale del congiuntivo presente di sorbare
 sortilegi	sortìlegi=forma di sortilego|sortilègi=plurale di sortilegio
 sostanziati	sostanziati=forma di sostanziato|sostànziati=forma di sostanziarsi
-sottovalutati	sottovàlutati=forma di sottovalutarsi|sottovalutati=forma di sottovalutato
+sottovalutati	sottovalutati=forma di sottovalutato|sottovàlutati=forma di sottovalutarsi
 sovraffaticati	sovraffaticati=forma di sovraffaticato|sovraffatìcati=forma di sovraffaticarsi
 spaccino	spàccino=terza persona plurale del congiuntivo presente di spacciare|spaccino=sostantivo
 spalancati	spalàncati=forma di spalancarsi|spalancati=forma di spalancato
@@ -1544,7 +1544,7 @@ spolmonati	spolmonati=forma di spolmonato|spolmónati=forma di spolmonarsi
 spolverino	spolverino=soprabito leggero e lungo per le mezze stagioni|spólverino=terza persona plurale del congiuntivo presente di spolverare
 spopolati	spopolati=forma di spopolato|spòpolati=forma di spopolarsi
 sposino	spoṡino=sostantivo|spòṡino=terza persona plurale del congiuntivo presente di sposare
-spostati	spòstati=forma di spostarsi|spostati=forma di spostato
+spostati	spostati=forma di spostato|spòstati=forma di spostarsi
 spretati	spretati=forma di spretato|sprètati=forma di spretarsi
 sprigionati	sprigionati=forma di sprigionato|sprigiónati=forma di sprigionarsi
 sprofondati	sprofondati=forma di sprofondato|sprofóndati=forma di sprofondarsi
@@ -1571,7 +1571,7 @@ stivale	stivale=scarpa di gomma o cuoio che raggiunge il ginocchio, la coscia o 
 stivali	stìvali=verbo|stivali=forma di stivale · forma di stivalare
 stolte	stólte=forma di stolta
 stolto	stólto=definizione mancante; se vuoi, aggiungila tu|stòlto=forma di stogliere
-stomacati	stòmacati=forma di stomacarsi|stomacati=forma di stomacato
+stomacati	stomacati=forma di stomacato|stòmacati=forma di stomacarsi
 stoppa	stóppa=cascame di fibre vegetali
 stoppino	stoppino=fibra con la quale si fabbrica il lucignolo delle candele
 strabiliati	strabiliati=forma di strabiliato|strabilìati=forma di strabiliarsi
@@ -1587,8 +1587,8 @@ strozzino	strozzino=chi cede denaro a forte interesse|stròzzino=forma di strozz
 struccati	struccati=forma di struccato|strùccati=forma di struccarsi
 strusciati	strusciati=forma di strusciato|strùsciati=forma di strusciarsi
 strutturati	strutturati=forma di strutturato|struttùrati=forma di strutturarsi
-studiati	stùdiati=verbo|studiati=plurale di studiato
-stufati	stùfati=verbo|stufati=forma di stufato
+studiati	studiati=plurale di studiato|stùdiati=verbo
+stufati	stufati=forma di stufato|stùfati=verbo
 stuzzicati	stuzzicati=forma di stuzzicato|stùzzicati=forma di stuzzicarsi
 stuzzichino	stuzzichino=chi è solito provocare gli altri|stùzzichino=terza persona plurale del congiuntivo presente di stuzzicare
 subito	sùbito=senza ritardo|subito=participio passato maschile singolare di subire
@@ -1626,11 +1626,11 @@ teli	téli=seconda persona singolare dell'indicativo presente di telare
 temperino	temperino=coltellino tascabile a serramanico|témperino=forma di temperare
 tendine	tèndine=femminile plurale del diminutivo di tenda|tendine=forma di tendina
 tenere	tenére=stringere in mano o con una mano|tènere=forma di tenero
-tesi	tési=plurale di teso · indicativo passato remoto, prima persona singolare di tendere|tèsi=studio scritto che un esaminando espone e discute di fronte a un…
+tesi	tèsi=studio scritto che un esaminando espone e discute di fronte a un…|tési=plurale di teso · indicativo passato remoto, prima persona singolare di tendere
 tesserino	tesserino=forma di tessera|tèsserino=terza persona plurale del congiuntivo presente di tesserare
 tirati	tirati=plurale di tirato|tìrati=forma di tirarsi
 tocca	tócca=forma di tocco · terza persona singolare dell'indicativo presente di toccare
-toccati	tóccati=verbo|toccati=forma di toccato
+toccati	toccati=forma di toccato|tóccati=verbo
 tocche	tócche=forma di tocco
 tocchi	tócchi=seconda persona singolare dell'indicativo presente di toccare
 tocco	tócco=(di frutto) che è schiacciato · prima persona singolare dell'indicativo presente di toccare
@@ -1659,14 +1659,14 @@ trasportino	trasportino=sostantivo|traspòrtino=terza persona plurale del congiu
 traversino	traversino=sostantivo|travèrsino=terza persona plurale del congiuntivo presente di traversare
 triangolino	triangolino=sostantivo|triàngolino=terza persona plurale del congiuntivo presente di triangolare
 trimpellino	trimpellino=sostantivo|trimpèllino=forma di trottolare
-triplicati	trìplicati=forma di triplicarsi|triplicati=forma di triplicato
+triplicati	triplicati=forma di triplicato|trìplicati=forma di triplicarsi
 tritolo	trìtolo=forma di tritolare
 tritoni	tritóni=plurale di tritone|trìtoni=forma di tritono
 trottolino	trottolino=forma di trottola|tròttolino=terza persona plurale del congiuntivo presente di trottolare
-trovati	tròvati=verbo|trovati=forma di trovato
+trovati	trovati=forma di trovato|tròvati=verbo
 truccati	truccati=forma di truccato|trùccati=forma di truccarsi
 tubino	tubino=cappello da uomo|tùbino=forma di tubare
-tuffati	tùffati=forma di tuffarsi|tuffati=forma di tuffato
+tuffati	tuffati=forma di tuffato|tùffati=forma di tuffarsi
 turbine	tùrbine=raffica impetuosa di vento che si gira su se stessa, con un…|turbine=plurale di turbina
 tutelati	tutelati=forma di tutelato|tutèlati=forma di tutelarsi
 ubero	ùbero=sostantivo|ubèro=aggettivo
@@ -1681,7 +1681,7 @@ vaccinati	vaccinati=plurale di vaccinato|vaccìnati=forma di vaccinarsi
 vagheggino	vagheggino=Giovane, per lo più fatuo e leggero, che fa il galante con le donne;…|vaghéggino=terza persona plurale del congiuntivo presente di vagheggiare
 valorizzati	valoriżżati=forma di valorizzato|valorìżżati=forma di valorizzarsi
 vanagloriati	vanagloriati=forma di vanagloriato|vanaglòriati=forma di vanagloriarsi
-vaporizzati	vaporìżżati=forma di vaporizzarsi|vaporiżżati=forma di vaporizzato
+vaporizzati	vaporiżżati=forma di vaporizzato|vaporìżżati=forma di vaporizzarsi
 varano	varano=definizione mancante; se vuoi, aggiungila tu|vàrano=terza persona plurale dell'indicativo presente di varare
 vasomotori	vaṡomotóri=forma di vasomotore|vaṡomotòri=forma di vasomotorio
 vecchio	vècchio=di lunga età
@@ -1696,14 +1696,14 @@ vendi	véndi=seconda persona singolare dell'indicativo presente di vendere|vènd
 vendo	vèndo=aggettivo · sostantivo|véndo=1ª persona singolare del presente semplice indicativo di vendere
 venti	vénti=numero naturale che segue il diciannove e precede il ventuno; è pari…|vènti=plurale di vento
 vergognati	vergognati=forma di vergognato|vergógnati=forma di vergognarsi
-verificati	verìficati=forma di verificarsi|verificati=forma di verificato
+verificati	verificati=forma di verificato|verìficati=forma di verificarsi
 vernino	vernino=aggettivo|vèrnino=terza persona plurale del congiuntivo presente di vernare
 versori	versóri=forma di versore|versòri=forma di versorio
 vestiti	vestiti=plurale di vestito|vèstiti=forma di vestirsi
 vezzeggiati	vezzeggiati=forma di vezzeggiato|vezzéggiati=forma di vezzeggiarsi
 videotelefonino	videotelefonino=sostantivo|videotelèfonino=forma di videotelefonare
 viola	viòla=di colore violaceo · colore secondario dato dall'unione di rosso e blu|vìola=terza persona singolare dell'indicativo presente di violare
-violi	vìoli=seconda persona singolare dell'indicativo presente di violare|viòli=forma di violo
+violi	viòli=forma di violo|vìoli=seconda persona singolare dell'indicativo presente di violare
 violino	violino=strumento musicale ad arco della famiglia delle viole, formato da…|vìolino=terza persona plurale del congiuntivo presente di violare
 violo	viòlo=pianta che produce i fiori viole|vìolo=prima persona singolare dell'indicativo presente di violare
 vistosi	vìstosi=verbo|vistósi=plurale di vistoso
@@ -1714,11 +1714,11 @@ vocio	vocio=definizione mancante; se vuoi, aggiungila tu|vócio=prima persona si
 volano	volano=organo meccanico rotante costruito con una grossa massa (relativa…|vólano=terza persona plurale indicativo presente di volare
 volatilizzati	volatiliżżati=forma di volatilizzato|volatilìżżati=forma di volatilizzarsi
 volgo	vólgo=moltitudine di persone che facevano parte del popolo poco colto,…|vòlgo=prima persona singolare indicativo presente di volgere
-voltati	vòltati=forma di voltarsi|voltati=forma di voltato
+voltati	voltati=forma di voltato|vòltati=forma di voltarsi
 volti	vòlti=seconda persona singolare dell'indicativo presente di voltare
 volto	vólto=viso umano, faccia, aspetto|vòlto=participio passato maschile singolare di volgere · che è girato
 voltolati	voltolati=forma di voltolato|vòltolati=forma di voltolarsi
-vomiti	vòmiti=seconda persona singolare dell'indicativo presente di vomitare|vomiti=plurale di vomito
+vomiti	vomiti=plurale di vomito|vòmiti=seconda persona singolare dell'indicativo presente di vomitare
 vomito	vòmito=espulsione rapida di materiale dello stomaco attraverso la bocca,… · prima persona singolare presente indicativo di vomitare|vomito=forma di vomire
 vora	vòra=sostantivo|vóra=terza persona singolare dell'indicativo presente di vorare
 vota	vóta=terza persona singolare dell'indicativo presente di votare|vòta=forma di voto

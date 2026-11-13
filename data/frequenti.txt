@@ -989,7 +989,7 @@ tenére;tènere
 vediamo
 vinto
 voluto
-vóti;vòti
+vóti;vòti@I
 accèsso
 anàliṡi
 colóro
@@ -1099,7 +1099,7 @@ massa
 mèdio
 méssa
 natale
-nómi~nòmi@V!
+nómi;nòmi@I!
 oggètto
 opinióne
 òttimo
@@ -1245,7 +1245,7 @@ associazióne
 avèndo
 categoria
 decréto~decrèto@V
-èssi~éssi@V!
+éssi;èssi@I!
 fame
 farmi
 finché	finché
@@ -1824,7 +1824,7 @@ oddio
 òlio
 ónda
 pane
-passati~pàssati@A!
+passati;pàssati@I!
 pensando
 pòrte~pórte@V
 quégli
@@ -2014,11 +2014,11 @@ regalo
 sapéte
 sémplici
 successivaménte
-tési~tèṡi@VS+~teṡì@AS+~téṡi@S;tèsi
+tèsi~tèṡi@VS+~teṡì@AS+~téṡi@S;tési@I
 tòcca;tócca
 utiliżżare
 védono
-vestiti;vèstiti
+vestiti;vèstiti@I
 andate
 banche
 blòcco
@@ -2085,7 +2085,7 @@ pensiéri
 piède~piéde@V
 pizza
 potéri
-privati;prìvati
+privati;prìvati@I
 procèssi
 propóne!
 reali
@@ -2775,7 +2775,7 @@ benvenuto
 bloccato
 bòsco~bósco@V:Rg
 calma
-candidati;càndidati
+candidati;càndidati@I
 chiamate!
 ciascuno
 circolare
@@ -2980,7 +2980,7 @@ cima
 civiltà	civiltà
 coglióni
 competènza
-compiti;còmpiti;cómpiti
+compiti;còmpiti@I;cómpiti@I
 conségna
 consènte!
 controllato
@@ -3216,14 +3216,14 @@ brèvi
 càvolo
 cazzate!
 cèlebre
-chiàmati!
+chiamati;chiàmati@I!
 chiude
 cifre
 colpévole
 compréṡa~comprésa@S
 comunicazióni
 concessióne
-consìderati!
+considerati;consìderati@I!
 coróna
 critèri
 dirètti!
@@ -3316,7 +3316,7 @@ gò~gó@V
 gratùito~gratuito@A+
 impiegato
 insegnato
-mòbili;mobili
+mòbili;mobili@I
 modìfiche!
 omaggio
 ór
@@ -3409,7 +3409,7 @@ tièni~tiéni@V!
 tròppe
 univèrso
 valutare
-viòla;vìola
+viòla;vìola@I
 volontari
 accogliènza
 affermazióne
@@ -3778,7 +3778,7 @@ apparenteménte
 applicare
 assicurare
 attaccare
-avèrla;avérla
+avèrla;avérla@I
 benżina
 bottiglia
 cavalière
@@ -3833,7 +3833,7 @@ strétta
 ṡvòlgere
 temporale
 tròppa
-tròvati;trovati
+trovati;tròvati@I
 uccisi!
 utiliżża
 vincitóri
@@ -3874,7 +3874,7 @@ gràfica
 grèci
 gusti
 introdótto
-làsciati;lasciati
+lasciati;làsciati@I
 miràcolo
 modèrni!
 monuménto
@@ -3911,7 +3911,7 @@ volumi
 accadèmia
 aggiornaménti!
 alleanza
-alleati;allèati
+alleati;allèati@I
 amministratóre
 ampiaménte
 atmosfèra
@@ -3958,7 +3958,7 @@ ottiène~ottiéne@V!
 passeggèri!
 paviménto
 poeṡie!
-portati~pòrtati@A!
+portati;pòrtati@I!
 precedenteménte
 promòsso
 propórre
@@ -4077,7 +4077,7 @@ curare
 dante
 definita!
 descrive
-destinati;destìnati
+destinati;destìnati@I
 determinare
 determinazióne
 dir
@@ -4143,7 +4143,7 @@ aggiornato
 altaménte
 amór
 apparire
-armati;àrmati
+armati;àrmati@I
 armato
 arriverà	arriverà
 aspèttano
@@ -4340,7 +4340,7 @@ operare
 pittóre
 polèmiche
 preciṡaménte
-prepàrati;preparati
+preparati;prepàrati@I
 puttana
 rimase!
 rivedére
@@ -4410,7 +4410,7 @@ punizióne
 quadri
 quòte!
 ragazzino
-realiżżati~realìżżati@A!
+realiżżati;realìżżati@I!
 recensióne
 regali
 registrare
@@ -4484,7 +4484,7 @@ fìṡiche
 futura
 godére
 idiòti!
-impégnati!
+impegnati;impégnati@I!
 incidènti!
 increménto
 invita!
@@ -4592,7 +4592,7 @@ postato!
 prospettive
 pulita!
 raro
-ricòrdati;ricordati
+ricordati;ricòrdati@I
 ricordiamo!
 riéntra
 rispóndi!
@@ -4614,7 +4614,7 @@ ucraina!
 uni
 véscovi!
 vóli!
-vólti;vòlti
+vólti;vòlti@I
 vorrà	vorrà
 accòlto
 amanti
@@ -4745,7 +4745,7 @@ preferita!
 prendiamo!
 progrèssi!
 pròvi
-registrati;regìstrati
+registrati;regìstrati@I
 rètro
 richiamo
 riconosciuta!
@@ -4795,7 +4795,7 @@ cosiddétto~coṡiddétto@S
 costrùzioni!
 cuòri
 dèbbano~débbano@V
-dèdicati;dedicati
+dedicati;dèdicati@I
 difficilménte
 effettuato
 espressióni!
@@ -4879,7 +4879,7 @@ contenére
 creature
 cròllo
 dan
-determinati~detèrminati@A!
+determinati;detèrminati@I!
 diminuzióne
 dispóne!
 divide
@@ -4890,7 +4890,7 @@ eliminazióne
 esploṡióne
 estrèmo
 fèrie!
-figurati;figùrati
+figurati;figùrati@I
 finali
 fumétto
 giusti!
@@ -5005,7 +5005,7 @@ mòdulo
 napoletano
 orale
 padróni!
-pagati~pàgati@A!
+pagati;pàgati@I!
 patènte
 piattafórme!
 portoghése~portoghéṡe@S
@@ -5183,7 +5183,7 @@ infinito
 intènso
 interviste!
 intéṡo~intéso@S
-invitati~invìtati@A!
+invitati;invìtati@I!
 iṡolaménto
 istituzionale
 magażżino
@@ -5198,7 +5198,7 @@ proveniènza
 puntéggio
 rècita
 residènte~reṡidènte@S
-rifugiati~rifùgiati@A!
+rifugiati;rifùgiati@I!
 risórsa~riṡórsa@S~riṡòrsa@VS~risòrsa@V
 romèo
 salóne
@@ -5427,7 +5427,7 @@ cast
 cercate!
 circondato
 coinvolgiménto
-collegati~collègati@A;collégati
+collegati~collègati@A;collégati@I
 colpita!
 conservare
 consumi!
@@ -5471,7 +5471,7 @@ parlate
 passò	passò
 potévi!
 prèda
-preṡèntati!
+preṡentati;preṡèntati@I!
 puzza
 ragionaménto
 ride
@@ -5529,7 +5529,7 @@ favorévoli
 filòṡofo
 finanziarie!
 fòggia
-formati;fórmati
+formati;fórmati@I
 frequentare
 frequentato
 geogràfica
@@ -5546,7 +5546,7 @@ mèdiche
 muòiono
 nido
 notevolménte
-organìżżati;organiżżati
+organiżżati;organìżżati@I
 ossìgeno
 pagaménti!
 paràmetri
@@ -5607,7 +5607,7 @@ conquistato
 consigliato!
 consulènza
 contèa
-crèati;creati
+creati;crèati@I
 crudèle
 deluṡióne
 dipinti
@@ -5665,7 +5665,7 @@ ricostruire
 rilevanti!
 rimozióne
 rinuncia
-ripòrtati!
+riportati;ripòrtati@I!
 scappa
 ségui~sègui@V
 sembrerèbbe~sembrerébbe@V!
@@ -5728,7 +5728,7 @@ fango
 fàvola
 ferrovie
 fibra
-fidati;fìdati
+fidati;fìdati@I
 filmato
 finirà	finirà!
 funghi
@@ -5899,7 +5899,7 @@ sparire
 spiagge
 spiègo~spiégo@V
 spònsor
-spòṡi~spósi@VS!
+spósi;spòṡi@I!
 storicaménte
 strani
 ṡvòlte!
@@ -6058,7 +6058,7 @@ improbàbile
 inevitabilménte
 iniziali
 insulto
-iṡolati~ìṡolati@A!
+iṡolati;ìṡolati@I!
 laménta!
 méla
 métterci
@@ -6230,7 +6230,7 @@ violènze!
 vorrémmo
 votazióne
 abbassare
-abìtuati;abituati
+abituati;abìtuati@I
 alfa
 amichévole
 andar
@@ -6280,7 +6280,7 @@ immaginazióne
 indirizzi!
 iniziò	iniziò
 interrómpere
-invìati;inviati
+inviati;invìati@I
 istinto
 legiṡlatura
 letture
@@ -6349,7 +6349,7 @@ variante
 véne
 vincènte
 accettazióne
-affètti;affétti
+affètti;affétti@I
 affidaménto
 agisce
 amen
@@ -6393,12 +6393,12 @@ illegali
 impedito
 impressionante
 inclùdono!
-informati;infórmati
+informati;infórmati@I
 ingegnèri
 interióre
 invenzióne
 invidia
-laureati;làureati
+laureati;làureati@I
 lavorativa!
 maèstra~maéstra@V
 mago
@@ -6604,13 +6604,13 @@ diàloghi
 dìsputa
 divenire
 domèstici
-dotati;dòtati
+dotati;dòtati@I
 eleganza
 eṡilio
 essènza
 estratti!
 èttari!
-férmati;fermati
+fermati;férmati@I
 ferroviaria!
 fibre
 gabbia
@@ -6683,7 +6683,7 @@ viṡióni!
 abituato
 addestraménto
 ammétto
-arrèstati!
+arrestati;arrèstati@I!
 assessóre
 assicurarsi
 assunta!
@@ -6960,7 +6960,7 @@ dopotutto
 durare
 effettuate
 ègo
-elevati~elèvati@A~èlevati@A!
+elevati;elèvati@I;èlevati@I!
 equivale!
 ètico
 evitando
@@ -7038,7 +7038,7 @@ tumóri!
 ubriaco
 vizio
 vuóti
-abbandónati!
+abbandonati;abbandónati@I!
 acquiṡizióne
 andasse
 andrémo!
@@ -7261,7 +7261,7 @@ scatti
 sconfìggere
 sèlla
 sénno
-sèntiti;sentiti
+sentiti;sèntiti@I
 separata
 sevèro
 sostanziale
@@ -7289,7 +7289,7 @@ appòṡito
 arancióne
 arriveranno!
 attaccata!
-attentati~attèntati@A~atténtati@A!
+attentati;attèntati@I;atténtati@I!
 attivato
 bastóne
 beato
@@ -7470,7 +7470,7 @@ irlandéṡe~irlandése@S
 iṡlàmici
 istanza
 istituzionali
-limitati;lìmitati
+limitati;lìmitati@I
 macchie
 malapéna
 mandi
@@ -7481,7 +7481,7 @@ metàfora
 miglioraménti!
 mistèri!
 négro
-obbligati~òbbligati@A!
+obbligati;òbbligati@I!
 òdiano!
 olìmpico
 omosessuale
@@ -7649,7 +7649,7 @@ specialiżżata!
 stratègica
 strutturale
 superiorità	superiorità
-ṡviluppati;ṡvilùppati
+ṡviluppati;ṡvilùppati@I
 telefònica
 terminale
 tògli
@@ -7693,7 +7693,7 @@ convocazióne
 cuffie
 curata
 didàttica
-dimenticati;diménticati
+dimenticati;diménticati@I
 distribuiti!
 ebrèo
 economicaménte
@@ -7789,7 +7789,7 @@ ascésa~ascéṡa@S
 aspettate
 assiṡi
 assùmono!
-attaccati;attàccati
+attaccati;attàccati@I
 attivare
 automàtica
 avanzare
@@ -7864,7 +7864,7 @@ percórrere
 piemontéṡe~piemontése@S
 pòllici!
 pràtici
-preoccupati;preòccupati
+preoccupati;preòccupati@I
 problemàtica
 professionalità	professionalità
 proibito
@@ -8002,7 +8002,7 @@ sfugge!
 ṡméttila!
 soppòrto!
 specificato
-spòsati!
+spoṡati;spòsati@I!
 spunti!
 starèbbe~starébbe@V!
 stùpide!
@@ -8021,7 +8021,7 @@ verbali
 vocazióne
 voléssi!
 accessòri!
-accètti;accétti
+accètti;accétti@I
 accòglie
 adatti
 africana!
@@ -8126,7 +8126,7 @@ stàbili
 sterline!
 succèsse
 suppòrta
-ṡvégli;ṡvègli
+ṡvégli;ṡvègli@I
 temporali
 tenér
 ténne~tènne@V!
@@ -8164,9 +8164,9 @@ cerebrale
 cìrcoli
 còlli!
 compiuti!
-concèntrati;concentrati
+concentrati;concèntrati@I
 connessióni!
-conservati;consèrvati
+conservati;consèrvati@I
 contórno
 contraddizióne
 contrariaménte
@@ -8341,7 +8341,7 @@ govèrna!
 grillini!
 ignòra!
 influènze!
-innamorati;innamórati
+innamorati;innamórati@I
 insediaménto
 intendéva!
 ìntima!
@@ -8374,7 +8374,7 @@ prive
 proporzióni!
 provvedére
 punire
-qualificati;qualìficati
+qualificati;qualìficati@I
 rappreṡentate!
 rażżi!
 recitare
@@ -8464,7 +8464,7 @@ discrezióne
 distribuire
 diventate!
 eccessivaménte
-eṡèrciti;eṡerciti
+eṡerciti;eṡèrciti@I
 evaṡióne
 èvo
 fallire
@@ -8529,8 +8529,8 @@ ridéndo
 rilasciare
 ripetizióne
 rìschiano!
-riṡervati~riservati@S~risèrvati@AS;riṡèrvati
-ritròvati!
+riṡervati~riservati@S~risèrvati@AS;riṡèrvati@I
+ritrovati;ritròvati@I!
 rivali
 rivélano~rivèlano@V
 sàppiano
@@ -8608,7 +8608,7 @@ disciplinare
 distanti
 distinte
 distrutti
-divèrtiti;divertiti
+divertiti;divèrtiti@I
 èccoci
 elèggere
 epidemia
@@ -8799,7 +8799,7 @@ sistemàtica
 ṡmétti!
 soggètta!
 sovrani
-specialiżżati~specialìżżati@A!
+specialiżżati;specialìżżati@I!
 spòrca!
 stabiliménti!
 stìmoli!
@@ -8820,7 +8820,7 @@ violazióni!
 vitali
 vò
 àbile
-accompagnati~accompàgnati@A!
+accompagnati;accompàgnati@I!
 adeguate!
 allièvo~alliévo@V+
 ammirazióne
@@ -8829,7 +8829,7 @@ aperitivo
 àpplicano!
 appòggia!
 artigiani!
-assicùrati!
+assicurati;assicùrati@I!
 atlètica
 attéṡe~attése@S
 attrezzatura
@@ -9021,7 +9021,7 @@ illustra!
 impressióni
 incazzato
 incidènza
-incóntrati!
+incontrati;incóntrati@I!
 indennità	indennità
 innovativo
 innovazióni!
@@ -9037,7 +9037,7 @@ mazzo
 mensili!
 minerale
 minimaménte
-moderati~mòderati@A!
+moderati;mòderati@I!
 monitorare
 montato
 morétti!
@@ -9079,7 +9079,7 @@ sparo
 speculazióne
 spòiler
 spónda
-stìvali;stivali
+stìvali;stivali@I
 succèssa!
 suòre
 ṡviluppatóri!
@@ -9096,7 +9096,7 @@ vomitare
 accidènti
 accurata!
 aèree!
-àmati;amati
+amati;àmati@I
 amatoriale
 ampliare
 angòscia
@@ -9297,7 +9297,7 @@ confórme
 consecutivi!
 consuma!
 contraddizióni!
-contròllati!
+controllati;contròllati@I!
 convenzionale
 corrispóndono!
 cosciènte
@@ -9311,7 +9311,7 @@ diméntichi
 dimentichiamo!
 diplomàtica
 diṡagi
-disperati~dispèrati@A!
+disperati;dispèrati@I!
 dolorósa~doloróṡa@S+:M
 economisti!
 èdito
@@ -9485,7 +9485,7 @@ intrapréṡo~intrapréso@S
 invèste!
 irruzióne
 istruttóre
-lìberati;liberati
+liberati;lìberati@I
 lido
 manodòpera
 manoscritto
@@ -9601,7 +9601,7 @@ decidi
 definìscono!
 descritte!
 descrizióni!
-dichiàrati!
+dichiarati;dichiàrati@I!
 diffamazióne
 diṡgrazia
 dìssero
@@ -9673,7 +9673,7 @@ riscontrato
 ritenute!
 rive
 rùbano
-ṡbagliati;ṡbàgliati
+ṡbagliati;ṡbàgliati@I
 scaduto
 scappato
 scarto
@@ -9822,7 +9822,7 @@ spàrano
 sparatòria
 spirale
 tabèlle
-tagliati~tàgliati@A!
+tagliati;tàgliati@I!
 teatrali
 tìrano
 torneranno
@@ -9859,7 +9859,7 @@ cartèlle
 centenario
 circóndano!
 collègi
-colorati;colórati
+colorati;colórati@I
 còmici
 comparire
 compliménto
@@ -9904,7 +9904,7 @@ illustri!
 immediate!
 impegnarsi
 indicatóri!
-ìndici;indici
+ìndici;indici@I
 indossato
 infezióni!
 insultato
@@ -9962,7 +9962,7 @@ scatenato
 scéṡe~scése@S
 scopata
 scòrte~scórte@V
-serviti~sèrviti@A!
+serviti;sèrviti@I!
 sevèra
 sfòrza
 simpàtici
@@ -10149,7 +10149,7 @@ bollétte
 britànnici
 buste
 càndida
-caratteriżżati~caratterìżżati@A!
+caratteriżżati;caratterìżżati@I!
 centrocampista
 chièda~chiéda@V
 ciclisti
@@ -10195,11 +10195,11 @@ frate
 funzionante
 gemèlle
 gerarchia
-gìrati!
+girati;gìrati@I!
 godérsi
 grèche
-guàrdati;guardati
-identìficati;identificati
+guardati;guàrdati@I
+identificati;identìficati@I
 ignòto
 illuminato
 illustrazióne
@@ -10211,7 +10211,7 @@ innovative
 insufficiènte
 integrata!
 interrótta
-ispirati~ispìrati@A!
+ispirati;ispìrati@I!
 iṡraeliano~israeliano@S
 istituire
 làici!
@@ -10454,7 +10454,7 @@ austrìaca
 avanguardia
 avviata!
 baffi
-beati;bèati
+beati;bèati@I
 bòna
 brevétto
 cadènza
@@ -10571,7 +10571,7 @@ rispónda
 ritenéva!
 rivìvere
 rótti
-rubati~rùbati@A!
+rubati;rùbati@I!
 saldi
 salèndo!
 salvaguardare
@@ -10580,7 +10580,7 @@ scàndali!
 scendèndo!
 scomparse!
 scopriamo!
-segnalati;segnàlati
+segnalati;segnàlati@I
 segnata
 segretaménte
 sòlidi
@@ -10664,7 +10664,7 @@ giornalièro
 giurìdiche!
 gòditi!
 gradito
-incaricati;incàricati
+incaricati;incàricati@I
 incìdere
 incrementare
 ìncubi;incubi
@@ -10684,7 +10684,7 @@ melodia
 mercanti
 milizia
 moderata!
-modificati~modìficati@A!
+modificati;modìficati@I!
 montana
 mósche
 negoziare
@@ -10721,7 +10721,7 @@ scintilla
 scritture
 sensóri;sensòri
 sfiga
-situati;sìtuati
+situati;sìtuati@I
 sógna
 sopravvissuta!
 spaccato
@@ -10766,7 +10766,7 @@ apparecchiature!
 apparènza
 appròcci
 arrabbiata
-aumentati~auméntati@A!
+aumentati;auméntati@I!
 avvelenato
 bàncomat
 bàrbari!
@@ -10777,7 +10777,7 @@ biènnio
 bonìfico
 càlice
 cambiati!
-cancellati;cancèllati
+cancellati;cancèllati@I
 capre!
 casalinghe!
 castiglióne
@@ -10799,7 +10799,7 @@ convenzionali!
 costruttóri!
 credèndo
 cuòio
-curati;cùrati
+curati;cùrati@I
 denunciati!
 dimenticavo
 discépoli!
@@ -10909,7 +10909,7 @@ stupri!
 suddétti!
 suggerìscono!
 supèrstiti!
-ṡvegliati;ṡvégliati
+ṡvegliati;ṡvégliati@I
 tassazióne
 telefònici
 teorèma
@@ -10927,7 +10927,7 @@ vettóre
 vìgile
 accertaménto
 addominali!
-adeguati~adéguati@A;adèguati
+adeguati~adéguati@A;adèguati@I
 affidabilità	affidabilità
 affitti!
 aggettivo
@@ -10953,7 +10953,7 @@ bavièra
 bevanda
 bravìssima!
 buffo
-bùttati!
+buttati;bùttati@I!
 cadèndo!
 càpsula
 cime!
@@ -11078,7 +11078,7 @@ siriano
 sollèva
 sorride
 sospéṡi~sospési@S
-spòstati;spostati
+spostati;spòstati@I
 stipulato!
 subìscono!
 suppórre
@@ -11123,7 +11123,7 @@ bòzza
 campanile
 caviglia
 cicatrici
-circondati;circóndati
+circondati;circóndati@I
 clandestino
 climàtici
 còglie;cóglie
@@ -11164,7 +11164,7 @@ governativi!
 granché	granché
 guscio
 iène
-illuminati;illùminati
+illuminati;illùminati@I
 illustrare
 importantìssimo
 inciṡióne
@@ -11283,7 +11283,7 @@ comprata
 concludèndo!
 còniuge
 conoscévano
-conségnati!
+consegnati;conségnati@I!
 consulènti!
 continuerémo!
 continuerò	continuerò!
@@ -11566,7 +11566,7 @@ scéma!
 schérmi
 sciòglie
 scrùpoli!
-ségnati!
+segnati;ségnati@I!
 selezióni!
 sembrerà	sembrerà!
 sfigati!
@@ -11817,7 +11817,7 @@ adottati!
 aggiungiamo!
 agitazióne
 alpini!
-alzati;àlzati
+alzati;àlzati@I
 angèlica
 appendice
 appósto~appòsto@V
@@ -11886,7 +11886,7 @@ evince!
 fatture
 fèto
 finestrino
-fìssati!
+fissati;fìssati@I!
 forènse
 fottuti!
 fragilità	fragilità
@@ -11977,7 +11977,7 @@ squalo
 stampati
 stènto~sténto@V
 stereòtipo
-stùdiati;studiati
+studiati;stùdiati@I
 stupito
 ṡvegliarsi
 tentò	tentò!
@@ -12229,7 +12229,7 @@ colossale
 combinare
 commèdie
 comodaménte
-confermati~conférmati@A!
+confermati;conférmati@I!
 confónde
 confuṡi
 consegnata
@@ -12374,7 +12374,7 @@ tirrèno~tirréno@V
 torace
 tradisce!
 trascinato
-trasfórmati!
+trasformati;trasfórmati@I!
 trattarsi
 udito
 ventèṡimo~ventéṡimo@V
@@ -12385,7 +12385,7 @@ vigna
 viṡitate!
 abbinaménto
 accadéva!
-accettati;accèttati
+accettati;accèttati@I
 acùstico
 adiacènte
 aggiuntivi!
@@ -12473,7 +12473,7 @@ integralménte
 interlocutóre
 labbro
 làmpade!
-licenziati;licènziati
+licenziati;licènziati@I
 lìquida!
 lòbo
 maglióne
@@ -12639,7 +12639,7 @@ intèrroga!
 intervalli
 intéṡi~intési@S
 investigatóri!
-investiti~invèstiti@A!
+investiti;invèstiti@I!
 lascerò	lascerò
 lavoratrici!
 làżżaro
@@ -12740,7 +12740,7 @@ amarézza
 anàrchici!
 ànnua!
 anténna
-àpplicati!
+applicati;àpplicati@I!
 arancio
 archiviazióne
 arricchire
@@ -12756,7 +12756,7 @@ battèndo!
 bersagli
 biològiche
 botànico
-cacciati;càcciati
+cacciati;càcciati@I
 campionéssa
 cantautóre
 capirà	capirà!
@@ -12919,7 +12919,7 @@ vergognarsi
 vico
 violenteménte
 zùccheri~żùccheri@Z
-abbònati;abbonati
+abbonati;abbònati@I
 accumulato
 addormentata!
 adrenalina
@@ -13084,7 +13084,7 @@ anticipare
 apprèsso
 approfittato!
 argilla
-arrabbiati~arràbbiati@A!
+arrabbiati;arràbbiati@I!
 arrivàvano!
 asciutto
 assòcia!
@@ -13322,7 +13322,7 @@ conclave
 condizionato
 conférme!
 conóbbe~conòbbe@V
-consóli;cònsoli
+cònsoli;consóli@I
 consolidato
 contando!
 contraddittòrio
@@ -13460,7 +13460,7 @@ tutèle
 uragano
 utènsili!
 vantare
-verìficati;verificati
+verificati;verìficati@I
 verrò	verrò
 vèto~véto@V
 vinile
@@ -13468,7 +13468,7 @@ violentata
 vitto
 vulneràbili!
 zólfo~żólfo@Z+
-affrontati~affróntati@A!
+affrontati;affróntati@I!
 aggiórna!
 algoritmi!
 alunno
@@ -13495,12 +13495,12 @@ chiòstro
 ciglia!
 cinghiale
 ciòtola
-classificati~classìficati@A!
-collocati;còllocati
+classificati;classìficati@I!
+collocati;còllocati@I
 colòsso
 còmica
 comizio
-cómprati;comprati
+comprati;cómprati@I
 comprendéva!
 consolidata!
 contenzióso~contenzióṡo@S
@@ -13569,7 +13569,7 @@ ipotiżżato
 irresistìbile~irreṡistìbile@S
 iṡolare
 itàlica
-lanciati~lànciati@A!
+lanciati;lànciati@I!
 lasciarti!
 lavanderia
 legname
@@ -13683,7 +13683,7 @@ avéna
 avévate
 avute
 banali
-bruciati;brùciati
+bruciati;brùciati@I
 brutalménte
 bùfale
 cànapa
@@ -13746,7 +13746,7 @@ involontariaménte
 itinerari
 lavarsi
 lécca!
-lèvati!
+levati;lèvati@I!
 lìguri!
 lòngo
 malvagia
@@ -13978,7 +13978,7 @@ riaprire
 ricopèrta!
 ridi!
 rilasciate
-rilevati~rilèvati@A!
+rilevati;rilèvati@I!
 ringraziaménti!
 rinvenuti!
 ripetèndo!
@@ -14005,7 +14005,7 @@ stratègici
 striscióni!
 sùdditi!
 suòcero
-superati;sùperati
+superati;sùperati@I
 suppòrtano!
 ṡvòlgersi
 tàgliano
@@ -14074,7 +14074,7 @@ devastato
 differènzia!
 dìrtelo
 dòlo
-educati;èducati
+educati;èducati@I
 elaborate!
 elàstico
 erètta!
@@ -14313,7 +14313,7 @@ migratóri!
 minàcciano
 mitra
 morirò	morirò
-mostrati;móstrati
+mostrati;móstrati@I
 mostrò	mostrò!
 muṡe!
 natali
@@ -14364,7 +14364,7 @@ rovinata
 scàmbiano
 scàrichi
 scavato
-schierati;schièrati
+schierati;schièrati@I
 schizzi!
 sciòlti!
 sconcertante
@@ -14440,7 +14440,7 @@ corrispóndere
 credìbili
 curdi
 curvatura
-dannati~dànnati@A!
+dannati;dànnati@I!
 dannóse!
 dimostrò	dimostrò!
 dipinge!
@@ -14471,7 +14471,7 @@ ingrediènte
 insaputa
 intatto
 intermèdia
-inventati~invèntati@A!
+inventati;invèntati@I!
 lamentato
 latitùdine
 letizia
@@ -14538,7 +14538,7 @@ riferisci!
 riforniménti!
 rigóri
 rinfòrzo
-rispèttati!
+rispettati;rispèttati@I!
 ritenérsi
 riuscìvano!
 rivòlgono!
@@ -14768,12 +14768,12 @@ vu
 abitata!
 abituali
 accaduti
-addestrati;addèstrati
+addestrati;addèstrati@I
 agevolménte
 aggiudicato
 aiutiamo!
 allarga!
-allontànati!
+allontanati;allontànati@I!
 alterato
 altìssimi!
 anarchia
@@ -14807,7 +14807,7 @@ comparto
 comunitari
 conciliazióne
 consigliata
-contati~cóntati@A!
+contati;cóntati@I!
 contèsta
 controllóre
 corale
@@ -14982,7 +14982,7 @@ ventidue
 verginità	verginità
 viṡivi!
 vizióso~vizióṡo@S+
-votati~vótati@A!
+votati;vótati@I!
 accessibilità	accessibilità
 accórsi;accòrsi
 accumulare
@@ -15001,7 +15001,7 @@ apologia
 appariva!
 ardènte
 ariète~arìete@A+~ariéte@V
-ascoltati~ascóltati@A!
+ascoltati;ascóltati@I!
 atlante
 attéṡi~attési@S
 attrae!
@@ -15009,7 +15009,7 @@ australiani!
 avvòlta
 ballerine!
 batteżżato
-béccati;beccati
+beccati;béccati@I
 benèfica
 bérti!
 bingo
@@ -15287,7 +15287,7 @@ fermentazióne
 feróci
 festeggiamo!
 festéggiano!
-fóndati!
+fondati;fóndati@I!
 frana
 frusta
 fùggono!
@@ -15364,7 +15364,7 @@ pretèndo!
 progressisti!
 prométtono
 prospètta!
-provocati~pròvocati@A!
+provocati;pròvocati@I!
 puntini!
 raddóppio
 recuperati
@@ -15408,7 +15408,7 @@ superviṡóre
 teméva!
 temporànei!
 terrorìstici!
-tirati;tìrati
+tirati;tìrati@I
 trattiène
 tribune!
 utiliżżatóri!
@@ -15488,7 +15488,7 @@ diverrà	diverrà
 documentare
 dòping
 dovérlo
-drògati;drogati
+drogati;drògati@I
 educata!
 elettorato
 episcopale
@@ -15537,7 +15537,7 @@ lòttano!
 magi
 maligno
 mancino
-mangiati;màngiati
+mangiati;màngiati@I
 manna
 marciare
 materialménte
@@ -15589,7 +15589,7 @@ reperìbile
 ricadute!
 rielètto!
 rilassarsi
-rilassati~rilàssati@A!
+rilassati;rilàssati@I!
 rilevaménto
 ripagare
 risièdono~risiédono@V!
@@ -15738,7 +15738,7 @@ germànico
 germano
 giróni!
 gite
-giurati~giùrati@A!
+giurati;giùrati@I!
 godétevi!
 govèrnano!
 governata!
@@ -15816,7 +15816,7 @@ remòti!
 rèndite!
 riconósca
 riconoscènza
-ricoverati~ricòverati@A~ricóverati@A!
+ricoverati;ricòverati@I;ricóverati@I!
 ricreare
 rifà	rifà
 rimanènte
@@ -15845,7 +15845,7 @@ sospensióni!
 sosténne~sostènne@V!
 spogliatóio~spogliatòio@V
 squalìfica
-stanziati;stànziati
+stanziati;stànziati@I
 stellari!
 sudare
 suddivisi!
@@ -15984,7 +15984,7 @@ marìttimi!
 masticare
 meraménte
 mettétevi!
-montati;móntati
+montati;móntati@I
 motorino
 nasale~naṡale@S
 negoziato
@@ -16076,7 +16076,7 @@ vàlico
 valtellina
 vecchiétta
 vendiamo!
-vèrsati!
+versati;vèrsati@I!
 veterinaria
 vicinato
 volando!
@@ -16098,7 +16098,7 @@ allarmi!
 allegraménte
 ambra
 ambulante
-ammalati;ammàlati
+ammalati;ammàlati@I
 andria
 anèddoto
 annoiato
@@ -16120,7 +16120,7 @@ attraènti!
 automobilìstico
 avvèrto
 avviaménto
-avviati;avvìati
+avviati;avvìati@I
 ażżurre!
 bàllano
 bava
@@ -16150,7 +16150,7 @@ concernènte
 confrontato
 congiura
 contestata
-convertiti;convèrtiti
+convertiti;convèrtiti@I
 convocare
 cordiali
 corporazióne
@@ -16413,7 +16413,7 @@ fissate!
 focale
 fondatrice
 fornèlli!
-frequèntati!
+frequentati;frequèntati@I!
 garantèndo!
 gigli
 giochino;giòchino
@@ -16564,7 +16564,7 @@ accónto
 aderènza
 adórano!
 agro
-allineati;allìneati
+allineati;allìneati@I
 alture
 animate
 ansie
@@ -16593,7 +16593,7 @@ chitarre!
 collocaménto
 compàgine
 cómpiono~còmpiono@V!
-còmplicati~cómplicati@V!
+complicati;còmplicati@I;cómplicati@I!
 concentrate
 conchiglie
 concluṡi
@@ -16712,7 +16712,7 @@ primaverile
 progettando!
 promettèndo!
 proteina
-provati;pròvati
+provati;pròvati@I
 provenìvano
 puntura
 ragù	ragù
@@ -16752,7 +16752,7 @@ simpàtiche
 solidali
 sonorità	sonorità
 sostenévano!
-spiegati~spiégati@A;spiègati
+spiegati~spiégati@A;spiègati@I
 sposò	spoṡò
 squàllido
 straordinariaménte
@@ -16765,7 +16765,7 @@ terracòtta
 terroriżżato
 tèschio~téschio@V+
 testuale
-tóccati;toccati
+toccati;tóccati@I
 trascórsa!
 trionfale
 troverèbbe~troverébbe@V!
@@ -16811,7 +16811,7 @@ bu
 calata
 calvario
 cappèlle
-caricati;càricati
+caricati;càricati@I
 cartucce
 cecità	cecità
 cèrvi
@@ -16837,7 +16837,7 @@ decènti
 denunciata!
 dèttami~déttami@V:T~dettami@A
 dicevamo!
-diplomati~diplòmati@A!
+diplomati;diplòmati@I!
 diṡastróso~diṡastróṡo@S+
 disparati!
 disponéva!
@@ -16845,7 +16845,7 @@ disturbato!
 dittature!
 divenèndo!
 divèrto
-documentati;documéntati
+documentati;documéntati@I
 domandato!
 duchi
 ebbrézza
@@ -16854,7 +16854,7 @@ entrasse!
 erìgere
 eròtici
 esploṡiva~esplosiva@S
-èstaṡi;estaṡi
+èstaṡi;estaṡi@I
 facèndogli
 facènte
 fenomenale
@@ -16993,7 +16993,7 @@ sosteniamo!
 sostituirlo
 sottotìtolo
 sovrapposizióne~sovrappoṡizióne@S
-spavèntati!
+spaventati;spavèntati@I!
 speculare
 spénte~spènte@V:T
 sponsoriżżato
@@ -17018,7 +17018,7 @@ vignéti!
 vincolato
 votando!
 và	và!
-abilitati~abìlitati@A!
+abilitati;abìlitati@I!
 accelerato
 accórse!
 addòme
@@ -17074,7 +17074,7 @@ chièṡero~chiéṡero@V~chièsero@S
 chiòma
 climàtica
 comandaménti!
-combìnati!
+combinati;combìnati@I!
 comprensiva!
 conchiglia
 condizionaménto
@@ -17164,7 +17164,7 @@ navata
 nervósi!
 nutriménto
 òrżo
-osservati;ossèrvati
+osservati;ossèrvati@I
 òssido
 paladini!
 passeggino;passéggino
@@ -17191,7 +17191,7 @@ ria!
 riformista
 rilància!
 riméttersi
-ritìrati!
+ritirati;ritìrati@I!
 rùstico
 saldare
 saracèno
@@ -17216,7 +17216,7 @@ sopprèssa!
 sottoscritta!
 sottostare
 souvenir
-sparati~spàrati@A!
+sparati;spàrati@I!
 spiegherèbbe~spiegherébbe@V!
 staffétta
 statista
@@ -17267,7 +17267,7 @@ assomìgliano!
 attratti!
 autèntiche
 azionista
-bàgnati;bagnati
+bagnati;bàgnati@I
 bistécca~bistècca@V
 bòccia
 brando
@@ -17515,7 +17515,7 @@ cómbo
 comportava!
 condizionare
 configurare
-consùmati!
+consumati;consùmati@I!
 continuata
 còppola
 crearsi
@@ -17570,7 +17570,7 @@ impaziènza
 impazzita!
 impèri
 indébita~indèbita@V
-indignati~indìgnati@A!
+indignati;indìgnati@I!
 individuate!
 infastidito
 influèncer
@@ -17665,7 +17665,7 @@ spuntino;spùntino
 squilibrio~squilìbrio@A
 starèbbero~starébbero@V!
 stigma
-stìmati!
+stimati;stìmati@I!
 stìmola
 stimolanti!
 stipulare
@@ -17738,7 +17738,7 @@ censure
 ciclàbili!
 cioccolatini!
 cliccando!
-cógli;cògli
+cógli;cògli@I
 coltivata!
 concòrda!
 confinante
@@ -17868,8 +17868,8 @@ rimpatrio~rimpàtrio@A
 riscóntra
 riscòssa
 riṡvegliato!
-ritornati~ritórnati@A!
-rivélati~rivèlati@V!
+ritornati;ritórnati@I!
+rivelati;rivélati@I;rivèlati@I!
 rivenditóri!
 romèno
 salverà	salverà!
@@ -17932,14 +17932,14 @@ abbatte
 abbattuta
 accompagnatóre
 acconsentito
-accréditati!
+accreditati;accréditati@I!
 acquedótto
 affiliato
 aggredire
-aggregati~aggrègati@A!
+aggregati;aggrègati@I!
 agrituriṡmo
 almanacco
-analiżżati~analìżżati@A!
+analiżżati;analìżżati@I!
 animatóri
 ansiósa!
 antìdoto
@@ -17955,7 +17955,7 @@ assistèndo!
 assorbènti!
 àtomo
 àttimi
-attivati;attìvati
+attivati;attìvati@I
 automobilìstica!
 bambù	bambù
 bestemmiare
@@ -18022,7 +18022,7 @@ gentaglia
 ghiacciai!
 gilda
 ginnaṡio
-giocati~giòcati@A!
+giocati;giòcati@I!
 grattacièlo
 grottésco
 guarisce!
@@ -18284,7 +18284,7 @@ immane
 imprevedìbili
 improvviṡazióne
 incantata!
-incàzzati!
+incazzati;incàzzati@I!
 incessante
 incontrerà	incontrerà!
 incorporato
@@ -18442,7 +18442,7 @@ attivate!
 audizióni!
 auspicàbile
 avidità	avidità
-avvicìnati!
+avvicinati;avvicìnati@I!
 bagna
 bali
 bancarèlle
@@ -18587,7 +18587,7 @@ ospedalièra!
 passività	passività
 pavóne
 pedale
-pensati~pènsati@A!
+pensati;pènsati@I!
 penùltima
 percórsa!
 perdéte!
@@ -18614,10 +18614,10 @@ propagazióne
 provocò	provocò!
 prua
 pùbblichi!
-raccomàndati!
+raccomandati;raccomàndati@I!
 raffinati!
 rasségne!
-rèduci;reduci
+rèduci;reduci@I
 referènte
 regalando!
 reggiano
@@ -18689,7 +18689,7 @@ analìtico
 analògico
 antisemitiṡmo
 apprèzzi!
-appropriati~appròpriati@A!
+appropriati;appròpriati@I!
 arbitrale
 archeològiche
 armadi
@@ -18787,7 +18787,7 @@ interdizióne
 introdusse
 investigazióne
 ivo!
-làvati!
+lavati;làvati@I!
 lavorazióni!
 legaliżżare
 levato
@@ -18811,7 +18811,7 @@ nocciòle!
 noióse!
 oggettivi
 òmo
-orientati;orièntati
+orientati;orièntati@I
 ospitale
 ospitava!
 palazzétto
@@ -18834,7 +18834,7 @@ proverà	proverà
 raddóppia!
 rafforzata!
 randagi
-rècati;recati
+recati;rècati@I
 relatività	relatività
 religiosità	religiosità~religioṡità@S
 rèo
@@ -18843,7 +18843,7 @@ reviṡióni!
 ricavata!
 richiedèndo!
 ricòveri~ricóveri@V:T
-rifiutati;rifiùtati
+rifiutati;rifiùtati@I
 rigètto
 riguardàvano!
 rimanésse!
@@ -18878,7 +18878,7 @@ similari!
 sinagòga
 sinistre!
 sistemata
-sistèmati!
+sistemati;sistèmati@I!
 slip~ṡlip@S
 ṡmentite!
 soddisfacènti!
@@ -18931,7 +18931,7 @@ animalisti
 animatóre
 annunciò	annunciò!
 antidròga
-appoggiati;appòggiati
+appoggiati;appòggiati@I
 arruolato
 aspraménte
 assòlti!
@@ -18993,7 +18993,7 @@ differènziano!
 differenziazióne
 diffida
 dilètta!
-dimóstrati!
+dimostrati;dimóstrati@I!
 diṡdétta
 disparate!
 distratta!
@@ -19124,7 +19124,7 @@ ritirò	ritirò!
 rivòlgo
 rivòlse!
 roṡétta
-rovìnati!
+rovinati;rovìnati@I!
 rubinétti!
 sacraménti
 sagre
@@ -19229,7 +19229,7 @@ còndor
 confina!
 confortévole
 consensuale
-consentiti~consèntiti@A!
+consentiti;consèntiti@I!
 cònsta!
 continentali
 controllóri!
@@ -19360,7 +19360,7 @@ pulsanti!
 quattrini
 radioattivo
 raggiunte!
-règolati!
+regolati;règolati@I!
 reliquia~relìquia@A
 replicato
 résero!
@@ -19372,7 +19372,7 @@ ricevènte
 richiamando!
 riórdino
 riprodótta!
-risparmiati;rispàrmiati
+risparmiati;rispàrmiati@I
 rivediamo!
 ròspo
 rottami
@@ -19426,8 +19426,8 @@ tributaria!
 tròta
 tube
 tufo
-tutelati;tutèlati
-valutati~vàlutati@A~valùtati@A!
+tutelati;tutèlati@I
+valutati;vàlutati@I;valùtati@I!
 varrèbbe~varrébbe@V!
 vastità	vastità
 védasi
@@ -19499,7 +19499,7 @@ comportamentale
 comportando!
 comprendèndo!
 condottièro
-conquistati~conquìstati@A!
+conquistati;conquìstati@I!
 conseguiti~consèguiti@A;conséguiti
 consigliàbile
 contate!
@@ -19516,7 +19516,7 @@ cricca
 cùpido
 declinazióne
 deduco!
-depòṡitati!
+depoṡitati;depòṡitati@I!
 detrazióne
 diciottènne
 diminuiti!
@@ -19703,7 +19703,7 @@ accòlse!
 affìdano!
 affollata!
 aggiùdica!
-alimentati;aliméntati
+alimentati;aliméntati@I
 allineaménto
 alzò	alzò!
 amàbile
@@ -19747,7 +19747,7 @@ compatti!
 còmplica~cómplica@V
 compriamo!
 conferìscono!
-consolati;consólati
+consolati;consólati@I
 convènti
 convìncono!
 croccante
@@ -19961,7 +19961,7 @@ accertarsi
 accertata!
 accompagni
 affermata!
-afférmati!
+affermati;afférmati@I!
 affronterà	affronterà
 allungaménto
 allungata

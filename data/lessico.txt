@@ -274,7 +274,7 @@ abbacchiasti!
 abbacchiata
 abbacchiate
 abbacchiàtevi!
-abbacchiati;abbàcchiati
+abbacchiati;abbàcchiati@I
 abbacchiato
 abbacchiatóre
 abbacchiatóri!
@@ -477,7 +477,7 @@ abbagliata
 abbagliataménte
 abbagliate
 abbagliàtevi!
-abbàgliati;abbagliati
+abbagliati;abbàgliati@I
 abbagliato
 abbagliatóre
 abbagliatóri!
@@ -804,7 +804,7 @@ abbandonata!
 abbandonataménte
 abbandonate!
 abbandonàtevi!
-abbandónati!
+abbandonati;abbandónati@I!
 abbandonato
 abbandonatóre
 abbandonatóri
@@ -944,7 +944,7 @@ abbarbicasti!
 abbarbicata!
 abbarbicate!
 abbarbicàtevi!
-abbàrbicati;abbarbicati
+abbarbicati;abbàrbicati@I
 abbarbicato
 abbarbicàtosi!
 abbarbicava!
@@ -1089,7 +1089,7 @@ abbaruffasti!
 abbaruffata!
 abbaruffate!
 abbaruffàtevi!
-abbarùffati;abbaruffati
+abbaruffati;abbarùffati@I
 abbaruffato
 abbaruffàtosi!
 abbaruffava!
@@ -1148,7 +1148,7 @@ abbassasti!
 abbassata
 abbassate!
 abbassàtevi!
-abbàssati!
+abbassati;abbàssati@I!
 abbassato
 abbassatóio~abbassatòio@V
 abbassatóre
@@ -1349,7 +1349,7 @@ abbatuffolasti!
 abbatuffolata!
 abbatuffolate!
 abbatuffolàtevi!
-abbatuffolati~abbatùffolati@A!
+abbatuffolati;abbatùffolati@I!
 abbatuffolato
 abbatuffolàtosi!
 abbatuffolava!
@@ -1545,7 +1545,7 @@ abbeverasti!
 abbeverata
 abbeverate!
 abbeveràtevi!
-abbéverati;abbeverati
+abbeverati;abbéverati@I
 abbeverato!
 abbeveratói~abbeveratòi@V
 abbeveratóio
@@ -1801,7 +1801,7 @@ abbinasti!
 abbinata
 abbinate!
 abbinàtevi!
-abbinati~abbìnati@A!
+abbinati;abbìnati@I!
 abbinato
 abbinàtosi!
 abbinatura
@@ -1956,7 +1956,7 @@ abbiosciasti!
 abbiosciata!
 abbiosciate!
 abbiosciàtevi!
-abbiosciati~abbiòsciati@A!
+abbiosciati;abbiòsciati@I!
 abbiosciato
 abbiosciàtosi!
 abbiosciava!
@@ -2282,7 +2282,7 @@ abbonasti!
 abbonata
 abbonate!
 abbonàtevi!
-abbònati;abbonati
+abbonati;abbònati@I
 abbonato
 abbonàtosi!
 abbonava!
@@ -2608,7 +2608,7 @@ abbottonata
 abbottonataménte
 abbottonate
 abbottonàtevi!
-abbottonati;abbottónati
+abbottonati;abbottónati@I
 abbottonato
 abbottonàtosi!
 abbottonatura
@@ -2727,7 +2727,7 @@ abbozzolàntesi!
 abbozzolarsi
 abbozzolarti!
 abbozzolàtevi!
-abbòzzolati;abbozzolati
+abbozzolati;abbòzzolati@I
 abbozzolàtosi!
 abbozzoliàmoci!
 abbozzò	abbozzò!
@@ -2772,7 +2772,7 @@ abbracciata
 abbracciate
 abbracciàtelo;abbràcciatelo
 abbracciàtevi!
-abbràcciati;abbracciati
+abbracciati;abbràcciati@I
 abbracciato
 abbracciàtosi!
 abbracciava!
@@ -3096,7 +3096,7 @@ abbronżasti!
 abbronżata!
 abbronżate!
 abbronżàtevi!
-abbrónżati!
+abbronżati;abbrónżati@I!
 abbronżato
 abbronżàtosi!
 abbronżatura
@@ -3346,7 +3346,7 @@ abbrunaste!
 abbrunasti!
 abbrunate!
 abbrunàtevi!
-abbrùnati;abbrunati
+abbrunati;abbrùnati@I
 abbrunato!
 abbrunàtosi!
 abbrunava!
@@ -4160,7 +4160,7 @@ abilitasti!
 abilitata!
 abilitate!
 abilitàtevi!
-abilitati~abìlitati@A!
+abilitati;abìlitati@I!
 abilitativa!
 abilitative!
 abilitativi!
@@ -4342,7 +4342,7 @@ abituasti!
 abituata
 abituate
 abituàtevi!
-abìtuati;abituati
+abituati;abìtuati@I
 abituato
 abituàtosi!
 abituava!
@@ -5156,7 +5156,7 @@ accalcaste!
 accalcasti!
 accalcate!
 accalcàtevi!
-accalcati;accàlcati
+accalcati;accàlcati@I
 accalcato!
 accalcàtosi!
 accalcava!
@@ -5205,7 +5205,7 @@ accaldasti!
 accaldata
 accaldate
 accaldàtevi!
-accaldati;accàldati
+accaldati;accàldati@I
 accaldato
 accaldàtosi!
 accaldava!
@@ -5295,7 +5295,7 @@ accalorasti!
 accalorata!
 accalorate!
 accaloràtevi!
-accalorati~accalórati@A!
+accalorati;accalórati@I!
 accalorato
 accaloràtosi!
 accalorava!
@@ -5423,7 +5423,7 @@ accampaste!
 accampasti!
 accampate!
 accampàtevi!
-accampati;accàmpati
+accampati;accàmpati@I
 accampato!
 accampàtosi!
 accampava!
@@ -5730,7 +5730,7 @@ accaparraste!
 accaparrasti!
 accaparrate!
 accaparràtevi!
-accaparrati;accapàrrati
+accaparrati;accapàrrati@I
 accaparrato!
 accaparràtosi!
 accaparrava!
@@ -5822,7 +5822,7 @@ accapigliasti!
 accapigliata!
 accapigliate!
 accapigliàtevi!
-accapìgliati!
+accapigliati;accapìgliati@I!
 accapigliato
 accapigliàtosi!
 accapigliava!
@@ -6167,7 +6167,7 @@ accartocciasti!
 accartocciata!
 accartocciate!
 accartocciàtevi!
-accartocciati;accartòcciati
+accartocciati;accartòcciati@I
 accartocciato
 accartocciàtosi!
 accartocciava!
@@ -6201,7 +6201,7 @@ accasasti!
 accaṡata!
 accasate!
 accaṡàtevi!
-accaṡati~accasati@S~accàsati@AS;accàṡati
+accaṡati~accasati@S~accàsati@AS;accàṡati@I
 accaṡato~accasato@S
 accaṡàtosi!
 accasava!
@@ -6248,7 +6248,7 @@ accasciasti!
 accasciata!
 accasciate!
 accasciàtevi!
-accasciati;accàsciati
+accasciati;accàsciati@I
 accasciato
 accasciàtosi!
 accasciava!
@@ -7160,7 +7160,7 @@ accentrasti!
 accentrata!
 accentrate!
 accentràtevi!
-accentrati~accéntrati@A;accèntrati
+accentrati~accéntrati@A;accèntrati@I
 accentrato
 accentratóre
 accentratóri!
@@ -7397,7 +7397,7 @@ accertata!
 accertataménte
 accertate!
 accertàtevi!
-accèrtati!
+accertati;accèrtati@I!
 accertativa!
 accertative!
 accertativi!
@@ -7555,7 +7555,7 @@ accettasti!
 accettata
 accettate!
 accettàtevi!
-accettati;accèttati
+accettati;accèttati@I
 accettato
 accettàtosi!
 accettava!
@@ -7581,7 +7581,7 @@ accetterà	accetterà!
 accetterò	accetterò!
 accettévole
 accettévoli
-accètti;accétti
+accètti;accétti@I
 accettiamo!
 accettiàmoci!
 accettiate!
@@ -7914,7 +7914,7 @@ acciambellaste!
 acciambellasti!
 acciambellate!
 acciambellàtevi!
-acciambellati;acciambèllati
+acciambellati;acciambèllati@I
 acciambellato!
 acciambellàtosi!
 acciambellava!
@@ -8407,7 +8407,7 @@ acciuffasti!
 acciuffata!
 acciuffate!
 acciuffàtevi!
-acciuffati~acciùffati@A!
+acciuffati;acciùffati@I!
 acciuffato
 acciuffàtosi!
 acciuffava!
@@ -8613,7 +8613,7 @@ acclimatasti!
 acclimatata!
 acclimatate!
 acclimatàtevi!
-acclimatati;acclìmatati
+acclimatati;acclìmatati@I
 acclimatato
 acclimatàtosi!
 acclimatava!
@@ -8759,7 +8759,7 @@ accoccolàntesi!
 accoccolarsi
 accoccolarti!
 accoccolàtevi!
-accoccolati;accòccolati
+accoccolati;accòccolati@I
 accoccolàtosi!
 accoccoliàmoci!
 accoccovàndosi!
@@ -8793,7 +8793,7 @@ accodaste!
 accodasti!
 accodate!
 accodàtevi!
-accodati;accódati
+accodati;accódati@I
 accodato!
 accodàtosi!
 accodava!
@@ -8899,7 +8899,7 @@ accollatarie
 accollatario
 accollate!
 accollàtevi!
-accollati;accòllati
+accollati;accòllati@I
 accollato
 accollàtosi!
 accollava!
@@ -9043,7 +9043,7 @@ accomiatasti!
 accomiatata
 accomiatate!
 accomiatàtevi!
-accomiatati;accomiàtati
+accomiatati;accomiàtati@I
 accomiatato!
 accomiatàtosi!
 accomiatava!
@@ -9098,7 +9098,7 @@ accomodasti!
 accomodata!
 accomodate!
 accomodàtevi!
-accòmodati;accomodati
+accomodati;accòmodati@I
 accomodato
 accomodàtosi!
 accomodava!
@@ -9154,7 +9154,7 @@ accompagnasti!
 accompagnata
 accompagnate!
 accompagnàtevi!
-accompagnati~accompàgnati@A!
+accompagnati;accompàgnati@I!
 accompagnato
 accompagnatóre
 accompagnatóri
@@ -9452,7 +9452,7 @@ accontentasti!
 accontentata!
 accontentate!
 accontentàtevi!
-accontentati~accontèntati@A!
+accontentati;accontèntati@I!
 accontentato
 accontentàtosi!
 accontentava!
@@ -9560,7 +9560,7 @@ accoppiasti!
 accoppiata
 accoppiate!
 accoppiàtevi!
-accoppiati~accòppiati@A~accóppiati@A!
+accoppiati;accòppiati@I;accóppiati@I!
 accoppiato
 accoppiàtosi!
 accoppiava!
@@ -9613,7 +9613,7 @@ accorate!
 accoràtevi!
 accoratézza
 accoratézze
-accorati~accòrati@A!
+accorati;accòrati@I!
 accorato
 accoràtosi!
 accorava!
@@ -9738,7 +9738,7 @@ accordata
 accordataménte
 accordate!
 accordàtevi!
-accordati~accòrdati@A!
+accordati;accòrdati@I!
 accordato
 accordàtosi
 accordava!
@@ -9976,7 +9976,7 @@ accostasti!
 accostata
 accostate!
 accostàtevi!
-accostati;accòstati
+accostati;accòstati@I
 accostato
 accostàtosi!
 accostava!
@@ -10028,7 +10028,7 @@ accostumaste!
 accostumasti!
 accostumate!
 accostumàtevi!
-accostumati;accostùmati
+accostumati;accostùmati@I
 accostumato!
 accostumàtosi!
 accostumava!
@@ -10145,7 +10145,7 @@ accovacciarti!
 accovacciata!
 accovacciate!
 accovacciàtevi!
-accovàcciati!
+accovacciati;accovàcciati@I!
 accovacciato
 accovacciàtosi!
 accovàndosi!
@@ -10269,7 +10269,7 @@ accreditasti!
 accreditata!
 accreditate!
 accreditàtevi!
-accréditati!
+accreditati;accréditati@I!
 accreditato
 accreditàtosi!
 accreditava!
@@ -10448,7 +10448,7 @@ accucciarti!
 accucciata
 accucciate!
 accucciàtevi!
-accùcciati!
+accucciati;accùcciati@I!
 accucciato
 accucciàtosi!
 accùccino
@@ -10565,7 +10565,7 @@ acculturasti!
 acculturata!
 acculturate!
 acculturàtevi!
-acculturati;accultùrati
+acculturati;accultùrati@I
 acculturato
 acculturàtosi!
 acculturava!
@@ -10618,7 +10618,7 @@ accumulasti!
 accumulata!
 accumulate!
 accumulàtevi!
-accùmulati!
+accumulati;accùmulati@I!
 accumulato
 accumulatóre
 accumulatóri!
@@ -11435,7 +11435,7 @@ acquattasti!
 acquattata!
 acquattate!
 acquattàtevi!
-acquattati;acquàttati
+acquattati;acquàttati@I
 acquattato
 acquattàtosi!
 acquattava!
@@ -12144,7 +12144,7 @@ adagiasti!
 adagiata!
 adagiate!
 adagiàtevi!
-adagiati;adàgiati
+adagiati;adàgiati@I
 adagiato
 adagiàtosi!
 adagiava!
@@ -12195,7 +12195,7 @@ adattasti!
 adattata!
 adattate!
 adattàtevi!
-adàttati!
+adattati;adàttati@I!
 adattativa!
 adattative!
 adattativi!
@@ -12434,7 +12434,7 @@ addensasti!
 addensata
 addensate!
 addensàtevi!
-addensati~addènsati@A!
+addensati;addènsati@I!
 addensato
 addensàtosi!
 addensava!
@@ -12564,7 +12564,7 @@ addentraste!
 addentrasti!
 addentrate!
 addentràtevi!
-addentrati;addéntrati
+addentrati;addéntrati@I
 addentrato!
 addentràtosi!
 addentrava!
@@ -12620,7 +12620,7 @@ addestrasti!
 addestrata!
 addestrate!
 addestràtevi!
-addestrati;addèstrati
+addestrati;addèstrati@I
 addestratìssima!
 addestratìssime!
 addestratìssimi!
@@ -13373,7 +13373,7 @@ addolorasti!
 addolorata!
 addolorate!
 addoloràtevi!
-addolorati;addolórati
+addolorati;addolórati@I
 addolorato
 addoloràtosi!
 addolorava!
@@ -13467,7 +13467,7 @@ addomesticasti!
 addomesticata!
 addomesticate!
 addomesticàtevi!
-addomesticati~addomèsticati@A!
+addomesticati;addomèsticati@I!
 addomesticato
 addomesticàtosi!
 addomesticava!
@@ -13563,7 +13563,7 @@ addormentaṡuòcere
 addormentata!
 addormentate!
 addormentàtevi!
-addormentati;addorméntati
+addormentati;addorméntati@I
 addormentativa!
 addormentative!
 addormentativi!
@@ -13621,7 +13621,7 @@ addossaste!
 addossasti!
 addossate!
 addossàtevi!
-addossati;addòssati
+addossati;addòssati@I
 addossato!
 addossàtosi!
 addossava!
@@ -13673,7 +13673,7 @@ addottoraste!
 addottorasti!
 addottorate!
 addottoràtevi!
-addottorati;addottórati
+addottorati;addottórati@I
 addottorato!
 addottoràtosi!
 addottorava!
@@ -13726,7 +13726,7 @@ addottrinaste!
 addottrinasti!
 addottrinate!
 addottrinàtevi!
-addottrinati;addottrìnati
+addottrinati;addottrìnati@I
 addottrinato!
 addottrinàtosi!
 addottrinava!
@@ -13968,7 +13968,7 @@ adeguate!
 adeguàtevi!
 adeguatézza
 adeguatézze!
-adeguati~adéguati@A;adèguati
+adeguati~adéguati@A;adèguati@I
 adeguato
 adeguàtosi!
 adeguava!
@@ -14082,7 +14082,7 @@ adempisti!
 adempita!
 adempite!
 adempìtevi!
-adempiti~adémpiti@A!
+adempiti;adémpiti@I!
 adempito
 adempiuta
 adempiute!
@@ -14575,7 +14575,7 @@ adirasti!
 adirata!
 adirate!
 adiràtevi!
-adìrati!
+adirati;adìrati@I!
 adirato
 adiràtosi!
 adirava!
@@ -14788,7 +14788,7 @@ adombrasti!
 adombrata
 adombrate!
 adombràtevi!
-adombrati;adómbrati
+adombrati;adómbrati@I
 adombrato
 adombràtosi!
 adombrava!
@@ -14922,7 +14922,7 @@ adontaste!
 adontasti!
 adontate!
 adontàtevi!
-adontati;adóntati
+adontati;adóntati@I
 adontato!
 adontàtosi!
 adontava!
@@ -14975,7 +14975,7 @@ adoperasti!
 adoperata!
 adoperate!
 adoperàtevi!
-adoperati~adòperati@A!
+adoperati;adòperati@I!
 adoperato
 adoperàtosi!
 adoperava!
@@ -15025,7 +15025,7 @@ adopraste!
 adoprasti!
 adoprate!
 adopràtevi!
-adoprati;adòprati
+adoprati;adòprati@I
 adoprato!
 adopràtosi!
 adoprava!
@@ -15126,7 +15126,7 @@ adornasti!
 adornata!
 adornate!
 adornàtevi!
-adornati;adórnati
+adornati;adórnati@I
 adornato
 adornatóre
 adornatóri!
@@ -15999,7 +15999,7 @@ affaccendasti!
 affaccendata!
 affaccendate!
 affaccendàtevi!
-affaccèndati!
+affaccendati;affaccèndati@I!
 affaccendato
 affaccendàtosi!
 affaccendava!
@@ -16065,7 +16065,7 @@ affacciasti!
 affacciata!
 affacciate!
 affacciàtevi!
-affacciati;affàcciati
+affacciati;affàcciati@I
 affacciato
 affacciàtosi!
 affacciava!
@@ -16185,7 +16185,7 @@ affannasti!
 affannata
 affannate!
 affannàtevi!
-affannati;affànnati
+affannati;affànnati@I
 affannato
 affannàtosi!
 affannava!
@@ -16392,7 +16392,7 @@ affaticasti!
 affaticata!
 affaticate!
 affaticàtevi!
-affatìcati;affaticati
+affaticati;affatìcati@I
 affaticato
 affaticàtosi!
 affaticava!
@@ -16568,7 +16568,7 @@ affermasti!
 affermata!
 affermate!
 affermàtevi!
-afférmati!
+affermati;afférmati@I!
 affermativa
 affermativaménte
 affermative
@@ -16629,7 +16629,7 @@ afferrasti!
 afferrata!
 afferrate!
 afferràtevi!
-afferrati;affèrrati
+afferrati;affèrrati@I
 afferrato
 afferràtosi!
 afferrava!
@@ -16706,7 +16706,7 @@ affetterésti!
 affetteréte!
 affetterà	affetterà!
 affetterò	affetterò!
-affètti;affétti
+affètti;affétti@I
 affettiamo!
 affettiate!
 affèttino;afféttino
@@ -16751,7 +16751,7 @@ affezionasti!
 affezionata!
 affezionate!
 affezionàtevi!
-affezionati;affeziónati
+affezionati;affeziónati@I
 affezionato
 affezionàtosi!
 affezionava!
@@ -17659,7 +17659,7 @@ afflosciasti!
 afflosciata!
 afflosciate!
 afflosciàtevi!
-afflosciati;afflòsciati
+afflosciati;afflòsciati@I
 afflosciato
 afflosciàtosi!
 afflosciava!
@@ -17781,7 +17781,7 @@ affogasti!
 affogata!
 affogate!
 affogàtevi!
-affogati~affógati@A~affògati@A!
+affogati;affógati@I;affògati@I!
 affogato
 affogàtosi!
 affogava!
@@ -17832,7 +17832,7 @@ affollasti!
 affollata!
 affollate!
 affollàtevi!
-affòllati~affóllati@V!
+affollati;affòllati@I;affóllati@I!
 affollatìssima!
 affollatìssime!
 affollatìssimi!
@@ -17889,7 +17889,7 @@ affondasti!
 affondata
 affondate!
 affondàtevi!
-affondati~affóndati@A!
+affondati;affóndati@I!
 affondato
 affondatóre
 affondatóri!
@@ -18030,7 +18030,7 @@ affrancasti!
 affrancata!
 affrancate!
 affrancàtevi!
-affrancati~affràncati@A!
+affrancati;affràncati@I!
 affrancato
 affrancatóre
 affrancatóri!
@@ -18131,7 +18131,7 @@ affratellasti!
 affratellata!
 affratellate!
 affratellàtevi!
-affratellati;affratèllati
+affratellati;affratèllati@I
 affratellato
 affratellàtosi!
 affratellava!
@@ -18303,7 +18303,7 @@ affrettata!
 affrettataménte
 affrettate!
 affrettàtevi!
-affrettati;affréttati
+affrettati;affréttati@I
 affrettato
 affrettàtosi!
 affrettava!
@@ -18361,7 +18361,7 @@ affrontasti!
 affrontata!
 affrontate!
 affrontàtevi!
-affrontati~affróntati@A!
+affrontati;affróntati@I!
 affrontato
 affrontàtosi!
 affrontava!
@@ -19075,7 +19075,7 @@ agghindasti!
 agghindata!
 agghindate!
 agghindàtevi!
-agghindati~agghìndati@A!
+agghindati;agghìndati@I!
 agghindato
 agghindàtosi!
 agghindava!
@@ -19224,7 +19224,7 @@ aggirasti!
 aggirata!
 aggirate!
 aggiràtevi!
-aggìrati!
+aggirati;aggìrati@I!
 aggirato
 aggiratóre
 aggiratóri!
@@ -19278,7 +19278,7 @@ aggiudicataria!
 aggiudicatario
 aggiudicate!
 aggiudicàtevi!
-aggiudicati;aggiùdicati
+aggiudicati;aggiùdicati@I
 aggiudicativa!
 aggiudicative
 aggiudicativi!
@@ -19441,7 +19441,7 @@ aggiustate!
 aggiustàtevi!
 aggiustatézza
 aggiustatézze!
-aggiustati;aggiùstati
+aggiustati;aggiùstati@I
 aggiustato
 aggiustatóre
 aggiustatóri!
@@ -19594,7 +19594,7 @@ aggomitolaste!
 aggomitolasti!
 aggomitolate!
 aggomitolàtevi!
-aggomitolati;aggomìtolati
+aggomitolati;aggomìtolati@I
 aggomitolato!
 aggomitolàtosi!
 aggomitolava!
@@ -19765,7 +19765,7 @@ aggrappasti!
 aggrappata!
 aggrappate!
 aggrappàtevi!
-aggràppati!
+aggrappati;aggràppati@I!
 aggrappato
 aggrappàtosi!
 aggrappava!
@@ -19817,7 +19817,7 @@ aggravasti!
 aggravata!
 aggravate!
 aggravàtevi!
-aggravati;aggràvati
+aggravati;aggràvati@I
 aggravato
 aggravàtosi!
 aggravava!
@@ -19954,7 +19954,7 @@ aggregasti!
 aggregata!
 aggregate!
 aggregàtevi!
-aggregati~aggrègati@A!
+aggregati;aggrègati@I!
 aggregativa!
 aggregative!
 aggregativi!
@@ -20240,7 +20240,7 @@ aggrondasti!
 aggrondata!
 aggrondate!
 aggrondàtevi!
-aggrondati;aggróndati
+aggrondati;aggróndati@I
 aggrondato
 aggrondàtosi!
 aggrondava!
@@ -20798,7 +20798,7 @@ agitata
 agitataménte
 agitate
 agitàtevi!
-àgitati;agitati
+agitati;àgitati@I
 agitatìssima!
 agitatìssime!
 agitatìssimi!
@@ -20830,7 +20830,7 @@ agiterésti!
 agiteréte!
 agiterà	agiterà
 agiterò	agiterò
-agiti;àgiti
+agiti;àgiti@I
 agitiamo!
 agitiàmoci!
 agitiate!
@@ -22008,7 +22008,7 @@ alcoliżżasti!
 alcoliżżata!
 alcoliżżate!
 alcoliżżàtevi!
-alcolìżżati!
+alcoliżżati;alcolìżżati@I!
 alcoliżżato
 alcoliżżàtosi!
 alcoliżżava!
@@ -22499,7 +22499,7 @@ alienasti!
 alienata!
 alienate!
 alienàtevi!
-alienati~aliènati@A!
+alienati;aliènati@I!
 alienato
 alienàtosi!
 alienava!
@@ -22570,7 +22570,7 @@ alimentasti!
 alimentata
 alimentate!
 alimentàtevi!
-alimentati;aliméntati
+alimentati;aliméntati@I
 alimentato
 alimentatóre
 alimentatóri!
@@ -22733,7 +22733,7 @@ allagasti!
 allagata!
 allagate!
 allagàtevi!
-allagati~allàgati@A!
+allagati;allàgati@I!
 allagato
 allagàtosi!
 allagava!
@@ -22868,7 +22868,7 @@ allargasti!
 allargata
 allargate!
 allargàtevi!
-allargati;allàrgati
+allargati;allàrgati@I
 allargato
 allargàtosi!
 allargatubi
@@ -22919,7 +22919,7 @@ allarmasti!
 allarmata!
 allarmate!
 allarmàtevi!
-allàrmati!
+allarmati;allàrmati@I!
 allarmatìssima!
 allarmatìssime!
 allarmatìssimi!
@@ -23065,7 +23065,7 @@ alleasti!
 alleata!
 alleate!
 alleàtevi!
-alleati;allèati
+alleati;allèati@I
 alleato
 alleàtosi!
 alleava!
@@ -23432,7 +23432,7 @@ allentasti!
 allentata!
 allentate!
 allentàtevi!
-allentati~allèntati@A!
+allentati;allèntati@I!
 allentato
 allentàtosi!
 allentava!
@@ -23672,7 +23672,7 @@ allettasti!
 allettata!
 allettate!
 allettàtevi!
-allettati~allèttati@A!
+allettati;allèttati@I!
 allettato
 allettatóre
 allettatóri!
@@ -24103,7 +24103,7 @@ allineasti!
 allineata!
 allineate!
 allineàtevi!
-allineati;allìneati
+allineati;allìneati@I
 allineato
 allineàtosi!
 allineava!
@@ -24350,7 +24350,7 @@ allontanàtasi
 allontanate!
 allontanàtesi
 allontanàtevi!
-allontànati!
+allontanati;allontànati@I!
 allontanàtisi
 allontanato
 allontanàtosi
@@ -24851,7 +24851,7 @@ allungasti!
 allungata
 allungate!
 allungàtevi!
-allungati;allùngati
+allungati;allùngati@I
 allungato
 allungàtosi!
 allungava!
@@ -25232,7 +25232,7 @@ alterasti!
 alterata!
 alterate!
 alteràtevi!
-alterati~àlterati@A!
+alterati;àlterati@I!
 alterativa!
 alterative!
 alterativi!
@@ -25336,7 +25336,7 @@ alternata!
 alternataménte
 alternate!
 alternàtevi!
-alternati;altèrnati
+alternati;altèrnati@I
 alternativa
 alternativaménte
 alternative
@@ -25529,7 +25529,7 @@ alzata
 alzataccia
 alzate!
 alzàtevi!
-alzati;àlzati
+alzati;àlzati@I
 alzato
 alzàtosi!
 alzava!
@@ -25607,7 +25607,7 @@ amalgamasti
 amalgamata
 amalgamate
 amalgamàtevi!
-amàlgamati;amalgamati
+amalgamati;amàlgamati@I
 amalgamato
 amalgamàtosi!
 amalgamava
@@ -25788,7 +25788,7 @@ amasti!
 amata
 amate
 amàtevi!
-àmati;amati
+amati;àmati@I
 amatissima!
 amatissime!
 amatissimi!
@@ -25946,7 +25946,7 @@ ambientasti!
 ambientata
 ambientate!
 ambientàtevi!
-ambientati~ambièntati@A!
+ambientati;ambièntati@I!
 ambientato
 ambientàtosi!
 ambientava!
@@ -26231,7 +26231,7 @@ americaniżżasti!
 americaniżżata!
 americaniżżate!
 americaniżżàtevi!
-americaniżżati;americanìżżati
+americaniżżati;americanìżżati@I
 americaniżżato
 americaniżżàtosi!
 americaniżżava!
@@ -26437,7 +26437,7 @@ ammaccasti!
 ammaccata!
 ammaccate!
 ammaccàtevi!
-ammaccati;ammàccati
+ammaccati;ammàccati@I
 ammaccato
 ammaccàtosi!
 ammaccatura
@@ -26581,7 +26581,7 @@ ammalasti!
 ammalata!
 ammalate!
 ammalàtevi!
-ammalati;ammàlati
+ammalati;ammàlati@I
 ammalato
 ammalàtosi!
 ammalava!
@@ -26886,7 +26886,7 @@ ammantaste!
 ammantasti!
 ammantate!
 ammantàtevi!
-ammantati;ammàntati
+ammantati;ammàntati@I
 ammantato!
 ammantàtosi!
 ammantava!
@@ -26983,7 +26983,7 @@ ammassasti!
 ammassata!
 ammassate!
 ammassàtevi!
-ammassati;ammàssati
+ammassati;ammàssati@I
 ammassato
 ammassàtosi!
 ammassava!
@@ -27839,7 +27839,7 @@ ammogliasti!
 ammogliata
 ammogliate!
 ammogliàtevi!
-ammogliati;ammógliati
+ammogliati;ammógliati@I
 ammogliato
 ammogliàtosi!
 ammogliava!
@@ -27923,7 +27923,7 @@ ammollaste!
 ammollasti!
 ammollate!
 ammollàtevi!
-ammollati;ammòllati
+ammollati;ammòllati@I
 ammollato!
 ammollàtosi!
 ammollava!
@@ -28665,7 +28665,7 @@ ammutinasti!
 ammutinata!
 ammutinate!
 ammutinàtevi!
-ammutinati;ammùtinati
+ammutinati;ammùtinati@I
 ammutinato
 ammutinàtosi!
 ammutinava!
@@ -28931,7 +28931,7 @@ ampliasti!
 ampliata
 ampliate
 ampliàtevi!
-ampliati;àmpliati
+ampliati;àmpliati@I
 ampliato
 ampliàtosi!
 ampliava!
@@ -29262,7 +29262,7 @@ analiżżasti!
 analiżżata!
 analiżżate!
 analiżżàtevi!
-analiżżati~analìżżati@A!
+analiżżati;analìżżati@I!
 analiżżato
 analiżżatóre
 analiżżatóri!
@@ -29828,7 +29828,7 @@ ancorasti!
 ancorata!
 ancorate!
 ancoràtevi!
-ancorati;àncorati
+ancorati;àncorati@I
 ancorato
 ancoràtosi!
 ancorava!
@@ -30590,7 +30590,7 @@ angliciżżaste!
 angliciżżasti!
 angliciżżate!
 angliciżżàtevi!
-angliciżżati;anglicìżżati
+angliciżżati;anglicìżżati@I
 angliciżżato!
 angliciżżàtosi!
 angliciżżava!
@@ -30751,7 +30751,7 @@ angosciasti!
 angosciata!
 angosciate!
 angosciàtevi!
-angosciati;angòsciati
+angosciati;angòsciati@I
 angosciato
 angosciàtosi!
 angosciava!
@@ -31246,7 +31246,7 @@ annebbiasti!
 annebbiata!
 annebbiate!
 annebbiàtevi!
-annebbiati;annébbiati
+annebbiati;annébbiati@I
 annebbiato
 annebbiàtosi!
 annebbiava!
@@ -31335,7 +31335,7 @@ anneraste!
 annerasti!
 annerate!
 anneràtevi!
-annerati;annérati
+annerati;annérati@I
 annerato!
 anneràtosi!
 annerava!
@@ -31610,7 +31610,7 @@ annidasti!
 annidata!
 annidate!
 annidàtevi!
-annidati;annìdati
+annidati;annìdati@I
 annidato
 annidàtosi!
 annidava!
@@ -31762,7 +31762,7 @@ annoiasti!
 annoiata
 annoiate!
 annoiàtevi!
-annoiati;annòiati
+annoiati;annòiati@I
 annoiato
 annoiàtosi!
 annoiava!
@@ -31975,7 +31975,7 @@ annullasti!
 annullata
 annullate
 annullàtevi!
-annullati;annùllati
+annullati;annùllati@I
 annullativa!
 annullative!
 annullativi!
@@ -32158,7 +32158,7 @@ annuvolaste!
 annuvolasti!
 annuvolate!
 annuvolàtevi!
-annuvolati;annùvolati
+annuvolati;annùvolati@I
 annuvolato!
 annuvolàtosi!
 annuvolava!
@@ -34192,7 +34192,7 @@ appacificaste!
 appacificasti!
 appacificate!
 appacificàtevi!
-appacificati;appacìficati
+appacificati;appacìficati@I
 appacificato!
 appacificàtosi!
 appacificava!
@@ -34251,7 +34251,7 @@ appagasti!
 appagata!
 appagate!
 appagàtevi!
-appagati~appàgati@A!
+appagati;appàgati@I!
 appagato
 appagatóre
 appagatóri!
@@ -34306,7 +34306,7 @@ appaiaste!
 appaiasti!
 appaiate!
 appaiàtevi!
-appaiati;appàiati
+appaiati;appàiati@I
 appaiato!
 appaiàtosi!
 appaiava!
@@ -34393,7 +34393,7 @@ appallottolaste!
 appallottolasti!
 appallottolate!
 appallottolàtevi!
-appallottolati;appallòttolati
+appallottolati;appallòttolati@I
 appallottolato!
 appallottolàtosi!
 appallottolava!
@@ -34494,7 +34494,7 @@ appannasti!
 appannata!
 appannate!
 appannàtevi!
-appannati;appànnati
+appannati;appànnati@I
 appannato
 appannàtosi!
 appannava!
@@ -34734,7 +34734,7 @@ appartasti!
 appartata!
 appartate!
 appartàtevi!
-appàrtati!
+appartati;appàrtati@I!
 appartato
 appartàtosi!
 appartava!
@@ -34975,7 +34975,7 @@ appellaste!
 appellasti!
 appellate!
 appellàtevi!
-appellati;appèllati
+appellati;appèllati@I
 appellativi!
 appellativo
 appellato!
@@ -35420,7 +35420,7 @@ appiccicasti!
 appiccicata!
 appiccicate!
 appiccicàtevi!
-appiccicati;appìccicati
+appiccicati;appìccicati@I
 appiccicaticcia!
 appiccicaticcio
 appiccicato
@@ -35589,7 +35589,7 @@ appiṡolàntesi!
 appiṡolarsi
 appiṡolarti!
 appiṡolàtevi!
-appìṡolati;appiṡolati
+appiṡolati;appìṡolati@I
 appiṡolàtosi!
 appiṡoliàmoci!
 appiè	appiè~appié@V
@@ -35674,7 +35674,7 @@ applicata!
 applicataménte
 applicate!
 applicàtevi!
-àpplicati!
+applicati;àpplicati@I!
 applicativa!
 applicative!
 applicativi!
@@ -35826,7 +35826,7 @@ appoggiasti!
 appoggiata!
 appoggiate!
 appoggiàtevi!
-appoggiati;appòggiati
+appoggiati;appòggiati@I
 appoggiato
 appoggiàtosi!
 appoggiava!
@@ -35846,7 +35846,7 @@ appollaiarti!
 appollaiata!
 appollaiate!
 appollaiàtevi!
-appollaiati;appollàiati
+appollaiati;appollàiati@I
 appollaiato
 appollaiàtosi!
 appóne!
@@ -35933,7 +35933,7 @@ appoppaste!
 appoppasti!
 appoppate!
 appoppàtevi!
-appoppati;appóppati
+appoppati;appóppati@I
 appoppato!
 appoppàtosi!
 appoppava!
@@ -36045,7 +36045,7 @@ appostasti!
 appostata
 appostate!
 appostàtevi!
-appostati;appòstati
+appostati;appòstati@I
 appostato
 appostàtosi!
 appostava!
@@ -36272,7 +36272,7 @@ appressaste!
 appressasti!
 appressate!
 appressàtevi!
-appressati;apprèssati
+appressati;apprèssati@I
 appressato!
 appressàtosi!
 appressava!
@@ -36322,7 +36322,7 @@ apprestaste!
 apprestasti!
 apprestate!
 apprestàtevi!
-apprestati;apprèstati
+apprestati;apprèstati@I
 apprestato!
 apprestàtosi!
 apprestava!
@@ -36711,7 +36711,7 @@ appropinquàntesi!
 appropinquarsi
 appropinquarti!
 appropinquàtevi!
-appropinquati;appropìnquati
+appropinquati;appropìnquati@I
 appropinquàtosi!
 appropinquiàmoci!
 appròpri!
@@ -36739,7 +36739,7 @@ appropriata!
 appropriataménte
 appropriate!
 appropriàtevi!
-appropriati~appròpriati@A!
+appropriati;appròpriati@I!
 appropriato
 appropriàtosi!
 appropriava!
@@ -36787,7 +36787,7 @@ approssimata!
 approssimataménte
 approssimate!
 approssimàtevi!
-approssimati;appròssimati
+approssimati;appròssimati@I
 approssimativa!
 approssimativaménte
 approssimative!
@@ -36932,7 +36932,7 @@ appruaste!
 appruasti!
 appruate!
 appruàtevi!
-appruati;apprùati
+appruati;apprùati@I
 appruato!
 appruàtosi!
 appruava!
@@ -37023,7 +37023,7 @@ appuntasti!
 appuntata!
 appuntate!
 appuntàtevi!
-appuntati;appùntati
+appuntati;appùntati@I
 appuntato
 appuntàtosi!
 appuntava!
@@ -37355,7 +37355,7 @@ arabiżżasti!
 arabiżżata
 arabiżżate!
 arabiżżàtevi!
-arabiżżati;arabìżżati
+arabiżżati;arabìżżati@I
 arabiżżato
 arabiżżàtosi!
 arabiżżava!
@@ -38143,7 +38143,7 @@ arcuasti!
 arcuata!
 arcuate!
 arcuàtevi!
-arcuati~àrcuati@A!
+arcuati;àrcuati@I!
 arcuato
 arcuàtosi!
 arcuava!
@@ -38324,7 +38324,7 @@ arenasti!
 arenata
 arenate!
 arenàtevi!
-arénati!
+arenati;arénati@I!
 arenato
 arenàtosi!
 arenava!
@@ -38824,7 +38824,7 @@ armasti!
 armata
 armate!
 armàtevi!
-armati;àrmati
+armati;àrmati@I
 armato
 armatóre
 armatóri
@@ -38963,7 +38963,7 @@ armoniżżasti!
 armoniżżata!
 armoniżżate!
 armoniżżàtevi!
-armoniżżati~armonìżżati@A!
+armoniżżati;armonìżżati@I!
 armoniżżato
 armoniżżatóre
 armoniżżatóri!
@@ -39162,7 +39162,7 @@ arrabbiàtasi
 arrabbiate!
 arrabbiàtesi
 arrabbiàtevi!
-arrabbiati~arràbbiati@A!
+arrabbiati;arràbbiati@I!
 arrabbiàtisi
 arrabbiato
 arrabbiàtosi
@@ -39260,7 +39260,7 @@ arrampicasti!
 arrampicata
 arrampicate!
 arrampicàtevi!
-arrampicati;arràmpicati
+arrampicati;arràmpicati@I
 arrampicato!
 arrampicatóre
 arrampicatóri!
@@ -39378,7 +39378,7 @@ arrangiasti!
 arrangiata!
 arrangiate!
 arrangiàtevi!
-arrangiati~arràngiati@A!
+arrangiati;arràngiati@I!
 arrangiato
 arrangiàtosi!
 arrangiava!
@@ -39499,7 +39499,7 @@ arrażżasti!
 arrażżata!
 arrażżate!
 arrażżàtevi!
-arrażżati~arràżżati@A!
+arrażżati;arràżżati@I!
 arrażżato
 arrażżàtosi!
 arrażżava!
@@ -39742,7 +39742,7 @@ arrestasti!
 arrestata
 arrestate!
 arrestàtevi!
-arrèstati!
+arrestati;arrèstati@I!
 arrestato
 arrestàtosi!
 arrestava!
@@ -40216,7 +40216,7 @@ arroccasti!
 arroccata!
 arroccate!
 arroccàtevi!
-arroccati;arròccati
+arroccati;arròccati@I
 arroccato
 arroccàtosi!
 arroccava!
@@ -40312,7 +40312,7 @@ arrogaste!
 arrogasti!
 arrogate!
 arrogàtevi!
-arrogati;arrògati
+arrogati;arrògati@I
 arrogato!
 arrogàtosi!
 arrogava!
@@ -40500,7 +40500,7 @@ arrossasti!
 arrossata
 arrossate!
 arrossàtevi!
-arrossati;arróssati
+arrossati;arróssati@I
 arrossato
 arrossàtosi!
 arrossava!
@@ -40817,7 +40817,7 @@ arrovellaste!
 arrovellasti!
 arrovellate!
 arrovellàtevi!
-arrovellati;arrovèllati
+arrovellati;arrovèllati@I
 arrovellato!
 arrovellàtosi!
 arrovellava!
@@ -40868,7 +40868,7 @@ arroventasti!
 arroventata!
 arroventate!
 arroventàtevi!
-arroventati;arrovèntati
+arroventati;arrovèntati@I
 arroventato
 arroventàtosi!
 arroventava!
@@ -40999,7 +40999,7 @@ arruffasti!
 arruffata!
 arruffate!
 arruffàtevi!
-arruffati~arrùffati@A!
+arruffati;arrùffati@I!
 arruffato
 arruffàtosi!
 arruffava!
@@ -41180,7 +41180,7 @@ arruolasti!
 arruolata!
 arruolate!
 arruolàtevi!
-arruolati;arruòlati
+arruolati;arruòlati@I
 arruolato
 arruolàtosi!
 arruolava!
@@ -41807,7 +41807,7 @@ asciugasti!
 asciugata
 asciugate!
 asciugàtevi!
-asciugati;asciùgati
+asciugati;asciùgati@I
 asciugato
 asciugàtosi!
 asciugatrice
@@ -41877,7 +41877,7 @@ ascoltasti!
 ascoltata
 ascoltate!
 ascoltàtevi!
-ascoltati~ascóltati@A!
+ascoltati;ascóltati@I!
 ascoltato
 ascoltatóre
 ascoltatóri!
@@ -42354,7 +42354,7 @@ aspettasti!
 aspettata
 aspettate
 aspettàtevi!
-aspèttati;aspettati
+aspettati;aspèttati@I
 aspettativa
 aspettative
 aspettato
@@ -43006,7 +43006,7 @@ assemblasti!
 assemblata!
 assemblate!
 assemblàtevi!
-assemblati~assémblati@A~assèmblati@A!
+assemblati;assémblati@I;assèmblati@I!
 assemblato
 assemblatóre
 assemblatóri!
@@ -43297,7 +43297,7 @@ asserragliasti!
 asserragliata!
 asserragliate!
 asserragliàtevi!
-asserragliati;asserràgliati
+asserragliati;asserràgliati@I
 asserragliato
 asserragliàtosi!
 asserragliava!
@@ -43439,7 +43439,7 @@ assestate!
 assestàtevi!
 assestatézza
 assestatézze!
-assestati;assèstati
+assestati;assèstati@I
 assestato
 assestàtosi!
 assestava!
@@ -43671,7 +43671,7 @@ assicurasti!
 assicurata!
 assicurate!
 assicuràtevi
-assicùrati!
+assicurati;assicùrati@I!
 assicurativa
 assicurative
 assicurativi
@@ -43738,7 +43738,7 @@ assideraste!
 assiderasti!
 assiderate!
 assideràtevi!
-assiderati;assìderati
+assiderati;assìderati@I
 assiderato!
 assideràtosi!
 assiderava!
@@ -44076,7 +44076,7 @@ assistiàmoci!
 assistiate!
 assistita!
 assistite!
-assistiti~assìstiti@A!
+assistiti;assìstiti@I!
 assistito
 assistìtosi!
 assistiva!
@@ -44162,7 +44162,7 @@ assodasti!
 assodata!
 assodate!
 assodàtevi!
-assodati;assòdati
+assodati;assòdati@I
 assodato
 assodàtosi!
 assodava!
@@ -44241,7 +44241,7 @@ assoggètto!
 assoggettò	assoggettò!
 assòide
 assòidi!
-assóla;assòla
+assóla;assòla@I
 assolai!
 assolammo!
 assolando!
@@ -44361,7 +44361,7 @@ assolerésti!
 assoleréte!
 assolerà	assolerà!
 assolerò	assolerò!
-assóli;assòli
+assóli;assòli@I
 assoliamo!
 assoliate!
 assólino~assòlino@V!
@@ -46015,7 +46015,7 @@ attaccasti!
 attaccata!
 attaccate!
 attaccàtevi!
-attaccati;attàccati
+attaccati;attàccati@I
 attaccaticcia!
 attaccaticcio
 attaccato
@@ -46114,7 +46114,7 @@ attardaste!
 attardasti!
 attardate!
 attardàtevi!
-attardati;attàrdati
+attardati;attàrdati@I
 attardato!
 attardàtosi!
 attardava!
@@ -46274,7 +46274,7 @@ atteggiasti!
 atteggiata!
 atteggiate!
 atteggiàtevi!
-atteggiati;attéggiati
+atteggiati;attéggiati@I
 atteggiato
 atteggiàtosi!
 atteggiava!
@@ -46307,7 +46307,7 @@ attempasti!
 attempata
 attempate
 attempàtevi!
-attempati~attèmpati@A!
+attempati;attèmpati@I!
 attempato
 attempàtosi!
 attempava!
@@ -46342,7 +46342,7 @@ attendàntesi!
 attendarsi
 attendarti!
 attendàtevi!
-attendati;attèndati
+attendati;attèndati@I
 attendàtosi!
 attènde!
 attendémmo!
@@ -46447,7 +46447,7 @@ attentasti!
 attentata!
 attentate!
 attentàtevi!
-attentati~attèntati@A~atténtati@A!
+attentati;attèntati@I;atténtati@I!
 attentato
 attentatóre
 attentatóri!
@@ -46504,7 +46504,7 @@ attenuasti!
 attenuata!
 attenuate!
 attenuàtevi!
-attenuati~attènuati@A!
+attenuati;attènuati@I!
 attenuato
 attenuatóre
 attenuatóri!
@@ -47060,7 +47060,7 @@ attivasti!
 attivata!
 attivate!
 attivàtevi!
-attivati;attìvati
+attivati;attìvati@I
 attivato
 attivatóre
 attivatóri!
@@ -47629,7 +47629,7 @@ attrezzasti!
 attrezzata!
 attrezzate!
 attrezzàtevi!
-attrezzati~attrézzati@A!
+attrezzati;attrézzati@I!
 attrezzato
 attrezzàtosi!
 attrezzatura
@@ -47817,7 +47817,7 @@ attruppàntesi!
 attrupparsi
 attrupparti!
 attruppàtevi!
-attruppati;attrùppati
+attruppati;attrùppati@I
 attruppàtosi!
 attruppiàmoci!
 àttua!
@@ -48119,7 +48119,7 @@ auguraste!
 augurasti!
 augurate!
 auguràtevi!
-augurati;àugurati
+augurati;àugurati@I
 augurato!
 auguràtosi!
 augurava!
@@ -48243,7 +48243,7 @@ aumentasti!
 aumentata!
 aumentate!
 aumentàtevi!
-aumentati~auméntati@A!
+aumentati;auméntati@I!
 aumentato
 aumentàtosi!
 aumentava!
@@ -48639,7 +48639,7 @@ autenticasti!
 autenticata!
 autenticate!
 autenticàtevi!
-autenticati;autènticati
+autenticati;autènticati@I
 autenticato
 autenticàtosi!
 autenticava!
@@ -48744,7 +48744,7 @@ autoaccuṡarti!
 autoaccuṡata!
 autoaccuṡate!
 autoaccuṡàtevi!
-autoaccuṡati;autoaccùṡati
+autoaccuṡati;autoaccùṡati@I
 autoaccuṡato
 autoaccuṡatòria!
 autoaccuṡatòrie!
@@ -48841,7 +48841,7 @@ autoalimentarti!
 autoalimentata!
 autoalimentate!
 autoalimentàtevi!
-autoalimentati;autoaliméntati
+autoalimentati;autoaliméntati@I
 autoalimentato
 autoalimentàtosi!
 autoalimentiàmoci!
@@ -48974,7 +48974,7 @@ autocandidarti!
 autocandidata!
 autocandidate!
 autocandidàtevi!
-autocandidati;autocàndidati
+autocandidati;autocàndidati@I
 autocandidato
 autocandidàtosi!
 autocandidiàmoci!
@@ -49008,7 +49008,7 @@ autocensurarti!
 autocensurata!
 autocensurate!
 autocensuràtevi!
-autocensurati;autocensùrati
+autocensurati;autocensùrati@I
 autocensurato
 autocensuràtosi!
 autocensure!
@@ -49083,7 +49083,7 @@ autocitarti!
 autocitata!
 autocitate!
 autocitàtevi!
-autocitati;autocìtati
+autocitati;autocìtati@I
 autocitato
 autocitàtosi!
 autocitazióne
@@ -49112,7 +49112,7 @@ autocommiṡerarti!
 autocommiṡerata!
 autocommiṡerate!
 autocommiṡeràtevi!
-autocommiṡerati;autocommìṡerati
+autocommiṡerati;autocommìṡerati@I
 autocommiṡerato
 autocommiṡeràtosi!
 autocommiṡerazióne
@@ -49308,7 +49308,7 @@ autodichiarasti!
 autodichiarata!
 autodichiarate!
 autodichiaràtevi!
-autodichiàrati!
+autodichiarati;autodichiàrati@I!
 autodichiarato
 autodichiaràtosi!
 autodichiarava!
@@ -49467,7 +49467,7 @@ autofinanziarti!
 autofinanziata!
 autofinanziate!
 autofinanziàtevi!
-autofinanziati;autofinànziati
+autofinanziati;autofinànziati@I
 autofinanziato
 autofinanziàtosi!
 autoflagellazióne
@@ -49545,7 +49545,7 @@ autogovernarti!
 autogovernata!
 autogovernate!
 autogovernàtevi!
-autogovernati;autogovèrnati
+autogovernati;autogovèrnati@I
 autogovernato
 autogovernàtosi!
 autogovèrni
@@ -49614,7 +49614,7 @@ autoincensarti!
 autoincensata!
 autoincensate!
 autoincensàtevi!
-autoincensati;autoincènsati
+autoincensati;autoincènsati@I
 autoincensato
 autoincensàtosi!
 autoincensiàmoci!
@@ -49631,7 +49631,7 @@ autointersecarti!
 autointersecata!
 autointersecate!
 autointersecàtevi!
-autointersecati;autointèrsecati
+autointersecati;autointèrsecati@I
 autointersecato
 autointersecàtosi!
 autointersechiàmoci!
@@ -49644,7 +49644,7 @@ autoinvitarti!
 autoinvitata!
 autoinvitate!
 autoinvitàtevi!
-autoinvitati;autoinvìtati
+autoinvitati;autoinvìtati@I
 autoinvitato
 autoinvitàtosi!
 autoinvitiàmoci!
@@ -49666,7 +49666,7 @@ autolimitarti!
 autolimitata!
 autolimitate!
 autolimitàtevi!
-autolimitati;autolìmitati
+autolimitati;autolìmitati@I
 autolimitato
 autolimitàtosi!
 autolimitiàmoci!
@@ -49838,7 +49838,7 @@ autoproclamarti!
 autoproclamata!
 autoproclamate!
 autoproclamàtevi!
-autoproclamati;autoproclàmati
+autoproclamati;autoproclàmati@I
 autoproclamato
 autoproclamàtosi!
 autoproclamiàmoci!
@@ -49873,7 +49873,7 @@ autoregolamentarti!
 autoregolamentata!
 autoregolamentate!
 autoregolamentàtevi!
-autoregolamentati;autoregolaméntati
+autoregolamentati;autoregolaméntati@I
 autoregolamentato
 autoregolamentàtosi!
 autoregolamentazióne
@@ -49886,7 +49886,7 @@ autoregolarti!
 autoregolata!
 autoregolate!
 autoregolàtevi!
-autorègolati;autoregolati
+autoregolati;autorègolati@I
 autoregolato
 autoregolàtosi!
 autoregoliàmoci!
@@ -49956,7 +49956,7 @@ autoripararti!
 autoriparata!
 autoriparate!
 autoriparàtevi!
-autoriparati;autoripàrati
+autoriparati;autoripàrati@I
 autoriparato
 autoriparàtosi!
 autoripariàmoci!
@@ -50116,7 +50116,7 @@ autosuggestionarti!
 autosuggestionata!
 autosuggestionate!
 autosuggestionàtevi!
-autosuggestionati;autosuggestiónati
+autosuggestionati;autosuggestiónati@I
 autosuggestionato
 autosuggestionàtosi!
 autosuggestioniàmoci!
@@ -50127,7 +50127,7 @@ autotassarti!
 autotassata!
 autotassate!
 autotassàtevi!
-autotassati;autotàssati
+autotassati;autotàssati@I
 autotassato
 autotassàtosi!
 autotassiàmoci!
@@ -50389,7 +50389,7 @@ avariasti!
 avariata!
 avariate!
 avariàtevi!
-avariati~avàriati@A!
+avariati;avàriati@I!
 avariato
 avariàtosi!
 avariava!
@@ -50548,7 +50548,7 @@ averìano!
 averìavo!
 averìeno!
 averissi!
-avèrla;avérla
+avèrla;avérla@I
 avérle;avèrle
 avérli
 avérlo
@@ -50899,7 +50899,7 @@ avvallasti!
 avvallata!
 avvallate!
 avvallàtevi!
-avvallati;avvàllati
+avvallati;avvàllati@I
 avvallato
 avvallàtosi!
 avvallava!
@@ -51054,7 +51054,7 @@ avvantaggiasti!
 avvantaggiata!
 avvantaggiate!
 avvantaggiàtevi!
-avvantaggiati~avvantàggiati@A!
+avvantaggiati;avvantàggiati@I!
 avvantaggiato
 avvantaggiàtosi!
 avvantaggiava!
@@ -51293,7 +51293,7 @@ avventate!
 avventàtevi!
 avventatézza
 avventatézze!
-avventati;avvèntati
+avventati;avvèntati@I
 avventato
 avventàtosi!
 avventava!
@@ -51348,7 +51348,7 @@ avventurasti!
 avventurata!
 avventurate!
 avventuràtevi!
-avventurati;avventùrati
+avventurati;avventùrati@I
 avventurato
 avventuràtosi!
 avventurava!
@@ -51638,7 +51638,7 @@ avviasti!
 avviata!
 avviate!
 avviàtevi!
-avviati;avvìati
+avviati;avvìati@I
 avviato
 avviàtosi!
 avviava!
@@ -51669,7 +51669,7 @@ avvicendaste!
 avvicendasti!
 avvicendate!
 avvicendàtevi!
-avvicendati;avvicèndati
+avvicendati;avvicèndati@I
 avvicendato!
 avvicendàtosi!
 avvicendava!
@@ -51721,7 +51721,7 @@ avvicinasti!
 avvicinata!
 avvicinate!
 avvicinàtevi!
-avvicìnati!
+avvicinati;avvicìnati@I!
 avvicinato
 avvicinàtosi!
 avvicinava!
@@ -51847,7 +51847,7 @@ avviluppasti!
 avviluppata!
 avviluppate!
 avviluppàtevi!
-avviluppati;avvilùppati
+avviluppati;avvilùppati@I
 avviluppato
 avviluppàtosi!
 avviluppava!
@@ -51919,7 +51919,7 @@ avvinazzasti!
 avvinazzata!
 avvinazzate!
 avvinazzàtevi!
-avvinazzati~avvinàzzati@A!
+avvinazzati;avvinàzzati@I!
 avvinazzato
 avvinazzàtosi!
 avvinazzava!
@@ -52080,7 +52080,7 @@ avviṡasti!
 avviṡata!
 avviṡate!
 avviṡàtevi!
-avviṡati~avvìṡati@A!
+avviṡati;avvìṡati@I!
 avviṡato
 avviṡatóre
 avviṡatóri!
@@ -52175,7 +52175,7 @@ avvitaste!
 avvitasti!
 avvitate!
 avvitàtevi!
-avvitati;avvìtati
+avvitati;avvìtati@I
 avvitato!
 avvitàtosi!
 avvitava!
@@ -52263,7 +52263,7 @@ avvivaste!
 avvivasti!
 avvivate!
 avvivàtevi!
-avvivati;avvìvati
+avvivati;avvìvati@I
 avvivato!
 avvivàtosi!
 avvivava!
@@ -52462,7 +52462,7 @@ avvoltolaste!
 avvoltolasti!
 avvoltolate!
 avvoltolàtevi!
-avvoltolati;avvòltolati
+avvoltolati;avvòltolati@I
 avvoltolato!
 avvoltolàtosi!
 avvoltolava!
@@ -52755,7 +52755,7 @@ ażżardata!
 ażżardataménte
 ażżardate!
 ażżardàtevi!
-ażżardati~ażżàrdati@A!
+ażżardati;ażżàrdati@I!
 ażżardato
 ażżardàtosi!
 ażżardava!
@@ -53024,7 +53024,7 @@ ażżoppasti!
 azzoppata!
 ażżoppate!
 ażżoppàtevi!
-ażżoppati~azzoppati@Z~azzòppati@AZ;ażżòppati
+ażżoppati~azzoppati@Z~azzòppati@AZ;ażżòppati@I
 azzoppato
 ażżoppàtosi!
 ażżoppava!
@@ -53211,7 +53211,7 @@ bacasti!
 bacata!
 bacate!
 bacàtevi!
-bacati~bàcati@A!
+bacati;bàcati@I!
 bacato
 bacàtosi!
 bacava!
@@ -53564,7 +53564,7 @@ badaste!
 badasti!
 badate!
 badàtevi!
-badati;bàdati
+badati;bàdati@I
 badato!
 badàtosi!
 badava!
@@ -53668,7 +53668,7 @@ bagnasti!
 bagnata
 bagnate!
 bagnàtevi!
-bàgnati;bagnati
+bagnati;bàgnati@I
 bagnato
 bagnàtosi!
 bagnava!
@@ -54285,7 +54285,7 @@ baloccaste!
 baloccasti!
 baloccate!
 baloccàtevi!
-baloccati;balòccati
+baloccati;balòccati@I
 baloccato!
 baloccàtosi!
 baloccava!
@@ -55272,7 +55272,7 @@ barcamenàntesi!
 barcamenarsi
 barcamenarti!
 barcamenàtevi!
-barcamenati;barcaménati
+barcamenati;barcaménati@I
 barcamenàtosi!
 barcameniàmoci!
 barche
@@ -55352,7 +55352,7 @@ bardasti!
 bardata!
 bardate!
 bardàtevi!
-bardati;bàrdati
+bardati;bàrdati@I
 bardato
 bardàtosi!
 bardatura
@@ -56396,7 +56396,7 @@ batteżżasti!
 batteżżata!
 batteżżate!
 batteżżàtevi!
-batteżżati~battéżżati@A!
+batteżżati;battéżżati@I!
 batteżżato
 batteżżàtosi!
 batteżżava!
@@ -56658,7 +56658,7 @@ beasti!
 beata
 beate
 beàtevi!
-beati;bèati
+beati;bèati@I
 beatìfica!
 beatificai!
 beatificammo!
@@ -56755,7 +56755,7 @@ beccatèlli
 beccatèllo
 béccatelo;beccàtelo
 beccàtevi
-béccati;beccati
+beccati;béccati@I
 beccato
 beccàtosi!
 beccava!
@@ -56838,7 +56838,7 @@ becchettaste!
 becchettasti!
 becchettate!
 becchettàtevi!
-becchettati;becchéttati
+becchettati;becchéttati@I
 becchettato!
 becchettàtosi!
 becchettava!
@@ -56976,7 +56976,7 @@ beffasti!
 beffata!
 beffate!
 beffàtevi!
-beffati;bèffati
+beffati;bèffati@I
 beffato
 beffatóre
 beffatóri!
@@ -57340,7 +57340,7 @@ bendasti!
 bendata!
 bendate!
 bendàtevi!
-bendati~béndati@A;bèndati
+bendati~béndati@A;bèndati@I
 bendato
 bendàtosi!
 bendava!
@@ -59147,7 +59147,7 @@ bilanciasti!
 bilanciata!
 bilanciate!
 bilanciàtevi!
-bilanciati~bilànciati@A!
+bilanciati;bilànciati@I!
 bilanciato
 bilanciàtosi!
 bilanciava!
@@ -63745,7 +63745,7 @@ bruciacchiasti!
 bruciacchiata!
 bruciacchiate!
 bruciacchiàtevi!
-bruciacchiati;bruciàcchiati
+bruciacchiati;bruciàcchiati@I
 bruciacchiato
 bruciacchiàtosi!
 bruciacchiatura
@@ -63799,7 +63799,7 @@ bruciataia!
 bruciataio
 bruciate!
 bruciàtevi!
-bruciati;brùciati
+bruciati;brùciati@I
 bruciato
 bruciatóre
 bruciatóri!
@@ -64284,7 +64284,7 @@ bucasti!
 bucata!
 bucate!
 bucàtevi!
-bucati;bùcati
+bucati;bùcati@I
 bucatini!
 bucatino
 bucato
@@ -65020,7 +65020,7 @@ burlasti!
 burlata!
 burlate!
 burlàtevi!
-burlati;bùrlati
+burlati;bùrlati@I
 burlato
 burlàtosi!
 burlava!
@@ -65200,7 +65200,7 @@ buscasti!
 buscata!
 buscate!
 buscàtevi!
-buscati;bùscati
+buscati;bùscati@I
 buscato
 buscàtosi!
 buscava
@@ -65353,7 +65353,7 @@ buttàtasi!
 buttate!
 buttàtesi!
 buttàtevi!
-bùttati!
+buttati;bùttati@I!
 buttàtisi!
 buttato
 buttàtosi
@@ -65717,7 +65717,7 @@ cacciasti!
 cacciata
 cacciate!
 cacciàtevi!
-cacciati;càcciati
+cacciati;càcciati@I
 cacciato
 cacciatóra
 cacciatóre
@@ -66435,7 +66435,7 @@ calasti!
 calata
 calate!
 calàtevi!
-càlati!
+calati;càlati@I!
 calàtide
 calàtidi!
 calato
@@ -66587,7 +66587,7 @@ calcificasti!
 calcificata!
 calcificate!
 calcificàtevi!
-calcìficati!
+calcificati;calcìficati@I!
 calcificato
 calcificàtosi!
 calcificava!
@@ -67141,7 +67141,7 @@ calmasti!
 calmata
 calmate!
 calmàtevi!
-calmati~càlmati@A!
+calmati;càlmati@I!
 calmato
 calmàtosi!
 calmava!
@@ -68106,7 +68106,7 @@ camuffasti!
 camuffata!
 camuffate!
 camuffàtevi!
-camuffati;camùffati
+camuffati;camùffati@I
 camuffato
 camuffàtosi!
 camuffava!
@@ -68278,7 +68278,7 @@ cancellasti!
 cancellata
 cancellate!
 cancellàtevi!
-cancellati;cancèllati
+cancellati;cancèllati@I
 cancellato
 cancellàtosi!
 cancellava!
@@ -68336,7 +68336,7 @@ canceriżżaste!
 canceriżżasti!
 canceriżżate!
 canceriżżàtevi!
-canceriżżati;cancerìżżati
+canceriżżati;cancerìżżati@I
 canceriżżato!
 canceriżżàtosi!
 canceriżżava!
@@ -68471,7 +68471,7 @@ candidasti!
 candidata
 candidate!
 candidàtevi!
-candidati;càndidati
+candidati;càndidati@I
 candidato
 candidàtosi!
 candidatura
@@ -69426,7 +69426,7 @@ capacitaste!
 capacitasti!
 capacitate!
 capacitàtevi!
-capacitati;capàcitati
+capacitati;capàcitati@I
 capacitato!
 capacitàtosi!
 capacitava!
@@ -70873,7 +70873,7 @@ caratteriżżasti!
 caratteriżżata
 caratteriżżate!
 caratteriżżàtevi!
-caratteriżżati~caratterìżżati@A!
+caratteriżżati;caratterìżżati@I!
 caratteriżżato
 caratteriżżàtosi!
 caratteriżżava!
@@ -71036,7 +71036,7 @@ carboniżżasti!
 carboniżżata!
 carboniżżate!
 carboniżżàtevi!
-carboniżżati~carbonìżżati@A!
+carboniżżati;carbonìżżati@I!
 carboniżżato
 carboniżżàtosi!
 carboniżżava!
@@ -71630,7 +71630,7 @@ caricasti!
 caricata!
 caricate
 caricàtevi!
-caricati;càricati
+caricati;càricati@I
 caricato
 caricatóre
 caricatóri!
@@ -73374,7 +73374,7 @@ catapultasti!
 catapultata!
 catapultate!
 catapultàtevi!
-catapultati;catapùltati
+catapultati;catapùltati@I
 catapultato
 catapultàtosi!
 catapultava!
@@ -74203,7 +74203,7 @@ cavate!
 càvatela!
 cavàtevela!
 cavàtevi!
-cavati;càvati
+cavati;càvati@I
 cavato
 cavatóre
 cavatóri!
@@ -74812,7 +74812,7 @@ celastro
 celata
 celate!
 celàtevi!
-cèlati!
+celati;cèlati@I!
 celato
 celatóre
 celatóri!
@@ -75040,7 +75040,7 @@ cementaste!
 cementasti!
 cementate!
 cementàtevi!
-cementati;ceméntati
+cementati;ceméntati@I
 cementato!
 cementàtosi!
 cementava!
@@ -75978,7 +75978,7 @@ cercate!
 cércatela!
 cercàtevela!
 cercàtevi!
-cercati~cércati@A!
+cercati;cércati@I!
 cercato
 cercatóra!
 cercatóre
@@ -76746,7 +76746,7 @@ chetaste!
 chetasti!
 chetate!
 chetàtevi!
-chetati~chètati@A;chétati
+chetati~chètati@A;chétati@I
 chetato!
 chetàtosi!
 chetava!
@@ -76866,7 +76866,7 @@ chiamasti!
 chiamata
 chiamate!
 chiamàtevi!
-chiàmati!
+chiamati;chiàmati@I!
 chiamato
 chiamàtosi!
 chiamava!
@@ -77611,7 +77611,7 @@ chinasti!
 chinata!
 chinate!
 chinàtevi!
-chìnati!
+chinati;chìnati@I!
 chinato
 chinàtosi!
 chinava!
@@ -78564,7 +78564,7 @@ cibaste!
 cibasti!
 cibate!
 cibàtevi!
-cibati;cìbati
+cibati;cìbati@I
 cibato!
 cibàtosi!
 cibava!
@@ -78683,7 +78683,7 @@ cicatriżżasti!
 cicatriżżata!
 cicatriżżate!
 cicatriżżàtevi!
-cicatriżżati;cicatrìżżati
+cicatriżżati;cicatrìżżati@I
 cicatriżżato
 cicatriżżàtosi!
 cicatriżżava!
@@ -79250,7 +79250,7 @@ cimentasti!
 cimentata!
 cimentate!
 cimentàtevi!
-ciméntati;cimentati
+cimentati;ciméntati@I
 cimentato
 cimentàtosi!
 cimentava!
@@ -80204,7 +80204,7 @@ circondasti!
 circondata
 circondate!
 circondàtevi!
-circondati;circóndati
+circondati;circóndati@I
 circondato
 circondàtosi!
 circondava!
@@ -81671,7 +81671,7 @@ classificasti!
 classificata!
 classificate!
 classificàtevi!
-classificati~classìficati@A!
+classificati;classìficati@I!
 classificativa!
 classificative!
 classificativi!
@@ -83086,7 +83086,7 @@ cogitiate!
 cògitino!
 cògito!
 cogitò	cogitò!
-cógli;cògli
+cógli;cògli@I
 cóglia
 cogliamo!
 cogliate!
@@ -83590,7 +83590,7 @@ còlga!
 còlgano!
 còlgo
 còlgono!
-cóli~còli@V!
+còli;cóli@I!
 coliambi
 coliàmbica!
 coliàmbiche!
@@ -83947,7 +83947,7 @@ collegasti!
 collegata!
 collegate!
 collegàtevi!
-collegati~collègati@A;collégati
+collegati~collègati@A;collégati@I
 collegato
 collegàtosi!
 collegava!
@@ -84295,7 +84295,7 @@ collocasti!
 collocata!
 collocate!
 collocàtevi!
-collocati;còllocati
+collocati;còllocati@I
 collocato
 collocàtosi!
 collocava!
@@ -84626,7 +84626,7 @@ colorasti!
 colorata!
 colorate!
 coloràtevi!
-colorati;colórati
+colorati;colórati@I
 coloratìssima!
 coloratìssime!
 coloratìssimi!
@@ -85224,7 +85224,7 @@ combinasti!
 combinata
 combinate!
 combinàtevi!
-combìnati!
+combinati;combìnati@I!
 combinato
 combinatòria!
 combinatòrie!
@@ -86834,7 +86834,7 @@ compenetrasti!
 compenetrata!
 compenetrate!
 compenetràtevi!
-compenetrati;compènetrati
+compenetrati;compènetrati@I
 compenetrato
 compenetràtosi!
 compenetrava!
@@ -86888,7 +86888,7 @@ compensasti!
 compensata!
 compensate!
 compensàtevi!
-compensati;compènsati
+compensati;compènsati@I
 compensativa!
 compensative!
 compensativi!
@@ -87298,7 +87298,7 @@ compiterò	compiterò!
 compìtevi!
 compitézza
 compitézze!
-compiti;còmpiti;cómpiti
+compiti;còmpiti@I;cómpiti@I
 compitiamo!
 compitiate!
 còmpitino~cómpitino@V
@@ -87506,7 +87506,7 @@ complicate
 complicàtevi!
 complicatézza
 complicatézze!
-còmplicati~cómplicati@V!
+complicati;còmplicati@I;cómplicati@I!
 complicatìssima!
 complicatìssime!
 complicatìssimi!
@@ -87563,7 +87563,7 @@ complimentaste!
 complimentasti!
 complimentate!
 complimentàtevi!
-complimentati;compliméntati
+complimentati;compliméntati@I
 complimentato!
 complimentàtosi!
 complimentava!
@@ -87722,7 +87722,7 @@ comportasti!
 comportata!
 comportate!
 comportàtevi!
-compòrtati!
+comportati;compòrtati@I!
 comportato
 comportàtosi!
 comportava!
@@ -87874,7 +87874,7 @@ comprasti!
 comprata
 comprate
 compràtevi!
-cómprati;comprati
+comprati;cómprati@I
 comprato
 compratóre
 compratóri!
@@ -88796,7 +88796,7 @@ concentrasti!
 concentrata
 concentrate
 concentràtevi!
-concèntrati;concentrati
+concentrati;concèntrati@I
 concentratìssima!
 concentratìssime!
 concentratìssimi!
@@ -88950,7 +88950,7 @@ concertasti!
 concertata!
 concertate!
 concertàtevi!
-concertati;concèrtati
+concertati;concèrtati@I
 concertato
 concertatóre
 concertatóri!
@@ -89714,7 +89714,7 @@ concretiżżaste!
 concretiżżasti!
 concretiżżate!
 concretiżżàtevi!
-concretiżżati;concretìżżati
+concretiżżati;concretìżżati@I
 concretiżżato!
 concretiżżàtosi!
 concretiżżava!
@@ -89967,7 +89967,7 @@ condensasti!
 condensata
 condensate!
 condensàtevi!
-condensati~condènsati@A!
+condensati;condènsati@I!
 condensato
 condensatóre
 condensatóri!
@@ -90490,7 +90490,7 @@ confederasti!
 confederata!
 confederate!
 confederàtevi!
-confederati;confèderati
+confederati;confèderati@I
 confederativa!
 confederative
 confederativi!
@@ -90600,7 +90600,7 @@ confermasti
 confermata!
 confermate!
 confermàtevi!
-confermati~conférmati@A!
+confermati;conférmati@I!
 confermativa!
 confermative!
 confermativi!
@@ -90657,7 +90657,7 @@ confessasti!
 confessata!
 confessate!
 confessàtevi!
-confèssati!
+confessati;confèssati@I!
 confessato
 confessàtosi!
 confessava!
@@ -90846,7 +90846,7 @@ confidàtagli!
 confidate
 confidàtegli
 confidàtevi!
-confìdati;confidati
+confidati;confìdati@I
 confidàtigli!
 confidato
 confidàtogli
@@ -90998,7 +90998,7 @@ confinasti!
 confinata!
 confinate!
 confinàtevi!
-confìnati!
+confinati;confìnati@I!
 confinato
 confinàtosi!
 confinava!
@@ -91370,7 +91370,7 @@ conformasti!
 conformata!
 conformate!
 conformàtevi!
-confórmati!
+conformati;confórmati@I!
 conformato
 conformàtosi!
 conformava!
@@ -91533,7 +91533,7 @@ confrontasti!
 confrontata!
 confrontate!
 confrontàtevi!
-confrontati;confróntati
+confrontati;confróntati@I
 confrontato
 confrontàtosi!
 confrontava!
@@ -92137,7 +92137,7 @@ conglutinaste!
 conglutinasti!
 conglutinate!
 conglutinàtevi!
-conglutinati;conglùtinati
+conglutinati;conglùtinati@I
 conglutinato!
 conglutinàtosi!
 conglutinava!
@@ -92187,7 +92187,7 @@ congratulaste!
 congratulasti!
 congratulate!
 congratulàtevi!
-congratulati;congràtulati
+congratulati;congràtulati@I
 congratulato!
 congratulatòria!
 congratulatòrie!
@@ -92242,7 +92242,7 @@ congregaste!
 congregasti!
 congregate!
 congregàtevi!
-congregati;congrègati
+congregati;congrègati@I
 congregato!
 congregàtosi!
 congregava!
@@ -92473,7 +92473,7 @@ connaturasti!
 connaturata!
 connaturate!
 connaturàtevi!
-connaturati~connatùrati@A!
+connaturati;connatùrati@I!
 connaturato
 connaturàtosi!
 connaturava!
@@ -92803,7 +92803,7 @@ conquistasti!
 conquistata!
 conquistate!
 conquistàtevi!
-conquistati~conquìstati@A!
+conquistati;conquìstati@I!
 conquistato
 conquistatóre
 conquistatóri!
@@ -92858,7 +92858,7 @@ consacrasti!
 consacrata!
 consacrate!
 consacràtevi!
-consacrati;consàcrati
+consacrati;consàcrati@I
 consacrato
 consacràtosi!
 consacrava!
@@ -93016,7 +93016,7 @@ consegnasti!
 consegnata
 consegnate!
 consegnàtevi!
-conségnati!
+consegnati;conségnati@I!
 consegnato
 consegnàtosi!
 consegnava!
@@ -93136,7 +93136,7 @@ consentisti!
 consentita!
 consentite!
 consentìtevi!
-consentiti~consèntiti@A!
+consentiti;consèntiti@I!
 consentito
 consentìtosi!
 consentiva!
@@ -93182,7 +93182,7 @@ conservasti!
 conservata
 conservate
 conservàtevi!
-conservati;consèrvati
+conservati;consèrvati@I
 conservativa!
 conservative!
 conservativi!
@@ -93260,7 +93260,7 @@ considerata!
 considerataménte
 considerate!
 consideràtevi!
-consìderati!
+considerati;consìderati@I!
 considerato
 consideràtosi!
 considerava!
@@ -93495,7 +93495,7 @@ consolasti!
 consolata!
 consolate!
 consolàtevi!
-consolati;consólati
+consolati;consólati@I
 consolato
 consolatóre
 consolatóri;consolatòri
@@ -93526,7 +93526,7 @@ consolerésti!
 consoleréte!
 consolerà	consolerà!
 consolerò	consolerò!
-consóli;cònsoli
+cònsoli;consóli@I
 consoliamo!
 consoliàmoci!
 consoliate!
@@ -93553,7 +93553,7 @@ consolidasti!
 consolidata!
 consolidate!
 consolidàtevi!
-consolidati~consòlidati@A!
+consolidati;consòlidati@I!
 consolidatìssima!
 consolidatìssime!
 consolidatìssimi!
@@ -93958,7 +93958,7 @@ consultasti!
 consultata!
 consultate!
 consultàtevi!
-consùltati!
+consultati;consùltati@I!
 consultato
 consultàtosi!
 consultava!
@@ -94019,7 +94019,7 @@ consumasti!
 consumata!
 consumate!
 consumàtevi!
-consùmati!
+consumati;consùmati@I!
 consumato
 consumatóre
 consumatóri!
@@ -94258,7 +94258,7 @@ contaminaste!
 contaminasti!
 contaminate!
 contaminàtevi!
-contaminati;contàminati
+contaminati;contàminati@I
 contaminato!
 contaminatóre
 contaminatóri!
@@ -94317,7 +94317,7 @@ contate!
 cóntatela!
 contàtevela!
 contàtevi!
-contati~cóntati@A!
+contati;cóntati@I!
 contato
 contatóre
 contatóri!
@@ -94347,7 +94347,7 @@ contattasti!
 contattata!
 contattate!
 contattàtevi!
-contattati~contàttati@A!
+contattati;contàttati@I!
 contattato
 contattàtosi!
 contattava!
@@ -94652,7 +94652,7 @@ contentaste!
 contentasti!
 contentate!
 contentàtevi!
-contentati;contèntati
+contentati;contèntati@I
 contentato!
 contentàtosi!
 contentava!
@@ -95125,7 +95125,7 @@ contornasti!
 contornata!
 contornate!
 contornàtevi!
-contornati;contórnati
+contornati;contórnati@I
 contornato
 contornàtosi!
 contornava!
@@ -95486,7 +95486,7 @@ contrappesasti!
 contrappeṡata!
 contrappesate!
 contrappeṡàtevi!
-contrappeṡati~contrappesati@S~contrappésati@AS;contrappéṡati
+contrappeṡati~contrappesati@S~contrappésati@AS;contrappéṡati@I
 contrappeṡato~contrappesato@S
 contrappeṡàtosi!
 contrappesava!
@@ -96092,7 +96092,7 @@ contristasti!
 contristata!
 contristate!
 contristàtevi!
-contristati;contrìstati
+contristati;contrìstati@I
 contristato
 contristàtosi!
 contristava!
@@ -96397,7 +96397,7 @@ controllasti!
 controllata
 controllate!
 controllàtevi!
-contròllati!
+controllati;contròllati@I!
 controllato
 controllàtosi!
 controllava!
@@ -97333,7 +97333,7 @@ convertisti!
 convertita!
 convertite!
 convertìtevi!
-convertiti;convèrtiti
+convertiti;convèrtiti@I
 convertito
 convertitóre
 convertitóri
@@ -98377,7 +98377,7 @@ corazzasti!
 corazzata
 corazzate!
 corazzàtevi!
-corazzati~coràzzati@A!
+corazzati;coràzzati@I!
 corazzato
 corazzàtosi!
 corazzava!
@@ -98641,7 +98641,7 @@ coricasti!
 coricata!
 coricate!
 coricàtevi!
-coricati~córicati@A;còricati
+coricati~córicati@A;còricati@I
 coricato
 coricàtosi!
 coricava!
@@ -99564,7 +99564,7 @@ corrugaste!
 corrugasti!
 corrugate!
 corrugàtevi!
-corrugati;corrùgati
+corrugati;corrùgati@I
 corrugato!
 corrugatóre
 corrugatóri!
@@ -101404,7 +101404,7 @@ creasti!
 creata!
 create!
 creàtevi!
-crèati;creati
+creati;crèati@I
 creatina
 creatine!
 creatinfosfati!
@@ -101678,7 +101678,7 @@ crepasti!
 crepata!
 crepate!
 crepàtevi!
-crepati~crèpati@A!
+crepati;crèpati@I!
 crepato
 crepàtosi!
 crepava!
@@ -101832,7 +101832,7 @@ creṡimasti!
 creṡimata!
 creṡimate!
 creṡimàtevi!
-créṡimati~crèṡimati@V!
+creṡimati;créṡimati@I;crèṡimati@I!
 creṡimato
 creṡimàtosi!
 creṡimava!
@@ -102324,7 +102324,7 @@ cristalliżżasti!
 cristalliżżata!
 cristalliżżate!
 cristalliżżàtevi!
-cristalliżżati;cristallìżżati
+cristalliżżati;cristallìżżati@I
 cristalliżżato
 cristalliżżatóre
 cristalliżżatóri!
@@ -103719,7 +103719,7 @@ cucisti!
 cucita!
 cucite!
 cucìtevi!
-cuciti~cùciti@A!
+cuciti;cùciti@I!
 cucito
 cucitóre
 cucitóri!
@@ -103816,7 +103816,7 @@ cullasti!
 cullata!
 cullate!
 cullàtevi!
-cullati;cùllati
+cullati;cùllati@I
 cullato
 cullàtosi!
 cullava!
@@ -104139,7 +104139,7 @@ curate
 curatèla
 curatèle!
 curàtevi!
-curati;cùrati
+curati;cùrati@I
 curatìssima!
 curatìssime!
 curatìssimi!
@@ -104285,7 +104285,7 @@ curvasti!
 curvata!
 curvate!
 curvàtevi!
-curvati;cùrvati
+curvati;cùrvati@I
 curvato
 curvàtosi!
 curvatura
@@ -104715,7 +104715,7 @@ dannasti!
 dannata
 dannate!
 dannàtevi!
-dannati~dànnati@A!
+dannati;dànnati@I!
 dannatìssima!
 dannatìssime!
 dannatìssimi!
@@ -105440,7 +105440,7 @@ debilitasti!
 debilitata!
 debilitate!
 debilitàtevi!
-debilitati~debìlitati@A!
+debilitati;debìlitati@I!
 debilitato
 debilitàtosi!
 debilitava!
@@ -107976,7 +107976,7 @@ decuplicasti!
 decuplicata!
 decuplicate!
 decuplicàtevi!
-decuplicati;decùplicati
+decuplicati;decùplicati@I
 decuplicato
 decuplicàtosi!
 decuplicava!
@@ -108040,7 +108040,7 @@ dedicasti!
 dedicata
 dedicate
 dedicàtevi!
-dèdicati;dedicati
+dedicati;dèdicati@I
 dedicato
 dedicatòria!
 dedicatòrie!
@@ -108480,7 +108480,7 @@ defilasti!
 defilata!
 defilate!
 defilàtevi!
-defìlati!
+defilati;defìlati@I!
 defilato
 defilàtosi!
 defilava!
@@ -109033,7 +109033,7 @@ deformasti!
 deformata
 deformate!
 deformàtevi!
-deformati~defórmati@A!
+deformati;defórmati@I!
 deformativa!
 deformative
 deformativi!
@@ -109443,7 +109443,7 @@ degnaste!
 degnasti!
 degnate!
 degnàtevi!
-degnati;dégnati
+degnati;dégnati@I
 degnato!
 degnàtosi!
 degnava!
@@ -109500,7 +109500,7 @@ degradasti!
 degradata!
 degradate!
 degradàtevi!
-degradati~degràdati@A!
+degradati;degràdati@I!
 degradativa!
 degradative!
 degradativi!
@@ -112890,7 +112890,7 @@ depoṡitasti!
 depoṡitata!
 depoṡitate!
 depoṡitàtevi!
-depòṡitati!
+depoṡitati;depòṡitati@I!
 depoṡitato
 depoṡitàtosi!
 depoṡitava!
@@ -115162,7 +115162,7 @@ destinataria!
 destinatario
 destinate
 destinàtevi!
-destinati;destìnati
+destinati;destìnati@I
 destinato
 destinàtosi!
 destinava!
@@ -115276,7 +115276,7 @@ destreggiaste!
 destreggiasti!
 destreggiate!
 destreggiàtevi!
-destreggiati;destréggiati
+destreggiati;destréggiati@I
 destreggiato!
 destreggiàtosi!
 destreggiava!
@@ -115640,7 +115640,7 @@ determinata!
 determinataménte
 determinate!
 determinàtevi!
-determinati~detèrminati@A!
+determinati;detèrminati@I!
 determinativa!
 determinative!
 determinativi!
@@ -115729,7 +115729,7 @@ detestasti!
 detestata!
 detestate!
 detestàtevi!
-detestati~detèstati@A!
+detestati;detèstati@I!
 detestato
 detestàtosi!
 detestava!
@@ -117464,7 +117464,7 @@ dichiarata!
 dichiarataménte
 dichiarate!
 dichiaràtevi!
-dichiàrati!
+dichiarati;dichiàrati@I!
 dichiarativa!
 dichiarative!
 dichiarativi!
@@ -117978,7 +117978,7 @@ differenziasti!
 differenziata!
 differenziate!
 differenziàtevi!
-differenziati~differènziati@A!
+differenziati;differènziati@I!
 differenziato
 differenziàtosi!
 differenziava!
@@ -118946,7 +118946,7 @@ dilatasti!
 dilatata!
 dilatate!
 dilatàtevi!
-dilatati;dilàtati
+dilatati;dilàtati@I
 dilatativa!
 dilatative!
 dilatativi!
@@ -119137,7 +119137,7 @@ dileguasti!
 dileguata!
 dileguate!
 dileguàtevi!
-dileguati~diléguati@A;dilèguati
+dileguati~diléguati@A;dilèguati@I
 dileguato
 dileguàtosi!
 dileguava!
@@ -119208,7 +119208,7 @@ dilettaste!
 dilettasti!
 dilettate!
 dilettàtevi!
-dilettati;dilèttati
+dilettati;dilèttati@I
 dilettato!
 dilettàtosi!
 dilettava!
@@ -119435,7 +119435,7 @@ dilungasti!
 dilungata!
 dilungate!
 dilungàtevi!
-dilungati;dilùngati
+dilungati;dilùngati@I
 dilungato
 dilungàtosi!
 dilungava!
@@ -119694,7 +119694,7 @@ dimenasti!
 dimenata!
 dimenate!
 dimenàtevi!
-dimenati;diménati
+dimenati;diménati@I
 dimenato
 dimenàtosi!
 dimenava!
@@ -119798,7 +119798,7 @@ dimenticasti!
 dimenticata
 dimenticate!
 dimenticàtevi!
-dimenticati;diménticati
+dimenticati;diménticati@I
 dimenticato
 dimenticatóio
 dimenticàtosi!
@@ -120159,7 +120159,7 @@ dimostrasti!
 dimostrata!
 dimostrate!
 dimostràtevi!
-dimóstrati!
+dimostrati;dimóstrati@I!
 dimostrativa!
 dimostrative!
 dimostrativi!
@@ -120532,7 +120532,7 @@ dipanaste!
 dipanasti!
 dipanate!
 dipanàtevi!
-dipanati;dipànati
+dipanati;dipànati@I
 dipanato!
 dipanàtosi!
 dipanava!
@@ -120760,7 +120760,7 @@ diplomàtasi
 diplomate!
 diplomàtesi
 diplomàtevi!
-diplomati~diplòmati@A!
+diplomati;diplòmati@I!
 diplomàtica
 diplomaticaménte
 diplomàtiche!
@@ -120885,7 +120885,7 @@ diradasti!
 diradata!
 diradate!
 diradàtevi!
-diradati;diràdati
+diradati;diràdati@I
 diradato
 diradàtosi!
 diradava!
@@ -120935,7 +120935,7 @@ diramasti!
 diramata!
 diramate!
 diramàtevi!
-diramati;diràmati
+diramati;diràmati@I
 diramato
 diramàtosi!
 diramava!
@@ -121566,7 +121566,7 @@ diṡabituasti!
 diṡabituata
 diṡabituate
 diṡabituàtevi!
-diṡabituati;diṡabìtuati
+diṡabituati;diṡabìtuati@I
 diṡabituato
 diṡabituàtosi!
 diṡabituava!
@@ -122237,7 +122237,7 @@ diṡambiguasti!
 diṡambiguata!
 diṡambiguate!
 diṡambiguàtevi!
-diṡambiguati;diṡambìguati
+diṡambiguati;diṡambìguati@I
 diṡambiguato
 diṡambiguàtosi!
 diṡambiguava!
@@ -122345,7 +122345,7 @@ diṡamorasti!
 diṡamorata!
 diṡamorate!
 diṡamoràtevi!
-diṡamorati;diṡamórati
+diṡamorati;diṡamórati@I
 diṡamorato
 diṡamoràtosi!
 diṡamorava!
@@ -124017,7 +124017,7 @@ discolpasti!
 discolpata!
 discolpate!
 discolpàtevi!
-discolpati;discólpati
+discolpati;discólpati@I
 discolpato
 discolpàtosi!
 discolpava!
@@ -124571,7 +124571,7 @@ discostasti!
 discostata!
 discostate!
 discostàtevi!
-discostati;discòstati
+discostati;discòstati@I
 discostato
 discostàtosi!
 discostava!
@@ -125711,7 +125711,7 @@ diṡgustasti!
 diṡgustata!
 diṡgustate!
 diṡgustàtevi!
-diṡgustati;diṡgùstati
+diṡgustati;diṡgùstati@I
 diṡgustato
 diṡgustàtosi!
 diṡgustava!
@@ -125791,7 +125791,7 @@ diṡidratasti!
 diṡidratata!
 diṡidratate!
 diṡidratàtevi!
-diṡidràtati;diṡidratati
+diṡidratati;diṡidràtati@I
 diṡidratato
 diṡidratàtosi!
 diṡidratava!
@@ -126069,7 +126069,7 @@ diṡimpiegasti!
 diṡimpiegata!
 diṡimpiegate!
 diṡimpiegàtevi!
-diṡimpiegati~diṡimpiègati@A~diṡimpiégati@A!
+diṡimpiegati;diṡimpiègati@I;diṡimpiégati@I!
 diṡimpiegato
 diṡimpiegàtosi!
 diṡimpiegava!
@@ -126487,7 +126487,7 @@ diṡintegrasti!
 diṡintegrata!
 diṡintegrate!
 diṡintegràtevi!
-diṡintegrati;diṡìntegrati
+diṡintegrati;diṡìntegrati@I
 diṡintegrato
 diṡintegràtosi!
 diṡintegrava!
@@ -126540,7 +126540,7 @@ diṡinteressasti!
 diṡinteressata!
 diṡinteressate!
 diṡinteressàtevi!
-diṡinterèssati;diṡinteressati
+diṡinteressati;diṡinterèssati@I
 diṡinteressato
 diṡinteressàtosi!
 diṡinteressava!
@@ -127187,7 +127187,7 @@ diṡonorasti!
 diṡonorata!
 diṡonorate!
 diṡonoràtevi!
-diṡonorati~diṡonórati@A!
+diṡonorati;diṡonórati@I!
 diṡonorato
 diṡonoràtosi!
 diṡonorava!
@@ -127776,7 +127776,7 @@ dispenseréte!
 dispénsero~dispènsero@V!
 dispenserà	dispenserà!
 dispenserò	dispenserò!
-dispènsi~dispénsi@V!
+dispénsi;dispènsi@I!
 dispensiamo!
 dispensiate!
 dispènsino!
@@ -127809,7 +127809,7 @@ disperata
 disperataménte
 disperate!
 disperàtevi!
-disperati~dispèrati@A!
+disperati;dispèrati@I!
 disperatìssima!
 disperatìssime!
 disperatìssimi!
@@ -128019,7 +128019,7 @@ dispiegasti!
 dispiegata!
 dispiegate!
 dispiegàtevi!
-dispiegati~dispiégati@A;dispiègati
+dispiegati~dispiégati@A;dispiègati@I
 dispiegato
 dispiegàtosi!
 dispiegava!
@@ -128175,7 +128175,7 @@ dispoṡeréte!
 dispósero!
 disposerà	dispoṡerà!
 disposerò	dispoṡerò!
-dispósi~dispóṡi@S+:M;dispòṡi
+dispósi~dispóṡi@S+:M;dispòṡi@I
 dispoṡiamo!
 dispoṡiate!
 dispòṡino!
@@ -128320,7 +128320,7 @@ disputaste!
 disputasti!
 disputate!
 disputàtevi!
-disputati;dìsputati
+disputati;dìsputati@I
 disputato!
 disputàtosi!
 disputava!
@@ -128925,7 +128925,7 @@ dissesterésti!
 dissesteréte!
 dissesterà	dissesterà!
 dissesterò	dissesterò!
-dissèsti~dissésti@V!
+dissésti;dissèsti@I!
 dissestiamo!
 dissestiate!
 dissèstino!
@@ -128952,7 +128952,7 @@ dissetaste!
 dissetasti!
 dissetate!
 dissetàtevi!
-dissetati;dissétati
+dissetati;dissétati@I
 dissetato!
 dissetàtosi!
 dissetava!
@@ -129104,7 +129104,7 @@ dissipate!
 dissipàtevi!
 dissipatézza
 dissipatézze!
-dissipati;dìssipati
+dissipati;dìssipati@I
 dissipativa!
 dissipative!
 dissipativi!
@@ -129479,7 +129479,7 @@ distaccata!
 distaccataménte
 distaccate!
 distaccàtevi!
-distaccati;distàccati
+distaccati;distàccati@I
 distaccato
 distaccàtosi!
 distaccava!
@@ -130124,7 +130124,7 @@ districasti!
 districata!
 districate!
 districàtevi!
-districati~distrìcati@A;dìstricati
+districati~distrìcati@A;dìstricati@I
 districato
 districàtosi!
 districava!
@@ -130172,7 +130172,7 @@ distrigaste!
 distrigasti!
 distrigate!
 distrigàtevi!
-distrigati~distrìgati@A;dìstrigati
+distrigati~distrìgati@A;dìstrigati@I
 distrigato!
 distrigàtosi!
 distrigava!
@@ -130739,7 +130739,7 @@ diṡviaste!
 diṡviasti!
 diṡviate!
 diṡviàtevi!
-diṡviati;diṡvìati
+diṡviati;diṡvìati@I
 diṡviato!
 diṡviàtosi!
 diṡviava!
@@ -131496,7 +131496,7 @@ divertisti!
 divertita
 divertite!
 divertìtevi!
-divèrtiti;divertiti
+divertiti;divèrtiti@I
 divertito
 divertìtosi!
 divertiva!
@@ -131657,7 +131657,7 @@ divincolaste!
 divincolasti!
 divincolate!
 divincolàtevi!
-divincolati;divìncolati
+divincolati;divìncolati@I
 divincolato!
 divincolàtosi!
 divincolava!
@@ -131841,7 +131841,7 @@ divorasti!
 divorata!
 divorate!
 divoràtevi!
-divorati;divórati
+divorati;divórati@I
 divorato
 divoratóre
 divoratóri
@@ -131943,7 +131943,7 @@ divulgasti!
 divulgata!
 divulgate!
 divulgàtevi!
-divulgati;divùlgati
+divulgati;divùlgati@I
 divulgativa!
 divulgativaménte
 divulgative!
@@ -132054,7 +132054,7 @@ documentasti!
 documentata!
 documentate!
 documentàtevi!
-documentati;documéntati
+documentati;documéntati@I
 documentatìssima!
 documentatìssime!
 documentatìssimi!
@@ -132695,7 +132695,7 @@ dominasti!
 dominata!
 dominate!
 dominàtevi!
-dòminati!
+dominati;dòminati@I!
 dominato
 dominatóre
 dominatóri
@@ -132934,7 +132934,7 @@ dopasti!
 dopata!
 dopate!
 dopàtevi!
-dòpati!
+dopati;dòpati@I!
 dopato
 dopàtosi!
 dopava!
@@ -133319,7 +133319,7 @@ dotasti!
 dotata
 dotate
 dotàtevi!
-dotati;dòtati
+dotati;dòtati@I
 dotato
 dotàtosi!
 dotava!
@@ -133843,7 +133843,7 @@ drizzaste!
 drizzasti!
 drizzate!
 drizzàtevi!
-drizzati;drìzzati
+drizzati;drìzzati@I
 drizzato!
 drizzàtosi!
 drizzava!
@@ -133893,7 +133893,7 @@ drogasti!
 drogata
 drogate
 drogàtevi!
-drògati;drogati
+drogati;drògati@I
 drogato
 drogàtosi!
 drogava!
@@ -134240,7 +134240,7 @@ duplicasti!
 duplicata!
 duplicate!
 duplicàtevi!
-duplicati~dùplicati@A!
+duplicati;dùplicati@I!
 duplicativa
 duplicative
 duplicativi
@@ -134752,7 +134752,7 @@ eccitasti!
 eccitata!
 eccitate!
 eccitàtevi!
-eccitati;èccitati
+eccitati;èccitati@I
 eccitatìssima!
 eccitatìssime!
 eccitatìssimi!
@@ -134923,7 +134923,7 @@ eclissasti!
 eclissata!
 eclissate!
 eclissàtevi!
-eclissati;eclìssati
+eclissati;eclìssati@I
 eclissato
 eclissàtosi!
 eclissava!
@@ -135334,7 +135334,7 @@ educata!
 educataménte
 educate!
 educàtevi!
-educati;èducati
+educati;èducati@I
 educativa!
 educative!
 educativi!
@@ -135511,7 +135511,7 @@ effeminate
 effeminàtevi!
 effeminatézza
 effeminatézze!
-effeminati;efféminati
+effeminati;efféminati@I
 effeminato
 effeminàtosi!
 effeminava!
@@ -137184,7 +137184,7 @@ elevate!
 elevàtevi!
 elevatézza
 elevatézze!
-elevati~elèvati@A~èlevati@A!
+elevati;elèvati@I;èlevati@I!
 elevatìssima!
 elevatìssime!
 elevatìssimi!
@@ -137847,7 +137847,7 @@ emancipasti!
 emancipata!
 emancipate!
 emancipàtevi!
-emancipati;emàncipati
+emancipati;emàncipati@I
 emancipato
 emancipatóre
 emancipatóri
@@ -138027,7 +138027,7 @@ embricasti!
 embricata!
 embricate!
 embricàtevi!
-embricati~èmbricati@A;émbricati
+embricati~èmbricati@A;émbricati@I
 embricato
 embricàtosi!
 embricava!
@@ -138099,7 +138099,7 @@ emendasti!
 emendata!
 emendate!
 emendàtevi!
-emendati~emèndati@A!
+emendati;emèndati@I!
 emendativa!
 emendative!
 emendativi!
@@ -138480,7 +138480,7 @@ emozionasti!
 emozionata!
 emozionate!
 emozionàtevi!
-emoziónati!
+emozionati;emoziónati@I!
 emozionato
 emozionàtosi!
 emozionava!
@@ -139254,7 +139254,7 @@ entuṡiaṡmasti!
 entuṡiaṡmata!
 entuṡiaṡmate!
 entuṡiaṡmàtevi!
-entuṡiaṡmati;entuṡiàṡmati
+entuṡiaṡmati;entuṡiàṡmati@I
 entuṡiaṡmato
 entuṡiaṡmàtosi!
 entuṡiaṡmava!
@@ -140021,7 +140021,7 @@ equilibrata!
 equilibrataménte
 equilibrate!
 equilibràtevi!
-equilibrati;equilìbrati
+equilibrati;equilìbrati@I
 equilibratìssima!
 equilibratìssime!
 equilibratìssimi!
@@ -141535,7 +141535,7 @@ esaltasti!
 eṡaltata!
 esaltate!
 eṡaltàtevi!
-eṡaltati;eṡàltati
+eṡaltati;eṡàltati@I
 eṡaltato
 eṡaltàtosi!
 esaltava!
@@ -142652,7 +142652,7 @@ eṡerciterésti!
 eṡerciteréte!
 eserciterà	eṡerciterà!
 eserciterò	eṡerciterò!
-eṡèrciti;eṡerciti
+eṡerciti;eṡèrciti@I
 eṡercitiamo!
 eṡercitiate!
 eṡèrcitino!
@@ -142820,7 +142820,7 @@ esilarò	eṡilarò!
 èṡile
 eṡilfenòli!
 eṡilfenòlo
-èṡili;eṡili
+èṡili;eṡili@I
 eṡilia
 eṡiliai!
 eṡiliammo!
@@ -144507,7 +144507,7 @@ esserino
 èsserti
 esserùccio!
 èsservi
-èssi~éssi@V!
+éssi;èssi@I!
 essicca!
 essiccàbile
 essiccàbili!
@@ -144533,7 +144533,7 @@ essiccasti!
 essiccata
 essiccate!
 essiccàtevi!
-essiccati;essìccati
+essiccati;essìccati@I
 essiccato
 essiccatóre
 essiccatóri!
@@ -144630,7 +144630,7 @@ essuti
 essuto
 èst
 ésta
-èstaṡi;estaṡi
+èstaṡi;estaṡi@I
 estàṡia!
 estaṡiai!
 estaṡiammo!
@@ -144654,7 +144654,7 @@ estaṡiasti!
 estaṡiata!
 estaṡiate!
 estaṡiàtevi!
-estàṡiati!
+estaṡiati;estàṡiati@I!
 estaṡiato
 estaṡiàtosi!
 estaṡiava!
@@ -145374,7 +145374,7 @@ estraniaste!
 estraniasti!
 estraniate!
 estraniàtevi!
-estraniati;estràniati
+estraniati;estràniati@I
 estraniato!
 estraniàtosi!
 estraniava!
@@ -145601,7 +145601,7 @@ estrinsecaste!
 estrinsecasti!
 estrinsecate!
 estrinsecàtevi!
-estrinsecati;estrìnsecati
+estrinsecati;estrìnsecati@I
 estrinsecato!
 estrinsecàtosi!
 estrinsecava!
@@ -146030,7 +146030,7 @@ eternasti!
 eternata!
 eternate!
 eternàtevi!
-eternati;etèrnati
+eternati;etèrnati@I
 eternato
 eternàtosi!
 eternava!
@@ -147091,7 +147091,7 @@ evitasti!
 evitata!
 evitate!
 evitàtevi!
-evitati;èvitati
+evitati;èvitati@I
 evitato
 evitàtosi!
 evitava!
@@ -148271,7 +148271,7 @@ familiariżżaste!
 familiariżżasti!
 familiariżżate!
 familiariżżàtevi!
-familiariżżati;familiarìżżati
+familiariżżati;familiarìżżati@I
 familiariżżato!
 familiariżżàtosi!
 familiariżżava!
@@ -149884,7 +149884,7 @@ federasti!
 federata!
 federate!
 federàtevi!
-federati;fèderati
+federati;fèderati@I
 federativa!
 federative
 federativi!
@@ -150125,7 +150125,7 @@ feltraste!
 feltrasti!
 feltrate!
 feltràtevi!
-feltrati;féltrati
+feltrati;féltrati@I
 feltrato!
 feltràtosi!
 feltrava!
@@ -150484,7 +150484,7 @@ fermasti!
 fermata
 fermate!
 fermàtevi!
-férmati;fermati
+fermati;férmati@I
 fermato
 fermàtosi!
 fermauscio
@@ -151064,7 +151064,7 @@ fiaccasti!
 fiaccata!
 fiaccate!
 fiaccàtevi!
-fiaccati;fiàccati
+fiaccati;fiàccati@I
 fiaccato
 fiaccàtosi!
 fiaccava!
@@ -151613,7 +151613,7 @@ fidata!
 fidataménte
 fidate!
 fidàtevi!
-fidati;fìdati
+fidati;fìdati@I
 fidatìssima!
 fidatìssime!
 fidatìssimi!
@@ -151884,7 +151884,7 @@ figurasti!
 figurata!
 figurate!
 figuràtevi!
-figurati;figùrati
+figurati;figùrati@I
 figurativa
 figurativaménte
 figurative!
@@ -153270,7 +153270,7 @@ fissasti!
 fissata!
 fissate!
 fissàtevi!
-fìssati!
+fissati;fìssati@I!
 fissativa!
 fissative!
 fissativi!
@@ -154561,7 +154561,7 @@ fondate!
 fondàtevi!
 fondatézza
 fondatézze!
-fóndati!
+fondati;fóndati@I!
 fondativa!
 fondative!
 fondativi!
@@ -154869,7 +154869,7 @@ foràstico
 forata!
 forate!
 foràtevi!
-forati~fórati@A;fòrati
+forati~fórati@A;fòrati@I
 forato
 foràtosi!
 forava!
@@ -155077,7 +155077,7 @@ formaliżżasti!
 formaliżżata!
 formaliżżate!
 formaliżżàtevi!
-formaliżżati;formalìżżati
+formaliżżati;formalìżżati@I
 formaliżżato
 formaliżżàtosi!
 formaliżżava!
@@ -155130,7 +155130,7 @@ formàtasi
 formate
 formàtesi
 formàtevi!
-formati;fórmati
+formati;fórmati@I
 formàtisi
 formativa
 formative
@@ -156205,7 +156205,7 @@ fracassasti!
 fracassata!
 fracassate!
 fracassàtevi!
-fracassati~fracàssati@A!
+fracassati;fracàssati@I!
 fracassato
 fracassàtosi!
 fracassava!
@@ -156439,7 +156439,7 @@ frammentasti!
 frammentata!
 frammentate!
 frammentàtevi!
-frammentati;framméntati
+frammentati;framméntati@I
 frammentato
 frammentàtosi!
 frammentava!
@@ -157344,7 +157344,7 @@ freddasti!
 freddata
 freddate!
 freddàtevi!
-freddati;fréddati
+freddati;fréddati@I
 freddato
 freddàtosi!
 freddava!
@@ -157433,7 +157433,7 @@ fregate
 frégatene!
 fregàtevene!
 fregàtevi!
-fregati;frégati
+fregati;frégati@I
 fregàtide
 fregato
 fregàtone!
@@ -157637,7 +157637,7 @@ frenasti!
 frenata
 frenate!
 frenàtevi!
-frénati~frènati@V!
+frenati;frénati@I;frènati@I!
 frenato
 frenatóre
 frenatóri!
@@ -157721,7 +157721,7 @@ frequentasti!
 frequentata!
 frequentate!
 frequentàtevi!
-frequèntati!
+frequentati;frequèntati@I!
 frequentatìssima!
 frequentatìssime!
 frequentatìssimi!
@@ -159213,7 +159213,7 @@ fumate!
 fùmatela!
 fumàtevela!
 fumàtevi!
-fumati~fùmati@A!
+fumati;fùmati@I!
 fumatina
 fumatine!
 fumato
@@ -161535,7 +161535,7 @@ gelatiniżżaste!
 gelatiniżżasti!
 gelatiniżżate!
 gelatiniżżàtevi!
-gelatiniżżati;gelatinìżżati
+gelatiniżżati;gelatinìżżati@I
 gelatiniżżato!
 gelatiniżżàtosi!
 gelatiniżżava!
@@ -163908,7 +163908,7 @@ giocasti!
 giocata
 giocate!
 giocàtevi!
-giocati~giòcati@A!
+giocati;giòcati@I!
 giocato
 giocatóre
 giocatóri
@@ -164261,7 +164261,7 @@ giovaste!
 giovasti!
 giovate!
 giovàtevi!
-giovati~giòvati@A;gióvati
+giovati~giòvati@A;gióvati@I
 giovato!
 giovàtosi!
 giovava!
@@ -164434,7 +164434,7 @@ girasti!
 girata
 girate!
 giràtevi!
-gìrati!
+girati;gìrati@I!
 girato
 giratóre
 giratóri!
@@ -165196,7 +165196,7 @@ giurasti!
 giurata!
 giurate!
 giuràtevi!
-giurati~giùrati@A!
+giurati;giùrati@I!
 giurativa!
 giurative
 giurativi!
@@ -165443,7 +165443,7 @@ giustificate!
 giustificàtevi!
 giustificatézza
 giustificatézze!
-giustificati~giustìficati@A!
+giustificati;giustìficati@I!
 giustificativa!
 giustificative
 giustificativi!
@@ -165914,7 +165914,7 @@ gloriaste!
 gloriasti!
 gloriate!
 gloriàtevi!
-gloriati;glòriati
+gloriati;glòriati@I
 gloriato!
 gloriàtosi!
 gloriava!
@@ -166383,7 +166383,7 @@ golfìstiche!
 golfìstici!
 golfìstico
 gólfo
-gòli~góli@V!
+gòli;góli@I!
 golia
 goliardata
 goliardate!
@@ -166576,7 +166576,7 @@ gonfiàtasi
 gonfiate!
 gonfiàtesi
 gonfiàtevi!
-gonfiati~gónfiati@A!
+gonfiati;gónfiati@I!
 gonfiàtisi
 gonfiato
 gonfiàtosi
@@ -167958,7 +167958,7 @@ grattasti!
 grattata
 grattate!
 grattàtevi!
-gràttati;grattati
+grattati;gràttati@I
 grattato!
 grattàtosi!
 grattava!
@@ -168584,7 +168584,7 @@ grippaste!
 grippasti!
 grippate!
 grippàtevi!
-grippati;grìppati
+grippati;grìppati@I
 grippato!
 grippàtosi!
 grippava!
@@ -169285,7 +169285,7 @@ guardate!
 guàrdatene!
 guardàtevene!
 guardàtevi!
-guàrdati;guardati
+guardati;guàrdati@I
 guardato
 guardàtosene!
 guardàtosi!
@@ -169462,7 +169462,7 @@ guastasti!
 guastata!
 guastate!
 guastàtevi!
-guastati~guàstati@A!
+guastati;guàstati@I!
 guastato
 guastàtosi!
 guastava!
@@ -170490,7 +170490,7 @@ identificasti
 identificata!
 identificate!
 identificàtevi!
-identìficati;identificati
+identificati;identìficati@I
 identificativa!
 identificative!
 identificativi!
@@ -170723,7 +170723,7 @@ idrataste!
 idratasti!
 idratate!
 idratàtevi!
-idratati;idràtati
+idratati;idràtati@I
 idratato!
 idratàtosi!
 idratava!
@@ -171544,7 +171544,7 @@ illuminasti!
 illuminata
 illuminate!
 illuminàtevi!
-illuminati;illùminati
+illuminati;illùminati@I
 illuminatìssima!
 illuminatìssime!
 illuminatìssimi!
@@ -171831,7 +171831,7 @@ imballasti!
 imballata!
 imballate!
 imballàtevi!
-imballati;imbàllati
+imballati;imbàllati@I
 imballato
 imballàtosi!
 imballatrice
@@ -171965,7 +171965,7 @@ imbambolasti!
 imbambolata!
 imbambolate!
 imbambolàtevi!
-imbambolati~imbàmbolati@A!
+imbambolati;imbàmbolati@I!
 imbambolato
 imbambolàtosi!
 imbambolava!
@@ -172191,7 +172191,7 @@ imbarcasti!
 imbarcata
 imbarcate
 imbarcàtevi!
-imbarcati;imbàrcati
+imbarcati;imbàrcati@I
 imbarcato
 imbarcatói
 imbarcatóio
@@ -172475,7 +172475,7 @@ imbellettàntesi!
 imbellettarsi
 imbellettarti!
 imbellettàtevi!
-imbellettati;imbelléttati
+imbellettati;imbelléttati@I
 imbellettàtosi!
 imbellettiàmoci!
 imbèlli!
@@ -173043,7 +173043,7 @@ imboscasti!
 imboscata
 imboscate!
 imboscàtevi!
-imboscati;imbòscati
+imboscati;imbòscati@I
 imboscato
 imboscàtosi!
 imboscava!
@@ -173315,7 +173315,7 @@ imbrancaste!
 imbrancasti!
 imbrancate!
 imbrancàtevi!
-imbràncati;imbrancati
+imbrancati;imbràncati@I
 imbrancato!
 imbrancàtosi!
 imbrancava!
@@ -173369,7 +173369,7 @@ imbrattata!
 imbrattate!
 imbrattatéle
 imbrattàtevi!
-imbrattati;imbràttati
+imbrattati;imbràttati@I
 imbrattato
 imbrattatóre
 imbrattatóri!
@@ -173492,7 +173492,7 @@ imbrillantinàntesi!
 imbrillantinarsi
 imbrillantinarti!
 imbrillantinàtevi!
-imbrillantìnati;imbrillantinati
+imbrillantinati;imbrillantìnati@I
 imbrillantinàtosi!
 imbrillantiniàmoci!
 imbròcca!
@@ -173600,7 +173600,7 @@ imbrogliasti!
 imbrogliata!
 imbrogliate!
 imbrogliàtevi!
-imbrogliati~imbrògliati@A!
+imbrogliati;imbrògliati@I!
 imbrogliato
 imbrogliàtosi!
 imbrogliava!
@@ -173820,7 +173820,7 @@ imbucasti!
 imbucata!
 imbucate!
 imbucàtevi!
-imbucati~imbùcati@A!
+imbucati;imbùcati@I!
 imbucato
 imbucàtosi!
 imbucava!
@@ -174215,7 +174215,7 @@ immaginasti!
 immaginata
 immaginate
 immaginàtevi!
-immàginati;immaginati
+immaginati;immàginati@I
 immaginativa
 immaginative!
 immaginativi!
@@ -174403,7 +174403,7 @@ immatricolaste!
 immatricolasti!
 immatricolate!
 immatricolàtevi!
-immatricolati;immatrìcolati
+immatricolati;immatrìcolati@I
 immatricolato!
 immatricolàtosi!
 immatricolava!
@@ -174459,7 +174459,7 @@ immedeṡimaste!
 immedeṡimasti!
 immedeṡimate!
 immedeṡimàtevi!
-immedeṡimati~immedèṡimati@A;immedéṡimati
+immedeṡimati~immedèṡimati@A;immedéṡimati@I
 immedeṡimato!
 immedeṡimàtosi!
 immedeṡimava!
@@ -174895,7 +174895,7 @@ immolasti!
 immolata!
 immolate
 immolàtevi!
-immolati;immòlati
+immolati;immòlati@I
 immolato
 immolàtosi!
 immolava!
@@ -175016,7 +175016,7 @@ immuniżżasti!
 immuniżżata!
 immuniżżate!
 immuniżżàtevi!
-immuniżżati;immunìżżati
+immuniżżati;immunìżżati@I
 immuniżżato
 immuniżżàtosi!
 immuniżżava!
@@ -175503,7 +175503,7 @@ impallaste!
 impallasti!
 impallate!
 impallàtevi!
-impàllati;impallati
+impallati;impàllati@I
 impallato!
 impallàtosi!
 impallava!
@@ -175682,7 +175682,7 @@ impaludaste!
 impaludasti!
 impaludate!
 impaludàtevi!
-impaludati;impalùdati
+impaludati;impalùdati@I
 impaludato!
 impaludàtosi!
 impaludava!
@@ -175758,7 +175758,7 @@ impancàtasi
 impancate
 impancàtesi
 impancàtevi!
-impàncati;impancati
+impancati;impàncati@I
 impancàtisi
 impancato
 impancàtosi
@@ -175912,7 +175912,7 @@ impappinaste!
 impappinasti!
 impappinate!
 impappinàtevi!
-impappinati;impappìnati
+impappinati;impappìnati@I
 impappinato!
 impappinàtosi!
 impappinava!
@@ -175991,7 +175991,7 @@ imparentasti!
 imparentata!
 imparentate!
 imparentàtevi!
-imparentati~imparèntati@A!
+imparentati;imparèntati@I!
 imparentato
 imparentàtosi!
 imparentava!
@@ -176057,7 +176057,7 @@ imparruccaste!
 imparruccasti!
 imparruccate!
 imparruccàtevi!
-imparrùccati;imparruccati
+imparruccati;imparrùccati@I
 imparruccato!
 imparruccàtosi!
 imparruccava!
@@ -176190,7 +176190,7 @@ impasticcarti!
 impasticcata!
 impasticcate!
 impasticcàtevi!
-impastìccati!
+impasticcati;impastìccati@I!
 impasticcato
 impasticcàtosi!
 impasticchiàmoci!
@@ -176243,7 +176243,7 @@ impataccàntesi!
 impataccarsi
 impataccarti!
 impataccàtevi!
-impatàccati;impataccati
+impataccati;impatàccati@I
 impataccàtosi!
 impatacchi
 impatacchiàmoci!
@@ -176605,7 +176605,7 @@ impegnasti!
 impegnata!
 impegnate!
 impegnàtevi!
-impégnati!
+impegnati;impégnati@I!
 impegnatìssima!
 impegnatìssime!
 impegnatìssimi!
@@ -176657,7 +176657,7 @@ impelagàntesi!
 impelagarsi
 impelagarti!
 impelagàtevi!
-impelagati;impèlagati
+impelagati;impèlagati@I
 impelagàtosi!
 impèlaghi
 impelaghiàmoci!
@@ -176740,7 +176740,7 @@ impennasti!
 impennata
 impennate!
 impennàtevi!
-impennati;impénnati
+impennati;impénnati@I
 impennato
 impennàtosi!
 impennava!
@@ -176945,7 +176945,7 @@ imperlàntesi!
 imperlarsi
 imperlarti!
 imperlàtevi!
-imperlati;impèrlati
+imperlati;impèrlati@I
 imperlàtosi!
 imperliàmoci!
 impermalèndo!
@@ -177223,7 +177223,7 @@ impestaste!
 impestasti!
 impestate!
 impestàtevi!
-impestati;impèstati
+impestati;impèstati@I
 impestato!
 impestàtosi!
 impestava!
@@ -177510,7 +177510,7 @@ impiccasti!
 impiccata!
 impiccate!
 impiccàtevi!
-impiccati~impìccati@A!
+impiccati;impìccati@I!
 impiccato
 impiccatóre
 impiccatóri!
@@ -178107,7 +178107,7 @@ impiparti!
 impìpatene!
 impipàtevene!
 impipàtevi!
-impipati;impìpati
+impipati;impìpati@I
 impipàtosene!
 impipàtosi!
 impipiàmocene!
@@ -178379,7 +178379,7 @@ impolpaste!
 impolpasti!
 impolpate!
 impolpàtevi!
-impolpati;impólpati
+impolpati;impólpati@I
 impolpato!
 impolpàtosi!
 impolpava!
@@ -178470,7 +178470,7 @@ impomatasti!
 impomatata
 impomatate!
 impomatàtevi!
-impomatati;impomàtati
+impomatati;impomàtati@I
 impomatato!
 impomatàtosi!
 impomatava!
@@ -178565,7 +178565,7 @@ imporporaste!
 imporporasti!
 imporporate!
 imporporàtevi!
-imporporati;impórporati
+imporporati;impórporati@I
 imporporato!
 imporporàtosi!
 imporporava!
@@ -178725,7 +178725,7 @@ impossessàrsene
 impossessarsi
 impossessarti!
 impossessàtevi!
-impossessati;impossèssati
+impossessati;impossèssati@I
 impossessàtosi!
 impossessiàmoci!
 impossìbile
@@ -179591,7 +179591,7 @@ impuntaste!
 impuntasti!
 impuntate!
 impuntàtevi!
-impuntati;impùntati
+impuntati;impùntati@I
 impuntato!
 impuntàtosi!
 impuntava!
@@ -179665,7 +179665,7 @@ impupàntesi!
 impuparsi
 impuparti!
 impupàtevi!
-impupati;impùpati
+impupati;impùpati@I
 impupàtosi!
 impupiàmoci!
 impura
@@ -179890,7 +179890,7 @@ inabissaste!
 inabissasti!
 inabissate!
 inabissàtevi!
-inabìssati;inabissati
+inabissati;inabìssati@I
 inabissato!
 inabissàtosi!
 inabissava!
@@ -180442,7 +180442,7 @@ inarcaste!
 inarcasti!
 inarcate!
 inarcàtevi!
-inarcati;inàrcati
+inarcati;inàrcati@I
 inarcato!
 inarcàtosi!
 inarcava!
@@ -180861,7 +180861,7 @@ incacchiàntesi!
 incacchiarsi
 incacchiarti!
 incacchiàtevi!
-incacchiati;incàcchiati
+incacchiati;incàcchiati@I
 incacchiàtosi!
 incacerai!
 incaceranno!
@@ -180967,7 +180967,7 @@ incagliasti!
 incagliata!
 incagliate!
 incagliàtevi!
-incagliati;incàgliati
+incagliati;incàgliati@I
 incagliato
 incagliàtosi!
 incagliava!
@@ -181351,7 +181351,7 @@ incamminasti!
 incamminata!
 incamminate!
 incamminàtevi!
-incamminati;incammìnati
+incamminati;incammìnati@I
 incamminato
 incamminàtosi!
 incamminava!
@@ -181441,7 +181441,7 @@ incanalasti!
 incanalata!
 incanalate!
 incanalàtevi!
-incanalati;incanàlati
+incanalati;incanàlati@I
 incanalato
 incanalàtosi!
 incanalava!
@@ -181558,7 +181558,7 @@ incantasti!
 incantata!
 incantate!
 incantàtevi!
-incantati~incàntati@A!
+incantati;incàntati@I!
 incantato
 incantatóre
 incantatóri!
@@ -181830,7 +181830,7 @@ incappottàntesi!
 incappottarsi
 incappottarti!
 incappottàtevi!
-incappottati;incappòttati
+incappottati;incappòttati@I
 incappottàtosi!
 incappottiàmoci!
 incappuccerai!
@@ -182033,7 +182033,7 @@ incardinaste!
 incardinasti!
 incardinate!
 incardinàtevi!
-incardinati;incàrdinati
+incardinati;incàrdinati@I
 incardinato!
 incardinàtosi!
 incardinava!
@@ -182082,7 +182082,7 @@ incaricasti!
 incaricata!
 incaricate!
 incaricàtevi!
-incaricati;incàricati
+incaricati;incàricati@I
 incaricato
 incaricàtosi!
 incaricava!
@@ -182357,7 +182357,7 @@ incasinasti!
 incasinata!
 incasinate!
 incaṡinàtevi!
-incaṡinati~incasinati@S~incasìnati@AS;incaṡìnati
+incaṡinati~incasinati@S~incasìnati@AS;incaṡìnati@I
 incaṡinatìssima!
 incaṡinatìssime!
 incaṡinatìssimi!
@@ -182541,7 +182541,7 @@ incastrasti!
 incastrata!
 incastrate!
 incastràtevi!
-incastrati;incàstrati
+incastrati;incàstrati@I
 incastrato
 incastràtosi!
 incastrava!
@@ -182590,7 +182590,7 @@ incatenasti!
 incatenata!
 incatenate!
 incatenàtevi!
-incatenati~incaténati@A!
+incatenati;incaténati@I!
 incatenato
 incatenàtosi!
 incatenava!
@@ -182760,7 +182760,7 @@ incavolarti!
 incavolata!
 incavolate!
 incavolàtevi!
-incàvolati;incavolati
+incavolati;incàvolati@I
 incavolato
 incavolàtosi!
 incavoliàmoci!
@@ -182786,7 +182786,7 @@ incazzasti!
 incazzata!
 incazzate!
 incazzàtevi!
-incàzzati!
+incazzati;incàzzati@I!
 incazzato
 incazzàtosi!
 incazzatura
@@ -183144,7 +183144,7 @@ inceppasti!
 inceppata!
 inceppate!
 inceppàtevi!
-inceppati;incéppati
+inceppati;incéppati@I
 inceppato
 inceppàtosi!
 inceppava!
@@ -184412,7 +184412,7 @@ incolonnasti!
 incolonnata!
 incolonnate!
 incolonnàtevi!
-incolonnati~incolònnati@A;incolónnati
+incolonnati~incolònnati@A;incolónnati@I
 incolonnato
 incolonnàtosi!
 incolonnava!
@@ -184467,7 +184467,7 @@ incolpasti!
 incolpata!
 incolpate!
 incolpàtevi!
-incolpati;incólpati
+incolpati;incólpati@I
 incolpato
 incolpàtosi!
 incolpava!
@@ -184626,7 +184626,7 @@ incomodaste!
 incomodasti!
 incomodate!
 incomodàtevi!
-incomodati;incòmodati
+incomodati;incòmodati@I
 incomodato!
 incomodàtosi!
 incomodava!
@@ -184867,7 +184867,7 @@ incontrasti!
 incontrata
 incontrate!
 incontràtevi!
-incóntrati!
+incontrati;incóntrati@I!
 incontrato
 incontràtosi!
 incontrava!
@@ -185374,7 +185374,7 @@ increspasti!
 increspata!
 increspate!
 increspàtevi!
-increspati;incréspati
+increspati;incréspati@I
 increspato
 increspàtosi!
 increspatura
@@ -185525,7 +185525,7 @@ incrinasti!
 incrinata!
 incrinate!
 incrinàtevi!
-incrinati;incrìnati
+incrinati;incrìnati@I
 incrinato
 incrinàtosi!
 incrinatura
@@ -186076,7 +186076,7 @@ incurvasti!
 incurvata!
 incurvate!
 incurvàtevi!
-incurvati;incùrvati
+incurvati;incùrvati@I
 incurvato
 incurvàtosi!
 incurvava!
@@ -186232,7 +186232,7 @@ indebitasti!
 indebitata!
 indebitate!
 indebitàtevi!
-indebitati~indèbitati@A;indébitati
+indebitati~indèbitati@A;indébitati@I
 indebitato
 indebitàtosi!
 indebitava!
@@ -186557,7 +186557,7 @@ indichiamo!
 indichiàmoci!
 indichiate!
 ìndichino
-ìndici;indici
+ìndici;indici@I
 indiciamo!
 indiciate!
 indicìbile
@@ -186716,7 +186716,7 @@ indignasti!
 indignata!
 indignate!
 indignàtevi!
-indignati~indìgnati@A!
+indignati;indìgnati@I!
 indignato
 indignàtosi!
 indignava!
@@ -187808,7 +187808,7 @@ industriarti!
 industriata!
 industriate!
 industriàtevi!
-industriati;indùstriati
+industriati;indùstriati@I
 industriato
 industriàtosi!
 industrie!
@@ -188086,7 +188086,7 @@ inerpicàntesi!
 inerpicarsi
 inerpicarti!
 inerpicàtevi!
-inerpicati~inérpicati@A;inèrpicati
+inerpicati~inérpicati@A;inèrpicati@I
 inerpicàtosi!
 inerpichiàmoci!
 inèrte
@@ -188211,7 +188211,7 @@ infagottasti!
 infagottata!
 infagottate!
 infagottàtevi!
-infagottati;infagòttati
+infagottati;infagòttati@I
 infagottato
 infagottàtosi!
 infagottava!
@@ -188317,7 +188317,7 @@ infangasti!
 infangata
 infangate!
 infangàtevi!
-infangati;infàngati
+infangati;infàngati@I
 infangato
 infangàtosi!
 infangava!
@@ -188566,7 +188566,7 @@ infatuasti!
 infatuata!
 infatuate!
 infatuàtevi!
-infatuati;infàtuati
+infatuati;infàtuati@I
 infatuato
 infatuàtosi!
 infatuava!
@@ -188862,7 +188862,7 @@ infervorasti!
 infervorata!
 infervorate!
 infervoràtevi!
-infervorati~infervórati@A;infèrvorati
+infervorati~infervórati@A;infèrvorati@I
 infervorato
 infervoràtosi!
 infervorava!
@@ -188953,7 +188953,7 @@ infettasti!
 infettata!
 infettate!
 infettàtevi!
-infettati;infèttati
+infettati;infèttati@I
 infettato
 infettàtosi!
 infettava!
@@ -189115,7 +189115,7 @@ infiammasti!
 infiammata
 infiammate!
 infiammàtevi!
-infiammati~infiàmmati@A!
+infiammati;infiàmmati@I!
 infiammato
 infiammatòria!
 infiammatòrie!
@@ -189371,7 +189371,7 @@ infilasti!
 infilata
 infilate!
 infilàtevi!
-infilati;infìlati
+infilati;infìlati@I
 infilato
 infilàtosi!
 infilava!
@@ -189419,7 +189419,7 @@ infiltrasti!
 infiltrata
 infiltrate!
 infiltràtevi!
-infiltrati;infìltrati
+infiltrati;infìltrati@I
 infiltrato
 infiltratóre
 infiltratóri
@@ -190267,7 +190267,7 @@ infognàntesi!
 infognarsi
 infognarti!
 infognàtevi!
-infognati;infógnati
+infognati;infógnati@I
 infognàtosi!
 infógni
 infogniàmoci!
@@ -190559,7 +190559,7 @@ informasti!
 informata!
 informate!
 informàtevi!
-informati;infórmati
+informati;infórmati@I
 informàtica
 informàtiche!
 informatichése~informatichéṡe@S+
@@ -190655,7 +190655,7 @@ informicolarti!
 informicolata
 informicolate
 informicolàtevi!
-informicolati;informìcolati
+informicolati;informìcolati@I
 informicolato
 informicolàtosi!
 informicolèndosi!
@@ -190726,7 +190726,7 @@ infortunarti!
 infortunata!
 infortunate!
 infortunàtevi!
-infortunati;infortùnati
+infortunati;infortùnati@I
 infortunato
 infortunàtosi!
 infortuniàmoci!
@@ -190751,7 +190751,7 @@ infoscaste!
 infoscasti!
 infoscate!
 infoscàtevi!
-infoscati;infóscati
+infoscati;infóscati@I
 infoscato!
 infoscàtosi!
 infoscava!
@@ -190799,7 +190799,7 @@ infossaste!
 infossasti!
 infossate!
 infossàtevi!
-infossati;infòssati
+infossati;infòssati@I
 infossato!
 infossàtosi!
 infossava!
@@ -191064,7 +191064,7 @@ infranceṡasti!
 infranceṡata!
 infranceṡate!
 infranceṡàtevi!
-infranceṡati;infrancéṡati
+infranceṡati;infrancéṡati@I
 infranceṡato
 infranceṡàtosi!
 infranceṡava!
@@ -191540,7 +191540,7 @@ infuocaste!
 infuocasti!
 infuocata
 infuocate!
-infuocati;infuòcati
+infuocati;infuòcati@I
 infuocato
 infuocava!
 infuocavamo!
@@ -191642,7 +191642,7 @@ infuriasti!
 infuriata!
 infuriate!
 infuriàtevi!
-infuriati~infùriati@A!
+infuriati;infùriati@I!
 infuriato
 infuriàtosi!
 infuriava!
@@ -191862,7 +191862,7 @@ ingannasti!
 ingannata!
 ingannate!
 ingannàtevi!
-ingànnati!
+ingannati;ingànnati@I!
 ingannato
 ingannatóre
 ingannatóri
@@ -191943,7 +191943,7 @@ ingavonàntesi!
 ingavonarsi
 ingavonarti!
 ingavonàtevi!
-ingavónati;ingavonati
+ingavonati;ingavónati@I
 ingavonàtosi!
 ingavoniàmoci!
 ingegnàndosi!
@@ -191951,7 +191951,7 @@ ingegnàntesi!
 ingegnarsi
 ingegnarti!
 ingegnàtevi!
-ingegnati;ingégnati
+ingegnati;ingégnati@I
 ingegnàtosi!
 ingegnèra
 ingegnère
@@ -192042,7 +192042,7 @@ ingenerasti!
 ingenerata!
 ingenerate!
 ingeneràtevi!
-ingènerati!
+ingenerati;ingènerati@I!
 ingenerato
 ingeneràtosi!
 ingenerava!
@@ -192507,7 +192507,7 @@ inginocchiarti!
 inginocchiata!
 inginocchiate!
 inginocchiàtevi!
-inginòcchiati!
+inginocchiati;inginòcchiati@I!
 inginocchiato
 inginocchiatóio
 inginocchiàtosi!
@@ -192994,7 +192994,7 @@ ingolfaste!
 ingolfasti!
 ingolfate!
 ingolfàtevi!
-ingolfati~ingòlfati@A;ingólfati
+ingolfati~ingòlfati@A;ingólfati@I
 ingolfato!
 ingolfàtosi!
 ingolfava!
@@ -193214,7 +193214,7 @@ ingorgasti!
 ingorgata!
 ingorgate!
 ingorgàtevi!
-ingorgati;ingórgati
+ingorgati;ingórgati@I
 ingorgato
 ingorgàtosi!
 ingorgava!
@@ -193539,7 +193539,7 @@ ingraziaste!
 ingraziasti!
 ingraziate!
 ingraziàtevi!
-ingraziati;ingràziati
+ingraziati;ingràziati@I
 ingraziato!
 ingraziàtosi!
 ingraziava!
@@ -193733,7 +193733,7 @@ ingrossasti!
 ingrossata!
 ingrossate!
 ingrossàtevi!
-ingrossati;ingròssati
+ingrossati;ingròssati@I
 ingrossato
 ingrossàtosi!
 ingrossava!
@@ -193826,7 +193826,7 @@ inguantarti!
 inguantata!
 inguantate!
 inguantàtevi!
-inguantati;inguàntati
+inguantati;inguàntati@I
 inguantato
 inguantàtosi!
 inguantiàmoci!
@@ -194011,7 +194011,7 @@ iniettasti
 iniettata!
 iniettate
 iniettàtevi!
-iniettati~iniéttati@A;inièttati
+iniettati~iniéttati@A;inièttati@I
 iniettato
 iniettàtosi!
 iniettava
@@ -194068,7 +194068,7 @@ inimicasti!
 inimicata!
 inimicate!
 inimicàtevi!
-inimicati;inimìcati
+inimicati;inimìcati@I
 inimicato
 inimicàtosi!
 inimicava!
@@ -194366,7 +194366,7 @@ innalzasti!
 innalzata!
 innalzate!
 innalzàtevi!
-innalzati;innàlzati
+innalzati;innàlzati@I
 innalzato
 innalzàtosi!
 innalzava!
@@ -194417,7 +194417,7 @@ innamorasti!
 innamorata!
 innamorate!
 innamoràtevi!
-innamorati;innamórati
+innamorati;innamórati@I
 innamoratìssima!
 innamoratìssime!
 innamoratìssimi!
@@ -194663,7 +194663,7 @@ innescasti!
 innescata!
 innescate!
 innescàtevi!
-innescati~innéscati@A!
+innescati;innéscati@I!
 innescato
 innescàtosi!
 innescava!
@@ -194713,7 +194713,7 @@ innestaste!
 innestasti!
 innestate!
 innestàtevi!
-innestati;innèstati
+innestati;innèstati@I
 innestato!
 innestàtosi!
 innestava!
@@ -194762,7 +194762,7 @@ innevasti!
 innevata!
 innevate!
 innevàtevi!
-innevati;innévati
+innevati;innévati@I
 innevato
 innevàtosi!
 innevava!
@@ -194927,7 +194927,7 @@ innovasti!
 innovata!
 innovate!
 innovàtevi!
-innovati~innòvati@A!
+innovati;innòvati@I!
 innovativa!
 innovative
 innovativi!
@@ -195097,7 +195097,7 @@ inoltrasti!
 inoltrata!
 inoltrate!
 inoltràtevi!
-inoltrati;inóltrati
+inoltrati;inóltrati@I
 inoltrato
 inoltràtosi!
 inoltrava!
@@ -195383,7 +195383,7 @@ inquadrasti!
 inquadrata
 inquadrate!
 inquadràtevi!
-inquadrati~inquàdrati@A!
+inquadrati;inquàdrati@I!
 inquadrato
 inquadràtosi!
 inquadratura
@@ -195442,7 +195442,7 @@ inquietasti!
 inquietata!
 inquietate!
 inquietàtevi!
-inquietati~inquiétati@A;inquiètati
+inquietati~inquiétati@A;inquiètati@I
 inquietato
 inquietàtosi!
 inquietava!
@@ -195839,7 +195839,7 @@ insaponasti!
 insaponata
 insaponate!
 insaponàtevi!
-insapónati;insaponati
+insaponati;insapónati@I
 insaponato
 insaponàtosi!
 insaponatura
@@ -196233,7 +196233,7 @@ insegnàtami!
 insegnate!
 insegnàtemi
 insegnàtevi!
-insegnati~inségnati@A!
+insegnati;inségnati@I!
 insegnàtimi!
 insegnativa!
 insegnative!
@@ -197180,7 +197180,7 @@ insozzasti!
 insozzata!
 insozzate!
 insozzàtevi!
-insozzati;insózzati
+insozzati;insózzati@I
 insozzato
 insozzàtosi!
 insozzava!
@@ -197974,7 +197974,7 @@ intabarrasti!
 intabarrata!
 intabarrate!
 intabarràtevi!
-intabarrati~intabàrrati@A!
+intabarrati;intabàrrati@I!
 intabarrato
 intabarràtosi!
 intabarrava!
@@ -198159,7 +198159,7 @@ intarlaste!
 intarlasti!
 intarlate!
 intarlàtevi!
-intarlati;intàrlati
+intarlati;intàrlati@I
 intarlato!
 intarlàtosi!
 intarlava!
@@ -198251,7 +198251,7 @@ intasasti!
 intasata!
 intasate!
 intaṡàtevi!
-intaṡati~intasati@S~intàsati@AS;intàṡati
+intaṡati~intasati@S~intàsati@AS;intàṡati@I
 intasato~intaṡato@S+
 intaṡàtosi!
 intasava!
@@ -198684,7 +198684,7 @@ intensificasti!
 intensificata!
 intensificate!
 intensificàtevi!
-intensìficati!
+intensificati;intensìficati@I!
 intensificato
 intensificàtosi!
 intensificava!
@@ -200090,7 +200090,7 @@ interrogasti!
 interrogata!
 interrogate!
 interrogàtevi!
-interrogati~intèrrogati@A!
+interrogati;intèrrogati@I!
 interrogativa!
 interrogative!
 interrogativi!
@@ -200540,7 +200540,7 @@ intestasti!
 intestata!
 intestate!
 intestàtevi!
-intestati~intèstati@A!
+intestati;intèstati@I!
 intestato
 intestàtosi!
 intestava!
@@ -200989,7 +200989,7 @@ intonasti!
 intonata
 intonate!
 intonàtevi!
-intonati~intònati@A!
+intonati;intònati@I!
 intonativa!
 intonative!
 intonativi!
@@ -201806,7 +201806,7 @@ intricasti!
 intricata!
 intricate
 intricàtevi!
-intricati~intrìcati@A!
+intricati;intrìcati@I!
 intricatìssima!
 intricatìssime!
 intricatìssimi!
@@ -201897,7 +201897,7 @@ intrigasti!
 intrigata!
 intrigate!
 intrigàtevi!
-intrigati;intrìgati
+intrigati;intrìgati@I
 intrigato
 intrigàtosi!
 intrigava!
@@ -202425,7 +202425,7 @@ intrupparti!
 intruppata!
 intruppate!
 intruppàtevi!
-intrùppati;intruppati
+intruppati;intrùppati@I
 intruppato
 intruppàtosi!
 intruppiàmoci!
@@ -202767,7 +202767,7 @@ inurbàntesi!
 inurbarsi
 inurbarti!
 inurbàtevi!
-inùrbati;inurbati
+inurbati;inùrbati@I
 inurbàtosi!
 inurbiàmoci!
 inuṡata
@@ -202878,7 +202878,7 @@ invaginarsi
 invaginarti!
 invaginate
 invaginàtevi!
-invagìnati;invaginati
+invaginati;invagìnati@I
 invaginàtosi!
 invaginiàmoci!
 invai
@@ -203475,7 +203475,7 @@ inventasti!
 inventata!
 inventate!
 inventàtevi!
-inventati~invèntati@A!
+inventati;invèntati@I!
 inventato
 inventàtosi!
 inventava!
@@ -203808,7 +203808,7 @@ investisti!
 investita!
 investite!
 investìtevi!
-investiti~invèstiti@A!
+investiti;invèstiti@I!
 investito
 investitóre
 investitóri!
@@ -203863,7 +203863,7 @@ inviate
 inviàtegli!
 inviàtemi
 inviàtevi!
-invìati;inviati
+inviati;invìati@I
 inviàtigli!
 inviàtimi
 inviato
@@ -204129,7 +204129,7 @@ invitasti!
 invitata!
 invitate!
 invitàtevi!
-invitati~invìtati@A!
+invitati;invìtati@I!
 invitato
 invitàtosi!
 invitava!
@@ -204276,7 +204276,7 @@ involaste!
 involasti!
 involate!
 involàtevi!
-involati;invólati
+involati;invólati@I
 involato!
 involàtosi!
 involava!
@@ -204440,7 +204440,7 @@ inzaccherasti!
 inzaccherata!
 inzaccherate!
 inzaccheràtevi!
-inzaccherati~inżaccherati@Z~inżàccherati@AZ;inzàccherati
+inzaccherati~inżaccherati@Z~inżàccherati@AZ;inzàccherati@I
 inzaccherato~inżaccherato@Z
 inzaccheràtosi!
 inzaccherava!
@@ -204489,7 +204489,7 @@ inżeppasti!
 inzeppata!
 inżeppate!
 inżeppàtevi!
-inżeppati~inzeppati@Z~inzéppati@AZ;inżéppati
+inżeppati~inzeppati@Z~inzéppati@AZ;inżéppati@I
 inzeppato~inżeppato@Z
 inżeppàtosi!
 inżeppava!
@@ -204749,7 +204749,7 @@ inzuppasti!
 inzuppata!
 inzuppate!
 inżuppàtevi!
-inżuppati~inzuppati@Z~inzùppati@AZ;inżùppati
+inżuppati~inzuppati@Z~inzùppati@AZ;inżùppati@I
 inzuppato~inżuppato@Z
 inżuppàtosi!
 inzuppava!
@@ -206316,7 +206316,7 @@ irritasti!
 irritata
 irritate!
 irritàtevi!
-irritati~ìrritati@A!
+irritati;ìrritati@I!
 irritatìssima!
 irritatìssime!
 irritatìssimi!
@@ -206839,7 +206839,7 @@ iṡolasti!
 iṡolata!
 iṡolate!
 iṡolàtevi!
-iṡolati~ìṡolati@A!
+iṡolati;ìṡolati@I!
 iṡolato
 iṡolàtosi!
 iṡolava!
@@ -207105,7 +207105,7 @@ ispirasti!
 ispirata!
 ispirate!
 ispiràtevi!
-ispirati~ispìrati@A!
+ispirati;ispìrati@I!
 ispiratìssima!
 ispiratìssime!
 ispiratìssimi!
@@ -208104,7 +208104,7 @@ labialiżżaste!
 labialiżżasti!
 labialiżżate!
 labialiżżàtevi!
-labialiżżati;labialìżżati
+labialiżżati;labialìżżati@I
 labialiżżato!
 labialiżżàtosi!
 labialiżżava!
@@ -208282,7 +208282,7 @@ lacerasti!
 lacerata!
 lacerate!
 laceràtevi!
-lacerati;làcerati
+lacerati;làcerati@I
 lacerativa!
 lacerative!
 lacerativi!
@@ -208593,7 +208593,7 @@ lagnare
 lagnarsi
 lagnarti!
 lagnàtevi!
-lagnati;làgnati
+lagnati;làgnati@I
 lagnàtosi!
 lagne
 lagnerà	lagnerà
@@ -208794,7 +208794,7 @@ lambiccasti!
 lambiccata!
 lambiccate!
 lambiccàtevi!
-lambiccati;lambìccati
+lambiccati;lambìccati@I
 lambiccato
 lambiccatóre
 lambiccatóri!
@@ -208904,7 +208904,7 @@ lamentasti!
 lamentata!
 lamentate!
 lamentàtevi!
-lamentati~laméntati@A!
+lamentati;laméntati@I!
 lamentato
 lamentatòria!
 lamentatòrie!
@@ -209194,7 +209194,7 @@ lanciasti!
 lanciata
 lanciate!
 lanciàtevi!
-lanciati~lànciati@A!
+lanciati;lànciati@I!
 lanciato
 lanciatóre
 lanciatóri!
@@ -209745,7 +209745,7 @@ làsciatelo;lasciàtelo
 lasciàtemi
 lasciàtesi
 lasciàtevi!
-làsciati;lasciati
+lasciati;làsciati@I
 lasciàtigli!
 lasciàtimi
 lasciàtisi
@@ -210222,7 +210222,7 @@ laureasti!
 laureata!
 laureate
 laureàtevi!
-laureati;làureati
+laureati;làureati@I
 laureato
 laureàtosi!
 laureava!
@@ -210325,7 +210325,7 @@ lavastoviglie
 lavata
 lavate!
 lavàtevi!
-làvati!
+lavati;làvati@I!
 lavativa!
 lavative!
 lavativi!
@@ -210584,7 +210584,7 @@ leccasti!
 leccata
 leccate!
 leccàtevi!
-leccati;léccati
+leccati;léccati@I
 leccato
 leccàtosi!
 leccava!
@@ -211082,7 +211082,7 @@ legnasti!
 legnata
 legnate!
 legnàtevi!
-legnati;légnati
+legnati;légnati@I
 legnato!
 legnàtosi!
 legnava!
@@ -211572,7 +211572,7 @@ lesseréte!
 lèssero
 lesserà	lesserà!
 lesserò	lesserò!
-léssi;lèssi
+lèssi;léssi@I
 lessiamo!
 lessiate!
 lessicale
@@ -211905,7 +211905,7 @@ levasti!
 levata
 levate!
 levàtevi!
-lèvati!
+levati;lèvati@I!
 levato
 levatóre
 levatóri!
@@ -212031,7 +212031,7 @@ leviterésti!
 leviteréte!
 leviterà	leviterà!
 leviterò	leviterò!
-leviti;lèviti
+leviti;lèviti@I
 levitiamo!
 levitiate!
 levìtica!
@@ -212210,7 +212210,7 @@ liberate
 lìberatene;liberàtene
 liberàtesi
 liberàtevi!
-lìberati;liberati
+liberati;lìberati@I
 liberàtisi
 liberativa!
 liberative!
@@ -212425,7 +212425,7 @@ licenziasti!
 licenziata!
 licenziate!
 licenziàtevi!
-licenziati;licènziati
+licenziati;licènziati@I
 licenziato
 licenziàtosi!
 licenziava!
@@ -212552,7 +212552,7 @@ lignificàntesi!
 lignificarsi
 lignificarti!
 lignificàtevi!
-lignificati;lignìficati
+lignificati;lignìficati@I
 lignificàtosi!
 lignifichiàmoci!
 lignina
@@ -212698,7 +212698,7 @@ limitate;lìmitate
 limitàtevi!
 limitatézza
 limitatézze!
-limitati;lìmitati
+limitati;lìmitati@I
 limitatìssima!
 limitatìssime!
 limitatìssimi!
@@ -212780,7 +212780,7 @@ limonasti!
 limonata
 limonate!
 limonàtevi!
-limonati~limónati@A!
+limonati;limónati@I!
 limonato
 limonàtosi!
 limonava!
@@ -213741,7 +213741,7 @@ livellasti!
 livellata!
 livellate!
 livellàtevi!
-livellati;livèllati
+livellati;livèllati@I
 livellato
 livellatóre
 livellatóri!
@@ -214105,7 +214105,7 @@ lodata!
 lodataménte
 lodate!
 lodàtevi!
-lodati~lòdati@A!
+lodati;lòdati@I!
 lodatìssima!
 lodatìssime!
 lodatìssimi!
@@ -214240,7 +214240,7 @@ logorasti!
 logorata!
 logorate!
 logoràtevi!
-logorati;lógorati
+logorati;lógorati@I
 logorato
 logoràtosi!
 logorava!
@@ -215712,7 +215712,7 @@ macerate
 maceratéṡe~maceratése@S
 maceratéṡi!
 maceràtevi!
-macerati;màcerati
+macerati;màcerati@I
 macerato
 maceràtosi!
 macerava!
@@ -216446,7 +216446,7 @@ magnetiżżasti!
 magnetiżżata
 magnetiżżate!
 magnetiżżàtevi!
-magnetiżżati~magnetìżżati@A!
+magnetiżżati;magnetìżżati@I!
 magnetiżżato
 magnetiżżàtosi!
 magnetiżżava!
@@ -216967,7 +216967,7 @@ maledicevate!
 maledicévi
 maledicévo
 malèdiche!
-malèdici;maledici
+malèdici;maledici@I
 malediciamo!
 malediciate!
 malèdico;maledico
@@ -218019,7 +218019,7 @@ mangiàteli;màngiateli
 mangiàtelo;màngiatelo
 mangiàtene;màngiatene
 mangiàtevi
-mangiati;màngiati
+mangiati;màngiati@I
 mangiato
 mangiatóia
 mangiatóie!
@@ -218206,7 +218206,7 @@ manifestasti!
 manifestata!
 manifestate!
 manifestàtevi!
-manifestati~manifèstati@A!
+manifestati;manifèstati@I!
 manifestato
 manifestàtosi!
 manifestava!
@@ -219405,7 +219405,7 @@ maritasti!
 maritata!
 maritate!
 maritàtevi!
-maritati;marìtati
+maritati;marìtati@I
 maritato
 maritàtosi!
 maritava!
@@ -219718,7 +219718,7 @@ martiriżżasti!
 martiriżżata!
 martiriżżate!
 martiriżżàtevi!
-martiriżżati;martirìżżati
+martiriżżati;martirìżżati@I
 martiriżżato
 martiriżżatóre
 martiriżżatóri!
@@ -219868,7 +219868,7 @@ mascherasti!
 mascherata
 mascherate!
 mascheràtevi!
-mascherati~màscherati@A!
+mascherati;màscherati@I!
 mascherato
 mascheràtosi!
 mascherava!
@@ -220057,7 +220057,7 @@ massacrasti!
 massacrata!
 massacrate!
 massacràtevi!
-massacrati~massàcrati@A!
+massacrati;massàcrati@I!
 massacrato
 massacratóre
 massacratóri!
@@ -220487,7 +220487,7 @@ masturbasti!
 masturbata
 masturbate!
 masturbàtevi!
-masturbati;mastùrbati
+masturbati;mastùrbati@I
 masturbato
 masturbatóre
 masturbatóri
@@ -221341,7 +221341,7 @@ medicastro
 medicata
 medicate!
 medicàtevi!
-medicati;mèdicati
+medicati;mèdicati@I
 medicato
 medicatóre
 medicatóri!
@@ -222306,7 +222306,7 @@ mentisti!
 mentita
 mentite!
 mentìtevi!
-mentiti~méntiti@A~mèntiti@A!
+mentiti;méntiti@I;mèntiti@I!
 mentito
 mentitóre
 mentitóri!
@@ -223076,7 +223076,7 @@ mescolasti!
 mescolata
 mescolate!
 mescolàtevi!
-mescolati~méscolati@A~mèscolati@A!
+mescolati;méscolati@I;mèscolati@I!
 mescolato
 mescolatóre
 mescolatóri!
@@ -224831,7 +224831,7 @@ millantasti!
 millantata!
 millantate!
 millantàtevi!
-millantati~millàntati@A!
+millantati;millàntati@I!
 millantato
 millantatóre
 millantatóri
@@ -225037,7 +225037,7 @@ mimetiżżasti!
 mimetiżżata!
 mimetiżżate!
 mimetiżżàtevi!
-mimetiżżati~mimetìżżati@A!
+mimetiżżati;mimetìżżati@I!
 mimetiżżato
 mimetiżżàtosi!
 mimetiżżava!
@@ -225251,7 +225251,7 @@ mineraliżżasti!
 mineraliżżata!
 mineraliżżate!
 mineraliżżàtevi!
-mineraliżżati;mineralìżżati
+mineraliżżati;mineralìżżati@I
 mineraliżżato
 mineraliżżatóre
 mineraliżżatóri!
@@ -226338,7 +226338,7 @@ miṡurata!
 miṡurataménte
 miṡurate!
 miṡuràtevi!
-miṡùrati!
+miṡurati;miṡùrati@I!
 miṡurato
 miṡuratóre
 miṡuratóri!
@@ -226683,7 +226683,7 @@ mobbizzò	mobbiżżò!
 mòbile
 mobilétti!
 mobilétto
-mòbili;mobili
+mòbili;mobili@I
 mobilia
 mobiliai!
 mobiliammo!
@@ -226881,7 +226881,7 @@ modellasti!
 modellata!
 modellate!
 modellàtevi!
-modèllati!
+modellati;modèllati@I!
 modellato
 modellàtosi!
 modellatura
@@ -226958,7 +226958,7 @@ moderate!
 moderàtevi!
 moderatézza
 moderatézze!
-moderati~mòderati@A!
+moderati;mòderati@I!
 moderato
 moderatóre
 moderatóri!
@@ -227095,7 +227095,7 @@ modificasti!
 modificata!
 modificate!
 modificàtevi!
-modificati~modìficati@A!
+modificati;modìficati@I!
 modificativa
 modificative
 modificativi
@@ -227464,7 +227464,7 @@ moltiplicasti!
 moltiplicata!
 moltiplicate!
 moltiplicàtevi!
-moltiplicati;moltìplicati
+moltiplicati;moltìplicati@I
 moltiplicato
 moltiplicatóre
 moltiplicatóri!
@@ -227527,7 +227527,7 @@ monacàntesi!
 monacarsi
 monacarti!
 monacàtevi!
-monacati;mònacati
+monacati;mònacati@I
 monacàtosi!
 monacènse
 monacènsi!
@@ -228397,7 +228397,7 @@ montasti!
 montata
 montate!
 montàtevi!
-montati;móntati
+montati;móntati@I
 montato
 montatóre
 montatóri!
@@ -229143,7 +229143,7 @@ mortificasti!
 mortificata!
 mortificate!
 mortificàtevi!
-mortificati;mortìficati
+mortificati;mortìficati@I
 mortificato
 mortificatóre
 mortificatóri!
@@ -229285,7 +229285,7 @@ mostrasti!
 mostrata
 mostrate
 mostràtevi!
-mostrati;móstrati
+mostrati;móstrati@I
 mostrato
 mostràtosi!
 mostrava
@@ -230338,7 +230338,7 @@ mummificasti!
 mummificata!
 mummificate!
 mummificàtevi!
-mummificati~mummìficati@A!
+mummificati;mummìficati@I!
 mummificato
 mummificàtosi!
 mummificava!
@@ -231933,7 +231933,7 @@ naturaliżżaste!
 naturaliżżasti!
 naturaliżżate!
 naturaliżżàtevi!
-naturaliżżati;naturalìżżati
+naturaliżżati;naturalìżżati@I
 naturaliżżato!
 naturaliżżàtosi!
 naturaliżżava!
@@ -232680,7 +232680,7 @@ negasti!
 negata!
 negate!
 negàtevi!
-negati~nègati@A;négati
+negati~nègati@A;négati@I
 negativa
 negativaménte
 negative
@@ -232710,7 +232710,7 @@ negativiżżaste!
 negativiżżasti!
 negativiżżate!
 negativiżżàtevi!
-negativiżżati;negativìżżati
+negativiżżati;negativìżżati@I
 negativiżżato!
 negativiżżàtosi!
 negativiżżava!
@@ -234687,7 +234687,7 @@ nobilitasti!
 nobilitata!
 nobilitate
 nobilitàtevi!
-nobilitati~nobìlitati@A!
+nobilitati;nobìlitati@I!
 nobilitato
 nobilitàtosi!
 nobilitava!
@@ -234948,7 +234948,7 @@ nomerésti!
 nomeréte!
 nomerà	nomerà!
 nomerò	nomerò!
-nómi~nòmi@V!
+nómi;nòmi@I!
 nomiamo!
 nomiate!
 nòmica!
@@ -235211,7 +235211,7 @@ normaliżżàtasi
 normaliżżate!
 normaliżżàtesi
 normaliżżàtevi!
-normaliżżati~normalìżżati@A!
+normaliżżati;normalìżżati@I!
 normaliżżàtisi
 normaliżżato
 normaliżżatóre
@@ -235823,7 +235823,7 @@ nullificaste!
 nullificasti!
 nullificate!
 nullificàtevi!
-nullificati;nullìficati
+nullificati;nullìficati@I
 nullificato!
 nullificàtosi!
 nullificava!
@@ -236133,7 +236133,7 @@ nutrite
 nùtritene!
 nutrìtevene!
 nutrìtevi!
-nùtriti;nutriti
+nutriti;nùtriti@I
 nutritiva!
 nutritive!
 nutritivi!
@@ -236335,7 +236335,7 @@ obbligasti!
 obbligata!
 obbligate!
 obbligàtevi!
-obbligati~òbbligati@A!
+obbligati;òbbligati@I!
 obbligatìssima!
 obbligatìssime!
 obbligatìssimi!
@@ -236555,7 +236555,7 @@ obliasti!
 obliata!
 obliate!
 obliàtevi!
-obliati;oblìati
+obliati;oblìati@I
 obliato
 obliàtosi!
 obliava!
@@ -236666,7 +236666,7 @@ obnubilasti!
 obnubilata!
 obnubilate!
 obnubilàtevi!
-obnubilati;obnùbilati
+obnubilati;obnùbilati@I
 obnubilato
 obnubilàtosi!
 obnubilava!
@@ -236956,7 +236956,7 @@ occidentaliżżaste!
 occidentaliżżasti!
 occidentaliżżate!
 occidentaliżżàtevi!
-occidentaliżżati;occidentalìżżati
+occidentaliżżati;occidentalìżżati@I
 occidentaliżżato!
 occidentaliżżàtosi!
 occidentaliżżava!
@@ -237379,7 +237379,7 @@ odiasti!
 odiata!
 odiate!
 odiàtevi!
-odiati~òdiati@A!
+odiati;òdiati@I!
 odiato
 odiatóre
 odiatóri!
@@ -237795,7 +237795,7 @@ offuscasti!
 offuscata!
 offuscate!
 offuscàtevi!
-offuscati;offùscati
+offuscati;offùscati@I
 offuscato
 offuscatóre
 offuscatóri!
@@ -237890,7 +237890,7 @@ oggettivaste!
 oggettivasti!
 oggettivate!
 oggettivàtevi!
-oggettivati;oggettìvati
+oggettivati;oggettìvati@I
 oggettivato!
 oggettivàtosi!
 oggettivava!
@@ -239252,7 +239252,7 @@ onorata!
 onorataménte
 onorate!
 onoràtevi!
-onorati~onórati@A!
+onorati;onórati@I!
 onoratìssima!
 onoratìssime!
 onoratìssimi!
@@ -239548,7 +239548,7 @@ operasti!
 operata
 operate
 operàtevi!
-òperati;operati
+operati;òperati@I
 operativa!
 operative!
 operativi!
@@ -240664,7 +240664,7 @@ organiżżasti!
 organiżżata
 organiżżate!
 organiżżàtevi!
-organìżżati;organiżżati
+organiżżati;organìżżati@I
 organiżżativa!
 organiżżativaménte
 organiżżative!
@@ -240866,7 +240866,7 @@ orientasti!
 orientata!
 orientate!
 orientàtevi!
-orientati;orièntati
+orientati;orièntati@I
 orientativa
 orientative
 orientativi
@@ -240940,7 +240940,7 @@ originasti!
 originata!
 originate!
 originàtevi!
-orìginati!
+originati;orìginati@I!
 originato
 originàtosi!
 originava!
@@ -241100,7 +241100,7 @@ oriżżontaste!
 oriżżontasti!
 oriżżontate!
 oriżżontàtevi!
-oriżżontati;oriżżóntati
+oriżżontati;oriżżóntati@I
 oriżżontato!
 oriżżontàtosi!
 oriżżontava!
@@ -241262,7 +241262,7 @@ ornate!
 ornàtevi!
 ornatézza
 ornatézze!
-ornati;órnati
+ornati;órnati@I
 ornativa!
 ornative!
 ornativi!
@@ -241926,7 +241926,7 @@ oscuràtasi
 oscurate!
 oscuràtesi
 oscuràtevi!
-oscurati;oscùrati
+oscurati;oscùrati@I
 oscuràtisi
 oscurato
 oscuràtosi
@@ -242197,7 +242197,7 @@ osservasti!
 osservata
 osservate!
 osservàtevi!
-osservati;ossèrvati
+osservati;ossèrvati@I
 osservato
 osservatóre
 osservatóri;osservatòri
@@ -242327,7 +242327,7 @@ ossidasti!
 ossidata!
 ossidate!
 ossidàtevi!
-òssidati!
+ossidati;òssidati@I!
 ossidato
 ossidàtosi!
 ossidava!
@@ -242412,7 +242412,7 @@ ossificasti!
 ossificata
 ossificate!
 ossificàtevi!
-ossificati;ossìficati
+ossificati;ossìficati@I
 ossificato
 ossificàtosi!
 ossificava!
@@ -242562,7 +242562,7 @@ ostacolasti!
 ostacolata
 ostacolate!
 ostacolàtevi!
-ostacolati~ostàcolati@A!
+ostacolati;ostàcolati@I!
 ostacolato
 ostacolàtosi!
 ostacolava!
@@ -242843,7 +242843,7 @@ ostinate!
 ostinàtevi!
 ostinatézza
 ostinatézze!
-ostinati~ostìnati@A!
+ostinati;ostìnati@I!
 ostinatìssima!
 ostinatìssime!
 ostinatìssimi!
@@ -243661,7 +243661,7 @@ otturasti!
 otturata!
 otturate!
 otturàtevi!
-otturati;ottùrati
+otturati;ottùrati@I
 otturato
 otturatóre
 otturatóri!
@@ -243733,7 +243733,7 @@ ovaliżżaste!
 ovaliżżasti!
 ovaliżżate!
 ovaliżżàtevi!
-ovaliżżati;ovalìżżati
+ovaliżżati;ovalìżżati@I
 ovaliżżato!
 ovaliżżàtosi!
 ovaliżżava!
@@ -244092,7 +244092,7 @@ pacate!
 pacàtevi!
 pacatézza
 pacatézze!
-pacati;pàcati
+pacati;pàcati@I
 pacato
 pacàtosi!
 pacava!
@@ -244424,7 +244424,7 @@ padroneggiasti!
 padroneggiata!
 padroneggiate!
 padroneggiàtevi!
-padroneggiati~padronéggiati@A!
+padroneggiati;padronéggiati@I!
 padroneggiato
 padroneggiàtosi!
 padroneggiava!
@@ -244622,7 +244622,7 @@ pagata!
 pagate!
 pagàtela!
 pagàtevi!
-pagati~pàgati@A!
+pagati;pàgati@I!
 pagato
 pagàtola!
 pagatóre
@@ -245025,7 +245025,7 @@ paleṡasti!
 paleṡata!
 paleṡate!
 paleṡàtevi!
-paleṡati;paléṡati
+paleṡati;paléṡati@I
 paleṡato
 paleṡàtosi!
 paleṡava!
@@ -245317,7 +245317,7 @@ palleggiasti!
 palleggiata!
 palleggiate!
 palleggiàtevi!
-palleggiati;palléggiati
+palleggiati;palléggiati@I
 palleggiato
 palleggiàtosi!
 palleggiava!
@@ -246584,7 +246584,7 @@ paragonasti!
 paragonata!
 paragonate!
 paragonàtevi!
-paragonati~paragònati@A!
+paragonati;paragònati@I!
 paragonato
 paragonàtosi!
 paragonava!
@@ -246938,7 +246938,7 @@ parata
 paratassi
 parate!
 paràtevi!
-parati;pàrati
+parati;pàrati@I
 paratia
 paràtici!
 paràtico
@@ -248264,7 +248264,7 @@ passatèmpi
 passatèmpo
 passàtevela!
 passàtevi!
-passati~pàssati@A!
+passati;pàssati@I!
 passatiṡmi!
 passatiṡmo
 passatista
@@ -250744,7 +250744,7 @@ pensata
 pensataménte
 pensate!
 pensàtevi!
-pensati~pènsati@A!
+pensati;pènsati@I!
 pensato
 pensatóio
 pensatóre
@@ -250971,7 +250971,7 @@ pentirti!
 pentita!
 pentite!
 pentìtevi!
-pentiti;pèntiti
+pentiti;pèntiti@I
 pentitiṡmi!
 pentitiṡmo
 pentito
@@ -251614,7 +251614,7 @@ perdonasti!
 perdonata!
 perdonate
 perdonàtevi!
-perdónati;perdonati
+perdonati;perdónati@I
 perdonato
 perdonatóre
 perdonatóri!
@@ -253581,7 +253581,7 @@ perturbasti!
 perturbata!
 perturbate!
 perturbàtevi!
-perturbati;pertùrbati
+perturbati;pertùrbati@I
 perturbativa!
 perturbative!
 perturbativi!
@@ -254068,7 +254068,7 @@ pesterésti!
 pesteréte!
 pesterà	pesterà
 pesterò	pesterò
-pésti;pèsti
+pèsti;pésti@I
 pestiamo!
 pestiate!
 pesticida
@@ -254314,7 +254314,7 @@ pettinasti!
 pettinata
 pettinate!
 pettinàtevi!
-pèttinati!
+pettinati;pèttinati@I!
 pettinato
 pettinàtosi!
 pettinatura
@@ -255137,7 +255137,7 @@ piazzasti!
 piazzata
 piazzate!
 piazzàtevi!
-piazzati;piàzzati
+piazzati;piàzzati@I
 piazzato
 piazzàtosi!
 piazzava!
@@ -255525,7 +255525,7 @@ piegasti!
 piegata!
 piegate!
 piegàtevi!
-piègati~piégati@V;piegati
+piegati~piégati@V;piègati@I
 piegato
 piegàtosi!
 piegava!
@@ -255905,7 +255905,7 @@ pigmentaste!
 pigmentasti!
 pigmentate!
 pigmentàtevi!
-pigmentati;pigméntati
+pigmentati;pigméntati@I
 pigmentato!
 pigmentàtosi!
 pigmentava!
@@ -257347,7 +257347,7 @@ pitturasti!
 pitturata
 pitturate!
 pitturàtevi!
-pitturati;pittùrati
+pitturati;pittùrati@I
 pitturato
 pitturàtosi!
 pitturava!
@@ -257554,7 +257554,7 @@ placasti!
 placata!
 placate!
 placàtevi!
-placati;plàcati
+placati;plàcati@I
 placativa!
 placative!
 placativi!
@@ -259156,7 +259156,7 @@ politiciżżasti!
 politiciżżata!
 politiciżżate!
 politiciżżàtevi!
-politiciżżati;politicìżżati
+politiciżżati;politicìżżati@I
 politiciżżato
 politiciżżàtosi!
 politiciżżava!
@@ -259422,7 +259422,7 @@ polveriżżaste!
 polveriżżasti!
 polveriżżate!
 polveriżżàtevi!
-polveriżżati;polverìżżati
+polveriżżati;polverìżżati@I
 polveriżżato!
 polveriżżatóre
 polveriżżatóri!
@@ -260364,7 +260364,7 @@ portate!
 portatèssera
 portatèssere
 portàtevi!
-portati~pòrtati@A!
+portati;pòrtati@I!
 portàtile
 portàtili
 portato
@@ -260535,7 +260535,7 @@ poṡaterie~posaterie@S
 posàtevi!
 poṡatézza~posatézza@S
 poṡatézze~posatézze@S
-poṡati~posati@S~pòsati@AS;pòṡati
+poṡati~posati@S~pòsati@AS;pòṡati@I
 poṡato~posato@S
 poṡatói~poṡatòi@V~posatói@S
 poṡatóio~poṡatòio@V~posatóio@S
@@ -260579,7 +260579,7 @@ poseréte!
 pósero!
 poserà	poserà!
 poserò	poserò!
-pósi~póṡi@S+:M~pòsi@V;pòṡi
+pósi~póṡi@S+:M~pòsi@V;pòṡi@I
 poṡiamo~posiamo@S
 posiàmoci!
 poṡiate~posiate@S
@@ -261375,7 +261375,7 @@ potévimo!
 potévio!
 potévivo!
 potévo
-póti;pòti
+póti;pòti@I
 potia!
 potìamo!
 potìano!
@@ -262200,7 +262200,7 @@ precipitasti!
 precipitata!
 precipitate!
 precipitàtevi!
-precipitati~precìpitati@A!
+precipitati;precìpitati@I!
 precipitato
 precipitatóre
 precipitatóri!
@@ -263476,7 +263476,7 @@ pregiasti!
 pregiata
 pregiate!
 pregiàtevi!
-pregiati~prègiati@A!
+pregiati;prègiati@I!
 pregiatìssima!
 pregiatìssime!
 pregiatìssimi!
@@ -264310,7 +264310,7 @@ preoccupasti!
 preoccupata!
 preoccupate!
 preoccupàtevi!
-preoccupati;preòccupati
+preoccupati;preòccupati@I
 preoccupato
 preoccupàtosi!
 preoccupava!
@@ -264379,7 +264379,7 @@ preparasti!
 preparata
 preparate
 preparàtevi!
-prepàrati;preparati
+preparati;prepàrati@I
 preparatìssima
 preparatìssime
 preparatìssimi
@@ -264965,7 +264965,7 @@ preṡentasti!
 preṡentata!
 preṡentate!
 preṡentàtevi!
-preṡèntati!
+preṡentati;preṡèntati@I!
 preṡentato
 preṡentatóre
 preṡentatóri!
@@ -265119,7 +265119,7 @@ preservasti!
 preservata~preṡervata@S
 preservate~preṡervate@S
 preservàtevi!
-preservati~preṡervati@S~preṡèrvati@AS;presèrvati
+preservati~preṡervati@S~preṡèrvati@AS;presèrvati@I
 preservativa!
 preservative!
 preservativi!
@@ -266548,7 +266548,7 @@ private!
 privàtevi!
 privatézza
 privatézze!
-privati;prìvati
+privati;prìvati@I
 privatìssima!
 privatìssime!
 privatìssimi!
@@ -266779,7 +266779,7 @@ procacciaste!
 procacciasti!
 procacciate
 procacciàtevi!
-procacciati;procàcciati
+procacciati;procàcciati@I
 procacciato!
 procacciatóre
 procacciatóri!
@@ -267173,7 +267173,7 @@ procurasti!
 procurata!
 procurate!
 procuràtevi!
-procurati~procùrati@A!
+procurati;procùrati@I!
 procurato
 procuratóre
 procuratóri!
@@ -267244,7 +267244,7 @@ prodigasti!
 prodigata!
 prodigate!
 prodigàtevi!
-prodigati;pròdigati
+prodigati;pròdigati@I
 prodigato
 prodigàtosi!
 prodigava!
@@ -267497,7 +267497,7 @@ professasti!
 professata!
 professate!
 professàtevi!
-professati;profèssati
+professati;profèssati@I
 professato
 professàtosi!
 professava!
@@ -267853,7 +267853,7 @@ profondaste!
 profondasti!
 profondate!
 profondàtevi!
-profondati;profóndati
+profondati;profóndati@I
 profondato!
 profondàtosi!
 profondava!
@@ -268250,7 +268250,7 @@ proiettasti!
 proiettata!
 proiettate!
 proiettàtevi!
-proiettati~proièttati@A~proiéttati@A!
+proiettati;proièttati@I;proiéttati@I!
 proiettato
 proiettàtosi!
 proiettava!
@@ -268319,7 +268319,7 @@ proletariżżaste!
 proletariżżasti!
 proletariżżate!
 proletariżżàtevi!
-proletariżżati;proletarìżżati
+proletariżżati;proletarìżżati@I
 proletariżżato!
 proletariżżàtosi!
 proletariżżava!
@@ -268527,7 +268527,7 @@ prolungasti!
 prolungata!
 prolungate!
 prolungàtevi!
-prolungati~prolùngati@A!
+prolungati;prolùngati@I!
 prolungato
 prolungàtosi!
 prolungava!
@@ -268878,7 +268878,7 @@ pronunciasti!
 pronunciata!
 pronunciate!
 pronunciàtevi!
-pronunciati~pronùnciati@A!
+pronunciati;pronùnciati@I!
 pronunciato
 pronunciàtosi!
 pronunciava
@@ -269007,7 +269007,7 @@ propagasti!
 propagata
 propagate
 propagàtevi!
-propagati;propàgati
+propagati;propàgati@I
 propagato
 propagàtosi!
 propagava!
@@ -270015,7 +270015,7 @@ prosternaste!
 prosternasti!
 prosternate!
 prosternàtevi!
-prosternati;prostèrnati
+prosternati;prostèrnati@I
 prosternato!
 prosternàtosi!
 prosternava!
@@ -270122,7 +270122,7 @@ prostrasti!
 prostrata
 prostrate!
 prostràtevi!
-prostrati;pròstrati
+prostrati;pròstrati@I
 prostrato
 prostràtosi!
 prostrava!
@@ -270331,7 +270331,7 @@ protestasti!
 protestata!
 protestate!
 protestàtevi!
-protèstati!
+protestati;protèstati@I!
 protestato
 protestatòria!
 protestatòrie!
@@ -270684,7 +270684,7 @@ provata
 provataménte
 provate
 provàtevi!
-provati;pròvati
+provati;pròvati@I
 provato
 provàtosi!
 provava!
@@ -270850,7 +270850,7 @@ provocasti!
 provocata!
 provocate!
 provocàtevi!
-provocati~pròvocati@A!
+provocati;pròvocati@I!
 provocato
 provocatóre
 provocatóri;provocatòri
@@ -272384,7 +272384,7 @@ punzecchiasti!
 punzecchiata!
 punzecchiate!
 punżecchiàtevi!
-punżecchiati~punzecchiati@Z~punzécchiati@AZ;punżécchiati
+punżecchiati~punzecchiati@Z~punzécchiati@AZ;punżécchiati@I
 punzecchiato~punżecchiato@Z
 punżecchiàtosi!
 punzecchiatura
@@ -272520,7 +272520,7 @@ purgate!
 purgàtevi!
 purgatézza
 purgatézze!
-purgati;pùrgati
+purgati;pùrgati@I
 purgativa
 purgative
 purgativi
@@ -272579,7 +272579,7 @@ purificasti!
 purificata!
 purificate!
 purificàtevi!
-purìficati;purificati
+purificati;purìficati@I
 purificativa!
 purificative!
 purificativi!
@@ -273381,7 +273381,7 @@ qualificàtasi
 qualificate!
 qualificàtesi
 qualificàtevi!
-qualificati;qualìficati
+qualificati;qualìficati@I
 qualificàtisi
 qualificativa!
 qualificative!
@@ -274173,7 +274173,7 @@ quintuplicaste!
 quintuplicasti!
 quintuplicate!
 quintuplicàtevi!
-quintuplicati;quintùplicati
+quintuplicati;quintùplicati@I
 quintuplicato!
 quintuplicàtosi!
 quintuplicava!
@@ -274514,7 +274514,7 @@ rabbuiarti!
 rabbuiata
 rabbuiate!
 rabbuiàtevi!
-rabbuiati;rabbùiati
+rabbuiati;rabbùiati@I
 rabbuiato
 rabbuiàtosi!
 rabdòfane
@@ -274753,7 +274753,7 @@ racchetàntesi!
 racchetarsi
 racchetarti!
 racchetàtevi!
-racchetati~racchètati@A;racchétati
+racchetati~racchètati@A;racchétati@I
 racchetàtosi!
 racchetiàmoci!
 racchétta
@@ -274918,7 +274918,7 @@ raccomandasti!
 raccomandata
 raccomandate!
 raccomandàtevi!
-raccomàndati!
+raccomandati;raccomàndati@I!
 raccomandato
 raccomandatòria!
 raccomandatòrie!
@@ -274980,7 +274980,7 @@ raccontasti!
 raccontata!
 raccontate!
 raccontàtevi!
-raccontati~raccóntati@A!
+raccontati;raccóntati@I!
 raccontato
 raccontàtosi!
 raccontava!
@@ -275053,7 +275053,7 @@ raccordàntesi!
 raccordarsi
 raccordarti!
 raccordàtevi!
-raccordati;raccòrdati
+raccordati;raccòrdati@I
 raccordàtosi!
 raccòrdi!
 raccordiàmoci!
@@ -275244,7 +275244,7 @@ raddensaste!
 raddensasti!
 raddensate!
 raddensàtevi!
-raddensati;raddènsati
+raddensati;raddènsati@I
 raddensato!
 raddensàtosi!
 raddensava!
@@ -275611,7 +275611,7 @@ radicasti!
 radicata!
 radicate!
 radicàtevi!
-radicati;ràdicati
+radicati;ràdicati@I
 radicato
 radicàtosi!
 radicava!
@@ -276480,7 +276480,7 @@ raffermaste!
 raffermasti!
 raffermate!
 raffermàtevi!
-raffermati;rafférmati
+raffermati;rafférmati@I
 raffermato!
 raffermàtosi!
 raffermava!
@@ -276697,7 +276697,7 @@ raffreddàtasi!
 raffreddate!
 raffreddàtesi!
 raffreddàtevi!
-raffreddati;raffréddati
+raffreddati;raffréddati@I
 raffreddàtisi!
 raffreddato
 raffreddàtosi
@@ -276752,7 +276752,7 @@ raffrenasti!
 raffrenata!
 raffrenate!
 raffrenàtevi!
-raffrenati~raffrènati@A;raffrénati
+raffrenati~raffrènati@A;raffrénati@I
 raffrenato
 raffrenàtosi!
 raffrenava!
@@ -276924,7 +276924,7 @@ raggelaste!
 raggelasti!
 raggelate!
 raggelàtevi!
-raggelati;raggèlati
+raggelati;raggèlati@I
 raggelato!
 raggelàtosi!
 raggelava!
@@ -277161,7 +277161,7 @@ raggomitolaste!
 raggomitolasti!
 raggomitolate!
 raggomitolàtevi!
-raggomitolati;raggomìtolati
+raggomitolati;raggomìtolati@I
 raggomitolato!
 raggomitolàtosi!
 raggomitolava!
@@ -277333,7 +277333,7 @@ raggrumasti!
 raggrumata!
 raggrumate!
 raggrumàtevi!
-raggrumati;raggrùmati
+raggrumati;raggrùmati@I
 raggrumato
 raggrumàtosi!
 raggrumava!
@@ -277385,7 +277385,7 @@ raggruppaste!
 raggruppasti!
 raggruppate!
 raggruppàtevi!
-raggrùppati;raggruppati
+raggruppati;raggrùppati@I
 raggruppato!
 raggruppàtosi!
 raggruppava!
@@ -277701,7 +277701,7 @@ rallegrasti!
 rallegrata!
 rallegrate!
 rallegràtevi!
-rallegrati~rallégrati@A~rallègrati@A!
+rallegrati;rallégrati@I;rallègrati@I!
 rallegrato
 rallegràtosi!
 rallegrava!
@@ -277752,7 +277752,7 @@ rallentasti!
 rallentata!
 rallentate!
 rallentàtevi!
-rallèntati!
+rallentati;rallèntati@I!
 rallentato
 rallentatóre
 rallentatóri!
@@ -277923,7 +277923,7 @@ ramificasti!
 ramificata!
 ramificate!
 ramificàtevi!
-ramificati;ramìficati
+ramificati;ramìficati@I
 ramificato
 ramificàtosi!
 ramificava!
@@ -277986,7 +277986,7 @@ rammaricasti!
 rammaricata!
 rammaricate!
 rammaricàtevi!
-rammaricati;rammàricati
+rammaricati;rammàricati@I
 rammaricato
 rammaricàtosi!
 rammaricava!
@@ -278086,7 +278086,7 @@ rammentasti!
 rammentata!
 rammentate!
 rammentàtevi!
-ramméntati;rammentati
+rammentati;ramméntati@I
 rammentato
 rammentàtosi!
 rammentava!
@@ -278596,7 +278596,7 @@ rannuvolasti!
 rannuvolata!
 rannuvolate!
 rannuvolàtevi!
-rannuvolati;rannùvolati
+rannuvolati;rannùvolati@I
 rannuvolato
 rannuvolàtosi!
 rannuvolava!
@@ -278853,7 +278853,7 @@ rappacificaste!
 rappacificasti!
 rappacificate!
 rappacificàtevi!
-rappacificati;rappacìficati
+rappacificati;rappacìficati@I
 rappacificato!
 rappacificàtosi!
 rappacificava!
@@ -278991,7 +278991,7 @@ rapportaste!
 rapportasti!
 rapportate!
 rapportàtevi!
-rapportati;rappòrtati
+rapportati;rappòrtati@I
 rapportato!
 rapportàtosi!
 rapportava!
@@ -279225,7 +279225,7 @@ rasasti!
 rasata!
 rasate!
 rasàtevi!
-raṡati~rasati@S~ràsati@AS;ràṡati
+raṡati~rasati@S~ràsati@AS;ràṡati@I
 rasato~raṡato@S+
 rasàtosi!
 rasava!
@@ -279463,7 +279463,7 @@ rassegnata!
 rassegnataménte
 rassegnate!
 rassegnàtevi!
-rasségnati!
+rassegnati;rasségnati@I!
 rassegnato
 rassegnàtosi!
 rassegnava!
@@ -279524,7 +279524,7 @@ rasserenaste!
 rasserenasti!
 rasserenate!
 rasserenàtevi!
-rasserenati;rasserénati
+rasserenati;rasserénati@I
 rasserenato!
 rasserenàtosi!
 rasserenava!
@@ -279615,7 +279615,7 @@ rassicurasti!
 rassicurata!
 rassicurate!
 rassicuràtevi!
-rassicùrati;rassicurati
+rassicurati;rassicùrati@I
 rassicurato
 rassicuràtosi!
 rassicurava!
@@ -279668,7 +279668,7 @@ rassodasti!
 rassodata!
 rassodate!
 rassodàtevi!
-rassodati;rassòdati
+rassodati;rassòdati@I
 rassodato
 rassodàtosi!
 rassodava!
@@ -280299,7 +280299,7 @@ rattristaste!
 rattristasti!
 rattristate!
 rattristàtevi!
-rattristati;rattrìstati
+rattristati;rattrìstati@I
 rattristato!
 rattristàtosi!
 rattristava!
@@ -280439,7 +280439,7 @@ ravviasti!
 ravviata!
 ravviate!
 ravviàtevi!
-ravviati;ravvìati
+ravviati;ravvìati@I
 ravviato
 ravviàtosi!
 ravviava!
@@ -280614,7 +280614,7 @@ ravvivaste!
 ravvivasti!
 ravvivate!
 ravvivàtevi!
-ravvivati;ravvìvati
+ravvivati;ravvìvati@I
 ravvivato!
 ravvivàtosi!
 ravvivava!
@@ -280699,7 +280699,7 @@ ravvoltolàntesi!
 ravvoltolarsi
 ravvoltolarti!
 ravvoltolàtevi!
-ravvoltolati;ravvòltolati
+ravvoltolati;ravvòltolati@I
 ravvoltolàtosi!
 ravvoltoliàmoci!
 ravvòltosi!
@@ -281035,7 +281035,7 @@ realiżżasti!
 realiżżata!
 realiżżate!
 realiżżàtevi!
-realiżżati~realìżżati@A!
+realiżżati;realìżżati@I!
 realiżżato
 realiżżàtosi!
 realiżżava!
@@ -281166,7 +281166,7 @@ recàtemi!
 recàtesi
 recàteti!
 recàtevi!
-rècati;recati
+recati;rècati@I
 recàtimi!
 recàtisi
 recàtiti!
@@ -281710,7 +281710,7 @@ reclinasti!
 reclinata!
 reclinate!
 reclinàtevi!
-reclinati;reclìnati
+reclinati;reclìnati@I
 reclinato
 reclinàtosi!
 reclinava!
@@ -282464,7 +282464,7 @@ reducévano!
 reducevate!
 reducévi!
 reducévo!
-rèduci;reduci
+rèduci;reduci@I
 reduciamo!
 reduciate!
 reduciṡmo
@@ -283000,7 +283000,7 @@ registrasti!
 registrata!
 regìstrate;registrate
 registràtevi!
-registrati;regìstrati
+registrati;regìstrati@I
 registrato
 registratóre
 registratóri!
@@ -283210,7 +283210,7 @@ regolate!
 regolàtevi!
 regolatézza
 regolatézze!
-règolati!
+regolati;règolati@I!
 regolativa!
 regolative!
 regolativi!
@@ -283419,7 +283419,7 @@ reimbarcaste!
 reimbarcasti!
 reimbarcate!
 reimbarcàtevi!
-reimbarcati;reimbàrcati
+reimbarcati;reimbàrcati@I
 reimbarcato!
 reimbarcàtosi!
 reimbarcava!
@@ -283925,7 +283925,7 @@ reincarnaste!
 reincarnasti!
 reincarnate!
 reincarnàtevi!
-reincarnati;reincàrnati
+reincarnati;reincàrnati@I
 reincarnato!
 reincarnàtosi!
 reincarnava!
@@ -284143,7 +284143,7 @@ reinfettaste!
 reinfettasti!
 reinfettate!
 reinfettàtevi!
-reinfettati;reinfèttati
+reinfettati;reinfèttati@I
 reinfettato!
 reinfettàtosi!
 reinfettava!
@@ -284632,7 +284632,7 @@ reintegrasti!
 reintegrata
 reintegrate
 reintegràtevi!
-reintegrati;reìntegrati
+reintegrati;reìntegrati@I
 reintegrativa!
 reintegrative!
 reintegrativi!
@@ -284833,7 +284833,7 @@ reinventasti!
 reinventata!
 reinventate!
 reinventàtevi!
-reinventati~reinvèntati@A!
+reinventati;reinvèntati@I!
 reinventato
 reinventàtosi!
 reinventava!
@@ -285577,7 +285577,7 @@ replicasti!
 replicata!
 replicate!
 replicàtevi!
-replicati~rèplicati@A!
+replicati;rèplicati@I!
 replicativa!
 replicative!
 replicativi!
@@ -287884,7 +287884,7 @@ riabbracciasti!
 riabbracciata!
 riabbracciate!
 riabbracciàtevi!
-riabbracciati;riabbràcciati
+riabbracciati;riabbràcciati@I
 riabbracciato
 riabbracciàtosi!
 riabbracciava!
@@ -287918,7 +287918,7 @@ riabilitasti!
 riabilitata!
 riabilitate!
 riabilitàtevi!
-riabilitati;riabìlitati
+riabilitati;riabìlitati@I
 riabilitativa!
 riabilitative!
 riabilitativi!
@@ -288012,7 +288012,7 @@ riabituasti!
 riabituata
 riabituate
 riabituàtevi!
-riabituati;riabìtuati
+riabituati;riabìtuati@I
 riabituato
 riabituàtosi!
 riabituava!
@@ -288832,7 +288832,7 @@ riaccomodasti!
 riaccomodata!
 riaccomodate!
 riaccomodàtevi!
-riaccomodati;riaccòmodati
+riaccomodati;riaccòmodati@I
 riaccomodato
 riaccomodàtosi!
 riaccomodava!
@@ -289429,7 +289429,7 @@ riacutiżżasti!
 riacutiżżata!
 riacutiżżate!
 riacutiżżàtevi!
-riacutiżżati;riacutìżżati
+riacutiżżati;riacutìżżati@I
 riacutiżżato
 riacutiżżàtosi!
 riacutiżżava!
@@ -289685,7 +289685,7 @@ riaddormentasti!
 riaddormentata!
 riaddormentate!
 riaddormentàtevi!
-riaddormentati;riaddorméntati
+riaddormentati;riaddorméntati@I
 riaddormentato
 riaddormentàtosi!
 riaddormentava!
@@ -290039,7 +290039,7 @@ riaffacciasti!
 riaffacciata!
 riaffacciate!
 riaffacciàtevi!
-riaffacciati;riaffàcciati
+riaffacciati;riaffàcciati@I
 riaffacciato
 riaffacciàtosi!
 riaffacciava!
@@ -290072,7 +290072,7 @@ riaffermasti!
 riaffermata!
 riaffermate!
 riaffermàtevi!
-riaffermati;riafférmati
+riaffermati;riafférmati@I
 riaffermato
 riaffermàtosi!
 riaffermava!
@@ -290708,7 +290708,7 @@ riagganciasti!
 riagganciata!
 riagganciate!
 riagganciàtevi!
-riagganciati;riaggànciati
+riagganciati;riaggànciati@I
 riagganciato
 riagganciàtosi!
 riagganciava!
@@ -290824,7 +290824,7 @@ riaggiustasti!
 riaggiustata!
 riaggiustate!
 riaggiustàtevi!
-riaggiustati;riaggiùstati
+riaggiustati;riaggiùstati@I
 riaggiustato
 riaggiustàtosi!
 riaggiustava!
@@ -290873,7 +290873,7 @@ riaggravasti!
 riaggravata!
 riaggravate!
 riaggravàtevi!
-riaggravati;riaggràvati
+riaggravati;riaggràvati@I
 riaggravato
 riaggravàtosi!
 riaggravava!
@@ -290922,7 +290922,7 @@ riaggregasti!
 riaggregata!
 riaggregate!
 riaggregàtevi!
-riaggregati;riaggrègati
+riaggregati;riaggrègati@I
 riaggregato
 riaggregàtosi!
 riaggregava!
@@ -291155,7 +291155,7 @@ riallacciasti!
 riallacciata!
 riallacciate!
 riallacciàtevi!
-riallacciati;riallàcciati
+riallacciati;riallàcciati@I
 riallacciato
 riallacciàtosi!
 riallacciava!
@@ -291350,7 +291350,7 @@ riallineasti!
 riallineata!
 riallineate!
 riallineàtevi!
-riallineati;riallìneati
+riallineati;riallìneati@I
 riallineato
 riallineàtosi!
 riallineava!
@@ -291564,7 +291564,7 @@ rialzasti!
 rialzata!
 rialzate!
 rialzàtevi!
-rialzati;riàlzati
+rialzati;riàlzati@I
 rialzato
 rialzàtosi!
 rialzava!
@@ -291626,7 +291626,7 @@ riambientarti!
 riambientata!
 riambientate!
 riambientàtevi!
-riambientati;riambièntati
+riambientati;riambièntati@I
 riambientato
 riambientàtosi!
 riambientiàmoci!
@@ -292005,7 +292005,7 @@ riammogliasti!
 riammogliata!
 riammogliate!
 riammogliàtevi!
-riammogliati;riammógliati
+riammogliati;riammógliati@I
 riammogliato
 riammogliàtosi!
 riammogliava!
@@ -292316,7 +292316,7 @@ rianimasti!
 rianimata!
 rianimate!
 rianimàtevi!
-rianimati;riànimati
+rianimati;riànimati@I
 rianimato
 rianimatologia
 rianimatologie!
@@ -292784,7 +292784,7 @@ riappacificasti!
 riappacificata!
 riappacificate!
 riappacificàtevi!
-riappacificati;riappacìficati
+riappacificati;riappacìficati@I
 riappacificato
 riappacificàtosi!
 riappacificava!
@@ -293323,7 +293323,7 @@ riapplicasti!
 riapplicata!
 riapplicate!
 riapplicàtevi!
-riapplicati;riàpplicati
+riapplicati;riàpplicati@I
 riapplicato
 riapplicàtosi!
 riapplicava!
@@ -293538,7 +293538,7 @@ riappropriasti!
 riappropriata!
 riappropriate!
 riappropriàtevi!
-riappropriati;riappròpriati
+riappropriati;riappròpriati@I
 riappropriato
 riappropriàtosi!
 riappropriava!
@@ -293876,7 +293876,7 @@ riarmasti!
 riarmata!
 riarmate!
 riarmàtevi!
-riarmati;riàrmati
+riarmati;riàrmati@I
 riarmato
 riarmàtosi!
 riarmatura
@@ -294677,7 +294677,7 @@ riassettasti!
 riassettata!
 riassettate!
 riassettàtevi!
-riassettati;riassèttati
+riassettati;riassèttati@I
 riassettato
 riassettàtosi!
 riassettava!
@@ -294726,7 +294726,7 @@ riassicurasti!
 riassicurata!
 riassicurate!
 riassicuràtevi!
-riassicurati;riassicùrati
+riassicurati;riassicùrati@I
 riassicurativa!
 riassicurative!
 riassicurativi!
@@ -294798,7 +294798,7 @@ riassociasti!
 riassociata!
 riassociate!
 riassociàtevi!
-riassociati;riassòciati
+riassociati;riassòciati@I
 riassociato
 riassociàtosi!
 riassociava!
@@ -295023,7 +295023,7 @@ riassorbisti!
 riassorbita!
 riassorbite!
 riassorbìtevi!
-riassorbiti;riassòrbiti
+riassorbiti;riassòrbiti@I
 riassorbito
 riassorbìtosi!
 riassorbiva!
@@ -295201,7 +295201,7 @@ riattaccasti!
 riattaccata!
 riattaccate!
 riattaccàtevi!
-riattaccati~riattàccati@A!
+riattaccati;riattàccati@I!
 riattaccato
 riattaccàtosi!
 riattaccava!
@@ -295864,7 +295864,7 @@ riavventasti!
 riavventata!
 riavventate!
 riavventàtevi!
-riavventati;riavvèntati
+riavventati;riavvèntati@I
 riavventato
 riavventàtosi!
 riavventava!
@@ -296037,7 +296037,7 @@ riavvicinasti!
 riavvicinata!
 riavvicinate!
 riavvicinàtevi!
-riavvicinati;riavvicìnati
+riavvicinati;riavvicìnati@I
 riavvicinato
 riavvicinàtosi!
 riavvicinava!
@@ -296503,7 +296503,7 @@ riażżuffarti!
 riażżuffata!
 riażżuffate!
 riażżuffàtevi!
-riażżuffati~riazzuffati@Z~riazzùffati@AZ;riażżùffati
+riażżuffati~riazzuffati@Z~riazzùffati@AZ;riażżùffati@I
 riażżuffato~riazzuffato@Z
 riażżuffàtosi!
 riażżuffiàmoci!
@@ -296630,7 +296630,7 @@ ribaltasti!
 ribaltata!
 ribaltate!
 ribaltàtevi!
-ribàltati;ribaltati
+ribaltati;ribàltati@I
 ribaltato
 ribaltàtosi!
 ribaltava!
@@ -296822,7 +296822,7 @@ ribellasti!
 ribellata!
 ribellate!
 ribellàtevi!
-ribèllati!
+ribellati;ribèllati@I!
 ribellato
 ribellàtosi!
 ribellava!
@@ -296949,7 +296949,7 @@ ribócco!
 riboccò	riboccò!
 riboflavina
 riboflavine!
-ribòlla;ribólla
+ribòlla;ribólla@I
 ribóllano!
 ribólle~ribòlle@V!
 ribollèndo!
@@ -297037,7 +297037,7 @@ ributtaste!
 ributtasti!
 ributtate!
 ributtàtevi!
-ributtati;ribùttati
+ributtati;ribùttati@I
 ributtato!
 ributtàtosi!
 ributtava!
@@ -297435,7 +297435,7 @@ ricandidaste!
 ricandidasti!
 ricandidate!
 ricandidàtevi!
-ricandidati;ricàndidati
+ricandidati;ricàndidati@I
 ricandidato!
 ricandidàtosi!
 ricandidava!
@@ -298087,7 +298087,7 @@ richiamasti!
 richiamata
 richiamate!
 richiamàtevi!
-richiamati;richiàmati
+richiamati;richiàmati@I
 richiamato
 richiamàtosi!
 richiamava!
@@ -298231,7 +298231,7 @@ riciclasti!
 riciclata!
 riciclate!
 riciclàtevi!
-riciclati;ricìclati
+riciclati;ricìclati@I
 riciclato
 riciclàtosi!
 riciclava!
@@ -298560,7 +298560,7 @@ ricollegaste!
 ricollegasti!
 ricollegate!
 ricollegàtevi!
-ricollegati~ricollègati@A;ricollégati
+ricollegati~ricollègati@A;ricollégati@I
 ricollegato!
 ricollegàtosi!
 ricollegava!
@@ -298926,7 +298926,7 @@ ricompattaste!
 ricompattasti!
 ricompattate!
 ricompattàtevi!
-ricompattati;ricompàttati
+ricompattati;ricompàttati@I
 ricompattato!
 ricompattàtosi!
 ricompattava!
@@ -299234,7 +299234,7 @@ ricompraste!
 ricomprasti!
 ricomprate!
 ricompràtevi!
-ricomprati;ricómprati
+ricomprati;ricómprati@I
 ricomprato!
 ricompràtosi!
 ricomprava!
@@ -300564,7 +300564,7 @@ ricordata
 ricordate
 ricòrdatene;ricordàtene
 ricordàtevi!
-ricòrdati;ricordati
+ricordati;ricòrdati@I
 ricordato
 ricordàtosi!
 ricordava!
@@ -300615,7 +300615,7 @@ ricoricaste!
 ricoricasti!
 ricoricate!
 ricoricàtevi!
-ricoricati~ricóricati@A;ricòricati
+ricoricati~ricóricati@A;ricòricati@I
 ricoricato!
 ricoricàtosi!
 ricoricava!
@@ -300861,7 +300861,7 @@ ricoverasti!
 ricoverata!
 ricoverate!
 ricoveràtevi!
-ricoverati~ricòverati@A~ricóverati@A!
+ricoverati;ricòverati@I;ricóverati@I!
 ricoverato
 ricoveràtosi!
 ricoverava!
@@ -300910,7 +300910,7 @@ ricreasti!
 ricreata!
 ricreate!
 ricreàtevi!
-ricreati~ricrèati@A!
+ricreati;ricrèati@I!
 ricreativa!
 ricreative!
 ricreativi!
@@ -301616,7 +301616,7 @@ ridestaste!
 ridestasti!
 ridestate!
 ridestàtevi!
-ridestati~ridèstati@A;ridéstati
+ridestati~ridèstati@A;ridéstati@I
 ridestato!
 ridestàtosi!
 ridestava!
@@ -301888,7 +301888,7 @@ ridimensionaste!
 ridimensionasti!
 ridimensionate!
 ridimensionàtevi!
-ridimensionati;ridimensiónati
+ridimensionati;ridimensiónati@I
 ridimensionato!
 ridimensionàtosi!
 ridimensionava!
@@ -303550,7 +303550,7 @@ riequilibrasti!
 riequilibrata!
 riequilibrate!
 riequilibràtevi!
-riequilibrati;riequilìbrati
+riequilibrati;riequilìbrati@I
 riequilibrato
 riequilibràtosi!
 riequilibrava!
@@ -303980,7 +303980,7 @@ rieṡercitasti!
 rieṡercitata!
 rieṡercitate!
 rieṡercitàtevi!
-rieṡercitati;rieṡèrcitati
+rieṡercitati;rieṡèrcitati@I
 rieṡercitato
 rieṡercitàtosi!
 rieṡercitava!
@@ -305518,7 +305518,7 @@ rifiutasti!
 rifiutata
 rifiutate
 rifiutàtevi!
-rifiutati;rifiùtati
+rifiutati;rifiùtati@I
 rifiutato
 rifiutàtosi!
 rifiutava!
@@ -305888,7 +305888,7 @@ riformaste!
 riformasti!
 riformate!
 riformàtevi!
-riformati;rifórmati
+riformati;rifórmati@I
 riformato!
 riformatóre
 riformatóri!
@@ -306211,7 +306211,7 @@ rifugiasti!
 rifugiata!
 rifugiate!
 rifugiàtevi!
-rifugiati~rifùgiati@A!
+rifugiati;rifùgiati@I!
 rifugiato
 rifugiàtosi!
 rifugiava!
@@ -306384,7 +306384,7 @@ rigenerasti!
 rigenerata!
 rigenerate!
 rigeneràtevi!
-rigenerati;rigènerati
+rigenerati;rigènerati@I
 rigenerativa!
 rigenerative!
 rigenerativi!
@@ -306444,7 +306444,7 @@ rigettasti!
 rigettata!
 rigettate!
 rigettàtevi!
-rigettati~rigèttati@A!
+rigettati;rigèttati@I!
 rigettato
 rigettàtosi!
 rigettava!
@@ -306646,7 +306646,7 @@ rigiraste!
 rigirasti!
 rigirate!
 rigiràtevi!
-rigirati;rigìrati
+rigirati;rigìrati@I
 rigirato!
 rigiràtosi!
 rigirava!
@@ -307178,7 +307178,7 @@ rilassate!
 rilassàtevi!
 rilassatézza
 rilassatézze!
-rilassati~rilàssati@A!
+rilassati;rilàssati@I!
 rilassato
 rilassàtosi!
 rilassava!
@@ -307345,7 +307345,7 @@ rilevasti!
 rilevata!
 rilevate!
 rilevàtevi!
-rilevati~rilèvati@A!
+rilevati;rilèvati@I!
 rilevato
 rilevatóre
 rilevatóri!
@@ -307728,7 +307728,7 @@ rimarginaste!
 rimarginasti!
 rimarginate!
 rimarginàtevi!
-rimarginati;rimàrginati
+rimarginati;rimàrginati@I
 rimarginato!
 rimarginàtosi!
 rimarginava!
@@ -307776,7 +307776,7 @@ rimaritaste!
 rimaritasti!
 rimaritate!
 rimaritàtevi!
-rimaritati;rimarìtati
+rimaritati;rimarìtati@I
 rimaritato!
 rimaritàtosi!
 rimaritava!
@@ -307998,7 +307998,7 @@ rimbarcaste!
 rimbarcasti!
 rimbarcate!
 rimbarcàtevi!
-rimbarcati;rimbàrcati
+rimbarcati;rimbàrcati@I
 rimbarcato!
 rimbarcàtosi!
 rimbarcava!
@@ -308046,7 +308046,7 @@ rimbeccaste!
 rimbeccasti!
 rimbeccate!
 rimbeccàtevi!
-rimbeccati;rimbéccati
+rimbeccati;rimbéccati@I
 rimbeccato!
 rimbeccàtosi!
 rimbeccava!
@@ -308178,7 +308178,7 @@ rimboccaste!
 rimboccasti!
 rimboccate!
 rimboccàtevi!
-rimboccati;rimbóccati
+rimboccati;rimbóccati@I
 rimboccato!
 rimboccàtosi!
 rimboccava!
@@ -308561,7 +308561,7 @@ rimembrasti!
 rimembrata!
 rimembrate!
 rimembràtevi!
-rimémbrati~rimèmbrati@V!
+rimembrati;rimémbrati@I;rimèmbrati@I!
 rimembrato
 rimembràtosi!
 rimembrava!
@@ -308912,7 +308912,7 @@ rimiraste!
 rimirasti!
 rimirate!
 rimiràtevi!
-rimirati;rimìrati
+rimirati;rimìrati@I
 rimirato!
 rimiràtosi!
 rimirava!
@@ -309976,7 +309976,7 @@ rimpossessàntesi!
 rimpossessarsi
 rimpossessarti!
 rimpossessàtevi!
-rimpossessati;rimpossèssati
+rimpossessati;rimpossèssati@I
 rimpossessàtosi!
 rimpossessiàmoci!
 rimprèssa!
@@ -310044,7 +310044,7 @@ rimproverasti!
 rimproverata!
 rimproverate!
 rimproveràtevi!
-rimproverati;rimpròverati
+rimproverati;rimpròverati@I
 rimproverato
 rimproveràtosi!
 rimproverava!
@@ -310219,7 +310219,7 @@ rimutaste!
 rimutasti!
 rimutate!
 rimutàtevi!
-rimutati;rimùtati
+rimutati;rimùtati@I
 rimutato!
 rimutàtosi!
 rimutava!
@@ -310523,7 +310523,7 @@ rincarnaste!
 rincarnasti!
 rincarnate!
 rincarnàtevi!
-rincarnati;rincàrnati
+rincarnati;rincàrnati@I
 rincarnato!
 rincarnàtosi!
 rincarnava!
@@ -311262,7 +311262,7 @@ rincuorasti!
 rincuorata!
 rincuorate!
 rincuoràtevi!
-rincuorati;rincuòrati
+rincuorati;rincuòrati@I
 rincuorato
 rincuoràtosi!
 rincuorava!
@@ -311565,7 +311565,7 @@ rinfocolaste!
 rinfocolasti!
 rinfocolate!
 rinfocolàtevi!
-rinfocolati;rinfòcolati
+rinfocolati;rinfòcolati@I
 rinfocolato!
 rinfocolàtosi!
 rinfocolava!
@@ -311733,7 +311733,7 @@ rinfrancasti!
 rinfrancata!
 rinfrancate!
 rinfrancàtevi!
-rinfrancati;rinfràncati
+rinfrancati;rinfràncati@I
 rinfrancato
 rinfrancàtosi!
 rinfrancava!
@@ -312074,7 +312074,7 @@ rinnamoràntesi!
 rinnamorarsi
 rinnamorarti!
 rinnamoràtevi!
-rinnamorati;rinnamórati
+rinnamorati;rinnamórati@I
 rinnamoràtosi!
 rinnamoriàmoci!
 rinnéga~rinnèga@V
@@ -312383,7 +312383,7 @@ rinsaldasti!
 rinsaldata!
 rinsaldate!
 rinsaldàtevi!
-rinsaldati;rinsàldati
+rinsaldati;rinsàldati@I
 rinsaldato
 rinsaldàtosi!
 rinsaldava!
@@ -312560,7 +312560,7 @@ rinselvaste!
 rinselvasti!
 rinselvate!
 rinselvàtevi!
-rinselvati~rinsèlvati@A;rinsélvati
+rinselvati~rinsèlvati@A;rinsélvati@I
 rinselvato!
 rinselvàtosi!
 rinselvava!
@@ -312609,7 +312609,7 @@ rinserrasti!
 rinserrata!
 rinserrate!
 rinserràtevi!
-rinserrati;rinsèrrati
+rinserrati;rinsèrrati@I
 rinserrato
 rinserràtosi!
 rinserrava!
@@ -312737,7 +312737,7 @@ rintanasti!
 rintanata!
 rintanate!
 rintanàtevi!
-rintanati;rintànati
+rintanati;rintànati@I
 rintanato
 rintanàtosi!
 rintanava!
@@ -314685,7 +314685,7 @@ rioccupasti!
 rioccupata!
 rioccupate!
 rioccupàtevi!
-rioccupati;riòccupati
+rioccupati;riòccupati@I
 rioccupato
 rioccupàtosi!
 rioccupava!
@@ -315122,7 +315122,7 @@ riorganiżżasti!
 riorganiżżata!
 riorganiżżate!
 riorganiżżàtevi!
-riorganìżżati!
+riorganiżżati;riorganìżżati@I!
 riorganiżżato
 riorganiżżatóre
 riorganiżżatóri!
@@ -315517,7 +315517,7 @@ riparasti!
 riparata
 riparate!
 riparàtevi!
-ripàrati!
+riparati;ripàrati@I!
 riparato
 riparatóre
 riparatóri;riparatòri
@@ -315712,7 +315712,7 @@ ripensasti!
 ripensata!
 ripensate!
 ripensàtevi!
-ripensati~ripènsati@A!
+ripensati;ripènsati@I!
 ripensato
 ripensàtosi!
 ripensava!
@@ -316213,7 +316213,7 @@ ripiegasti!
 ripiegata!
 ripiegate!
 ripiegàtevi!
-ripiegati~ripiégati@A;ripiègati
+ripiegati~ripiégati@A;ripiègati@I
 ripiegato
 ripiegàtosi!
 ripiegava!
@@ -316604,7 +316604,7 @@ riportata!
 riportate!
 riportàtemeli
 riportàtevi!
-ripòrtati!
+riportati;ripòrtati@I!
 riportato
 riportàtosi!
 riportava!
@@ -316655,7 +316655,7 @@ ripoṡasti!
 ripoṡata~riposata@S
 ripoṡate~riposate@S
 ripoṡàtevi!
-ripoṡati~riposati@S~ripòsati@AS;ripòṡati
+ripoṡati~riposati@S~ripòsati@AS;ripòṡati@I
 riposato~ripoṡato@S
 ripoṡàtosi!
 ripoṡava!
@@ -316678,7 +316678,7 @@ ripoṡeréte!
 ripósero!
 riposerà	ripoṡerà!
 riposerò	ripoṡerò!
-ripòṡi~ripòsi@S~ripósi@VS;ripóṡi
+ripóṡi~ripòsi@S~ripósi@VS;ripòṡi@I
 ripoṡiamo~riposiamo@S
 ripoṡiàmoci!
 ripoṡiate~riposiate@S
@@ -316943,7 +316943,7 @@ ripreṡentasti!
 ripreṡentata!
 ripreṡentate!
 ripreṡentàtevi!
-ripreṡentati;ripreṡèntati
+ripreṡentati;ripreṡèntati@I
 ripreṡentato
 ripreṡentàtosi!
 ripreṡentava!
@@ -317713,7 +317713,7 @@ riputaste!
 riputasti!
 riputate!
 riputàtevi!
-riputati;ripùtati
+riputati;ripùtati@I
 riputato!
 riputàtosi!
 riputava!
@@ -318265,7 +318265,7 @@ risanasti!
 riṡanata!
 risanate!
 riṡanàtevi!
-riṡanati~riṡànati@A!
+riṡanati;riṡànati@I!
 riṡanato~risanato@S
 riṡanatóre~risanatóre@S
 riṡanatóri!
@@ -318461,7 +318461,7 @@ riscaldasti!
 riscaldata
 riscaldate!
 riscaldàtevi!
-riscaldati;riscàldati
+riscaldati;riscàldati@I
 riscaldato
 riscaldatóre
 riscaldatóri!
@@ -319371,7 +319371,7 @@ riṡerbasti!
 riṡerbata!
 riṡerbate!
 riṡerbàtevi!
-riṡerbati~riserbati@S~risèrbati@AS;riṡèrbati
+riṡerbati~riserbati@S~risèrbati@AS;riṡèrbati@I
 riṡerbato~riserbato@S
 riṡerbàtosi!
 riṡerbava!
@@ -319424,7 +319424,7 @@ riṡervate~riservate@S
 riṡervàtevi!
 riṡervatézza~riservatézza@S
 riṡervatézze!
-riṡervati~riservati@S~risèrvati@AS;riṡèrvati
+riṡervati~riservati@S~risèrvati@AS;riṡèrvati@I
 riservato~riṡervato@S
 riṡervàtosi!
 riṡervava!
@@ -320899,7 +320899,7 @@ risparmiasti!
 risparmiata
 risparmiate!
 risparmiàtevi!
-risparmiati;rispàrmiati
+risparmiati;rispàrmiati@I
 risparmiato
 risparmiatóre
 risparmiatóri!
@@ -321124,7 +321124,7 @@ rispettasti!
 rispettata!
 rispettate!
 rispettàtevi!
-rispèttati!
+rispettati;rispèttati@I!
 rispettatìssima!
 rispettatìssime!
 rispettatìssimi!
@@ -321421,7 +321421,7 @@ rispoṡeréte!
 rispósero!
 risposerà	rispoṡerà!
 risposerò	rispoṡerò!
-rispósi~rispòṡi@VS!
+rispósi;rispòṡi@I!
 rispoṡiamo!
 rispoṡiate!
 rispòṡino!
@@ -321930,7 +321930,7 @@ ristorasti!
 ristorata!
 ristorate!
 ristoràtevi!
-ristorati;ristòrati
+ristorati;ristòrati@I
 ristorativa!
 ristorative!
 ristorativi!
@@ -322555,7 +322555,7 @@ riṡvegliaste!
 riṡvegliasti!
 riṡvegliate!
 riṡvegliàtevi!
-riṡvégliati;riṡvegliati
+riṡvegliati;riṡvégliati@I
 riṡvegliato!
 riṡvegliàtosi!
 riṡvegliava!
@@ -322861,7 +322861,7 @@ ritemprasti!
 ritemprata!
 ritemprate!
 ritempràtevi!
-ritemprati~ritèmprati@A;ritémprati
+ritemprati~ritèmprati@A;ritémprati@I
 ritemprato
 ritempràtosi!
 ritemprava!
@@ -323139,7 +323139,7 @@ ritirasti!
 ritirata
 ritirate!
 ritiràtevi!
-ritìrati!
+ritirati;ritìrati@I!
 ritirato
 ritiràtosi!
 ritirava!
@@ -323380,7 +323380,7 @@ ritornate!
 ritórnatene!
 ritornàtevene!
 ritornàtevi!
-ritornati~ritórnati@A!
+ritornati;ritórnati@I!
 ritornato
 ritornàtosene!
 ritornàtosi!
@@ -323650,7 +323650,7 @@ ritrovasti!
 ritrovata!
 ritrovate!
 ritrovàtevi!
-ritròvati!
+ritrovati;ritròvati@I!
 ritrovato
 ritrovàtosi!
 ritrovava!
@@ -323705,7 +323705,7 @@ rituffaste!
 rituffasti!
 rituffate!
 rituffàtevi!
-rituffati;ritùffati
+rituffati;ritùffati@I
 rituffato!
 rituffàtosi!
 rituffava!
@@ -324251,7 +324251,7 @@ rivaccinaste!
 rivaccinasti!
 rivaccinate!
 rivaccinàtevi!
-rivaccinati;rivaccìnati
+rivaccinati;rivaccìnati@I
 rivaccinato!
 rivaccinàtosi!
 rivaccinava!
@@ -324547,7 +324547,7 @@ rivelasti!
 rivelata
 rivelate!
 rivelàtevi!
-rivélati~rivèlati@V!
+rivelati;rivélati@I;rivèlati@I!
 rivelato
 rivelatóre
 rivelatóri
@@ -324728,7 +324728,7 @@ riverberaste!
 riverberasti!
 riverberate!
 riverberàtevi!
-riverberati;rivèrberati
+riverberati;rivèrberati@I
 riverberato!
 riverberàtosi!
 riverberava!
@@ -324835,7 +324835,7 @@ riversasti!
 riversata!
 riversate!
 riversàtevi!
-riversati;rivèrsati
+riversati;rivèrsati@I
 riversato
 riversàtosi!
 riversava!
@@ -324907,7 +324907,7 @@ rivestisti!
 rivestita!
 rivestite!
 rivestìtevi!
-rivestiti;rivèstiti
+rivestiti;rivèstiti@I
 rivestito
 rivestìtosi!
 rivestiva!
@@ -325044,7 +325044,7 @@ rivitaliżżaste!
 rivitaliżżasti!
 rivitaliżżate!
 rivitaliżżàtevi!
-rivitalìżżati;rivitaliżżati
+rivitaliżżati;rivitalìżżati@I
 rivitaliżżato!
 rivitaliżżàtosi!
 rivitaliżżava!
@@ -325254,7 +325254,7 @@ rivolgiménto
 rivòlgiti!
 rivòlgo
 rivòlgono!
-rìvoli;rivóli
+rìvoli;rivóli@I
 rivoliamo!
 rivoliate!
 rivólino~rìvolino@A!
@@ -325288,7 +325288,7 @@ rivoltasti!
 rivoltata!
 rivoltate!
 rivoltàtevi!
-rivoltati;rivòltati
+rivoltati;rivòltati@I
 rivoltato
 rivoltàtosi!
 rivoltava!
@@ -326893,7 +326893,7 @@ rotolasti!
 rotolata
 ròtolate;rotolate
 rotolàtevi!
-rotolati;ròtolati
+rotolati;ròtolati@I
 rotolato
 rotolatóre
 rotolatóri!
@@ -327084,7 +327084,7 @@ rovesciasti!
 rovesciata
 rovesciate!
 rovesciàtevi!
-rovesciati;rovèsciati
+rovesciati;rovèsciati@I
 rovesciato
 rovesciàtosi!
 rovesciava!
@@ -327131,7 +327131,7 @@ rovinasti!
 rovinata
 rovinate!
 rovinàtevi!
-rovìnati!
+rovinati;rovìnati@I!
 rovinato
 rovinàtosi!
 rovinava
@@ -327298,7 +327298,7 @@ rubasti!
 rubata!
 rubate!
 rubàtevi!
-rubati~rùbati@A!
+rubati;rùbati@I!
 rubato
 rubàtomi
 rubàtosi!
@@ -328691,7 +328691,7 @@ sacrificasti!
 sacrificata!
 sacrificate!
 sacrificàtevi!
-sacrificati;sacrìficati
+sacrificati;sacrìficati@I
 sacrificato
 sacrificàtosi!
 sacrificava!
@@ -329161,7 +329161,7 @@ saldasti!
 saldata!
 saldate!
 saldàtevi!
-saldati~sàldati@A!
+saldati;sàldati@I!
 saldato
 saldatóre
 saldatóri!
@@ -329777,7 +329777,7 @@ salutasti!
 salutata!
 salutate!
 salutàtevi!
-salùtati!
+salutati;salùtati@I!
 salutato
 salutàtosi!
 salutava!
@@ -329857,7 +329857,7 @@ salvaguardasti!
 salvaguardata!
 salvaguardate!
 salvaguardàtevi!
-salvaguàrdati!
+salvaguardati;salvaguàrdati@I!
 salvaguardato
 salvaguardàtosi!
 salvaguardava!
@@ -330066,7 +330066,7 @@ sanasti!
 sanata
 sanate!
 sanàtevi!
-sànati;sanati
+sanati;sànati@I
 sanativa!
 sanative!
 sanativi!
@@ -331725,7 +331725,7 @@ sbafò	ṡbafò!
 ṡbagliata
 ṡbagliate!
 ṡbagliàtevi!
-ṡbagliati;ṡbàgliati
+ṡbagliati;ṡbàgliati@I
 ṡbagliato
 ṡbagliàtosi!
 ṡbagliava!
@@ -332120,7 +332120,7 @@ sbancò	ṡbancò!
 ṡbandata!
 ṡbandate!
 ṡbandàtevi!
-ṡbandati;ṡbàndati
+ṡbandati;ṡbàndati@I
 ṡbandato
 ṡbandàtosi!
 ṡbandava!
@@ -332263,7 +332263,7 @@ sbaragliò	ṡbaragliò!
 ṡbarazzasti!
 ṡbarazzate!
 ṡbarazzàtevi!
-ṡbarazzati;ṡbaràzzati
+ṡbarazzati;ṡbaràzzati@I
 ṡbarazzato!
 ṡbarazzàtosi!
 ṡbarazzava!
@@ -332320,7 +332320,7 @@ sbarazzò	ṡbarazzò!
 ṡbarbatèlli!
 ṡbarbatèllo
 ṡbarbàtevi!
-ṡbarbati;ṡbàrbati
+ṡbarbati;ṡbàrbati@I
 ṡbarbato
 ṡbarbàtosi!
 ṡbarbava!
@@ -332586,7 +332586,7 @@ sbatterò	ṡbatterò!
 ṡbatteżżasti!
 ṡbatteżżate!
 ṡbatteżżàtevi!
-ṡbatteżżati;ṡbattéżżati
+ṡbatteżżati;ṡbattéżżati@I
 ṡbatteżżato!
 ṡbatteżżàtosi!
 ṡbatteżżava!
@@ -332915,7 +332915,7 @@ sbeffeggiò	ṡbeffeggiò!
 ṡbellicasti!
 ṡbellicate!
 ṡbellicàtevi!
-ṡbellicati~ṡbellìcati@A;ṡbèllicati
+ṡbellicati~ṡbellìcati@A;ṡbèllicati@I
 ṡbellicato!
 ṡbellicàtosi!
 ṡbellicava!
@@ -333634,7 +333634,7 @@ sbizzì	ṡbiżżì!
 ṡbloccasti!
 ṡbloccate!
 ṡbloccàtevi!
-ṡblòccati;ṡbloccati
+ṡbloccati;ṡblòccati@I
 ṡbloccato!
 ṡbloccàtosi!
 ṡbloccava!
@@ -334148,7 +334148,7 @@ sbotterò	ṡbotterò!
 ṡbottonata!
 ṡbottonate!
 ṡbottonàtevi!
-ṡbottonati;ṡbottónati
+ṡbottonati;ṡbottónati@I
 ṡbottonato
 ṡbottonàtosi!
 ṡbottonava!
@@ -334453,7 +334453,7 @@ sbramò	ṡbramò!
 ṡbranata
 ṡbranate
 ṡbranàtevi!
-ṡbrànati;ṡbranati
+ṡbranati;ṡbrànati@I
 ṡbranato
 ṡbranàtosi!
 ṡbranava!
@@ -334774,7 +334774,7 @@ sbriciolò	ṡbriciolò!
 ṡbrìgatela!
 ṡbrigàtevela!
 ṡbrigàtevi!
-ṡbrigati;ṡbrìgati
+ṡbrigati;ṡbrìgati@I
 ṡbrigativa!
 ṡbrigative!
 ṡbrigativi!
@@ -335042,7 +335042,7 @@ sbroderò	ṡbroderò!
 ṡbrodolasti!
 ṡbrodolate!
 ṡbrodolàtevi!
-ṡbrodolati;ṡbròdolati
+ṡbrodolati;ṡbròdolati@I
 ṡbrodolato!
 ṡbrodolàtosi!
 ṡbrodolava!
@@ -335323,7 +335323,7 @@ sbucò	ṡbucò!
 ṡbudellata!
 ṡbudellate!
 ṡbudellàtevi!
-ṡbudellati;ṡbudèllati
+ṡbudellati;ṡbudèllati@I
 ṡbudellato
 ṡbudellàtosi!
 ṡbudellava!
@@ -335559,7 +335559,7 @@ scaccolàntesi!
 scaccolarsi
 scaccolarti!
 scaccolàtevi!
-scaccolati;scàccolati
+scaccolati;scàccolati@I
 scaccolàtosi!
 scàccoli
 scaccoliàmoci!
@@ -335755,7 +335755,7 @@ scagionasti!
 scagionata!
 scagionate!
 scagionàtevi!
-scagionati;scagiónati
+scagionati;scagiónati@I
 scagionato
 scagionàtosi!
 scagionava!
@@ -335808,7 +335808,7 @@ scagliaste!
 scagliasti!
 scagliate!
 scagliàtevi!
-scàgliati;scagliati
+scagliati;scàgliati@I
 scagliato!
 scagliàtosi!
 scagliava!
@@ -336081,7 +336081,7 @@ scaldasti!
 scaldata
 scaldate!
 scaldàtevi!
-scaldati;scàldati
+scaldati;scàldati@I
 scaldato
 scaldàtosi!
 scaldava!
@@ -336287,7 +336287,7 @@ scalmanarti!
 scalmanata
 scalmanate!
 scalmanàtevi!
-scalmanati~scàlmanati@A;scalmànati
+scalmanati~scàlmanati@A;scalmànati@I
 scalmanato
 scalmanàtosi!
 scalmaniàmoci!
@@ -337038,7 +337038,7 @@ scandaliżżasti!
 scandaliżżata!
 scandaliżżate!
 scandaliżżàtevi!
-scandaliżżati;scandalìżżati
+scandaliżżati;scandalìżżati@I
 scandaliżżato
 scandaliżżatóre
 scandaliżżatóri!
@@ -337281,7 +337281,7 @@ scansasti!
 scansata!
 scansate!
 scansàtevi!
-scansati;scànsati
+scansati;scànsati@I
 scansato
 scansàtosi!
 scansava!
@@ -337590,7 +337590,7 @@ scappellarti!
 scappellata
 scappellate!
 scappellàtevi!
-scappellati;scappèllati
+scappellati;scappèllati@I
 scappellàtosi!
 scappelliàmoci!
 scappèllino
@@ -337827,7 +337827,7 @@ scardinasti!
 scardinata!
 scardinate!
 scardinàtevi!
-scardinati;scàrdinati
+scardinati;scàrdinati@I
 scardinato
 scardinàtosi!
 scardinava!
@@ -338502,7 +338502,7 @@ scassaste!
 scassasti!
 scassate!
 scassàtevi!
-scassati;scàssati
+scassati;scàssati@I
 scassato!
 scassàtosi!
 scassava!
@@ -338598,7 +338598,7 @@ scatenasti!
 scatenata
 scatenate
 scatenàtevi!
-scaténati;scatenati
+scatenati;scaténati@I
 scatenato
 scatenàtosi!
 scatenava!
@@ -339570,7 +339570,7 @@ scervellarti!
 scervellata!
 scervellate!
 scervellàtevi!
-scervellati;scervèllati
+scervellati;scervèllati@I
 scervellato
 scervellàtosi!
 scervelliàmoci!
@@ -339803,7 +339803,7 @@ scheggiasti!
 scheggiata!
 scheggiate!
 scheggiàtevi!
-schéggiati!
+scheggiati;schéggiati@I!
 scheggiato
 scheggiàtosi!
 scheggiatura
@@ -340328,7 +340328,7 @@ schiantasti!
 schiantata!
 schiantate!
 schiantàtevi!
-schiantati~schiàntati@A!
+schiantati;schiàntati@I!
 schiantato
 schiantàtosi!
 schiantava!
@@ -340572,7 +340572,7 @@ schierasti!
 schierata!
 schierate!
 schieràtevi!
-schierati;schièrati
+schierati;schièrati@I
 schierato
 schieràtosi!
 schierava!
@@ -342163,7 +342163,7 @@ sciupasti!
 sciupata!
 sciupate!
 sciupàtevi!
-sciùpati;sciupati
+sciupati;sciùpati@I
 sciupato
 sciupàtosi!
 sciupava!
@@ -342646,7 +342646,7 @@ scoiàttoli!
 scoiàttolo
 scoitura
 scoiture!
-scòla;scóla
+scòla;scóla@I
 scolabròdo
 scolai!
 scolammo!
@@ -342773,7 +342773,7 @@ scollacciarti!
 scollacciata!
 scollacciate!
 scollacciàtevi!
-scollacciati~scollàcciati@A!
+scollacciati;scollàcciati@I!
 scollacciato
 scollacciàtosi!
 scollai!
@@ -342798,7 +342798,7 @@ scollasti!
 scollata!
 scollate!
 scollàtevi!
-scollati;scòllati
+scollati;scòllati@I
 scollatìssima!
 scollatìssime!
 scollatìssimi!
@@ -342944,7 +342944,7 @@ scoloraste!
 scolorasti!
 scolorate!
 scoloràtevi!
-scolorati;scolórati
+scolorati;scolórati@I
 scolorato!
 scoloràtosi!
 scolorava!
@@ -343040,7 +343040,7 @@ scolpaste!
 scolpasti!
 scolpate!
 scolpàtevi!
-scolpati;scólpati
+scolpati;scólpati@I
 scolpato!
 scolpàtosi!
 scolpava!
@@ -343490,7 +343490,7 @@ scompaginasti!
 scompaginata!
 scompaginate!
 scompaginàtevi!
-scompaginati;scompàginati
+scompaginati;scompàginati@I
 scompaginato
 scompaginàtosi!
 scompaginava!
@@ -343525,7 +343525,7 @@ scompagnarti!
 scompagnata
 scompagnate!
 scompagnàtevi!
-scompagnati;scompàgnati
+scompagnati;scompàgnati@I
 scompagnato
 scompagnàtosi!
 scompagni
@@ -343923,7 +343923,7 @@ sconcertasti!
 sconcertata!
 sconcertate!
 sconcertàtevi!
-sconcertati;sconcèrtati
+sconcertati;sconcèrtati@I
 sconcertato
 sconcertàtosi!
 sconcertava!
@@ -344247,7 +344247,7 @@ sconfortasti!
 sconfortata!
 sconfortate!
 sconfortàtevi!
-sconfortati;sconfòrtati
+sconfortati;sconfòrtati@I
 sconfortato
 sconfortàtosi!
 sconfortava!
@@ -344305,7 +344305,7 @@ scongelasti!
 scongelata!
 scongelate!
 scongelàtevi!
-scongelati;scongèlati
+scongelati;scongèlati@I
 scongelato
 scongelàtosi!
 scongelava!
@@ -344495,7 +344495,7 @@ sconquassasti!
 sconquassata!
 sconquassate!
 sconquassàtevi!
-sconquassati;sconquàssati
+sconquassati;sconquàssati@I
 sconquassato
 sconquassàtosi!
 sconquassava!
@@ -345005,7 +345005,7 @@ scopasti!
 scopata
 scopate!
 scopàtevi!
-scopati~scópati@A!
+scopati;scópati@I!
 scopato
 scopàtosi!
 scopatrice
@@ -345440,7 +345440,7 @@ scordata!
 scordate!
 scordàtetele
 scordàtevi!
-scòrdati;scordati
+scordati;scòrdati@I
 scordato
 scordàtosi!
 scordatura
@@ -345590,7 +345590,7 @@ scornasti!
 scornata!
 scornate!
 scornàtevi!
-scornati;scòrnati
+scornati;scòrnati@I
 scornato
 scornàtosi!
 scornava!
@@ -345924,7 +345924,7 @@ scorzasti!
 scorzata!
 scorzate!
 scorzàtevi!
-scorzati~scorżati@Z~scòrżati@AZ;scòrzati
+scorzati~scorżati@Z~scòrżati@AZ;scòrzati@I
 scorzato~scorżato@Z
 scorzàtosi!
 scorzava!
@@ -346034,7 +346034,7 @@ scostaste!
 scostasti!
 scostate!
 scostàtevi!
-scostati;scòstati
+scostati;scòstati@I
 scostato!
 scostàtosi!
 scostava!
@@ -346265,7 +346265,7 @@ scottasti!
 scottata
 scottate!
 scottàtevi!
-scottati~scòttati@A!
+scottati;scòttati@I!
 scottato
 scottàtosi!
 scottatura
@@ -346551,7 +346551,7 @@ screpolasti!
 screpolata!
 screpolate!
 screpolàtevi!
-screpolati~scrépolati@A;scrèpolati
+screpolati~scrépolati@A;scrèpolati@I
 screpolato
 screpolàtosi!
 screpolatura
@@ -347750,7 +347750,7 @@ sdaziò	ṡdaziò!
 ṡdebitasti!
 ṡdebitate!
 ṡdebitàtevi!
-ṡdebitati~ṡdèbitati@A;ṡdébitati
+ṡdebitati~ṡdèbitati@A;ṡdébitati@I
 ṡdebitato!
 ṡdebitàtosi!
 ṡdebitava!
@@ -347799,7 +347799,7 @@ sdebitò	ṡdebitò!
 ṡdegnata!
 ṡdegnate!
 ṡdegnàtevi!
-ṡdegnati;ṡdégnati
+ṡdegnati;ṡdégnati@I
 ṡdegnato
 ṡdegnàtosi!
 ṡdegnava!
@@ -348165,7 +348165,7 @@ sdondolò	ṡdondolò!
 ṡdoppiata
 ṡdoppiate
 ṡdoppiàtevi!
-ṡdóppiati;ṡdoppiati
+ṡdoppiati;ṡdóppiati@I
 ṡdoppiato
 ṡdoppiàtosi!
 ṡdoppiava!
@@ -348274,7 +348274,7 @@ sdorò	ṡdorò!
 ṡdraiata!
 ṡdraiate!
 ṡdraiàtevi!
-ṡdraiati;ṡdràiati
+ṡdraiati;ṡdràiati@I
 ṡdraiato
 ṡdraiàtosi!
 ṡdraiava!
@@ -348399,7 +348399,7 @@ sdrucciolò	ṡdrucciolò!
 ṡdrucita!
 ṡdrucite!
 ṡdrucìtevi!
-ṡdruciti;ṡdrùciti
+ṡdruciti;ṡdrùciti@I
 ṡdrucito
 ṡdrucìtosi!
 ṡdruma!
@@ -348522,7 +348522,7 @@ seccasti!
 seccata
 seccate!
 seccàtevi!
-seccati;séccati
+seccati;séccati@I
 seccativa!
 seccative!
 seccativi!
@@ -348975,7 +348975,7 @@ sedimentasti!
 sedimentata!
 sedimentate!
 sedimentàtevi!
-sedimentati~sediméntati@A!
+sedimentati;sediméntati@I!
 sedimentato
 sedimentàtosi!
 sedimentava!
@@ -349290,7 +349290,7 @@ segnalasti!
 segnalata!
 segnalate!
 segnalàtevi!
-segnalati;segnàlati
+segnalati;segnàlati@I
 segnalato
 segnalatóre
 segnalatóri!
@@ -349347,7 +349347,7 @@ segnata
 segnataménte
 segnate!
 segnàtevi!
-ségnati!
+segnati;ségnati@I!
 segnato
 segnàtosi!
 segnatura
@@ -350783,7 +350783,7 @@ sentite!
 sèntitela!
 sentìtevela!
 sentìtevi!
-sèntiti;sentiti
+sentiti;sèntiti@I
 sentito
 sentìtosela!
 sentìtosi!
@@ -351105,7 +351105,7 @@ serbastrèll!
 serbata!
 serbate!
 serbàtevi!
-serbati;sèrbati
+serbati;sèrbati@I
 serbato
 serbatói~serbatòi@V
 serbatóio~serbatòio@V
@@ -351170,7 +351170,7 @@ serenasti!
 serenata
 serenate!
 serenàtevi!
-serenati;serénati
+serenati;serénati@I
 serenato!
 serenàtosi!
 serenava!
@@ -351443,7 +351443,7 @@ serrasti!
 serrata
 serrate!
 serràtevi!
-serrati;sèrrati
+serrati;sèrrati@I
 serrato
 serràtola
 serràtole!
@@ -351539,7 +351539,7 @@ servita
 servìtagli
 servite
 servìtevi!
-serviti~sèrviti@A!
+serviti;sèrviti@I!
 servito
 servitóre
 servitorésca!
@@ -352496,7 +352496,7 @@ sfaldaste!
 sfaldasti!
 sfaldate!
 sfaldàtevi!
-sfaldati;sfàldati
+sfaldati;sfàldati@I
 sfaldato!
 sfaldàtosi!
 sfaldava!
@@ -352590,7 +352590,7 @@ sfamasti!
 sfamata!
 sfamate!
 sfamàtevi!
-sfàmati!
+sfamati;sfàmati@I!
 sfamato
 sfamàtosi!
 sfamava!
@@ -352735,7 +352735,7 @@ sfarinasti!
 sfarinata!
 sfarinate!
 sfarinàtevi!
-sfarinati;sfarìnati
+sfarinati;sfarìnati@I
 sfarinato
 sfarinàtosi!
 sfarinava!
@@ -353435,7 +353435,7 @@ sfidasti!
 sfidata!
 sfidate!
 sfidàtevi!
-sfidati~sfìdati@A!
+sfidati;sfìdati@I!
 sfidato
 sfidatóre
 sfidatóri!
@@ -353504,7 +353504,7 @@ sfiduciata!
 sfiduciataménte
 sfiduciate!
 sfiduciàtevi!
-sfiduciati;sfidùciati
+sfiduciati;sfidùciati@I
 sfiduciato
 sfiduciàtosi!
 sfiduciava!
@@ -353726,7 +353726,7 @@ sfiorasti!
 sfiorata!
 sfiorate!
 sfioràtevi!
-sfiorati;sfiórati
+sfiorati;sfiórati@I
 sfiorato
 sfioràtosi!
 sfiorava!
@@ -353950,7 +353950,7 @@ sfogasti!
 sfogata!
 sfogate!
 sfogàtevi!
-sfogati~sfógati@A;sfògati
+sfogati~sfógati@A;sfògati@I
 sfogato
 sfogatóre
 sfogatóri!
@@ -354424,7 +354424,7 @@ sformasti!
 sformata!
 sformate!
 sformàtevi!
-sformati;sfórmati
+sformati;sfórmati@I
 sformato
 sformàtosi!
 sformava!
@@ -354609,7 +354609,7 @@ sforzaste!
 sforzasti!
 sforzate!
 sforzàtevi!
-sforzati;sfòrzati
+sforzati;sfòrzati@I
 sforzato!
 sforzàtosi!
 sforzava!
@@ -354714,7 +354714,7 @@ sfracellaste!
 sfracellasti!
 sfracellate!
 sfracellàtevi!
-sfracellati;sfracèllati
+sfracellati;sfracèllati@I
 sfracellato!
 sfracellàtosi!
 sfracellava!
@@ -354886,7 +354886,7 @@ sfratàntesi!
 sfratarsi
 sfratarti!
 sfratàtevi!
-sfratati;sfràtati
+sfratati;sfràtati@I
 sfratàtosi!
 sfratiàmoci!
 sfratta!
@@ -355038,7 +355038,7 @@ sfregaste!
 sfregasti!
 sfregate!
 sfregàtevi!
-sfregati;sfrégati
+sfregati;sfrégati@I
 sfregato!
 sfregàtosi!
 sfregava!
@@ -355129,7 +355129,7 @@ sfrenate!
 sfrenàtevi!
 sfrenatézza
 sfrenatézze!
-sfrenati~sfrènati@A;sfrénati
+sfrenati~sfrènati@A;sfrénati@I
 sfrenato
 sfrenàtosi!
 sfrenava!
@@ -355261,7 +355261,7 @@ sfrondasti!
 sfrondata!
 sfrondate!
 sfrondàtevi!
-sfrondati;sfróndati
+sfrondati;sfróndati@I
 sfrondato
 sfrondàtosi!
 sfrondava!
@@ -356016,7 +356016,7 @@ sgattaiolò	ṡgattaiolò!
 ṡgelasti!
 ṡgelate!
 ṡgelàtevi!
-ṡgelati;ṡgèlati
+ṡgelati;ṡgèlati@I
 ṡgelato!
 ṡgelàtosi!
 ṡgelava!
@@ -356436,7 +356436,7 @@ sgombrò	ṡgombrò!
 ṡgomentasti!
 ṡgomentate!
 ṡgomentàtevi!
-ṡgomentati;ṡgoméntati
+ṡgomentati;ṡgoméntati@I
 ṡgomentato!
 ṡgomentàtosi!
 ṡgomentava!
@@ -356572,7 +356572,7 @@ sgomiterò	ṡgomiterò!
 ṡgomitolasti!
 ṡgomitolate!
 ṡgomitolàtevi!
-ṡgomitolati;ṡgomìtolati
+ṡgomitolati;ṡgomìtolati@I
 ṡgomitolato!
 ṡgomitolàtosi!
 ṡgomitolava!
@@ -357324,7 +357324,7 @@ sgravò	ṡgravò!
 ṡgretolasti!
 ṡgretolate!
 ṡgretolàtevi!
-ṡgretolati~ṡgrètolati@A;ṡgrétolati
+ṡgretolati~ṡgrètolati@A;ṡgrétolati@I
 ṡgretolato!
 ṡgretolàtosi!
 ṡgretolava!
@@ -359321,7 +359321,7 @@ sinceràntesi!
 sincerarsi
 sincerarti!
 sinceràtevi!
-sincerati;sincèrati
+sincerati;sincèrati@I
 sinceràtosi!
 sincère!
 sincèri!
@@ -359430,7 +359430,7 @@ sincroniżżasti!
 sincroniżżata!
 sincroniżżate!
 sincroniżżàtevi!
-sincroniżżati;sincronìżżati
+sincroniżżati;sincronìżżati@I
 sincroniżżato
 sincroniżżatóre
 sincroniżżatóri!
@@ -360024,7 +360024,7 @@ sintoniżżasti!
 sintoniżżata!
 sintoniżżate!
 sintoniżżàtevi!
-sintoniżżati;sintonìżżati
+sintoniżżati;sintonìżżati@I
 sintoniżżato
 sintoniżżatóre
 sintoniżżatóri!
@@ -360180,7 +360180,7 @@ sistemasti!
 sistemata
 sistemate!
 sistemàtevi!
-sistèmati!
+sistemati;sistèmati@I!
 sistemàtica
 sistematicaménte
 sistemàtiche
@@ -360398,7 +360398,7 @@ situasti!
 situata!
 situate!
 situàtevi!
-situati;sìtuati
+situati;sìtuati@I
 situato
 situàtosi!
 situava!
@@ -360727,7 +360727,7 @@ slealtà	ṡlealtà
 ṡlegata
 ṡlegate
 ṡlegàtevi!
-ṡlégati;ṡlegati
+ṡlegati;ṡlégati@I
 ṡlegato
 ṡlegàtosi!
 ṡlegava!
@@ -361244,7 +361244,7 @@ smaliziò	ṡmaliziò!
 ṡmaltata!
 ṡmaltate!
 ṡmaltàtevi!
-ṡmaltati;ṡmàltati
+ṡmaltati;ṡmàltati@I
 ṡmaltato
 ṡmaltàtosi!
 ṡmaltava!
@@ -361484,7 +361484,7 @@ smaniò	ṡmaniò!
 ṡmantellata!
 ṡmantellate!
 ṡmantellàtevi!
-ṡmantellati~ṡmàntellati@A!
+ṡmantellati;ṡmàntellati@I!
 ṡmantellato
 ṡmantellàtosi!
 ṡmantellava!
@@ -361533,7 +361533,7 @@ smantellò	ṡmantellò!
 ṡmarcata!
 ṡmarcate!
 ṡmarcàtevi!
-ṡmarcati;ṡmàrcati
+ṡmarcati;ṡmàrcati@I
 ṡmarcato
 ṡmarcàtosi!
 ṡmarcava!
@@ -361640,7 +361640,7 @@ smarrì	ṡmarrì!
 ṡmascellasti!
 ṡmascellate!
 ṡmascellàtevi!
-ṡmascellati;ṡmascèllati
+ṡmascellati;ṡmascèllati@I
 ṡmascellato!
 ṡmascellàtosi!
 ṡmascellava!
@@ -361691,7 +361691,7 @@ smascellò	ṡmascellò!
 ṡmascherata!
 ṡmascherate!
 ṡmascheràtevi!
-ṡmascherati;ṡmàscherati
+ṡmascherati;ṡmàscherati@I
 ṡmascherato
 ṡmascheràtosi!
 ṡmascherava!
@@ -361829,7 +361829,7 @@ smazzò	ṡmazzò!
 ṡmembrata!
 ṡmembrate!
 ṡmembràtevi!
-ṡmembrati~ṡmèmbrati@A;ṡmémbrati
+ṡmembrati~ṡmèmbrati@A;ṡmémbrati@I
 ṡmembrato
 ṡmembràtosi!
 ṡmembrava!
@@ -361868,7 +361868,7 @@ smembrò	ṡmembrò!
 ṡmemoràtevi!
 ṡmemoratézza
 ṡmemoratézze!
-ṡmemorati;ṡmèmorati
+ṡmemorati;ṡmèmorati@I
 ṡmemorato
 ṡmemoràtosi!
 ṡmemoriàmoci!
@@ -362944,7 +362944,7 @@ smolecolò	ṡmolecolò!
 ṡmollicasti!
 ṡmollicate!
 ṡmollicàtevi!
-ṡmollicati;ṡmollìcati
+ṡmollicati;ṡmollìcati@I
 ṡmollicato!
 ṡmollicàtosi!
 ṡmollicava!
@@ -362992,7 +362992,7 @@ smollicò	ṡmollicò!
 ṡmonacasti!
 ṡmonacate!
 ṡmonacàtevi!
-ṡmonacati;ṡmònacati
+ṡmonacati;ṡmònacati@I
 ṡmonacato!
 ṡmonacàtosi!
 ṡmonacava!
@@ -363462,7 +363462,7 @@ smuoverò	ṡmuoverò!
 ṡmussata!
 ṡmussate!
 ṡmussàtevi!
-ṡmussati;ṡmùssati
+ṡmussati;ṡmùssati@I
 ṡmussato
 ṡmussàtosi!
 ṡmussatura
@@ -363516,7 +363516,7 @@ smussò	ṡmussò!
 ṡmutandasti!
 ṡmutandate!
 ṡmutandàtevi!
-ṡmutandati;ṡmutàndati
+ṡmutandati;ṡmutàndati@I
 ṡmutandato!
 ṡmutandàtosi!
 ṡmutandava!
@@ -363605,7 +363605,7 @@ smutò	ṡmutò!
 ṡnaturàtevi!
 ṡnaturatézza
 ṡnaturatézze!
-ṡnaturati;ṡnatùrati
+ṡnaturati;ṡnatùrati@I
 ṡnaturato
 ṡnaturàtosi!
 ṡnaturava!
@@ -363705,7 +363705,7 @@ snellì	ṡnellì!
 ṡnervàtevi!
 ṡnervatézza
 ṡnervatézze!
-ṡnervati;ṡnèrvati
+ṡnervati;ṡnèrvati@I
 ṡnervato
 ṡnervàtosi!
 ṡnervatrice
@@ -364105,7 +364105,7 @@ sobbarcasti!
 sobbarcata!
 sobbarcate!
 sobbarcàtevi!
-sobbarcati;sobbàrcati
+sobbarcati;sobbàrcati@I
 sobbarcato
 sobbarcàtosi!
 sobbarcava!
@@ -365980,7 +365980,7 @@ solidificasti!
 solidificata!
 solidificate!
 solidificàtevi!
-solidificati~solidìficati@A!
+solidificati;solidìficati@I!
 solidificato
 solidificàtosi!
 solidificava!
@@ -366078,7 +366078,7 @@ sollazzaste!
 sollazzasti!
 sollazzate!
 sollazzàtevi!
-sollazzati;sollàzzati
+sollazzati;sollàzzati@I
 sollazzato!
 sollazzàtosi!
 sollazzava!
@@ -368084,7 +368084,7 @@ sopravvalutasti!
 sopravvalutata!
 sopravvalutate!
 sopravvalutàtevi!
-sopravvàlutati~sopravvalùtati@A;sopravvalutati
+sopravvalutati~sopravvalùtati@A;sopravvàlutati@I
 sopravvalutato
 sopravvalutàtosi!
 sopravvalutava!
@@ -370604,7 +370604,7 @@ sottovalutasti!
 sottovalutata!
 sottovalutate!
 sottovalutàtevi!
-sottovàlutati~sottovalùtati@A;sottovalutati
+sottovalutati~sottovalùtati@A;sottovàlutati@I
 sottovalutato
 sottovalutàtosi!
 sottovalutava!
@@ -371684,7 +371684,7 @@ spaccasti!
 spaccata!
 spaccate!
 spaccàtevi!
-spaccati~spàccati@A!
+spaccati;spàccati@I!
 spaccato
 spaccàtosi!
 spaccatura
@@ -372130,7 +372130,7 @@ spalleggiasti!
 spalleggiata!
 spalleggiate!
 spalleggiàtevi!
-spalleggiati;spalléggiati
+spalleggiati;spalléggiati@I
 spalleggiato
 spalleggiatóre
 spalleggiàtosi!
@@ -372190,7 +372190,7 @@ spalmasti!
 spalmata!
 spalmate!
 spalmàtevi!
-spàlmati!
+spalmati;spàlmati@I!
 spalmato
 spalmàtosi!
 spalmatrice
@@ -372610,7 +372610,7 @@ sparasti!
 sparata
 sparate!
 sparàtevi!
-sparati~spàrati@A!
+sparati;spàrati@I!
 sparato
 sparatòria
 sparatòrie
@@ -372949,7 +372949,7 @@ spartisti!
 spartita!
 spartite!
 spartìtevi!
-spartiti~spàrtiti@A!
+spartiti;spàrtiti@I!
 spartito
 spartìtosi!
 spartitràffico
@@ -373057,7 +373057,7 @@ spassate!
 spàssatela!
 spassàtevela!
 spassàtevi!
-spassati;spàssati
+spassati;spàssati@I
 spassato!
 spassàtosela!
 spassàtosi!
@@ -373174,7 +373174,7 @@ spaurasti!
 spaurata!
 spaurate!
 spauràtevi!
-spaùrati!
+spaurati;spaùrati@I!
 spaurato
 spauràtosi!
 spaurava!
@@ -373282,7 +373282,7 @@ spaventasti!
 spaventata!
 spaventate!
 spaventàtevi!
-spavèntati!
+spaventati;spavèntati@I!
 spaventato
 spaventàtosi!
 spaventava!
@@ -373554,7 +373554,7 @@ specchiasti!
 specchiata!
 specchiate!
 specchiàtevi!
-specchiati~spècchiati@A!
+specchiati;spècchiati@I!
 specchiato
 specchiàtosi!
 specchiava!
@@ -373614,7 +373614,7 @@ specialiżżasti!
 specialiżżata!
 specialiżżate!
 specialiżżàtevi!
-specialiżżati~specialìżżati@A!
+specialiżżati;specialìżżati@I!
 specialiżżato
 specialiżżàtosi!
 specialiżżava!
@@ -374046,7 +374046,7 @@ spelaste!
 spelasti!
 spelate!
 spelàtevi!
-spelati;spélati
+spelati;spélati@I
 spelato!
 spelàtosi!
 spelava!
@@ -374109,7 +374109,7 @@ spellasti!
 spellata
 spellate!
 spellàtevi!
-spellati;spèllati
+spellati;spèllati@I
 spellato!
 spellàtosi!
 spellava!
@@ -375409,7 +375409,7 @@ spiacévo!
 spiacévole
 spiacévoli
 spiacevolménte
-spìaci;spiaci
+spìaci;spiaci@I
 spiaciuto!
 spiacque
 spiàcquero
@@ -375761,7 +375761,7 @@ spiccicarti!
 spiccicata!
 spiccicate!
 spiccicàtevi!
-spiccicati;spìccicati
+spiccicati;spìccicati@I
 spiccicato
 spiccicàtosi!
 spiccichiàmoci!
@@ -375895,7 +375895,7 @@ spiegasti!
 spiegata!
 spiegate!
 spiegàtevi!
-spiegati~spiégati@A;spiègati
+spiegati~spiégati@A;spiègati@I
 spiegato
 spiegàtosi!
 spiegava!
@@ -377047,7 +377047,7 @@ spogliasti!
 spogliata!
 spogliate!
 spogliàtevi!
-spogliati~spògliati@A!
+spogliati;spògliati@I!
 spogliato
 spogliatóio~spogliatòio@V
 spogliàtosi!
@@ -377132,7 +377132,7 @@ spolmonàntesi!
 spolmonarsi
 spolmonarti!
 spolmonàtevi!
-spolmonati;spolmónati
+spolmonati;spolmónati@I
 spolmonàtosi!
 spolmoniàmoci!
 spólpa!
@@ -377463,7 +377463,7 @@ spopolasti!
 spopolata!
 spopolate!
 spopolàtevi!
-spopolati;spòpolati
+spopolati;spòpolati@I
 spopolato
 spopolàtosi!
 spopolava!
@@ -377722,7 +377722,7 @@ spoṡasti!
 spoṡata!
 spoṡate!
 sposàtevi!
-spòsati!
+spoṡati;spòsati@I!
 spoṡato
 sposàtosi!
 spoṡava!
@@ -377745,7 +377745,7 @@ spoṡeréte!
 spósero!
 sposerà	spoṡerà!
 sposerò	spoṡerò!
-spòṡi~spósi@VS!
+spósi;spòṡi@I!
 spoṡiamo!
 sposiàmoci!
 spoṡiate!
@@ -377928,7 +377928,7 @@ spostasti!
 spostata!
 spostate!
 spostàtevi!
-spòstati;spostati
+spostati;spòstati@I
 spostato
 spostàtosi!
 spostava!
@@ -378165,7 +378165,7 @@ spregiudicate!
 spregiudicàtevi!
 spregiudicatézza
 spregiudicatézze!
-spregiudicati~spregiùdicati@A!
+spregiudicati;spregiùdicati@I!
 spregiudicato
 spregiudicàtosi!
 spregiudicava!
@@ -378306,7 +378306,7 @@ spretasti!
 spretata!
 spretate!
 spretàtevi!
-spretati;sprètati
+spretati;sprètati@I
 spretato
 spretàtosi!
 spretava!
@@ -378403,7 +378403,7 @@ sprigionasti!
 sprigionata!
 sprigionate!
 sprigionàtevi!
-sprigionati;sprigiónati
+sprigionati;sprigiónati@I
 sprigionato
 sprigionàtosi!
 sprigionava!
@@ -378498,7 +378498,7 @@ sprofondasti!
 sprofondata!
 sprofondate!
 sprofondàtevi!
-sprofondati;sprofóndati
+sprofondati;sprofóndati@I
 sprofondato
 sprofondàtosi!
 sprofondava!
@@ -379626,7 +379626,7 @@ squagliasti!
 squagliata!
 squagliate!
 squagliàtevi!
-squagliati;squàgliati
+squagliati;squàgliati@I
 squagliato
 squagliàtosi!
 squagliava!
@@ -379924,7 +379924,7 @@ squilibrasti!
 squilibrata!
 squilibrate!
 squilibràtevi!
-squilibrati;squilìbrati
+squilibrati;squilìbrati@I
 squilibrato
 squilibràtosi!
 squilibrava!
@@ -380112,7 +380112,7 @@ squittì	squittì!
 ṡradicata!
 ṡradicate!
 ṡradicàtevi!
-ṡradicati~ṡràdicati@A!
+ṡradicati;ṡràdicati@I!
 ṡradicato
 ṡradicàtosi!
 ṡradicava!
@@ -380318,7 +380318,7 @@ stabiliżżasti!
 stabiliżżata!
 stabiliżżate!
 stabiliżżàtevi!
-stabiliżżati;stabilìżżati
+stabiliżżati;stabilìżżati@I
 stabiliżżato
 stabiliżżatóre
 stabiliżżatóri!
@@ -380421,7 +380421,7 @@ staccasti!
 staccata!
 staccate!
 staccàtevi!
-staccati~stàccati@A!
+staccati;stàccati@I!
 staccatìssima!
 staccatìssime!
 staccatìssimi!
@@ -381025,7 +381025,7 @@ stancasti!
 stancata!
 stancate!
 stancàtevi!
-stancati~stàncati@A!
+stancati;stàncati@I!
 stancato
 stancàtosi!
 stancava!
@@ -381232,7 +381232,7 @@ stanziaste!
 stanziasti!
 stanziate!
 stanziàtevi!
-stanziati;stànziati
+stanziati;stànziati@I
 stanziato!
 stanziàtosi!
 stanziava!
@@ -381488,7 +381488,7 @@ stasasti!
 stasata!
 stasate!
 staṡàtevi!
-staṡati~stasati@S~stàsati@AS;stàṡati
+staṡati~stasati@S~stàsati@AS;stàṡati@I
 stasato~staṡato@S+
 staṡàtosi!
 stasava!
@@ -381984,7 +381984,7 @@ stellerésti!
 stelleréte!
 stellerà	stellerà!
 stellerò	stellerò!
-stélli;stèlli
+stélli;stèlli@I
 stelliamo!
 stelliate!
 stellina
@@ -382019,7 +382019,7 @@ stemperasti!
 stemperata!
 stemperate!
 stemperàtevi!
-stemperati~stémperati@A~stèmperati@A!
+stemperati;stémperati@I;stèmperati@I!
 stemperato
 stemperàtosi!
 stemperava!
@@ -382054,7 +382054,7 @@ stempiàntesi!
 stempiarsi
 stempiarti!
 stempiàtevi!
-stempiati~stèmpiati@A;stémpiati
+stempiati~stèmpiati@A;stémpiati@I
 stempiàtosi!
 stèmpio
 stènda
@@ -382901,7 +382901,7 @@ stimasti!
 stimata!
 stimate!
 stimàtevi!
-stìmati!
+stimati;stìmati@I!
 stimato
 stimatóre
 stimatóri
@@ -383049,7 +383049,7 @@ stipasti!
 stipata!
 stipate!
 stipàtevi!
-stipati;stìpati
+stipati;stìpati@I
 stipato
 stipàtosi!
 stipava!
@@ -383227,7 +383227,7 @@ stirasti!
 stirata
 stirate!
 stiràtevi!
-stirati;stìrati
+stirati;stìrati@I
 stirato
 stiràtosi!
 stirava!
@@ -383310,7 +383310,7 @@ stivalerà	stivalerà!
 stivalerò	stivalerò!
 stivalétti!
 stivalétto
-stìvali;stivali
+stìvali;stivali@I
 stivaliamo!
 stivaliate!
 stivàlino
@@ -383528,7 +383528,7 @@ stomacasti!
 stomacata!
 stomacate!
 stomacàtevi!
-stòmacati;stomacati
+stomacati;stòmacati@I
 stomacato
 stomacàtosi!
 stomacava!
@@ -384541,7 +384541,7 @@ strafogàntesi!
 strafogarsi
 strafogarti!
 strafogàtevi!
-strafogati~strafògati@A;strafógati
+strafogati~strafògati@A;strafógati@I
 strafogàtosi!
 strafoghiàmoci!
 strafóri!
@@ -385123,7 +385123,7 @@ strappasti!
 strappata
 strappate!
 strappàtevi!
-strappati~stràppati@A!
+strappati;stràppati@I!
 strappato
 strappàtosi!
 strappava!
@@ -385253,7 +385253,7 @@ strascicasti!
 strascicata!
 strascicate!
 strascicàtevi!
-strascicati;stràscicati
+strascicati;stràscicati@I
 strascicato
 strascicàtosi!
 strascicava!
@@ -385304,7 +385304,7 @@ strascinaste!
 strascinasti!
 strascinate!
 strascinàtevi!
-strascinati;strascìnati
+strascinati;strascìnati@I
 strascinato!
 strascinàtosi!
 strascinava!
@@ -385373,7 +385373,7 @@ stratificasti!
 stratificata!
 stratificate!
 stratificàtevi!
-stratificati;stratìficati
+stratificati;stratìficati@I
 stratificato
 stratificàtosi!
 stratificava!
@@ -385470,7 +385470,7 @@ stravaccarti!
 stravaccata!
 stravaccate!
 stravaccàtevi!
-stravaccati~stravàccati@A!
+stravaccati;stravàccati@I!
 stravaccato
 stravaccàtosi!
 stravacchiàmoci!
@@ -386624,7 +386624,7 @@ strofinaste!
 strofinasti!
 strofinate!
 strofinàtevi!
-strofinati;strofìnati
+strofinati;strofìnati@I
 strofinato!
 strofinàtosi!
 strofinava!
@@ -387007,7 +387007,7 @@ struccaste!
 struccasti!
 struccate!
 struccàtevi!
-struccati;strùccati
+struccati;strùccati@I
 struccato!
 struccàtosi!
 struccava!
@@ -387428,7 +387428,7 @@ studiasti!
 studiata
 studiate
 studiàtevi!
-stùdiati;studiati
+studiati;stùdiati@I
 studiato
 studiàtosi!
 studiava!
@@ -387479,7 +387479,7 @@ stufasti!
 stufata!
 stufate!
 stufàtevi!
-stùfati;stufati
+stufati;stùfati@I
 stufato
 stufàtosi!
 stufava!
@@ -387754,7 +387754,7 @@ stuzzicasti!
 stuzzicata!
 stuzzicate!
 stuzzicàtevi!
-stuzzicati;stùzzicati
+stuzzicati;stùzzicati@I
 stuzzicato
 stuzzicàtosi!
 stuzzicava!
@@ -388796,7 +388796,7 @@ sudasti!
 sudata
 sudate!
 sudàtevi!
-sudati;sùdati
+sudati;sùdati@I
 sudato
 sudatòria!
 sudatòrie!
@@ -389643,7 +389643,7 @@ superasti!
 superata
 superate!
 superàtevi!
-superati;sùperati
+superati;sùperati@I
 superato
 superàtosi!
 superava!
@@ -390426,7 +390426,7 @@ susseguisti!
 susseguita!
 susseguite!
 susseguìtevi!
-susseguiti~sussèguiti@A;susséguiti
+susseguiti~sussèguiti@A;susséguiti@I
 susseguito
 susseguìtosi!
 susseguiva!
@@ -390649,7 +390649,7 @@ sussurrasti!
 sussurrata!
 sussurrate!
 sussurràtevi!
-sussurrati~sussùrrati@A!
+sussurrati;sussùrrati@I!
 sussurrato
 sussurràtosi!
 sussurrava!
@@ -390785,7 +390785,7 @@ sużżàchere!
 ṡvaccarsi
 ṡvaccarti!
 ṡvaccàtevi!
-ṡvaccati;ṡvàccati
+ṡvaccati;ṡvàccati@I
 ṡvaccàtosi!
 ṡvacchiàmoci!
 ṡvàcchino
@@ -390814,7 +390814,7 @@ sużżàchere!
 ṡvagàtevi!
 ṡvagatézza
 ṡvagatézze!
-ṡvagati;ṡvàgati
+ṡvagati;ṡvàgati@I
 ṡvagato
 ṡvagàtosi!
 ṡvagava!
@@ -390944,7 +390944,7 @@ svaligiò	ṡvaligiò!
 ṡvalutata!
 ṡvalutate!
 ṡvalutàtevi!
-ṡvalutati~ṡvalùtati@A;ṡvàlutati
+ṡvalutati~ṡvalùtati@A;ṡvàlutati@I
 ṡvalutato
 ṡvalutàtosi!
 ṡvalutava!
@@ -391166,7 +391166,7 @@ svecchierò	ṡvecchierò!
 svecchiò	ṡvecchiò!
 ṡvedése~ṡvedéṡe@S
 ṡvedési
-ṡvégli;ṡvègli
+ṡvégli;ṡvègli@I
 ṡvéglia
 ṡvegliai!
 ṡvegliammo!
@@ -391194,7 +391194,7 @@ svecchiò	ṡvecchiò!
 ṡvegliàtevi!
 ṡvegliatézza
 ṡvegliatézze!
-ṡvegliati;ṡvégliati
+ṡvegliati;ṡvégliati@I
 ṡvegliàtisi
 ṡvegliato
 ṡvegliàtosi
@@ -391261,7 +391261,7 @@ svegliò	ṡvegliò!
 ṡvelata
 ṡvelate!
 ṡvelàtevi!
-ṡvélati~ṡvèlati@V!
+ṡvelati;ṡvélati@I;ṡvèlati@I!
 ṡvelato
 ṡvelàtosi!
 ṡvelava!
@@ -391491,7 +391491,7 @@ svelò	ṡvelò!
 ṡvenasti!
 ṡvenate!
 ṡvenàtevi!
-ṡvenati;ṡvénati
+ṡvenati;ṡvénati@I
 ṡvenato!
 ṡvenàtosi!
 ṡvenava!
@@ -391932,7 +391932,7 @@ svestirò	ṡvestirò!
 ṡvestita!
 ṡvestite!
 ṡvestìtevi!
-ṡvestiti;ṡvèstiti
+ṡvestiti;ṡvèstiti@I
 ṡvestito
 ṡvestìtosi!
 ṡvestiva!
@@ -392057,7 +392057,7 @@ svezzò	ṡvezzò!
 ṡviata!
 ṡviate
 ṡviàtevi!
-ṡviati~ṡvìati@A!
+ṡviati;ṡvìati@I!
 ṡviato
 ṡviàtosi!
 ṡviava!
@@ -392251,7 +392251,7 @@ svilirò	ṡvilirò!
 ṡviluppate!
 ṡviluppàtesi!
 ṡviluppàtevi!
-ṡviluppati;ṡvilùppati
+ṡviluppati;ṡvilùppati@I
 ṡviluppàtisi!
 ṡviluppatìssima!
 ṡviluppatìssime!
@@ -392332,7 +392332,7 @@ svilì	ṡvilì!
 ṡvincolata!
 ṡvincolate!
 ṡvincolàtevi!
-ṡvincolati;ṡvìncolati
+ṡvincolati;ṡvìncolati@I
 ṡvincolato
 ṡvincolàtosi!
 ṡvincolava!
@@ -393491,7 +393491,7 @@ tagliate!
 tagliatèlla
 tagliatèlle
 tagliàtevi!
-tagliati~tàgliati@A!
+tagliati;tàgliati@I!
 tagliatini!
 tagliatino
 tagliato
@@ -394602,7 +394602,7 @@ tarmaste!
 tarmasti!
 tarmate!
 tarmàtevi!
-tarmati;tàrmati
+tarmati;tàrmati@I
 tarmato!
 tarmàtosi!
 tarmava!
@@ -395514,7 +395514,7 @@ tediasti!
 tediata!
 tediate!
 tediàtevi!
-tediati~tèdiati@A!
+tediati;tèdiati@I!
 tediato
 tediàtosi!
 tediava!
@@ -396348,7 +396348,7 @@ temperasti!
 temperata!
 temperate!
 temperàtevi!
-temperati~témperati@A~tèmperati@A!
+temperati;témperati@I;tèmperati@I!
 temperato
 temperàtosi!
 temperatura
@@ -398113,7 +398113,7 @@ teṡeréte!
 tésero!
 teserà	teṡerà!
 teserò	teṡerò!
-tési~tèṡi@VS+~teṡì@AS+~téṡi@S;tèsi
+tèsi~tèṡi@VS+~teṡì@AS+~téṡi@S;tési@I
 teṡiamo!
 teṡiate!
 téṡino!
@@ -398168,7 +398168,7 @@ tesserasti!
 tesserata!
 tesserate!
 tesseràtevi!
-tesserati~tèsserati@A!
+tesserati;tèsserati@I!
 tesserato
 tesseràtosi!
 tesserava!
@@ -399372,7 +399372,7 @@ tirate!
 tìratela!
 tiràtevela!
 tiràtevi!
-tirati;tìrati
+tirati;tìrati@I
 tirato
 tiratóre
 tiratóri!
@@ -399658,7 +399658,7 @@ toccasti!
 toccata
 toccate
 toccàtevi!
-tóccati;toccati
+toccati;tóccati@I
 toccato
 toccàtosi!
 toccava!
@@ -400497,7 +400497,7 @@ tormentasti!
 tormentata!
 tormentate!
 tormentàtevi!
-tormentati~torméntati@A!
+tormentati;torméntati@I!
 tormentato
 tormentatóre
 tormentatóri!
@@ -400873,7 +400873,7 @@ torturasti!
 torturata!
 torturate!
 torturàtevi!
-torturati;tortùrati
+torturati;tortùrati@I
 torturato
 torturatóre
 torturatóri!
@@ -400964,7 +400964,7 @@ toscaniżżaste!
 toscaniżżasti!
 toscaniżżate!
 toscaniżżàtevi!
-toscaniżżati;toscanìżżati
+toscaniżżati;toscanìżżati@I
 toscaniżżato!
 toscaniżżàtosi!
 toscaniżżava!
@@ -403102,7 +403102,7 @@ tranquillasti!
 tranquillata!
 tranquillate!
 tranquillàtevi!
-tranquillati~tranquìllati@A!
+tranquillati;tranquìllati@I!
 tranquillato
 tranquillàtosi!
 tranquillava!
@@ -403156,7 +403156,7 @@ tranquilliżżasti!
 tranquilliżżata!
 tranquilliżżate!
 tranquilliżżàtevi!
-tranquilliżżati;tranquillìżżati
+tranquilliżżati;tranquillìżżati@I
 tranquilliżżato
 tranquilliżżàtosi!
 tranquilliżżava!
@@ -403548,7 +403548,7 @@ transiterésti!
 transiteréte!
 transiterà	transiterà!
 transiterò	transiterò!
-trànsiti;transiti
+transiti;trànsiti@I
 transitiamo!
 transitiate!
 trànsitino!
@@ -404611,7 +404611,7 @@ trascinasti!
 trascinata!
 trascinate!
 trascinàtevi!
-trascìnati!
+trascinati;trascìnati@I!
 trascinato
 trascinatóre
 trascinatóri!
@@ -404763,7 +404763,7 @@ trascurate!
 trascuràtevi!
 trascuratézza
 trascuratézze!
-trascùrati!
+trascurati;trascùrati@I!
 trascurato
 trascuràtosi!
 trascurava!
@@ -405119,7 +405119,7 @@ trasformasti!
 trasformata
 trasformate!
 trasformàtevi!
-trasfórmati!
+trasformati;trasfórmati@I!
 trasformato
 trasformatóre
 trasformatóri!
@@ -406556,7 +406556,7 @@ traviasti!
 traviata
 traviate!
 traviàtevi!
-traviati~tràviati@A~travìati@A!
+traviati;tràviati@I;travìati@I!
 traviato
 traviàtosi!
 traviava!
@@ -407761,7 +407761,7 @@ trincerasti!
 trincerata!
 trincerate!
 trinceràtevi!
-trincèrati~trìncerati@A!
+trincerati;trincèrati@I;trìncerati@I!
 trincerato
 trinceràtosi!
 trincerava!
@@ -407979,7 +407979,7 @@ triplicasti!
 triplicata!
 triplicate!
 triplicàtevi!
-trìplicati;triplicati
+triplicati;trìplicati@I
 triplicato
 triplicàtosi!
 triplicava!
@@ -408902,7 +408902,7 @@ trovatèlle
 trovatèlli
 trovatèllo
 trovàtevi!
-tròvati;trovati
+trovati;tròvati@I
 trovàtigli
 trovato
 trovàtogli
@@ -408965,7 +408965,7 @@ truccasti!
 truccata
 truccate
 truccàtevi
-truccati;trùccati
+truccati;trùccati@I
 truccato
 truccàtosi!
 truccatrice
@@ -409270,7 +409270,7 @@ tuffaste!
 tuffasti!
 tuffate!
 tuffàtevi!
-tùffati;tuffati
+tuffati;tùffati@I
 tuffato!
 tuffatóre
 tuffatóri!
@@ -409564,7 +409564,7 @@ turasti!
 turata!
 turate!
 turàtevi!
-turati~tùrati@A!
+turati;tùrati@I!
 turato
 turàtosi!
 turava!
@@ -409600,7 +409600,7 @@ turbasti!
 turbata!
 turbate!
 turbàtevi!
-turbati~tùrbati@A!
+turbati;tùrbati@I!
 turbativa
 turbative!
 turbato
@@ -409943,7 +409943,7 @@ tutelasti!
 tutelata!
 tutelate!
 tutelàtevi!
-tutelati;tutèlati
+tutelati;tutèlati@I
 tutelato
 tutelàtosi!
 tutelava!
@@ -410202,7 +410202,7 @@ ubriacasti!
 ubriacata!
 ubriacate!
 ubriacàtevi!
-ubriacati;ubriàcati
+ubriacati;ubriàcati@I
 ubriacato
 ubriacàtosi!
 ubriacatura
@@ -410949,7 +410949,7 @@ umanàntesi!
 umanarsi
 umanarti!
 umanàtevi!
-umanati;umànati
+umanati;umànati@I
 umanàtosi!
 umane
 umanéṡimi!
@@ -410999,7 +410999,7 @@ umaniżżaste!
 umaniżżasti!
 umaniżżate!
 umaniżżàtevi!
-umaniżżati;umanìżżati
+umaniżżati;umanìżżati@I
 umaniżżato!
 umaniżżàtosi!
 umaniżżava!
@@ -411223,7 +411223,7 @@ umiliasti!
 umiliata
 umiliate!
 umiliàtevi!
-umiliati~umìliati@A!
+umiliati;umìliati@I!
 umiliato
 umiliàtosi!
 umiliava!
@@ -411520,7 +411520,7 @@ uniformasti!
 uniformata!
 uniformate!
 uniformàtevi!
-unifórmati!
+uniformati;unifórmati@I!
 uniformato
 uniformàtosi!
 uniformava!
@@ -411757,7 +411757,7 @@ universaliżżasti!
 universaliżżata
 universaliżżate!
 universaliżżàtevi!
-universaliżżati;universalìżżati
+universaliżżati;universalìżżati@I
 universaliżżato!
 universaliżżàtosi!
 universaliżżava!
@@ -413077,7 +413077,7 @@ vaccinasti!
 vaccinata!
 vaccinate!
 vaccinàtevi!
-vaccinati;vaccìnati
+vaccinati;vaccìnati@I
 vaccinato
 vaccinatóre
 vaccinatóri!
@@ -413993,7 +413993,7 @@ valoriżżaste!
 valoriżżasti!
 valoriżżate!
 valoriżżàtevi!
-valoriżżati;valorìżżati
+valoriżżati;valorìżżati@I
 valoriżżato!
 valoriżżatóre
 valoriżżatóri!
@@ -414072,7 +414072,7 @@ valutasti!
 valutata!
 valutate!
 valutàtevi!
-valutati~vàlutati@A~valùtati@A!
+valutati;vàlutati@I;valùtati@I!
 valutativa!
 valutative!
 valutativi!
@@ -414564,7 +414564,7 @@ vaporiżżaste!
 vaporiżżasti!
 vaporiżżate!
 vaporiżżàtevi!
-vaporìżżati;vaporiżżati
+vaporiżżati;vaporìżżati@I
 vaporiżżato!
 vaporiżżatóre
 vaporiżżatóri!
@@ -415095,7 +415095,7 @@ vediàmone
 vediate!
 vèdica!
 vèdiche!
-védici~vèdici@V!
+vèdici;védici@I!
 vèdico
 vediménti!
 vediménto
@@ -415273,7 +415273,7 @@ véggiono!
 véggo!
 véggono!
 vègio!
-vègli;végli
+vègli;végli@I
 véglia~vèglia@V
 vegliai!
 vegliammo!
@@ -415399,7 +415399,7 @@ velata
 velataménte
 velate!
 velàtevi!
-velati~vélati@A!
+velati;vélati@I!
 velato
 velàtosi!
 velatura
@@ -415667,7 +415667,7 @@ velocizzasti!
 velociżżata!
 velocizzate!
 velociżżàtevi!
-velociżżati;velocìżżati
+velociżżati;velocìżżati@I
 velociżżato
 velociżżàtosi!
 velocizzava!
@@ -415821,7 +415821,7 @@ vendicasti!
 vendicata
 vendicate!
 vendicàtevi!
-vendicati~véndicati@A~vèndicati@A!
+vendicati;véndicati@I;vèndicati@I!
 vendicativa
 vendicative
 vendicativi
@@ -416636,7 +416636,7 @@ vergognasti!
 vergognata
 vergognate
 vergognàtevi!
-vergognati;vergógnati
+vergognati;vergógnati@I
 vergognato
 vergognàtosi!
 vergognava!
@@ -416748,7 +416748,7 @@ verificàtasi
 verificate!
 verificàtesi
 verificàtevi!
-verìficati;verificati
+verificati;verìficati@I
 verificàtisi
 verificato
 verificàtosi
@@ -417029,7 +417029,7 @@ versasti!
 versata!
 versate!
 versàtevi!
-vèrsati!
+versati;vèrsati@I!
 versàtile
 versàtili
 versatilità	versatilità
@@ -417461,7 +417461,7 @@ vestisti!
 vestita!
 vestite!
 vestìtevi!
-vestiti;vèstiti
+vestiti;vèstiti@I
 vestito
 vestitóre
 vestitóri!
@@ -419101,7 +419101,7 @@ vinte
 vinti
 vinto
 vìntosi!
-viòla;vìola
+viòla;vìola@I
 violàbile
 violàbili!
 violacciòcca
@@ -419212,7 +419212,7 @@ violétta
 violétte!
 violétti!
 violétto
-vìoli;viòli
+viòli;vìoli@I
 violiamo
 violiate
 violini
@@ -420221,7 +420221,7 @@ vivificaste!
 vivificasti!
 vivificate!
 vivificàtevi!
-vivificati;vivìficati
+vivificati;vivìficati@I
 vivificativa!
 vivificative!
 vivificativi!
@@ -420793,7 +420793,7 @@ volatiliżżaste!
 volatiliżżasti!
 volatiliżżate!
 volatiliżżàtevi!
-volatiliżżati;volatilìżżati
+volatiliżżati;volatilìżżati@I
 volatiliżżato!
 volatiliżżàtosi!
 volatiliżżava!
@@ -421228,7 +421228,7 @@ voltastòmaco
 voltata
 voltate
 voltàtevi!
-vòltati;voltati
+voltati;vòltati@I
 voltato
 voltàtosi!
 voltava!
@@ -421291,7 +421291,7 @@ volterésti!
 volteréte!
 volterà	volterà
 volterò	volterò
-vólti;vòlti
+vólti;vòlti@I
 voltiamo!
 voltiàmoci!
 voltiate!
@@ -421323,7 +421323,7 @@ voltolasti!
 voltolata!
 voltolate!
 voltolàtevi!
-voltolati;vòltolati
+voltolati;vòltolati@I
 voltolato
 voltolàtosi!
 voltolava!
@@ -421537,7 +421537,7 @@ vomiterà	vomiterà!
 vomiterò	vomiterò!
 vomitévole
 vomitévoli!
-vòmiti;vomiti
+vomiti;vòmiti@I
 vomitiamo!
 vomitiate!
 vòmitino!
@@ -421736,7 +421736,7 @@ votasti!
 votata
 votate!
 votàtevi!
-votati~vótati@A!
+votati;vótati@I!
 votato
 votàtosi!
 votava!
@@ -421760,7 +421760,7 @@ voterésti!
 voteréte!
 voterà	voterà
 voterò	voterò
-vóti;vòti
+vóti;vòti@I
 votìaca~votiaca@A
 votìache~votiache@A
 votiachi

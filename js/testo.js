@@ -96,14 +96,17 @@ function showDetail(w) {
     <ul class="rulelist">${[w.marked, ...w.omografi].map(a => `<li class="variante"><span class="vform">${colorize(a)}</span><span>${esc(desc[a] || '')} ${a === w.marked ? '<span class="tag">segnata</span>' : ''}</span></li>`).join('')}</ul></div>` : '';
   const significato = !w.omografi.length && desc[w.marked] && (w.varianti || []).some(v => v.code === 'H')
     ? `<p class="small" style="margin:4px 0 0"><b>Significato:</b> ${esc(desc[w.marked])} <span class="muted">(secondo Wiktionary)</span></p>` : '';
-  const dub = w.dubbi.length ? `<p><span class="tag warn">Dubbio</span> Le regole non bastano per: ${w.dubbi.map(d => ({ timbro: 'apertura della vocale', s: 'la s', z: 'la z' }[d])).join(', ')}. Verifica su un dizionario d’ortoepia.</p>` : '';
+  const dub = w.dubbi.filter(d => d !== 'contesto').length ? `<p><span class="tag warn">Dubbio</span> Le regole non bastano per: ${w.dubbi.filter(d => d !== 'contesto').map(d => ({ timbro: 'apertura della vocale', s: 'la s', z: 'la z' }[d])).join(', ')}. Verifica su un dizionario d’ortoepia.</p>` : '';
+  const ctx = w.contesto ? `<p><span class="tag ${w.contesto.certo ? '' : 'warn'}">Scelta dal contesto</span>
+    ${w.contesto.scelta === 'imperativo' ? `imperativo con il pronome (<b>${colorize(w.imperativo)}</b>!)` : 'participio, aggettivo o nome'} — ${esc(w.contesto.perche)}.
+    ${w.contesto.certo ? '' : 'Controlla: se è un imperativo (“fermati!”) si dice <b>' + colorize(w.imperativo) + '</b>.'}</p>` : '';
   const at = w.atona ? '<p class="muted small">Parola atona: non ha accento proprio (regola <a href="#teoria/B2">B2</a>).</p>' : '';
   box.innerHTML = `<div class="card">
     <div class="row" style="justify-content:space-between">
       <div class="big-word">${colorize(full)}</div>
       <span class="tag">${esc(FONTE[w.fonte] || '')}</span>
     </div>
-    ${significato}${homs}${alts}${dub}${at}
+    ${significato}${ctx}${homs}${alts}${dub}${at}
     ${rules ? `<b>Regole</b><ul class="rulelist">${rules}</ul>` : '<p class="muted small">Nessuna regola specifica: la pronuncia va imparata parola per parola.</p>'}
   </div>`;
 }

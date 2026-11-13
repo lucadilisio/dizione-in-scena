@@ -262,6 +262,7 @@ export const VARIANTI = {
     S: { titolo: 'S sorda o sonora tra vocali', testo: 'Tra due vocali la s è sorda nella pronuncia tradizionale toscana e in gran parte del Centro-Sud, sempre sonora al Nord. La pronuncia moderna accetta spesso entrambe; la dizione segue la tradizione (regole S6 e S9).', esempio: 'casa (tradizionale) / caṡa (moderna, Nord)' },
     Z: { titolo: 'Z sorda o sonora', testo: 'La sonorità della z cambia da regione a regione, soprattutto a inizio parola e in alcune parole comuni. In dizione vale la forma principale (regole Z6 e Z7).', esempio: 'żio / zio' },
     A: { titolo: 'Accento in un’altra posizione', testo: 'Di solito è un errore diffuso, oppure la pronuncia “alla latina” o “alla greca” di una parola dotta. In dizione vale la forma principale.', esempio: 'rubrìca (corretta) / rùbrica (diffusa ma sbagliata)' },
+    I: { titolo: 'Imperativo con il pronome attaccato', testo: 'Si scrive come un participio o un nome, ma è un’altra forma del verbo, con l’accento più indietro: arrèstati! (fermati!) invece di arrestàti (siamo stati arrestati). Il programma sceglie guardando le parole vicine.', esempio: 'arrestàti (participio) / arrèstati! (imperativo)' },
     H: { titolo: 'Altra parola scritta uguale', testo: 'Esiste un’altra parola con la stessa grafia, un significato diverso e un uso molto più raro (omografo minore). Per questo il programma non chiede di scegliere.', esempio: 'sóno (verbo essere) / sòno (parola rara)' },
   },
   accettata: 'registrata anche dal Wiktionary italiano: presente anche nell’uso standard',
@@ -274,11 +275,11 @@ export const VARIANTI = {
   },
 };
 export function motivoVariante(code) {
-  const m = /^([AVSZH]+)(\+)?(?::(\w+))?$/.exec(code || '') || [null, 'V', '', ''];
+  const m = /^([AVSZHI]+)(\+)?(?::(\w+))?$/.exec(code || '') || [null, 'V', '', ''];
   return {
     tipi: [...m[1]].map(t => VARIANTI.tipi[t]).filter(Boolean),
     // per gli accenti (A) la presenza nel Wiktionary italiano non la rende corretta: di solito è registrata come pronuncia diffusa
-    fonte: m[1] === 'H' ? '' : (m[2] ? (m[1].includes('A') ? VARIANTI.registrataIt : VARIANTI.accettata) : VARIANTI.regionale),
+    fonte: m[1] === 'H' || m[1] === 'I' ? '' : (m[2] ? (m[1].includes('A') ? VARIANTI.registrataIt : VARIANTI.accettata) : VARIANTI.regionale),
     etichetta: m[3] ? VARIANTI.etichette[m[3]] || '' : '',
     accettata: !!m[2],
   };
