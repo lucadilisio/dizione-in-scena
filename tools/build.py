@@ -11,6 +11,7 @@ def rec_analyses(w, ipas, src):
         a = analyze(w, ipa)
         if a and a['stress'] is not None:
             a['tags'] = tags; a['src'] = src
+            a['apos'] = src == 'it' and "'" in ipa      # notazione con l'apostrofo (non IPA): poco affidabile
             res.append(a)
     return res
 
@@ -60,6 +61,10 @@ for w, rs in recs.items():
             an = rec_analyses(w, ipas, src)
             if an: by_src[src].append(an)
     if not by_src['it'] and not by_src['en']: continue
+    # le pronunce dell'edizione italiana scritte con l'apostrofo ("/ba'sta/", "'dietro") sono spesso sbagliate:
+    # se c'è la trascrizione IPA dell'edizione inglese, si usa quella
+    if by_src['en']:
+        by_src['it'] = [an2 for an2 in ([a for a in an if not a.get('apos')] for an in by_src['it']) if an2]
     first = lambda src: by_src[src][0][0] if by_src[src] else None
     va = first('it') or first('en')
     sa = None; za = None

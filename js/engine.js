@@ -312,7 +312,7 @@ const DAVANTI_NOME = new Set(('i gli le dei degli delle ai agli alle nei negli n
   'questi queste quelli quelle quei tanti tante molti molte pochi poche tutti tutte altri altre due tre quattro cinque miei tuoi suoi nostri vostri loro').split(' '));
 // ritorna { scelta: 'imperativo' | 'participio', certo, perche }
 function sceltaVerbale(prev, sepPrima, sepDopo) {
-  const inizio = !prev.length || /[.!?…:;\u0001\n—–«"“(]\s*$/.test(sepPrima);
+  const inizio = !prev.length || /[.!?…:;\u0001\t\n—–«"“(]\s*$/.test(sepPrima);
   for (let i = prev.length - 1; i >= 0 && i >= prev.length - 3; i--) {
     const w = prev[i];
     if (AUSILIARI.has(w)) return { scelta: 'participio', certo: true, perche: `dopo “${w}”` };
@@ -333,7 +333,7 @@ export function markText(text, opts, choices) {
   tks.forEach((tk, idx) => {
     if (tk.t !== undefined) {
       out += tk.t; sepPrima += tk.t;
-      if (/[.!?…\n\u0001]/.test(tk.t)) prev.length = 0;
+      if (/[.!?…\n\u0001\t]/.test(tk.t)) prev.length = 0;
       return;
     }
     let a = analyzeWord(tk.w);

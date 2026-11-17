@@ -1439,7 +1439,7 @@ serbati	serbati=forma di serbato|sèrbati=forma di serbarsi
 serenati	serenati=forma di serenato|serénati=forma di serenarsi
 serrati	serrati=forma di serrato|sèrrati=forma di serrarsi
 servile	servile=relativo al servo|sèrvile=verbo
-servili	servili=plurale di servile|sèrvili=verbo
+servili	sèrvili=verbo|servili=plurale di servile
 setolino	setolino=prima persona singolare dell'indicativo presente di setolinare|sétolino=forma di setolare
 sevo	sèvo=aggettivo|sévo=sostantivo
 sfaldati	sfaldati=forma di sfaldato|sfàldati=forma di sfaldarsi

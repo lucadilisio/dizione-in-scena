@@ -11227,7 +11227,7 @@ acquaformoṡitana!
 acquaformoṡitane!
 acquaformoṡitani!
 acquaformoṡitano~acquaformositano@S
-acquafórte~acquafòrte@V
+acquafòrte
 acquafreddése~acquafreddéṡe@S+
 acquafreddési!
 acquagli!
@@ -56024,7 +56024,7 @@ bassòtto
 bassotuba
 bassotubi!
 bassò	bassò!
-bastà~basta@A
+basta
 bastagi
 bastagio
 bastai
@@ -73660,8 +73660,8 @@ cateteriżżiate!
 cateterìżżino!
 cateteriżżo!
 cateterizzò	cateteriżżò!
-catéti~catèti@V
-catéto~catèto@V
+catèti
+catèto
 catilinaria
 catilinarie!
 catilinario
@@ -98126,7 +98126,7 @@ copperò	copperò!
 coppétta
 coppétte!
 cóppi~còppi@V
-cóppia~còppia@V+
+còppia~cóppia@V:To
 coppiamo!
 coppiate!
 còppie~cóppie@V:To
@@ -115302,10 +115302,10 @@ destrogira!
 destrogire!
 destrogiri!
 destrogiro
-destrórsa!
-destrórse!
-destrórsi!
-destrórso~destròrso@V
+destròrsa!
+destròrse!
+destròrsi!
+destròrso
 destrugga!
 destrùggano!
 destrugge!
@@ -117766,7 +117766,7 @@ dietologie
 dietòlogo
 dietoterapia
 dietoterapie!
-dìetro~diètro@A~diétro@A
+diètro~diétro@V
 dietrocòscia
 dietrofrónt
 dietrologia
@@ -127209,8 +127209,8 @@ diṡonorerésti!
 diṡonoreréte
 disonorerà	diṡonorerà!
 disonorerò	diṡonorerò!
-disonorévole~diṡonorévole@S
-disonorévoli~diṡonorévoli@S
+diṡonorévole
+diṡonorévoli
 diṡonorevolménte
 diṡonóri!
 diṡonoriamo!
@@ -132856,8 +132856,9 @@ dondolerò	dondolerò!
 dóndoli!
 dondoliamo!
 dondoliate!
+dondolii!
 dóndolino!
-dondolió~dondolio@A
+dondolio
 dóndolo
 dondolò	dondolò!
 donerai!
@@ -141512,59 +141513,59 @@ eṡaliate!
 eṡàlino
 eṡalo!
 eṡalta
-esaltai!
+eṡaltai!
 eṡaltaménti!
 eṡaltaménto
-esaltammo!
-esaltando!
+eṡaltammo!
+eṡaltando!
 eṡaltàndosi!
 eṡàltano
 eṡaltante
 eṡaltàntesi!
 eṡaltanti!
-esaltare~eṡaltare@S
-esaltàrono!
+eṡaltare
+eṡaltàrono!
 eṡaltarsi
 eṡaltarti!
-esaltasse!
-esaltàssero!
-esaltassi!
-esaltàssimo!
-esaltaste!
-esaltasti!
+eṡaltasse!
+eṡaltàssero!
+eṡaltassi!
+eṡaltàssimo!
+eṡaltaste!
+eṡaltasti!
 eṡaltata!
-esaltate!
+eṡaltate!
 eṡaltàtevi!
 eṡaltati;eṡàltati@I
 eṡaltato
 eṡaltàtosi!
-esaltava!
-esaltavamo!
-esaltàvano!
-esaltavate!
-esaltavi!
-esaltavo!
+eṡaltava!
+eṡaltavamo!
+eṡaltàvano!
+eṡaltavate!
+eṡaltavi!
+eṡaltavo!
 eṡaltazióne
 eṡaltazióni!
-esalterai!
-esalteranno!
-esalterèbbe~esalterébbe@V!
-esalterèbbero~esalterébbero@V!
-esalterèi!
-esalterémmo!
-esalterémo!
-esalteréste!
-esalterésti!
-esalteréte!
-esalterà	esalterà!
-esalterò	esalterò!
+eṡalterai!
+eṡalteranno!
+eṡalterèbbe~eṡalterébbe@V!
+eṡalterèbbero~eṡalterébbero@V!
+eṡalterèi!
+eṡalterémmo!
+eṡalterémo!
+eṡalteréste!
+eṡalterésti!
+eṡalteréte!
+esalterà	eṡalterà!
+esalterò	eṡalterò!
 eṡalti
-esaltiamo!
+eṡaltiamo!
 eṡaltiàmoci!
-esaltiate!
+eṡaltiate!
 eṡàltino
 eṡalto
-esaltò	esaltò!
+esaltò	eṡaltò!
 esalò	eṡalò!
 eṡame
 eṡàmera
@@ -150831,13 +150832,13 @@ ferviamo!
 ferviate!
 férvida
 fervidaménte
-férvide~fèrvide@V
-férvidi~fèrvidi@V
+fèrvide
+fèrvidi
 fervidìssima!
 fervidìssime!
 fervidìssimi!
 fervidìssimo
-férvido~fèrvido@V
+fèrvido
 fèrvo!
 fèrvono!
 fervóre
@@ -166788,7 +166789,7 @@ gòti
 gòtica
 gòtiche
 gòtici
-gótico~gòtico@V
+gòtico
 gòto
 gótta
 gottazza
@@ -168032,7 +168033,7 @@ gratuita
 gratuitaménte
 gratuite
 gratuiti
-gratùito~gratuito@A+
+gratuito
 gratuità	gratuità
 grava!
 gravàbile
@@ -216676,7 +216677,7 @@ maiestàtiche!
 maiestàtici!
 maiestàtico
 maiestà	maiestà!
-maiéutica~maièutica@V
+maièutica
 maièutiche
 maièutici
 maièutico
@@ -225171,7 +225172,7 @@ minchiariménto
 minchìata
 minchìate!
 mìnchie
-minchìona~minchióna@A
+minchióna
 minchionàccio!
 minchionai
 minchionammo
@@ -351505,7 +351506,7 @@ servigio
 servii
 sèrvila
 servile;sèrvile
-servili;sèrvili
+sèrvili;servili
 serviliṡmi!
 serviliṡmo
 servilità	servilità
@@ -374881,7 +374882,7 @@ spéṡi~spési@S
 spesiamo!
 spesiate!
 spéṡino~spésino@S
-spéso~spéṡo@S
+spéṡo~spéso@S
 spéssa!
 spessai!
 spessaménte
@@ -389441,7 +389442,7 @@ sumiamo!
 sumiate!
 summa
 summit
-sumó~sumo@A+
+sumó~sumo@A
 sùmono!
 sun
 sundanése~sundanéṡe@S+
@@ -394283,9 +394284,9 @@ tappezzerò	tappezzerò!
 tappézzi~tappèzzi@V
 tappezziamo!
 tappezziate!
-tappezzìera!
-tappezzìere~tappezzière@A
-tappezzìeri!
+tappezzièra!
+tappezzière
+tappezzièri!
 tappézzino~tappèzzino@V
 tappézzo~tappèzzo@V
 tappezzò	tappezzò!
@@ -396063,7 +396064,7 @@ telescopia
 telescòpica
 telescòpiche
 telescòpici
-telescópico~telescòpico@V
+telescòpico
 telescopie!
 telescòpio
 telescritta!
@@ -397459,7 +397460,7 @@ terminologie!
 terminòlogo
 terminò	terminò!
 termitaio
-tèrmite~termite@A+:P
+tèrmite~termite@A:P
 tèrmiti!
 termìtide
 termìtidi!
@@ -407096,7 +407097,7 @@ trescóni
 trescò	trescò!
 tréspoli!
 tréspolo
-tressétte~tressètte@V
+tressètte
 trestizia
 trestizie!
 trévi
@@ -411207,10 +411208,10 @@ umiliàmoci!
 umiliando!
 umiliàndosi!
 umìliano!
-umilìante~umiliante@A
+umiliante
 umiliàntesi!
-umilìanti~umilianti@A
-umilìare~umiliare@A
+umilianti
+umiliare
 umiliàrono!
 umiliarsi
 umiliarti!
@@ -419413,7 +419414,7 @@ vischiósa~vischióṡa@S
 vischióse~vischióṡe@S
 vischiósi~vischióṡi@S
 vischiosità	vischioṡità
-vischióso~vischióṡo@S+
+vischióso~vischióṡo@S+:M
 vìscida!
 viscidaménte
 vìscide!
@@ -422008,7 +422009,7 @@ zaccheróso~zaccheróṡo@S+:M~żaccheróṡo@SZ~żaccheróso@Z
 żaffando!
 żàffano!
 żaffante!
-żaffaré~żaffare@A~zaffare@AZ
+żaffare~zaffare@Z
 żaffàrono!
 żaffasse!
 żaffàssero!

@@ -302,7 +302,7 @@ presidènte
 séguito;seguito
 sènso
 succèsso
-bastà~basta@A
+basta
 diritto
 fai
 nòstri
@@ -466,7 +466,7 @@ regióne
 sociale
 sópra
 stare
-dìetro~diètro@A~diétro@A
+diètro~diétro@V
 inglése~ingléṡe@S+
 maggióre
 mésso
@@ -1140,7 +1140,7 @@ cèrta!
 club
 conósco
 continuare
-cóppia~còppia@V+
+còppia~cóppia@V:To
 créscita
 crìtica
 evènto
@@ -3313,7 +3313,7 @@ finanziaria
 giovanile
 giri!
 gò~gó@V
-gratùito~gratuito@A+
+gratuito
 impiegato
 insegnato
 mòbili;mobili@I
@@ -5026,7 +5026,7 @@ sii~siì@A:Rm
 situata!
 sospètti!
 sottopósto~sottopòsto@V
-spéso~spéṡo@S
+spéṡo~spéso@S
 splèndido
 studia
 subire
@@ -15070,7 +15070,7 @@ geṡuita
 giace
 gin
 giuliani!
-gótico~gòtico@V
+gòtico
 governante
 granito
 grattacièli!
@@ -16311,7 +16311,7 @@ tormentato
 tornado
 trascurato
 ubicato!
-umilìante~umiliante@A
+umiliante
 umiliato
 vacante
 vagóne
@@ -18250,7 +18250,7 @@ eclatante
 èditing
 elevare
 emotive!
-esaltare~eṡaltare@S
+eṡaltare
 eṡecutóre
 eṡènti!
 eṡitazióne

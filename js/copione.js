@@ -1,8 +1,8 @@
-import { analyzeDocx, buildDocx, PARTI } from './docx.js';
+import { leggiCopione, riepilogo, buildDocx, PARTI } from './docx.js';
 import { stats } from './engine.js';
 import { selectorHTML, bindSelector, getOpts, ensureLexicon, colorize, esc, store, $ } from './app.js';
 
-let state = null;   // { name, buffer, words, preview, count, choices: Map }
+let state = null;   // { name, buffer, paras, words, preview, count, choices: Map, override: Map(paragrafo -> scelte per carattere) }
 
 // quali parti del copione segnare (di default solo le battute)
 const getParti = () => ({ ...Object.fromEntries(PARTI.map(p => [p.id, p.def])), ...store.get('parti', {}) });
@@ -71,20 +71,68 @@ async function load(f) {
       ${pdf ? 'Carica il file Word originale del copione. Se hai solo il PDF, aprilo con Word (File → Apri) e salvalo come .docx, poi caricalo qui.' : 'Se hai un .doc (Word vecchio) aprilo con Word e scegli File → Salva con nome → Documento di Word (.docx).'}</div>`;
     return;
   }
-  state = { name: f.name, buffer: await f.arrayBuffer(), choices: new Map() };
+  state = { name: f.name, buffer: await f.arrayBuffer(), choices: new Map(), override: new Map(), paras: null };
   analyze();
 }
 
 async function analyze() {
   const res = $('#result');
-  res.innerHTML = '<div class="loading">Analizzo il copione…</div>';
   try {
-    const { words, preview, count } = await analyzeDocx(state.buffer, getOpts(), getParti());
+    if (!state.paras) {
+      res.innerHTML = '<div class="loading">Analizzo il copione…</div>';
+      state.paras = await leggiCopione(state.buffer);
+    }
+    const { words, preview, count } = riepilogo(state.paras, getOpts(), getParti(), state.override);
     state.words = words; state.preview = preview; state.count = count;
     render();
   } catch (e) {
     res.innerHTML = `<p class="tag bad">Non riesco a leggere il file: ${esc(e.message)}</p>`;
   }
+}
+
+// ---------- scelte manuali: segnare o no una parte del testo ----------
+let ultimaSelezione = null, ascoltoSelezione = false;
+function imposta(g, da, a, valore) {
+  const p = state.paras[g]; if (!p) return;
+  const ov = state.override.get(g) || new Array(p.text.length).fill(undefined);
+  for (let x = Math.max(0, da); x < Math.min(a, p.text.length); x++) ov[x] = valore;
+  state.override.set(g, ov);
+}
+// posizione nel testo del paragrafo di un punto (nodo, offset) dell'anteprima
+function posizione(node, offset) {
+  const el = (node.nodeType === 1 ? node : node.parentElement);
+  let sg = el && el.closest('.sg');
+  const pp = el && el.closest('.pp');
+  if (!pp) return null;
+  if (!sg) {   // punto tra due segmenti: prende il segmento successivo (o la fine del paragrafo)
+    const figli = [...pp.querySelectorAll('.sg')];
+    sg = figli[Math.min(offset, figli.length - 1)];
+    if (!sg) return null;
+    return { g: +pp.dataset.p, x: offset >= figli.length ? +sg.dataset.s + sg.textContent.length : +sg.dataset.s };
+  }
+  const r = document.createRange(); r.setStart(sg, 0); r.setEnd(node, offset);
+  return { g: +pp.dataset.p, x: +sg.dataset.s + r.toString().length };
+}
+// intervalli (paragrafo, da, a) coperti dalla selezione nell'anteprima
+function intervalliSelezione() {
+  const sel = window.getSelection();
+  if (!sel || sel.isCollapsed || !sel.rangeCount) return null;
+  const r = sel.getRangeAt(0);
+  const prev = document.getElementById('anteprima');
+  if (!prev || !prev.contains(r.commonAncestorContainer)) return null;
+  const A = posizione(r.startContainer, r.startOffset), B = posizione(r.endContainer, r.endOffset);
+  if (!A || !B) return null;
+  const out = [];
+  for (let g = A.g; g <= B.g; g++) out.push([g, g === A.g ? A.x : 0, g === B.g ? B.x : state.paras[g].text.length]);
+  return out;
+}
+function ridisegna() {
+  const prev = document.getElementById('anteprima');
+  const sy = window.scrollY, st = prev ? prev.scrollTop : 0;
+  analyze();
+  const nuova = document.getElementById('anteprima');
+  if (nuova) nuova.scrollTop = st;
+  window.scrollTo(0, sy);
 }
 
 function render() {
@@ -126,19 +174,57 @@ function render() {
     </div>
     <h2>Anteprima</h2>
     <p class="small muted">Riconosciuti: ${state.count.battuta} battute · ${state.count.canzone} righe di canzoni · ${state.count.didascalia} didascalie · ${state.count.nome} nomi · ${state.count.altro} altre parti.
-      In grigio le parti che <b>non</b> vengono segnate (passa sopra per vedere di che tipo sono). Se il riconoscimento sbaglia, cambia le caselle “Nel copione”.</p>
-    <div class="card preview">${state.preview.slice(0, 500).map(segs => segs.map(sg => getParti()[sg.k]
-      ? colorize(sg.t) : `<span class="skip skip-${sg.k}" title="${esc(PARTI.find(p => p.id === sg.k).label)}: non segnato">${esc(sg.t)}</span>`).join('')).join('\n')}${state.preview.length > 500 ? '\n…' : ''}</div>`;
+      In grigio le parti che <b>non</b> vengono segnate (passa sopra per vedere di che tipo sono). Se il riconoscimento sbaglia, cambia le caselle “Nel copione” oppure scegli tu qui sotto.</p>
+    <div class="manuale" role="group" aria-label="Scelte manuali">
+      <span class="small"><b>✏️ Scegli tu cosa segnare:</b> tocca una parte per segnarla o toglierla, oppure seleziona del testo e usa i pulsanti.</span>
+      <div class="manuale-btn">
+        <button class="btn small" id="m-si">✔ Segna la selezione</button>
+        <button class="btn small" id="m-no">✖ Non segnare la selezione</button>
+        <button class="btn small" id="m-reset" ${state.override.size ? '' : 'disabled'}>↺ Annulla le scelte manuali${state.override.size ? ` (${state.override.size})` : ''}</button>
+      </div>
+      <span class="small" id="m-msg" role="status"></span>
+    </div>
+    <div class="card preview" id="anteprima">${state.preview.map((segs, g) => `<div class="pp" data-p="${g}">${segs.map(sg => {
+      const tipo = PARTI.find(p => p.id === sg.k).label;
+      const titolo = `${tipo}: ${sg.on ? 'segnato' : 'non segnato'}${sg.man ? ' (scelto a mano)' : ''} — tocca per cambiare`;
+      return `<span class="sg ${sg.on ? '' : `skip skip-${sg.k}`} ${sg.man ? 'man' : ''}" data-s="${sg.start}" data-on="${sg.on ? 1 : 0}" title="${esc(titolo)}">${sg.on ? colorize(sg.t) : esc(sg.t)}</span>`;
+    }).join('')}</div>`).join('')}</div>`;
   document.querySelectorAll('#omo input[type=radio]').forEach(r => r.addEventListener('change', () => {
     state.choices.set(r.dataset.key, r.value);
   }));
   $('#dl').addEventListener('click', download);
+  // tocco su una parte: la segna o la toglie
+  $('#anteprima').addEventListener('click', e => {
+    const sel = window.getSelection();
+    if (sel && !sel.isCollapsed) return;                 // c'è una selezione: si usano i pulsanti
+    const sg = e.target.closest('.sg'); if (!sg) return;
+    const g = +sg.closest('.pp').dataset.p, da = +sg.dataset.s;
+    imposta(g, da, da + sg.textContent.length, sg.dataset.on !== '1');
+    ridisegna();
+  });
+  // i pulsanti non devono far perdere la selezione (soprattutto su telefono)
+  ultimaSelezione = null;
+  if (!ascoltoSelezione) {        // una sola volta: ricorda l'ultima selezione fatta nell'anteprima
+    ascoltoSelezione = true;
+    document.addEventListener('selectionchange', () => { if (state) { const r = intervalliSelezione(); if (r) ultimaSelezione = r; } });
+  }
+  const applica = valore => {
+    const r = intervalliSelezione() || ultimaSelezione;
+    if (!r) { $('#m-msg').textContent = 'Prima seleziona del testo nell’anteprima.'; return; }
+    for (const [g, da, a] of r) imposta(g, da, a, valore);
+    window.getSelection().removeAllRanges();
+    ridisegna();
+  };
+  for (const [id, v] of [['#m-si', true], ['#m-no', false]]) {
+    const b = $(id); b.addEventListener('pointerdown', e => e.preventDefault()); b.addEventListener('click', () => applica(v));
+  }
+  $('#m-reset').addEventListener('click', () => { state.override = new Map(); ridisegna(); });
 }
 
 async function download() {
   const btn = $('#dl'); btn.disabled = true; $('#dlmsg').textContent = 'Preparo il file…';
   try {
-    const { blob, changed } = await buildDocx(state.buffer, getOpts(), state.choices, getParti());
+    const { blob, changed } = await buildDocx(state.buffer, getOpts(), state.choices, getParti(), state.override);
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = state.name.replace(/\.docx$/i, '') + ' - dizione.docx';
