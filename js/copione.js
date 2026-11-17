@@ -162,7 +162,7 @@ function render() {
   $('#result').innerHTML = `
     <div class="stats">
       <div class="stat"><b>${s.totale}</b>parole</div>
-      <div class="stat"><b>${s.dizionario + s.flessa}</b>dal dizionario</div>
+      <div class="stat"><b>${s.dizionario + s.flessa + (s.composta || 0)}</b>dal dizionario</div>
       <div class="stat"><b>${s.regole}</b>dalle regole</div>
       <div class="stat"><b>${omo.size}</b>omografi da scegliere</div>
     </div>

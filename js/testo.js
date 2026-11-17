@@ -2,7 +2,7 @@ import { markText, analyzeWord, stripDizione } from './engine.js';
 import { regolaById, motivoVariante } from './rules.js';
 import { selectorHTML, bindSelector, getOpts, ensureLexicon, colorize, esc, store, $ } from './app.js';
 
-const FONTE = { dizionario: 'Dal dizionario', flessa: 'Forma flessa (da tabella di coniugazione/declinazione)', regole: 'Parola non nel dizionario: dedotta dalle regole' };
+const FONTE = { dizionario: 'Dal dizionario', flessa: 'Forma flessa (da tabella di coniugazione/declinazione)', regole: 'Parola non nel dizionario: dedotta dalle regole', composta: 'Verbo con pronomi attaccati o parola tronca: segni presi dalla parola base del dizionario' };
 let lastWords = [];
 
 export async function mount(app) {

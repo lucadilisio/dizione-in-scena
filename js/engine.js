@@ -206,6 +206,78 @@ export function explain(key, marked) {
   return out;
 }
 
+// ---------- parole composte da una forma del dizionario + qualcosa ----------
+// ricopia i segni di una forma del dizionario (base) su una parola che inizia con la stessa radice (stem):
+// l'accento resta nella stessa posizione; su a/i/u si segna se la parola nuova diventa sdrucciola.
+// vocale accentata di una parola piana senza segni: nel gruppo di vocali della penultima sillaba,
+// l'ultima vocale (a-iù-ta, buò-no, piè-de), tranne i dittonghi discendenti dove è la prima (pàu-sa, sèi, pòi)
+function accentoPiana(w) {
+  const voc = c => 'aeiou'.includes(c);
+  const gruppi = [];
+  for (let i = 0; i < w.length; i++) {
+    if (!voc(w[i])) continue;
+    let j = i; while (j + 1 < w.length && voc(w[j + 1])) j++;
+    gruppi.push([i, j]); i = j;
+  }
+  const finale = voc(w[w.length - 1]);
+  const g = gruppi[gruppi.length - (finale ? 2 : 1)];
+  if (!g) return gruppi.length ? gruppi[0][0] : -1;
+  const [a, b] = g;
+  if (b > a && 'iu'.includes(w[b]) && 'aeo'.includes(w[b - 1])) return b - 1;
+  return b;
+}
+function segniDaBase(key, base, lunghezzaRadice) {
+  const st = stressIndex(base) >= 0 ? stressIndex(base) : accentoPiana(base);
+  if (st < 0 || st >= lunghezzaRadice) return null;                  // l'accento deve cadere nella parte comune
+  const w = [...key];
+  for (let i = 0; i < lunghezzaRadice; i++) {
+    const c = base[i];
+    if (!c || (BASE[c] || c) !== key[i]) return null;
+    if ('èéòóṡż'.includes(c)) w[i] = c;
+  }
+  const b = BASE[base[st]] || base[st];
+  const dopo = nuclei(key).filter(k => k > st).length;
+  if ('aiu'.includes(b) && dopo >= 2) w[st] = { a: 'à', i: 'ì', u: 'ù' }[b];
+  else if ('aiu'.includes(b)) w[st] = b;
+  return w.join('');
+}
+const CLITICO = /(?:(?:me|te|ce|ve|se|glie)(?:lo|la|li|le|ne)|mi|ti|ci|vi|si|lo|la|li|le|ne|gli)$/;
+// "guardarla" -> guardare + la; "accorgersene" -> accorgere + se + ne; "aiutami" -> aiuta + mi; "bloccandolo" -> bloccando + lo
+function conPronomi(key) {
+  let stem = key, pronomi = [];
+  for (let giro = 0; giro < 2; giro++) {
+    const m = CLITICO.exec(stem);
+    if (!m || stem.length - m[0].length < 3) break;
+    pronomi.unshift(m[0]); stem = stem.slice(0, -m[0].length);
+    // solo forme verbali a cui si attaccano i pronomi: infinito (guardar-), gerundio (-ndo),
+    // imperativo (guarda, prendi, guardate); "Dapelo" non è "dape + lo"
+    let basi;
+    if (stem.endsWith('r') && stem.length >= 4) basi = [stem + 'e', stem + 'si', stem + 're'];           // guardar+e, accorger+si
+    else if (/ndo$|[ai]$|[aei]te$/.test(stem)) basi = [stem];                         // bloccando, aiuta, prendi, dite
+    else if (stem === 'ecco') basi = [stem];                                          // eccolo
+    else continue;
+    for (const base of basi) {
+      if (base === key || ATONE.has(base)) continue;
+      const entries = LEX.get(base);
+      if (!entries) continue;
+      const marked = segniDaBase(key, entries[0].prim, stem.length);
+      if (marked) return { marked, alternative: [], varianti: [], omografi: [], descrizioni: {}, fonte: 'composta', dubbi: [],
+        regole: [], composta: { base: entries[0].prim, pronomi } };
+    }
+  }
+  return null;
+}
+// parola tronca prima dell'apostrofo: "dev'" -> dève, "po'" -> pòco, "anch'" -> anche
+export function troncata(key) {
+  for (const v of ['e', 'o', 'a', 'i', 'u', 'co', 'ro']) {
+    const entries = LEX.get(key + v);
+    if (!entries || ATONE.has(key + v)) continue;
+    const marked = segniDaBase(key, entries[0].prim, key.length);
+    if (marked) return { marked, base: entries[0].prim };
+  }
+  return null;
+}
+
 // ---------- analisi di una parola ----------
 // ritorna { marked, alternative[], omografo:bool, fonte:'dizionario'|'flessa'|'regole'|'atona', regole[], dubbi[] }
 const cache = new Map();
@@ -248,6 +320,8 @@ export function analyzeWord(word) {
     res.regole = explain(key, res.marked);
     // negli omografi veri la vocale la decide il significato, non una regola
     if (OMOGRAFI_DESC[plain]) res.regole = res.regole.filter(r => r.feat !== 'v');
+  } else if ((res = conPronomi(key))) {
+    // verbo con pronomi attaccati (guardarla, aiutami, accorgersene): segni presi dal verbo
   } else {
     const g = guess(key);
     res = { marked: g.marked, alternative: [], varianti: [], omografi: [], descrizioni: {}, fonte: 'regole', regole: g.rules, dubbi: g.dubbi };
@@ -338,6 +412,11 @@ export function markText(text, opts, choices) {
     }
     let a = analyzeWord(tk.w);
     const key = stripDizione(tk.w.toLowerCase());
+    const dopoTk = tks[idx + 1] && tks[idx + 1].t !== undefined ? tks[idx + 1].t : '';
+    if (a.fonte === 'regole' && /^['’]/.test(dopoTk)) {
+      const t = troncata(key);
+      if (t) a = { ...a, marked: t.marked, fonte: 'composta', dubbi: [], regole: [], troncata: t.base };
+    }
     const chosen = choices && choices.get(key);
     let marked = chosen || a.marked;
     if (a.imperativo) {
