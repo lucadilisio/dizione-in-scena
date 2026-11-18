@@ -1214,7 +1214,6 @@ ribolla	ribòlla=sostantivo|ribólla=prima persona singolare del congiuntivo pre
 ributtati	ributtati=forma di ributtato|ribùttati=forma di ributtarsi
 ricacciati	ricacciati=forma di ricacciato|ricàcciati=forma di ricacciarsi
 ricandidati	ricandidati=forma di ricandidato|ricàndidati=forma di ricandidarsi
-ricetta	ricétta=nome: istruzioni per cucinare un piatto, o prescrizione del medico|ricètta=verbo ricettare: nasconde o compra merce rubata
 richiamati	richiamati=forma di richiamato|richiàmati=forma di richiamarsi
 riciclati	riciclati=Plural form of riciclato|ricìclati=forma di riciclarsi
 ricini	rìcini=plurale di ricino|ricini=forma di ricinio

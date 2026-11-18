@@ -1,4 +1,10 @@
 """Step 2: costruisce data/lessico.txt (una riga per parola: forma segnata, ~varianti, ;omografi)."""
+
+# Correzioni verificate a mano dove Wiktionary sbaglia (prevalgono sui dati estratti)
+CORREZIONI = {
+    'ricetta': 'ricètta',     # lat. recĕpta, come precètto: e aperta (Wikizionario dava ricétta)
+    'ricette': 'ricètte',
+}
 import pickle, sys, collections
 from ipa import analyze, mark, orth_vowels, ORTHV
 raw, out = sys.argv[1:3]
@@ -223,6 +229,7 @@ with open(out, 'w') as o:
                 dl = [cands[0]] + [v for v in cands[1:] if any(c in 'àèéìòóù' for c in v)]
                 derived[w] = dl
                 line = derived[w][0] + ''.join('~' + variant_str(derived[w][0], v, None) for v in derived[w][1:]) + '!'   # ! = forma flessa derivata
+        line = CORREZIONI.get(w, line)
         prim = line.split('~')[0].split(';')[0].rstrip('!')
         assert '@' not in prim
         if prim.translate(STRIPALL) != w:

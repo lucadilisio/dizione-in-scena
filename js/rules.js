@@ -218,7 +218,6 @@ export const OMOGRAFI_DESC = {
   pesca: C('pèsca', 'frutto del pesco; colore', 'pésca', 'il pescare; verbo pescare (egli pesca)'),
   pesche: C('pèsche', 'plurale di pèsca (frutti)', 'pésche', 'plurale di pésca (il pescare)'),
   venti: C('vènti', 'plurale di vento', 'vénti', 'il numero 20'),
-  ricetta: C('ricétta', 'istruzioni per cucinare un piatto, o prescrizione del medico', 'ricètta', 'verbo ricettare: nasconde merce rubata'),
   legge: C('lègge', 'verbo leggere (egli legge)', 'légge', 'norma, regola'),
   leggi: C('lèggi', 'verbo leggere (tu leggi; leggi!)', 'léggi', 'plurale di légge (norme)'),
   botte: C('bòtte', 'colpi, percosse (plurale di botta)', 'bótte', 'grande barile per il vino'),

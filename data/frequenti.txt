@@ -2702,7 +2702,7 @@ provinciale
 religiósa~religióṡa@S+:M
 religióso~religióṡo@S+:M
 rèsti!
-ricétta~ricètta@V
+ricètta
 rumóre
 scomparsa
 segnale
@@ -3818,7 +3818,7 @@ pazzo
 polèmica
 prescìndere
 requiṡiti!
-ricétte
+ricètte
 riprèndere
 ritenuto
 ritornare
