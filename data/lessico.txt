@@ -190,10 +190,10 @@ abassiale
 abassiali
 àbata
 abate
-abatemarchéṡe
-abatemarchéṡi!
-abatéṡe
-abatéṡi!
+abatemarchése~abatemarchéṡe@S+:M
+abatemarchési!
+abatése~abatéṡe@S+:M
+abatési!
 abati~àbati@A!
 abatini
 abatino
@@ -4067,7 +4067,7 @@ abetine
 abetini
 abetino
 abéto
-abetonéṡe~abetonése@S
+abetonése~abetonéṡe@S+:M
 abetonési~abetonéṡi@S
 abiàtica
 abiàtiche
@@ -4479,7 +4479,7 @@ abnegò	abnegò!
 abnòrme
 abnòrmi!
 abnormità	abnormità
-aboléndo
+abolèndo
 abolénte
 abolénti!
 aboliamo!
@@ -4644,7 +4644,7 @@ abòrrono!
 aborrì	aborrì
 abortèndo!
 abortènte!
-abórti~abòrti@V
+abòrti~abórti@V+
 abortiamo!
 abortiate!
 abortii!
@@ -4807,8 +4807,8 @@ abrotanine!
 abrotanini!
 abrotanino
 abròtano
-abruzzéṡe~abruzzése@S
-abruzzéṡi
+abruzzése~abruzzéṡe@S+:M
+abruzzési~abruzzéṡi@S+:M
 àbsida!
 àbside
 àbsidi!
@@ -6804,7 +6804,7 @@ accèdano!
 accède
 accedéi!
 accedémmo!
-accedéndo
+accedèndo
 accedénte
 accedénti
 accederai!
@@ -7429,13 +7429,13 @@ accertiate!
 accèrtino!
 accèrto!
 accertò	accertò!
-accéṡa~accésa@S
-accéṡe~accése@S
+accésa~accéṡa@S+:M
+accése~accéṡe@S+:M
 accésero!
-accéṡi~accési@S
-accéṡo~accéso@S
+accési~accéṡi@S+:M
+accéso~accéṡo@S+:M
 accéṡosi
-accéssi~accèssi@V
+accèssi~accéssi@V+
 accessìbile
 accessìbili!
 accessibilità	accessibilità
@@ -9318,11 +9318,11 @@ accondiscéndo~accondiscèndo@V
 accondiscéndono~accondiscèndono@V
 accondiscènte
 accondiscènti!
-accondiscéṡa~accondiscésa@S
-accondiscéṡe~accondiscése@S
+accondiscésa~accondiscéṡa@S+:M
+accondiscése~accondiscéṡe@S+:M
 accondiscésero!
-accondiscéṡi~accondiscési@S
-accondiscéṡo~accondiscéso@S
+accondiscési~accondiscéṡi@S+:M
+accondiscéso~accondiscéṡo@S+:M
 acconigli!
 acconìglia!
 acconigliai!
@@ -13996,12 +13996,12 @@ adeguiate!
 adèguino~adéguino@V
 adèguo~adéguo@V
 adeguò	adeguò!
-adélfa!
-adélfe!
+adèlfa!
+adèlfe!
 adélfi
 adelfia
 adelfie!
-adélfo~adèlfo@V
+adèlfo~adélfo@V+
 adelomòrfa
 adelomòrfe
 adelomòrfi
@@ -14364,7 +14364,7 @@ adèrsero!
 adèrsi!
 adèrto~adérto@V!
 aderì	aderì!
-adéṡa~adèṡa@V
+adésa~adéṡa@S+:M~adèṡa@VS
 adeṡai!
 adeṡammo!
 adeṡando!
@@ -14432,7 +14432,7 @@ adeschiate!
 adéschino!
 adésco!
 adescò	adescò!
-adéṡe~adèṡe@V
+adése~adéṡe@S+:M~adèṡe@VS
 adeṡerai!
 adeṡeranno!
 adeṡerèbbe~adeṡerébbe@V!
@@ -14445,7 +14445,7 @@ adeṡerésti!
 adeṡeréte!
 adeserà	adeṡerà!
 adeserò	adeṡerò!
-adéṡi~adèṡi@V
+adési~adéṡi@S+:M~adèṡi@VS
 adeṡiamo!
 adeṡiate!
 adéṡino~adèṡino@V!
@@ -14455,7 +14455,7 @@ adeṡiva!
 adeṡive!
 adeṡivi!
 adeṡivo
-adéṡo~adèṡo@V
+adéso~adéṡo@S+:M~adèṡo@VS
 adèspota
 adèspoti!
 adèspoto
@@ -14545,7 +14545,7 @@ adipolìtiche!
 adipolìtici!
 adipolìtico
 adipósa!
-adipóṡe
+adipóse~adipóṡe@S+:M
 adipósi!
 adiposità	adipoṡità
 adipóso~adipóṡo@S+:M
@@ -15955,7 +15955,7 @@ afèmica
 afèmiche
 afèmici
 afèmico
-aferéṡi~afèreṡi@A
+aferési~aferéṡi@S+:M~afèreṡi@AS
 aferètica
 aferètiche
 aferètici
@@ -17959,8 +17959,8 @@ afforchiate!
 affórchino!
 affórco
 afforcò	afforcò!
-afforéṡe~afforése@S:T
-afforéṡi~afforési@S:T
+afforése~afforéṡe@S+:M
+afforési~afforéṡi@S+:M
 affòssa!
 affossai!
 affossaménti!
@@ -18561,7 +18561,7 @@ afosità	afoṡità
 afóso~afóṡo@S+
 afra
 afragolése~afragoléṡe@S+
-afragoléṡi~afragolési@S:T
+afragolési~afragoléṡi@S+:M
 afre
 afri
 àfrica!
@@ -21742,8 +21742,8 @@ albino
 albiòli
 albiòlo
 albo
-albonéṡe
-albonéṡi!
+albonése~albonéṡe@S+:M
+albonési!
 àlbore;albóre
 albóri;àlbori
 album
@@ -22373,8 +22373,8 @@ alfieriane!
 alfieriani!
 alfieriano
 alfine
-alfonsinéṡe~alfonsinése@S
-alfonsinéṡi!
+alfonsinése~alfonsinéṡe@S+:M
+alfonsinési!
 alga
 algarèlli!
 algarèllo
@@ -22403,8 +22403,8 @@ algeṡie!
 algeṡìmetri
 algeṡìmetro
 alghe
-algheréṡe~algherése@S
-algheréṡi!
+algherése~algheréṡe@S+:M
+algherési!
 algia
 àlgica!
 àlgiche!
@@ -23785,7 +23785,7 @@ allevierò	allevierò
 allèvino
 allèvio
 alleviò	alleviò
-allévo~allèvo@V
+allèvo~allévo@V+
 allevò	allevò
 alleò	alleò!
 alliàcea
@@ -23956,7 +23956,7 @@ allida!
 allìdano!
 allide
 allidémmo!
-allidéndo
+allidèndo
 allidénte
 allidénti
 alliderai!
@@ -26047,10 +26047,10 @@ ambivi
 ambivo!
 ambizióne
 ambizióni!
-ambizióṡa
+ambiziósa~ambizióṡa@S+:M
 ambiziosaménte
-ambizióṡe
-ambizióṡi
+ambizióse~ambizióṡe@S+:M
+ambiziósi~ambizióṡi@S+:M
 ambizióso~ambizióṡo@S+:M
 ambiò	ambiò!
 ambo
@@ -29739,7 +29739,7 @@ anchilòṡi
 anchiloṡiamo!
 anchiloṡiate!
 anchilòṡino~anchìloṡino@A!
-anchilòṡo
+anchilóso~anchilòṡo@VS+:M
 anchilosò	anchiloṡò!
 ancia
 ancida!
@@ -30762,7 +30762,7 @@ angosciavi!
 angosciavo!
 angòscino!
 angòscio
-angoscióṡa
+angosciósa~angoscióṡa@S+:M
 angosciosaménte
 angoscióse!
 angosciósi!
@@ -33814,7 +33814,7 @@ apertìssima!
 apertìssime!
 apertìssimi!
 apertìssimo
-apérto~apèrto@V
+apèrto~apérto@V+
 apèrtosi!
 apertura
 aperture
@@ -33980,12 +33980,12 @@ apolìtica
 apolìtiche
 apolìtici
 apolìtico
-apólli!
+apòlli!
 apollìnea!
 apollìnee!
 apollìnei!
 apollìneo
-apóllo~apòllo@V
+apòllo~apóllo@V+
 apologèta
 apologète!
 apologèti
@@ -34331,9 +34331,9 @@ appàino!
 appaio
 appàiono
 appaiò	appaiò!
-appaléṡa
-appaléṡi
-appaléṡo
+appalésa~appaléṡa@S+:M
+appalési~appaléṡi@S+:M
+appaléso~appaléṡo@S+:M
 appalla
 appallai!
 appallammo!
@@ -35112,7 +35112,7 @@ appercezióni!
 appercipiènte!
 appertiżżazióne
 appertiżżazióni!
-appéṡa~appésa@S
+appésa~appéṡa@S+:M
 appesantèndo!
 appesantènte!
 appesantiamo!
@@ -35158,9 +35158,9 @@ appesantivate!
 appesantivi!
 appesantivo!
 appesantì	appeṡantì
-appéṡe~appése@S
+appése~appéṡe@S+:M
 appésero!
-appéṡi~appési@S
+appési~appéṡi@S+:M
 appéso~appéṡo@S
 appèsta!
 appestai!
@@ -35205,7 +35205,7 @@ appestiate!
 appèstino!
 appèsto!
 appestò	appestò!
-appeténdo
+appetèndo
 appeténte
 appeténti
 appetiamo!
@@ -36205,8 +36205,8 @@ apprensiva!
 apprensive!
 apprensivi!
 apprensivo
-appréṡa~apprésa@S
-appréṡe~apprése@S
+apprésa~appréṡa@S+:M
+apprése~appréṡe@S+:M
 appreṡènta!
 appreṡentai!
 appreṡentammo!
@@ -36248,7 +36248,7 @@ appreṡèntino!
 appreṡènto!
 appresentò	appreṡentò!
 apprésero!
-appréṡi~apprési@S
+apprési~appréṡi@S+:M
 appréso~appréṡo@S
 apprèssa!
 appressai!
@@ -37418,7 +37418,7 @@ aracnoidèo
 aragni!
 aragno
 aragonése~aragonéṡe@S+
-aragonéṡi~aragonési@S
+aragonési~aragonéṡi@S+:M
 aragonite
 aragoniti!
 aragósta~aragòsta@V+
@@ -37959,8 +37959,8 @@ architetterésti!
 architetteréte!
 architetterà	architetterà!
 architetterò	architetterò!
-architettéṡe~architettése@S
-architettéṡi!
+architettése~architettéṡe@S+:M
+architettési!
 architétti
 architettiamo!
 architettiate!
@@ -38177,7 +38177,7 @@ arde
 àrdea~ardèa@A+
 ardèide
 ardémmo!
-ardéndo~ardèndo@V
+ardèndo~ardéndo@V+
 ardènte
 ardenteménte
 ardènti
@@ -39003,8 +39003,8 @@ armósta
 armò	armò!
 arnèbia
 arnèbie
-arnéṡe~arnése@S
-arnéṡi!
+arnése~arnéṡe@S+:M
+arnési!
 arnia
 àrnica
 àrniche!
@@ -39077,8 +39077,8 @@ arpéggio;arpeggio
 arpeggióne
 arpènti
 arpènto
-arpéṡe
-arpéṡi!
+arpése~arpéṡe@S+:M
+arpési!
 arpi!
 arpia
 arpicòrdi!
@@ -39715,10 +39715,10 @@ arrèndono!
 arrenduto!
 arrendùtosi!
 arrendé	arrendé!
-arréṡa~arrésa@S
-arréṡe~arrése@S
+arrésa~arréṡa@S+:M
+arrése~arréṡe@S+:M
 arrésero!
-arréṡi~arrési@S
+arrési~arréṡi@S+:M
 arréso~arréṡo@S
 arrésosi!
 arrèsta
@@ -41676,7 +41676,7 @@ asceréte!
 ascerà	ascerà!
 ascerò	ascerò!
 ascésa~ascéṡa@S
-ascéṡe~ascése@S
+ascése~ascéṡe@S+:M
 ascésero!
 ascèṡi~ascési@VS;ascéṡi
 ascéso~ascéṡo@S
@@ -42663,8 +42663,8 @@ assàltino
 assalto
 assaltò	assaltò!
 assalì	assalì
-assaméṡe~assamése@S
-assaméṡi!
+assamése~assaméṡe@S+:M
+assamési!
 assapóra!
 assaporai!
 assaporammo!
@@ -45176,7 +45176,7 @@ assurga
 assùrgano
 assurge
 assurgémmo!
-assurgéndo
+assurgèndo
 assurgénte
 assurgénti
 assurgerai!
@@ -46425,7 +46425,7 @@ atteniate!
 atténne~attènne@V!
 atténnero~attènnero@V!
 atténni~attènni@V!
-atténta~attènta@V
+attènta~atténta@V+
 attentai!
 attentaménte
 attentammo!
@@ -46458,7 +46458,7 @@ attentàvano!
 attentavate!
 attentavi!
 attentavo!
-atténte~attènte@V
+attènte~atténte@V+
 attenterai!
 attenteranno!
 attenterèbbe~attenterébbe@V!
@@ -46471,7 +46471,7 @@ attenterésti!
 attenteréte!
 attenterà	attenterà!
 attenterò	attenterò!
-atténti~attènti@V
+attènti~atténti@V+
 attentiamo!
 attentiàmoci!
 attentiate!
@@ -46480,7 +46480,7 @@ attentìssima!
 attentìssime!
 attentìssimi!
 attentìssimo
-atténto~attènto@V
+attènto~atténto@V+
 attentò	attentò!
 attènua!
 attenuai!
@@ -46743,10 +46743,10 @@ atterziate!
 attèrzino!
 attèrzo!
 atterzò	atterzò!
-attéṡa~attésa@S
-attéṡe~attése@S
+attésa~attéṡa@S+:M
+attése~attéṡe@S+:M
 attésero!
-attéṡi~attési@S
+attési~attéṡi@S+:M
 attéso~attéṡo@S
 attésosi!
 attèsta!
@@ -48034,10 +48034,10 @@ audiogramma
 audiogrammi!
 audioguida
 audioguide!
-audioléṡa
-audioléṡe!
-audioléṡi
-audioléṡo
+audiolésa~audioléṡa@S+:M
+audiolése!
+audiolési~audioléṡi@S+:M
+audioléso~audioléṡo@S+:M
 audiolibri!
 audiolibro
 audiòloga!
@@ -48217,10 +48217,10 @@ aulivi!
 aulivo!
 aulóre
 aulóri!
-auloróṡa!
-auloróṡe!
-auloróṡi!
-auloróṡo
+aulorósa!
+auloróse!
+aulorósi!
+auloróso~auloróṡo@S+:M
 aulì	aulì!
 auménta!
 aumentai!
@@ -49348,8 +49348,8 @@ autodidàttici!
 autodidàttico
 autodidattiṡmi!
 autodidattiṡmo
-autodiféṡa~autodifésa@S
-autodiféṡe!
+autodifésa~autodiféṡa@S+:M
+autodifése!
 autodigestióne
 autodigestióni!
 autodina
@@ -53642,8 +53642,8 @@ baglióre
 baglióri
 bagna
 bagnabilità	bagnabilità
-bagnacavalléṡe~bagnacavallése@S
-bagnacavalléṡi!
+bagnacavallése~bagnacavalléṡe@S+:M
+bagnacavallési!
 bagnai!
 bagnammo!
 bagnando!
@@ -55492,7 +55492,7 @@ bareréte!
 barerà	barerà!
 barerò	barerò!
 barése~baréṡe@S+
-baréṡi~barési@S
+barési~baréṡi@S+:M
 bargagni
 bargagno
 bargèlli
@@ -55520,8 +55520,8 @@ barilòtti
 barilòtto
 bàrino
 bario
-bariòne
-bariòni!
+barióne
+barióni!
 bariònica!
 bariòniche!
 bariònici!
@@ -55545,15 +55545,15 @@ barn
 barnabita
 barnabiti!
 baro
-barócca!
+baròcca!
 baroccaménte
-barócche!
+baròcche!
 barocchétti!
 barocchétto
-barócchi!
+baròcchi!
 barocchiṡmi!
 barocchiṡmo
-barócco~baròcco@V
+baròcco~barócco@V+
 barògrafi!
 barogràfica
 barogràfiche
@@ -55569,7 +55569,7 @@ baromètriche
 baromètrici
 baromètrico
 barometrie!
-barómetro~baròmetro@V
+baròmetro~barómetro@V+
 baronale
 baronali!
 baronati!
@@ -55896,8 +55896,8 @@ bàṡico
 baṡii!
 baṡilare
 baṡilari
-basiléṡe
-basiléṡi!
+basilése~basiléṡe@S+:M
+basilési!
 baṡìlica
 baṡilicale
 baṡilicali
@@ -56636,7 +56636,7 @@ bdellepitècio
 bdèlli
 bdèllio
 bé
-béa~bèa@V
+bèa~béa@V+
 beai!
 beammo!
 beando
@@ -57105,7 +57105,7 @@ beiate!
 beigè
 bèino
 bèl
-béla~bèla@V
+bèla~béla@V+
 belai!
 belammo!
 belando!
@@ -57209,8 +57209,8 @@ belluini!
 belluino
 belluria
 bellurie!
-bélo~bèlo@V
-belpaéṡe~belpaése@S
+bèlo~bélo@V+
+belpaése~belpaéṡe@S+:M
 beltade
 beltadi!
 beltate
@@ -57670,7 +57670,7 @@ benigne
 benigni
 benigno
 beninanza
-benintéṡo~benintéso@S
+benintéso~benintéṡo@S+:M
 benìssimo
 benmèrita!
 benmeritai!
@@ -57771,7 +57771,7 @@ benżoile
 benżoili!
 benżòli!
 benżòlo
-béo~bèo@V
+bèo~béo@V+
 beóne
 beóni!
 beòta
@@ -57850,8 +57850,8 @@ beritènse
 beritènsi!
 berlina
 berline!
-berlinéṡe~berlinése@S
-berlinéṡi!
+berlinése~berlinéṡe@S+:M
+berlinési!
 berlusconiana!
 berlusconiane!
 berlusconiani!
@@ -58429,10 +58429,10 @@ biancorussa!
 biancorusse!
 biancorussi!
 biancorusso
-biancóṡa!
-biancóṡe!
-biancóṡi!
-biancóṡo
+biancósa!
+biancóse!
+biancósi!
+biancóso~biancóṡo@S+:M
 biancospini!
 biancospino
 biancùccio!
@@ -58605,8 +58605,8 @@ biàssica
 biàssiche
 biàssici
 biàssico
-biassonéṡe~biassonése@S:T
-biassonéṡi~biassonési@S:T
+biassonése~biassonéṡe@S+:M
+biassonési~biassonéṡi@S+:M
 bìathlon
 biatlèta
 biatlète!
@@ -59432,7 +59432,7 @@ bioconteniménto
 biodegradàbile
 biodegradàbili!
 biodegradati;biodegràdati
-biódi!
+biòdi!
 biodinàmica
 biodinàmiche
 biodinàmici
@@ -59440,7 +59440,7 @@ biodinàmico
 biodisponìbile
 biodisponìbili
 biodiversità	biodiversità
-biódo~biòdo@V
+biòdo~biódo@V+
 bioelèttrica!
 bioelèttriche!
 bioelèttrici!
@@ -60148,10 +60148,10 @@ biṡognin
 biṡognini
 biṡognino
 biṡógno~bisògno@VS
-biṡognóṡa!
-biṡognóṡe!
-biṡognóṡi!
-biṡognóṡo~biṡognóso@S
+biṡognósa!
+biṡognóse!
+biṡognósi!
+biṡognóso~biṡognóṡo@S+:M
 bisognò	biṡognò!
 bisolfiti!
 bisolfito
@@ -60803,9 +60803,9 @@ blènde
 blènnide
 blènnidi!
 blènnio
-bléṡa~blèṡa@V
-bléṡe~blèṡe@V
-bléṡi~blèṡi@V
+blésa~bléṡa@S+:M~blèṡa@VS
+blése~bléṡe@S+:M~blèṡe@VS
+blési~bléṡi@S+:M~blèṡi@VS
 blesità	bleṡità
 blèṡo~bléṡo@V
 blinda
@@ -60973,7 +60973,7 @@ bluṡòtti
 bluṡòtto
 blù	blù!
 bó!
-bóa~bòa@V
+bòa~bóa@V+
 boara!
 boari!
 boaria!
@@ -61411,7 +61411,7 @@ bollì	bollì
 bollò	bollò!
 bòlo
 bolognése~bolognéṡe@S+
-bolognéṡi~bolognési@S
+bolognési~bolognéṡi@S+:M
 bolòmetri
 bolomètrica
 bolomètriche
@@ -61879,8 +61879,8 @@ borgatari!
 borgataro
 borgate!
 borgése!
-borghéṡe~borghése@S
-borghéṡi~borghési@S
+borghése~borghéṡe@S+:M
+borghési~borghéṡi@S+:M
 borgheṡia~borghesia@S+
 borgheṡie!
 borghétti
@@ -61906,10 +61906,10 @@ bòrici!
 bòrico
 bòrie!
 bòrio
-borióṡa
+boriósa~borióṡa@S+:M
 boriosaménte
-borióṡe
-borióṡi
+borióse~borióṡe@S+:M
+boriósi~borióṡi@S+:M
 borióso~borióṡo@S+:M
 borlanda
 borlande!
@@ -62172,7 +62172,7 @@ botulino
 botuliṡmo
 bouclé	bouclé
 boulevard
-bouquét~bouquèt@V
+bouquèt~bouquét@V+
 bovaccio
 bovara!
 bovari!
@@ -62193,8 +62193,8 @@ bòvo
 bovóne
 bovóni!
 bòzza
-bozzacchiòne
-bozzacchiòni!
+bozzacchióne
+bozzacchióni!
 bozzaghi!
 bozzago
 bozzagro!
@@ -62419,8 +62419,8 @@ bràida
 bràide!
 braidènse
 braidènsi!
-braidéṡe~braidése@S
-braidéṡi~braidési@S
+braidése~braidéṡe@S+:M
+braidési~braidéṡi@S+:M
 brama
 bramai!
 bramammo!
@@ -62509,10 +62509,10 @@ bramivate!
 bramivi!
 bramivo!
 bramo!
-bramóṡa
+bramósa~bramóṡa@S+:M
 bramosaménte
-bramóṡe
-bramóṡi
+bramóse~bramóṡe@S+:M
+bramósi~bramóṡi@S+:M
 bramoṡia
 bramoṡie!
 bramóso~bramóṡo@S+:M
@@ -63314,10 +63314,10 @@ brìvidi!
 brividii!
 brividio
 brìvido
-brividóṡa!
-brividóṡe!
-brividóṡi!
-brividóṡo
+brividósa!
+brividóse!
+brividósi!
+brividóso~brividóṡo@S+:M
 brizzolata!
 brizzolate!
 brizzolati!
@@ -64046,8 +64046,8 @@ brùscolo
 bruscò	bruscò!
 bruṡii!
 bruṡio
-brusselléṡe~brussellése@S
-brusselléṡi!
+brussellése~brusselléṡe@S+:M
+brussellési!
 brut
 bruta
 brutale
@@ -64977,10 +64977,10 @@ burattò	burattò!
 burba
 burbanza
 burbanze
-burbanzóṡa!
-burbanzóṡe!
-burbanzóṡi!
-burbanzóṡo
+burbanzósa!
+burbanzóse!
+burbanzósi!
+burbanzóso~burbanzóṡo@S+:M
 burbe
 bùrbera
 bùrbere
@@ -65062,8 +65062,8 @@ burlóni!
 burlò	burlò!
 burnus
 buròcrate
-burocratéṡe
-burocratéṡi!
+burocratése~burocratéṡe@S+:M
+burocratési!
 buròcrati!
 burocràtica!
 burocràtiche!
@@ -65455,7 +65455,7 @@ cabardina
 cabardine
 cabardini
 cabardino
-cabarét~cabarèt@V
+cabarèt~cabarét@V+
 cabarettista
 cabarettiste
 cabarettisti!
@@ -66284,10 +66284,10 @@ cairòte!
 cairòti!
 cala
 calabrache
-calabréṡe~calabrése@S
+calabrése~calabréṡe@S+:M
 calabreṡèlla
 calabreṡèlle!
-calabréṡi!
+calabrési!
 calabróne
 calabróni!
 caladi
@@ -66505,8 +66505,8 @@ calcerésti!
 calceréte!
 calcerà	calcerà!
 calcerò	calcerò!
-calcéṡe
-calcéṡi!
+calcése~calcéṡe@S+:M
+calcési!
 calcestruzzi!
 calcestruzzo
 calcétti
@@ -67636,8 +67636,8 @@ cameróni
 camerùccia!
 camerunènse
 camerunènsi
-camerunéṡe~camerunése@S
-camerunéṡi~camerunési@S
+camerunése~camerunéṡe@S+:M
+camerunési~camerunéṡi@S+:M
 camerò	camerò
 cami!
 càmice
@@ -67979,8 +67979,8 @@ campìcchio!
 campicchiò	campicchiò!
 campicèlli!
 campicèllo
-campidanéṡe~campidanése@S
-campidanéṡi!
+campidanése~campidanéṡe@S+:M
+campidanési!
 campièlli!
 campièllo
 campii!
@@ -68144,8 +68144,8 @@ camuṡi
 camuṡo
 can
 cana
-canadéṡe~canadése@S
-canadéṡi!
+canadése~canadéṡe@S+:M
+canadési!
 canaglia
 canaglie
 canagliésca!
@@ -68287,8 +68287,8 @@ cancellàvano!
 cancellavate!
 cancellavi!
 cancellavo
-cancellazìone~cancellazióne@A
-cancellazìoni!
+cancellazióne
+cancellazióni!
 cancellerai!
 cancelleranno!
 cancellerèbbe~cancellerébbe@V!
@@ -68372,10 +68372,10 @@ cancerògeni
 cancerògeno
 cancerologia
 cancerologie!
-canceróṡa!
-canceróṡe!
-canceróṡi!
-canceróṡo
+cancerósa!
+canceróse!
+cancerósi!
+canceróso~canceróṡo@S+:M
 cancrèna
 cancrène
 cancrenósa!
@@ -72621,8 +72621,8 @@ casalbèrgo
 casale~caṡale@S
 casalecchiése~caṡalecchiéṡe@S+:M
 casalecchiési!
-caṡaléṡe~caṡalése@S
-caṡaléṡi!
+caṡalése~caṡaléṡe@S+:M
+caṡalési!
 casali~caṡali@S+:M
 casalinga~caṡalinga@S+:M
 casalinghe!
@@ -76090,10 +76090,10 @@ cerebraliṡmo
 cerebralità	cerebralità
 cèrebri~cerèbri@A
 cèrebro~cerèbro@A
-cerebroléṡa
-cerebroléṡe
-cerebroléṡi
-cerebroléṡo
+cerebrolésa~cerebroléṡa@S+:M
+cerebrolése~cerebroléṡe@S+:M
+cerebrolési~cerebroléṡi@S+:M
+cerebroléso~cerebroléṡo@S+:M
 cerebrovascolare
 cerebrovascolari
 cèree
@@ -76282,8 +76282,8 @@ certìssime!
 certìssimi!
 certìssimo
 cèrto
-certóṡa
-certóṡe!
+certósa~certóṡa@S+:M
+certóse!
 certoṡina!
 certoṡine!
 certoṡini!
@@ -77388,7 +77388,7 @@ chierichétta!
 chierichétti!
 chierichétto
 chièrici~chiérici@V:T
-chiérico~chièrico@V
+chièrico~chiérico@V+:T
 chièro!
 chièrono!
 chièṡa~chiéṡa@V
@@ -78964,7 +78964,7 @@ cidònie!
 cidònio
 cièca
 ciecai!
-ciecaménte~ciecamènte@V
+ciecamènte~ciecaménte@V+
 ciecammo!
 ciecando!
 ciècano!
@@ -79499,8 +79499,8 @@ cineògrafo
 cineoperatóre
 cineoperatóri!
 cineparchéggio
-cinepréṡa~cineprésa@S
-cinepréṡe!
+cineprésa~cinepréṡa@S+:M
+cineprése!
 cineraria
 cinerarie!
 cinerario
@@ -79512,10 +79512,10 @@ cinèrea!
 cinèree!
 cinèrei!
 cinèreo
-cinéṡe~cinése@S
+cinése~cinéṡe@S+:M
 cineṡeria
 cineṡerie!
-cinéṡi~cinési@S;cinèṡi
+cinési~cinéṡi@S+:M;cinèṡi
 cineṡiologia
 cineṡiologie!
 cineṡiterapia
@@ -79874,7 +79874,7 @@ ciociari!
 ciociaro
 ciòfa
 ciòfe!
-cioféca~ciofèca@V
+ciofèca~cioféca@V+
 ciofèche
 ciòfi!
 ciòfo
@@ -80822,10 +80822,10 @@ cispadane!
 cispadani!
 cispadano
 cispe
-cispóṡa!
-cispóṡe!
-cispóṡi!
-cispóṡo
+cispósa!
+cispóse!
+cispósi!
+cispóso~cispóṡo@S+:M
 cista
 ciste
 cistercènse
@@ -81788,7 +81788,7 @@ claustrofobia
 claustrofòbica
 claustrofòbiche
 claustrofòbici
-claustrofóbico~claustrofòbico@V
+claustrofòbico~claustrofóbico@V+
 claustrofobie
 claustròfobo
 clauṡura
@@ -81883,7 +81883,7 @@ clicchiate!
 clìcchino!
 clicco
 cliccò	cliccò!
-cliché	cliché~clichè@V
+cliché	clichè~cliché@V+
 click!
 cliènte~cliénte@V:Rg
 clientèla
@@ -82872,9 +82872,9 @@ coerentiste!
 coerentisti!
 coerènza
 coerènze!
-coéṡa~coèṡa@V
-coéṡe~coèṡe@V
-coéṡi~coèṡi@V
+coésa~coéṡa@S+:M~coèṡa@VS
+coése~coéṡe@S+:M~coèṡe@VS
+coési~coéṡi@S+:M~coèṡi@VS
 coeṡióne
 coeṡióni!
 coeṡista!
@@ -83980,8 +83980,8 @@ collegiali
 collegialità	collegialità
 collegialménte
 collègio
-collegnéṡe~collegnése@S
-collegnéṡi!
+collegnése~collegnéṡe@S+:M
+collegnési!
 collégo~collègo@V
 collegò	collegò!
 còllera
@@ -84001,10 +84001,10 @@ collericaménte
 collèriche
 collèrici
 collèrico
-colleróṡa!
-colleróṡe!
-colleróṡi!
-colleróṡo
+collerósa!
+colleróse!
+collerósi!
+colleróso~colleróṡo@S+:M
 collerà	collerà!
 collerò	collerò!
 collètta~collétta@V+
@@ -84786,7 +84786,7 @@ colpèntesi!
 colpévole
 colpevolézza
 colpevolézze!
-colpevòli~colpévoli@A
+colpévoli
 colpevolìssima!
 colpevolìssime!
 colpevolìssimi!
@@ -85096,9 +85096,9 @@ comasca!
 comasche!
 comaschi!
 comasco
-comatóṡa
-comatóṡe
-comatóṡi
+comatósa~comatóṡa@S+:M
+comatóse~comatóṡe@S+:M
+comatósi~comatóṡi@S+:M
 comatóso~comatóṡo@S+:M
 cómba
 combacerai!
@@ -87282,7 +87282,7 @@ compitavi!
 compitavo!
 compitazióne
 compitazióni!
-compite~cómpite@A!
+compite~còmpite@A!
 compiterai!
 compiteranno!
 compiterèbbe~compiterébbe@V!
@@ -87302,7 +87302,7 @@ compiti;còmpiti@I;cómpiti@I
 compitiamo!
 compitiate!
 còmpitino~cómpitino@V
-cómpito;còmpito;compito
+còmpito;compito;cómpito
 compitò	compitò!
 compiuta!
 compiutaménte
@@ -88004,10 +88004,10 @@ comprerésti!
 compreréte!
 comprerà	comprerà
 comprerò	comprerò
-compréṡa~comprésa@S
-compréṡe~comprése@S
+comprésa~compréṡa@S+:M
+comprése~compréṡe@S+:M
 comprésero!
-compréṡi~comprési@S
+comprési~compréṡi@S+:M
 compréso~compréṡo@S
 comprésosi!
 comprèssa
@@ -90037,11 +90037,11 @@ condescendiamo!
 condescendiate!
 condescéndo~condescèndo@V
 condescéndono~condescèndono@V
-condescéṡa!
-condescése~condescéṡe@S!
+condescésa!
+condescése!
 condescésero!
-condescési~condescéṡi@S!
-condescéṡo~condescéso@S
+condescési!
+condescéso~condescéṡo@S+:M
 condiamo!
 condiate!
 condii!
@@ -90114,10 +90114,10 @@ condiscendiamo!
 condiscendiate!
 condiscéndo~condiscèndo@V
 condiscéndono~condiscèndono@V
-condiscéṡa~condiscésa@S
-condiscéṡe~condiscése@S
+condiscésa~condiscéṡa@S+:M
+condiscése~condiscéṡe@S+:M
 condiscésero!
-condiscéṡi~condiscési@S
+condiscési~condiscéṡi@S+:M
 condiscéso~condiscéṡo@S
 condisci!
 condisco!
@@ -92166,7 +92166,7 @@ conglùtinino!
 conglùtino
 conglutinò	conglutinò!
 congolése~congoléṡe@S
-congoléṡi~congolési@S
+congolési~congoléṡi@S+:M
 congràtula!
 congratulai!
 congratulammo!
@@ -92200,7 +92200,7 @@ congratulavate!
 congratulavi!
 congratulavo!
 congratulazióne
-congratulaziòni
+congratulazióni
 congratulerai!
 congratuleranno!
 congratulerèbbe~congratulerébbe@V!
@@ -94533,7 +94533,7 @@ contèmpo
 contemporànea
 contemporaneaménte
 contemporànee
-contemporanéi
+contemporànei
 contemporaneità	contemporaneità
 contemporaneiżżazióne
 contemporaneiżżazióni!
@@ -94730,10 +94730,10 @@ conterrà	conterrà
 conterrò	conterrò
 conterà	conterà
 conterò	conterò!
-contéṡa~contésa@S
-contéṡe~contése@S
+contésa~contéṡa@S+:M
+contése~contéṡe@S+:M
 contésero!
-contéṡi~contési@S
+contési~contéṡi@S+:M
 contéso~contéṡo@S
 contésosi!
 contéssa;contèssa
@@ -95465,7 +95465,7 @@ contrante!
 contràntesi!
 contrappassi!
 contrappasso
-contrappéṡa~contrappésa@S
+contrappésa~contrappéṡa@S+:M
 contrappesai!
 contrappesammo!
 contrappesando!
@@ -95507,7 +95507,7 @@ contrappeserésti!
 contrappeseréte!
 contrappeserà	contrappeserà!
 contrappeserò	contrappeserò!
-contrappéṡi~contrappési@S
+contrappési~contrappéṡi@S+:M
 contrappesiamo!
 contrappeṡiàmoci!
 contrappesiate!
@@ -96279,8 +96279,8 @@ controfagòtti!
 controfagòtto
 controfattuale
 controfattuali!
-controféṡa
-controféṡe!
+controfésa~controféṡa@S+:M
+controfése!
 controffensiva
 controffensive!
 controfigura
@@ -97752,7 +97752,7 @@ coopererésti!
 coopereréte!
 coopererà	coopererà!
 coopererò	coopererò!
-coóperi~coòperi@V
+coòperi~coóperi@V+
 cooperiamo!
 cooperiate!
 coòperin
@@ -99818,9 +99818,9 @@ corteiamo!
 corteiate!
 cortèino!
 cortèo
-cortéṡe
+cortése~cortéṡe@S+:M
 corteṡeménte
-cortéṡi
+cortési~cortéṡi@S+:M
 corteṡia
 corteṡie!
 cortézza
@@ -99898,8 +99898,8 @@ cortocircùitino!
 cortocircùito
 cortocircuitò	cortocircuitò!
 cortometraggio
-cortonéṡe
-cortonéṡi!
+cortonése~cortonéṡe@S+:M
+cortonési!
 corùccio!
 corusca!
 coruscai!
@@ -101291,10 +101291,10 @@ cràniche!
 crànici!
 crànico
 cranio
-cranioléṡa!
-cranioléṡe!
-cranioléṡi!
-cranioléṡo
+craniolésa!
+craniolése!
+craniolési!
+cranioléso~cranioléṡo@S+:M
 craniològica
 craniològiche
 craniològici
@@ -101348,10 +101348,10 @@ cràpulo!
 crapulóna
 crapulóne
 crapulóni
-crapulóṡa!
-crapulóṡe!
-crapulóṡi!
-crapulóṡo
+crapulósa!
+crapulóse!
+crapulósi!
+crapulóso~crapulóṡo@S+:M
 crapulò	crapulò!
 craṡi
 crassa!
@@ -101630,8 +101630,8 @@ cremlinòloga!
 cremlinòlogi!
 cremlinòlogo
 crèmo
-cremonéṡe~cremonése@S
-cremonéṡi!
+cremonése~cremonéṡe@S+:M
+cremonési!
 cremò	cremò!
 crèn
 crenata!
@@ -103020,7 +103020,7 @@ cromosòmiche
 cromosòmici
 cromosòmico~cromoṡòmico@S
 cromò	cromò!
-crónaca~crònaca@V
+crònaca~crónaca@V+
 crònache
 cronachìstico
 crònica
@@ -103993,8 +103993,8 @@ cuna
 cune
 cuneènse
 cuneènsi!
-cuneéṡe~cuneése@S
-cuneéṡi!
+cuneése~cuneéṡe@S+:M
+cuneési!
 cùnei!
 cuneifórme
 cuneifórmi!
@@ -104690,7 +104690,7 @@ dàndosi
 dàndoti
 dàndovi
 danése~danéṡe@S+
-danéṡi~danési@S
+danési~danéṡi@S+:M
 danna!
 dannàbile
 dannàbili!
@@ -108319,7 +108319,7 @@ defenestriate!
 defenèstrino!
 defenèstro!
 defenestrò	defenestrò!
-deferéndo
+deferèndo
 deferènte
 deferenteménte
 deferènti
@@ -108418,7 +108418,7 @@ deficiènte
 deficiènti!
 deficiènza
 deficiènze!
-déficit~dèficit@V
+dèficit~déficit@V+
 deficitaria!
 deficitarie!
 deficitario
@@ -110017,8 +110017,8 @@ dèlfico
 delfina!
 delfinale
 delfinali!
-delfinatéṡe~delfinatése@S
-delfinatéṡi!
+delfinatése~delfinatéṡe@S+:M
+delfinatési!
 delfine!
 delfini!
 delfìnide
@@ -114548,7 +114548,7 @@ deṡidererésti!
 deṡidereréte!
 desidererà	deṡidererà!
 desidererò	deṡidererò!
-desidéri~deṡidèri@VS~deṡìderi@AS;desidèri;desìderi
+desidèri~desidéri@V+~deṡidèri@S~deṡìderi@AS;desìderi
 deṡideriamo~desideriamo@S
 deṡideriate~desideriate@S
 deṡìderino~desìderino@S
@@ -115529,9 +115529,9 @@ detenzióne
 detenzióni!
 detèrga!
 detèrgano!
-detérge~detèrge@V
+detèrge~detérge@V+
 detergémmo
-detergéndo
+detergèndo
 detergènte
 detergénti
 detergerai!
@@ -115560,7 +115560,7 @@ detergévano!
 detergevate!
 detergévi!
 detergévo!
-detérgi~detèrgi@V
+detèrgi~detérgi@V+
 detergiamo!
 detergiate!
 detérgo
@@ -115702,7 +115702,7 @@ detérsero
 detérsi
 detersivi!
 detersivo
-detérso~detèrso@V
+detèrso~detérso@V+
 detèsta
 detestàbile
 detestàbili!
@@ -117827,11 +117827,11 @@ difensivi!
 difensivo
 difensóre
 difensóri!
-diféṡa~difésa@S
+difésa~diféṡa@S+:M
 difése~diféṡe@S
 difésero!
-diféṡi~difési@S
-diféṡo~diféso@S
+difési~diféṡi@S+:M
+diféso~diféṡo@S+:M
 difésosi!
 difètta!
 difettai!
@@ -120663,11 +120663,11 @@ dipendiamo!
 dipendiate!
 dipèndo
 dipèndono!
-dipéṡa~dipésa@S:T
-dipéṡe~dipése@S:T
+dipésa~dipéṡa@S+:M
+dipése~dipéṡe@S+:M
 dipésero!
-dipéṡi~dipési@S:T
-dipéṡo~dipéso@S:T
+dipési~dipéṡi@S+:M
+dipéso~dipéṡo@S+:M
 dipi
 dipinga!
 dipìngano!
@@ -122616,11 +122616,11 @@ diṡapprendiamo!
 diṡapprendiate!
 diṡapprèndo!
 diṡapprèndono!
-diṡappréṡa!
-diṡapprése~diṡappréṡe@S!
+diṡapprésa!
+diṡapprése!
 diṡapprésero!
-diṡapprési~diṡappréṡi@S!
-diṡappréṡo~diṡappréso@S
+diṡapprési!
+diṡappréso~diṡappréṡo@S+:M
 diṡappròva!
 diṡapprovàbile
 diṡapprovàbili!
@@ -122888,7 +122888,7 @@ diṡàstrino!
 diṡastro
 diṡastrósa!
 diṡastróse!
-diṡastróṡi
+diṡastrósi~diṡastróṡi@S+:M
 diṡastróso~diṡastróṡo@S+
 disastrò	diṡastrò!
 diṡatomiżża!
@@ -122974,11 +122974,11 @@ diṡattènti
 diṡattènto
 diṡattenzióne
 diṡattenzióni!
-diṡattéṡa!
-diṡattése~diṡattéṡe@S!
+diṡattésa!
+diṡattése!
 diṡattésero!
-diṡattési~diṡattéṡi@S!
-diṡattéṡo~diṡattéso@S
+diṡattési!
+diṡattéso~diṡattéṡo@S+:M
 diṡattiva!
 diṡattivai!
 diṡattivammo!
@@ -123584,7 +123584,7 @@ discernèndo!
 discernènte!
 discernerai!
 discerneranno!
-discérnere~discèrnere@V
+discèrnere~discérnere@V+
 discernerèbbe~discernerébbe@V!
 discernerèbbero~discernerébbero@V!
 discernerèi!
@@ -123662,15 +123662,15 @@ discèrse!
 discèrsero!
 discèrsi!
 discésa~discéṡa@S
-discéṡe~discése@S
+discése~discéṡe@S+:M
 discésero!
-discéṡi~discési@S
+discési~discéṡi@S+:M
 disceṡiṡmi!
 disceṡiṡmo
 disceṡista
 disceṡiste!
 disceṡisti!
-discéṡo~discéso@S
+discéso~discéṡo@S+:M
 discètta!
 discettai!
 discettammo!
@@ -124545,11 +124545,11 @@ discoscendiamo!
 discoscendiate!
 discoscéndo~discoscèndo@V
 discoscéndono~discoscèndono@V
-discoscéṡa!
-discoscése~discoscéṡe@S!
+discoscésa!
+discoscése!
 discoscésero!
-discoscési~discoscéṡi@S!
-discoscéṡo~discoscéso@S
+discoscési!
+discoscéso~discoscéṡo@S+:M
 discòsta!
 discostai!
 discostammo!
@@ -125738,11 +125738,11 @@ diṡgustiàmoci!
 diṡgustiate!
 diṡgùstino!
 diṡgusto
-diṡgustóṡa
+diṡgustósa~diṡgustóṡa@S+:M
 diṡgustoṡaménte
-diṡgustóṡe
-diṡgustóṡi
-diṡgustóṡo~diṡgustóso@S
+diṡgustóse~diṡgustóṡe@S+:M
+diṡgustósi~diṡgustóṡi@S+:M
+diṡgustóso~diṡgustóṡo@S+:M
 disgustò	diṡgustò!
 diṡia!
 diṡiai!
@@ -126569,10 +126569,10 @@ diṡinteressiate!
 diṡinterèssino!
 diṡinterèsso
 disinteressò	diṡinteressò!
-diṡintéṡa!
-diṡintéṡe!
-diṡintéṡi!
-diṡintéṡo~diṡintéso@S
+diṡintésa!
+diṡintése!
+diṡintési!
+diṡintéso~diṡintéṡo@S+:M
 diṡintòssica!
 diṡintossicai!
 diṡintossicammo!
@@ -127936,11 +127936,11 @@ dispersività	dispersività
 dispersivo
 dispèrso
 disperò	disperò
-dispéṡa!
-dispéṡe~dispése@S
+dispésa!
+dispése~dispéṡe@S+:M
 dispésero!
-dispési~dispéṡi@S!
-dispéṡo~dispéso@S
+dispési!
+dispéso~dispéṡo@S+:M
 dispètta!
 dispètte!
 dispètti!
@@ -128925,11 +128925,11 @@ dissesterésti!
 dissesteréte!
 dissesterà	dissesterà!
 dissesterò	dissesterò!
-dissésti;dissèsti@I!
+dissèsti!
 dissestiamo!
 dissestiate!
 dissèstino!
-dissésto~dissèsto@V
+dissèsto~dissésto@V+
 dissestò	dissestò!
 disséta!
 dissetai!
@@ -129702,11 +129702,11 @@ disterésti!
 disteréte!
 disterà	disterà!
 disterò	disterò!
-distéṡa~distésa@S
-distéṡe~distése@S
+distésa~distéṡa@S+:M
+distése~distéṡe@S+:M
 distésero!
-distéṡi~distési@S
-distéṡo~distéso@S
+distési~distéṡi@S+:M
+distéso~distéṡo@S+:M
 distésosi!
 distésse!
 distéssero!
@@ -132896,7 +132896,7 @@ donnésco
 donnétta
 donnétte!
 dònni
-donniccióla~donnicciòla@V
+donnicciòla~donniccióla@V+
 donnicciòle
 dònno
 dònnola~dónnola@V+
@@ -133535,11 +133535,11 @@ dovévo
 dóvi!
 dovizia
 dovizie!
-dovizióṡa!
+doviziósa!
 dovizioṡaménte
-dovizióṡe!
-dovizióṡi!
-dovizióṡo
+dovizióse!
+doviziósi!
+dovizióso~dovizióṡo@S+:M
 dóvo!
 dovrai!
 dovran
@@ -135150,7 +135150,7 @@ edènica
 edèniche
 edènici!
 edènico
-édera~èdera@V
+èdera~édera@V+
 èdere
 edìbile
 edìbili!
@@ -137404,8 +137404,8 @@ elisuperficie
 elitaria
 elitarie!
 elitario
-élla~èlla@V
-èlle;élle
+élla
+élle
 ellèbori!
 ellèboro
 ellèna
@@ -137652,7 +137652,7 @@ eluda
 elùdano
 elude
 eludémmo!
-eludéndo
+eludèndo
 eludénte
 eludénti
 eluderai!
@@ -138324,8 +138324,8 @@ eminentìssimi!
 eminentìssimo
 eminènza
 eminènze!
-emìone
-emìoni!
+emióne
+emióni~emìoni@A!
 emìono
 emiparèṡi
 emiplègica
@@ -139754,10 +139754,10 @@ epiżòa
 epiżòe
 epiżòi
 epiżòo
-época~època@V
+època~época@V+
 epocale
 epocali
-époche!
+èpoche!
 epòdi!
 epòdica
 epòdiche
@@ -140494,7 +140494,7 @@ ercùlea
 ercùlee
 ercùlei
 ercùleo
-ére~ère@V
+ère~ére@V+
 erèbia
 erèbie
 èrebo
@@ -140745,9 +140745,9 @@ eriga!
 erìgano!
 erige
 erigémmo
-erigéndo
+erigèndo
 erigèndosi!
-erigénte~erigènte@V
+erigènte~erigénte@V+
 erigèntesi!
 erigénti
 erigerai!
@@ -140867,7 +140867,7 @@ erniósa~ernióṡa@S+:M
 ernióse~ernióṡe@S+:M
 erniósi~ernióṡi@S+:M
 ernióso~ernióṡo@S+:M
-éro~èro@V
+èro~éro@V+
 eróda!
 eródano!
 eróde!
@@ -141190,10 +141190,10 @@ errò	errò
 èrse!
 èrsero!
 èrsi!
-érta~èrta@V
+èrta~érta@V+
 èrte~érte@V
 èrti~érti@V
-érto~èrto@V
+èrto~érto@V+
 èrtosi~értosi@V!
 erùcica!
 erùciche!
@@ -141311,8 +141311,8 @@ eruzióne
 eruzióni!
 èrvi
 èrvo
-erżegovéṡe~erzegovéṡe@Z~erżegovése@S~erzegovése@SZ
-erżegovéṡi!
+erżegovése~erżegovéṡe@S+:M~erzegovéṡe@SZ~erzegovése@Z
+erżegovési!
 és
 eṡacèrba!
 eṡacerbai!
@@ -144132,7 +144132,7 @@ esportiate!
 espòrtino!
 espòrto
 esportò	esportò
-espóṡe
+espóse~espóṡe@S+:M
 espósero!
 espósi!
 espoṡìmetri
@@ -144463,7 +144463,7 @@ espùrghino
 espurgo
 espurgò	espurgò!
 éssa
-ésse;èsse
+èsse;ésse
 essèmpio
 essèmpli!
 essèmplo
@@ -144988,11 +144988,11 @@ esterrefatta!
 esterrefatte!
 esterrefatti!
 esterrefatto
-estéṡa~estésa@S
-estéṡe~estése@S
+estésa~estéṡa@S+:M
+estése~estéṡe@S+:M
 estésero!
-estéṡi~estési@S
-estéṡo~estéso@S
+estési~estéṡi@S+:M
+estéso~estéṡo@S+:M
 estésosi!
 estèta
 estète!
@@ -147631,7 +147631,7 @@ facoltatività	facoltatività
 facoltativo
 facoltósa!
 facoltosaménte
-facoltóṡe
+facoltóse~facoltóṡe@S+:M
 facoltósi!
 facoltóso~facoltóṡo@S+:M
 facoltà	facoltà
@@ -148654,7 +148654,7 @@ farébbeno!
 farèbbero
 farébbi
 farèe!
-faréi
+farèi
 farémmo!
 farémo!
 faréssi!
@@ -148881,8 +148881,8 @@ farnétto
 faro
 faroènse
 faroènsi!
-faroéṡe
-faroéṡi!
+faroése~faroéṡe@S+:M
+faroési!
 faròne!
 faròrno!
 farraco!
@@ -149118,10 +149118,10 @@ fastidiósi~fastidióṡi@S+:M
 fastidióso~fastidióṡo@S
 fastigio
 fasto
-fastóṡa
+fastósa~fastóṡa@S+:M
 fastosaménte
-fastóṡe
-fastóṡi
+fastóse~fastóṡe@S+:M
+fastósi~fastóṡi@S+:M
 fastosità	fastosità
 fastóso~fastóṡo@S+:M
 faṡulla~fasulla@S+
@@ -149663,10 +149663,10 @@ favorivo!
 favorì	favorì!
 fazióne
 fazióni!
-fazióṡa
+faziósa~fazióṡa@S+:M
 faziosaménte
-fazióṡe
-fazióṡi
+fazióse~fazióṡe@S+:M
+faziósi~fazióṡi@S+:M
 faziosità	faziosità~fazioṡità@S
 fazióso~fazióṡo@S+:M
 fazza!
@@ -150379,9 +150379,9 @@ feralie
 fèrcoli!
 fèrcolo
 fère!
-feréndo
+ferèndo
 ferèndosi!
-ferénte~ferènte@V
+ferènte~ferénte@V+
 ferèntesi!
 ferènti
 fèretri!
@@ -150591,8 +150591,8 @@ ferocìssimo
 ferocità	ferocità
 feròdi!
 feròdo
-feroéṡe
-feroéṡi!
+feroése~feroéṡe@S+:M
+feroési!
 feròico
 feromonale
 feromonali!
@@ -150860,7 +150860,7 @@ fésse;fèsse
 féssero!
 féssi;fèssi
 féssimo!
-fésso;fèsso
+fèsso;fésso
 féssosi!
 fessura
 fessure
@@ -151404,7 +151404,7 @@ fibroplàstici!
 fibroplàstico
 fibrósa!
 fibróse!
-fibróṡi
+fibrósi~fibróṡi@S+:M
 fibróso~fibróṡo@S
 fibròtica!
 fibròtiche!
@@ -151728,11 +151728,11 @@ fiduciaria
 fiduciarie!
 fiduciario
 fiducie!
-fiducióṡa!
+fiduciósa!
 fiducioṡaménte
-fiducióṡe!
-fiducióṡi!
-fiducióṡo
+fiducióse!
+fiduciósi!
+fiducióso~fiducióṡo@S+:M
 fidò	fidò
 fie!
 fièda
@@ -151750,7 +151750,7 @@ fièni~fiéni@V
 fienile
 fienili!
 fièno;fìeno
-fiéra~fièra@V
+fièra~fiéra@V+
 fieraménte
 fière
 fierézza
@@ -152225,7 +152225,7 @@ filodiffuṡióni!
 filodiffuṡo
 filoelleniṡmi!
 filoelleniṡmo
-filofrancéṡe
+filofrancése~filofrancéṡe@S+:M
 filofrancési
 filogèneṡi
 filogenètica
@@ -152542,8 +152542,8 @@ finanzio
 finanziò	finanziò!
 finasteride
 finca
-finche
-finchè	finchè!
+finché
+finchè	finché
 finché	finché
 fine
 fineménte
@@ -152687,7 +152687,7 @@ finivate!
 finivi!
 finivo!
 finlandése~finlandéṡe@S
-finlandéṡi~finlandési@S
+finlandési~finlandéṡi@S+:M
 finlandiżża!
 finlandiżżai!
 finlandiżżammo!
@@ -154146,8 +154146,8 @@ focèna
 focène
 focènide
 focènidi!
-focéṡe~focése@S
-focéṡi!
+focése~focéṡe@S+:M
+focési!
 fòche!
 focherèlli!
 focherellino!
@@ -154399,7 +154399,7 @@ fòlici!
 fòlico
 folignése
 folignési!
-fólla~fòlla@V
+fòlla~fólla@V+
 follai!
 follammo!
 follando!
@@ -154579,8 +154579,8 @@ fondàvano!
 fondavate!
 fondavi!
 fondavo!
-fondazìone~fondazióne@A
-fondazìoni!
+fondazióne
+fondazióni!
 fónde
 fondémmo!
 fondèndo!
@@ -154942,8 +154942,8 @@ forerésti!
 foreréte!
 forerà	forerà!
 forerò	forerò!
-foréṡe~forése@S
-foréṡi~forési@S
+forése~foréṡe@S+:M
+forési~foréṡi@S+:M
 forèsta
 forestale
 forestali
@@ -156272,10 +156272,10 @@ fragolóna!
 fragolóne!
 fragóre
 fragóri!
-fragoróṡa
+fragorósa~fragoróṡa@S+:M
 fragorosaménte~fragoroṡaménte@S
-fragoróṡe
-fragoróṡi
+fragoróse~fragoróṡe@S+:M
+fragorósi~fragoróṡi@S+:M
 fragoróso~fragoróṡo@S+:M
 fragra
 fragrai!
@@ -156363,10 +156363,10 @@ fraintendiménti!
 fraintendiménto
 fraintèndo
 fraintèndono
-fraintéṡa~fraintésa@S
-fraintéṡe~fraintése@S
+fraintésa~fraintéṡa@S+:M
+fraintése~fraintéṡe@S+:M
 fraintésero!
-fraintéṡi~fraintési@S
+fraintési~fraintéṡi@S+:M
 fraintéso~fraintéṡo@S
 frale
 frali
@@ -156640,8 +156640,8 @@ francescano
 francésche!
 francéschi!
 francésco
-francéṡe
-francéṡi
+francése~francéṡe@S+:M
+francési~francéṡi@S+:M
 franceṡìstica
 franceṡìstiche!
 franceṡiżża!
@@ -156697,10 +156697,10 @@ francìgene
 francìgeni
 francìgeno
 francio
-francióṡa
-francióṡe!
-francióṡi!
-francióṡo
+franciósa~francióṡa@S+:M
+francióse!
+franciósi!
+francióso~francióṡo@S+:M
 francisca
 francische!
 franco
@@ -157505,7 +157505,7 @@ fregiavate!
 fregiavi!
 fregiavo!
 frègino~frégino@V
-frégio~frègio@V
+frègio~frégio@V+
 fregiò	fregiò!
 frégna
 fregnacce
@@ -157757,7 +157757,7 @@ frequenterésti!
 frequenteréte!
 frequenterà	frequenterà!
 frequenterò	frequenterò!
-frequénti
+frequènti
 frequentiamo!
 frequentiàmoci!
 frequentiate!
@@ -160387,8 +160387,8 @@ galleriste!
 galleristi!
 gallerà	gallerà!
 gallerò	gallerò!
-galléṡe~gallése@S
-galléṡi~gallési@S
+gallése~galléṡe@S+:M
+gallési~galléṡi@S+:M
 gallétta
 gallettame
 gallettami
@@ -160526,8 +160526,8 @@ galloniate!
 gallónino!
 gallóno!
 gallonò	gallonò!
-galluréṡe~gallurése@S
-galluréṡi~gallurési@S
+gallurése~galluréṡe@S+:M
+gallurési~galluréṡi@S+:M
 gallò	gallò!
 galòppa!
 galoppai!
@@ -160924,8 +160924,8 @@ garbo
 garbugli
 garbuglio
 garbò	garbò!
-gardenéṡe~gardenése@S
-gardenéṡi!
+gardenése~gardenéṡe@S+:M
+gardenési!
 gardènia
 gardènie!
 gardènse
@@ -161159,8 +161159,8 @@ gaṡògeno
 gaṡolina
 gaṡoline!
 gaṡòlio
-gaṡómetri~gaṡòmetri@V
-gaṡómetro~gaṡòmetro@V
+gaṡòmetri~gaṡómetri@V+
+gaṡòmetro~gaṡómetro@V+
 gassa
 gassata!
 gassate!
@@ -161213,10 +161213,10 @@ gassisti
 gasso
 gassògeni
 gassògeno
-gassómetri~gassòmetri@V
+gassòmetri~gassómetri@V+
 gassometria
 gassometrie!
-gassómetro~gassòmetro@V
+gassòmetro~gassómetro@V+
 gassósa!
 gassóse!
 gassósi!
@@ -161309,8 +161309,8 @@ gàttice
 gàttici!
 gattina
 gattinara
-gattinaréṡe~gattinarése@S
-gattinaréṡi!
+gattinarése~gattinaréṡe@S+:M
+gattinarési!
 gattine
 gattini
 gattino
@@ -161369,10 +161369,10 @@ gaudènte
 gaudènti
 gaudére
 gaudio
-gaudióṡa!
-gaudióṡe!
-gaudióṡi!
-gaudióṡo
+gaudiósa!
+gaudióse!
+gaudiósi!
+gaudióso~gaudióṡo@S+:M
 gaugé
 gauli!
 gaulo
@@ -161446,8 +161446,8 @@ gażète!
 gażèti!
 gażofilaci
 gażofilacio
-gażómetri~gażòmetri@V
-gażómetro~gażòmetro@V
+gażòmetri~gażómetri@V+
+gażòmetro~gażómetro@V+
 gażósa~gażóṡa@S+
 gażóse!
 gazpacho
@@ -161480,8 +161480,8 @@ gèbel
 gèchi
 gèco
 gecònide
-gedanéṡe~gedanése@S
-gedanéṡi!
+gedanése~gedanéṡe@S+:M
+gedanési!
 geènna
 geènne!
 gèi
@@ -162226,7 +162226,7 @@ genotòssiche
 genotòssici
 genotòssico
 genovése~genovéṡe@S+
-genovéṡi~genovési@S
+genovési~genovéṡi@S+:M
 gentaglia
 gentaglie
 gentame
@@ -163016,8 +163016,8 @@ ghepardato
 ghepardi!
 ghepardo
 ghéppio
-gherardéṡe~gherardése@S:T
-gherardéṡi~gherardési@S:T
+gherardése~gherardéṡe@S+:M
+gherardési~gherardéṡi@S+:M
 gherardini
 gherardino
 gherenuc
@@ -163189,10 +163189,10 @@ ghiandolari!
 ghiàndole!
 ghiara
 ghiare!
-ghiaróṡa!
-ghiaróṡe!
-ghiaróṡi!
-ghiaróṡo
+ghiarósa!
+ghiaróse!
+ghiarósi!
+ghiaróso~ghiaróṡo@S+:M
 ghiażarini!
 ghiażarino
 ghiażżerini!
@@ -163579,10 +163579,10 @@ gianseniṡmo
 giansenista
 gianseniste!
 giansenisti!
-giapponéṡe~giapponése@S:T
+giapponése~giapponéṡe@S+:M
 giapponeṡeria~giapponeseria@S
 giapponeṡerie~giapponeserie@S
-giapponéṡi~giapponési@S:T
+giapponési~giapponéṡi@S+:M
 giapponesità	giapponesità~giapponeṡità@S
 giappònio
 giara
@@ -164039,11 +164039,11 @@ gioiellino
 gioièllo
 gioii
 gioimmo!
-gioióṡa
+gioiósa~gioióṡa@S+:M
 gioiosaménte~gioioṡaménte@S
-gioióṡe
-gioióṡi!
-gioióṡo~gioiòso@VS
+gioióse~gioióṡe@S+:M
+gioiósi!
+gioióso~gioióṡo@S+:M~gioiòso@V
 gioirai!
 gioiranno!
 gioire
@@ -166025,7 +166025,7 @@ glottologia
 glottológica
 glottológiche
 glottológici
-glottológico~glottològico@V
+glottològico~glottológico@V+
 glottologie
 glottòlogo
 glottònimi!
@@ -166424,9 +166424,9 @@ gómbito
 gómbitto!
 gómbo
 gómedo!
-gómena~gòmena@V~gomèna@A
-gómene!
-gómina!
+gòmena~gómena@V+~gomèna@A
+gòmene!
+gòmina!
 gómio!
 gomitata
 gomitate!
@@ -168265,8 +168265,8 @@ grèco
 gregaria!
 gregarie!
 gregario
-grégge~grègge@V
-gréggi!
+grègge~grégge@V+
+grèggi!
 gréggia!
 gréggio
 grégna
@@ -168622,8 +168622,8 @@ grissinificio
 grissino
 grisù	griṡù
 grivna
-groenlandéṡe~groenlandése@S
-groenlandéṡi~groenlandési@S
+groenlandése~groenlandéṡe@S+:M
+groenlandési~groenlandéṡi@S+:M
 gròfi!
 gròfo
 gròla
@@ -170336,7 +170336,7 @@ iconotèca
 iconotèche
 icóre~ìcore@A
 icóri~ìcori@A
-icosaédri~icoṡaèdri@VS~icoṡaédri@S
+icosaèdri~icosaédri@V+~icoṡaèdri@S~icoṡaédri@VS
 icosaèdro~icoṡaèdro@S~icoṡaédro@VS
 icoṡidodecaèdri~icoṡidodecaédri@V
 icoṡidodecaèdro
@@ -171196,7 +171196,7 @@ ignoriamo!
 ignoriàmoci!
 ignoriate!
 ignòrino!
-ignóro~ignòro@V
+ignòro~ignóro@V+
 ignorò	ignorò
 ignòta!
 ignòte!
@@ -171357,10 +171357,10 @@ illegìttimi!
 illegittimità	illegittimità
 illegìttimo
 illeopardito
-illéṡa
-illéṡe
-illéṡi
-illéṡo
+illésa~illéṡa@S+:M
+illése~illéṡe@S+:M
+illési~illéṡi@S+:M
+illéso~illéṡo@S+:M
 illetterata!
 illetterataménte
 illetterate!
@@ -171422,8 +171422,8 @@ illimpidivate!
 illimpidivi!
 illimpidivo!
 illimpidì	illimpidì!
-illinéṡe
-illinéṡi!
+illinése~illinéṡe@S+:M
+illinési!
 illìrica!
 illìriche!
 illìrici!
@@ -176348,7 +176348,7 @@ impaurivate!
 impaurivi!
 impaurivo!
 impaurì	impaurì!
-impavéṡa
+impavésa~impavéṡa@S+:M
 impaveṡai!
 impaveṡammo!
 impaveṡando!
@@ -176382,11 +176382,11 @@ impaveṡerésti!
 impaveṡeréte!
 impaveserà	impaveṡerà!
 impaveserò	impaveṡerò!
-impavéṡi
+impavési~impavéṡi@S+:M
 impaveṡiamo!
 impaveṡiate!
 impavéṡino!
-impavéṡo
+impavéso~impavéṡo@S+:M
 impavesò	impaveṡò!
 impàvida!
 impàvide!
@@ -179069,18 +179069,18 @@ impreparata!
 impreparate!
 impreparati!
 impreparato
-impréṡa~imprésa@S
+imprésa~impréṡa@S+:M
 impresaria!
 impresario~impreṡario@S
 imprescindìbile
 imprescindìbili!
 imprescindibilménte
-impréṡe~imprése@S
+imprése~impréṡe@S+:M
 impreṡentàbile
 impreṡentàbili
 imprésero!
-impréṡi~imprési@S!
-impréṡo~impréso@S
+imprési!
+impréso~impréṡo@S+:M
 imprèssa!
 imprèsse
 imprèssero!
@@ -180687,9 +180687,9 @@ inattènta!
 inattènte!
 inattènti!
 inattènto
-inattéṡa~inattésa@S
-inattéṡe~inattése@S
-inattéṡi~inattési@S
+inattésa~inattéṡa@S+:M
+inattése~inattéṡe@S+:M
+inattési~inattéṡi@S+:M
 inattéso~inattéṡo@S
 inattiva
 inattivai!
@@ -183300,11 +183300,11 @@ incertézze!
 incèrti
 incèrto
 incerò	incerò!
-incéṡa~incésa@S
-incéṡe~incése@S
+incésa~incéṡa@S+:M
+incése~incéṡe@S+:M
 incésero!
-incéṡi~incési@S
-incéṡo~incéso@S
+incési~incéṡi@S+:M
+incéso~incéṡo@S+:M
 incéspica!
 incespicai!
 incespicammo!
@@ -184687,10 +184687,10 @@ incomprensibilità	incomprensibilità
 incomprensibilménte
 incomprensióne
 incomprensióni!
-incompréṡa~incomprésa@S
-incompréṡe~incomprése@S
+incomprésa~incompréṡa@S+:M
+incomprése~incompréṡe@S+:M
 incomprési~incompréṡi@S
-incompréṡo~incompréso@S
+incompréso~incompréṡo@S+:M
 incompressibilità	incompressibilità
 incomprimìbile
 incomprimìbili!
@@ -186659,9 +186659,9 @@ indietreggiò	indietreggiò!
 indiètro~indiétro@V
 indifendìbile
 indifendìbili!
-indiféṡa~indifésa@S
-indiféṡe~indifése@S
-indiféṡi~indifési@S
+indifésa~indiféṡa@S+:M
+indifése~indiféṡe@S+:M
+indifési~indiféṡi@S+:M
 indiféso~indiféṡo@S
 indifferènte
 indifferenteménte
@@ -187320,13 +187320,13 @@ indossiate!
 indòssino!
 indòsso
 indossò	indossò
-indótta!
+indòtta!
 indóttami!
-indótte!
+indòtte!
 indóttemi!
-indótti!
+indòtti!
 indóttimi!
-indótto~indòtto@V
+indòtto~indótto@V+
 indóttomi
 indóttosi!
 indottrina!
@@ -188136,10 +188136,10 @@ inesplorata!
 inesplorate!
 inesplorati!
 inesplorato
-inesplòṡa!
-inesplòṡe!
-inesplòṡi!
-inesplòṡo
+inesplósa!
+inesplóse!
+inesplósi!
+inesplóso~inesplòṡo@VS+:M
 inesprèssa!
 inesprèsse!
 inesprèssi!
@@ -191044,7 +191044,7 @@ inframmischierò	inframmischierò!
 inframmìschino!
 inframmìschio!
 inframmischiò	inframmischiò!
-infrancéṡa
+infrancésa~infrancéṡa@S+:M
 infranceṡai!
 infranceṡammo!
 infranceṡando!
@@ -191086,7 +191086,7 @@ infranceṡerésti!
 infranceṡeréte!
 infranceserà	infranceṡerà!
 infranceserò	infranceṡerò!
-infrancéṡi
+infrancési~infrancéṡi@S+:M
 infranceṡiamo!
 infranceṡiàmoci!
 infranceṡiate!
@@ -191514,11 +191514,11 @@ infruttìfera!
 infruttìfere!
 infruttìferi!
 infruttìfero
-infruttuóṡa!
-infruttuóṡe!
+infruttuósa!
+infruttuóse!
 infruttuósi~infruttuóṡi@S+
 infruttuosità	infruttuosità
-infruttuóṡo
+infruttuóso~infruttuóṡo@S+:M
 ìnfula
 ìnfule!
 infundìboli
@@ -192724,7 +192724,7 @@ ingiustizie!
 ingiusto
 ingiù	ingiù
 inglése~ingléṡe@S+
-ingléṡi~inglési@S
+inglési~ingléṡi@S+:M
 inglesiṡmi!
 inglesiṡmo~ingleṡiṡmo@S
 inglesiżża!
@@ -194131,10 +194131,10 @@ inique
 iniqui!
 iniquitanza
 iniquitanze!
-iniquitóṡa!
-iniquitóṡe!
-iniquitóṡi!
-iniquitóṡo
+iniquitósa!
+iniquitóse!
+iniquitósi!
+iniquitóso~iniquitóṡo@S+:M
 iniquità	iniquità
 iniquo
 inizi
@@ -198778,7 +198778,7 @@ intenzionati!
 intenzionato
 intenzióne
 intenzióni!
-intéra!
+intèra!
 interagèndo!
 interagènte!
 interagiamo!
@@ -199237,7 +199237,7 @@ interduna
 interdunale
 interdunali!
 interdune
-intére!
+intère!
 interelettrònica!
 interelettròniche!
 interelettrònici!
@@ -199417,7 +199417,7 @@ intergovernativa!
 intergovernative
 intergovernativi!
 intergovernativo
-intéri!
+intèri!
 interiettiva!
 interiettive!
 interiettivi!
@@ -199771,7 +199771,7 @@ internisti!
 intèrno
 internòdi
 internò	internò!
-intéro~intèro@V
+intèro~intéro@V+
 interoceànica
 interoperàbile
 interoperàbili!
@@ -200454,10 +200454,10 @@ intervocàliche
 intervocàlici
 intervocàlico
 intésa~intéṡa@S
-intéṡe~intése@S
+intése~intéṡe@S+:M
 intésero!
-intéṡi~intési@S
-intéṡo~intéso@S
+intési~intéṡi@S+:M
+intéso~intéṡo@S+:M
 intésosela!
 intésosene!
 intésosi!
@@ -201544,11 +201544,11 @@ intraprendiamo!
 intraprendiate!
 intraprèndo
 intraprèndono!
-intrapréṡa~intraprésa@S
-intrapréṡe~intraprése@S
+intraprésa~intrapréṡa@S+:M
+intraprése~intrapréṡe@S+:M
 intraprésero!
-intrapréṡi~intraprési@S
-intrapréṡo~intrapréso@S
+intraprési~intrapréṡi@S+:M
+intrapréso~intrapréṡo@S+:M
 intrare
 intràrono!
 intrasferibilità	intrasferibilità
@@ -201669,10 +201669,10 @@ intravedrò	intravedrò!
 intraveduto!
 intraveggènte!
 intravènga
-intravenóṡa!
-intravenóṡe!
-intravenóṡi!
-intravenóṡo
+intravenósa!
+intravenóse!
+intravenósi!
+intravenóso~intravenóṡo@S+:M
 intravi!
 intravide!
 intravìdero!
@@ -204993,8 +204993,8 @@ ipertecniciṡmo
 ipertensióne
 ipertensióni!
 ipertermià
-ipertéṡa~ipertésa@S
-ipertéṡe~ipertése@S
+ipertésa~ipertéṡa@S+:M
+ipertése~ipertéṡe@S+:M
 ipertési!
 ipertéso~ipertéṡo@S
 ipertèsti!
@@ -205336,8 +205336,8 @@ ipotenusa
 ipotenuse
 ipotermia
 ipotermie!
-ipotéṡa~ipotésa@S
-ipotéṡe~ipotése@S
+ipotésa~ipotéṡa@S+:M
+ipotése~ipotéṡe@S+:M
 ipòteṡi~ipotési@AS;ipotéṡi
 ipotéso~ipotéṡo@S
 ipotètica
@@ -205637,8 +205637,8 @@ iridò	iridò!
 iris
 irite
 iriti
-irlandéṡe~irlandése@S
-irlandéṡi!
+irlandése~irlandéṡe@S+:M
+irlandési!
 irochése~irochéṡe@S+
 irochési!
 ironia
@@ -206766,7 +206766,7 @@ iṡlamìżżino!
 iṡlamiżżo!
 islamizzò	iṡlamiżżò!
 iṡlandése~iṡlandéṡe@S
-iṡlandéṡi~iṡlandési@S
+iṡlandési~iṡlandéṡi@S+:M
 iṡlàndica!
 iṡlàndiche!
 iṡlàndici!
@@ -207797,7 +207797,7 @@ italianeggiavo!
 italianéggino!
 italianéggio!
 italianeggiò	italianeggiò!
-italianéṡe~italianése@S
+italianése~italianéṡe@S+:M
 italiani
 italianiṡmi
 italianiṡmo
@@ -208861,15 +208861,15 @@ lambìvano!
 lambivate!
 lambivi!
 lambivo!
-lambratéṡe~lambratése@S:T
-lambratéṡi~lambratési@S:T
+lambratése~lambratéṡe@S+:M
+lambratési~lambratéṡi@S+:M
 lambrétta
 lambrétte
 lambrettista
 lambrettiste!
 lambrettisti
-lambrughéṡe~lambrughése@S:T
-lambrughéṡi~lambrughési@S:T
+lambrughése~lambrughéṡe@S+:M
+lambrughési~lambrughéṡi@S+:M
 lambruschi!
 lambrusco
 lambì	lambì!
@@ -209121,7 +209121,7 @@ lampi!
 lampiamo!
 lampiate!
 làmpino!
-lampìone
+lampióne
 lampióni
 lampìride
 lampìridi!
@@ -209333,11 +209333,11 @@ laniżżo!
 lanizzò	laniżżò!
 lanolina
 lanoline!
-lanóṡa!
-lanóṡe!
-lanóṡi!
+lanósa!
+lanóse!
+lanósi!
 lanosità	lanoṡità
-lanóṡo
+lanóso~lanóṡo@S+:M
 lansi
 lansio
 lantànide
@@ -209415,8 +209415,8 @@ lapidàvano!
 lapidavate!
 lapidavi!
 lapidavo!
-lapidazìone~lapidazióne@A
-lapidazìoni!
+lapidazióne
+lapidazióni!
 làpide
 lapiderai!
 lapideranno!
@@ -210125,7 +210125,7 @@ lattónzi!
 lattónzo
 lattónzoli!
 lattónzolo
-lattóṡio~lattòṡio@V
+lattòṡio~lattóṡio@V+
 lattòtropa!
 lattòtrope!
 lattòtropi!
@@ -210555,8 +210555,8 @@ lèbani
 lèbano
 lèbbi
 lèbbio
-lébbra~lèbbra@V
-lébbre!
+lèbbra~lébbra@V+
+lèbbre!
 lécca!
 leccai!
 leccammo!
@@ -210594,8 +210594,8 @@ leccàvano!
 leccavate!
 leccavi!
 leccavo!
-leccéṡe~leccése@S
-leccéṡi!
+leccése~leccéṡe@S+:M
+leccési!
 leccherai!
 leccheranno!
 leccherèbbe~leccherébbe@V!
@@ -210788,8 +210788,8 @@ legavi
 legavo!
 legazióne
 legazióni!
-legénda~legènda@V
-legénde~legènde@V
+legènda~legénda@V+
+legènde~legénde@V+
 lègga
 lèggano
 légge;lègge
@@ -210947,8 +210947,8 @@ legiṡlatóre
 legiṡlatóri!
 legiṡlatura
 legiṡlature!
-legiṡlazìone~legiṡlazióne@A
-legiṡlazìoni!
+legiṡlazióne
+legiṡlazióni!
 legista
 legiste!
 legisti!
@@ -211066,7 +211066,7 @@ legnammo!
 legnando!
 legnàndosi!
 legnanése~legnanéṡe@S+
-legnanéṡi~legnanési@S:T
+legnanési~legnanéṡi@S+:M
 légnano
 legnante!
 legnàntesi!
@@ -211439,7 +211439,7 @@ lesèna~leṡèna@S
 lesène!
 lésero!
 léṡi
-léṡina~lésina@S+~lèṡina@V
+lèṡina~léṡina@V+~lésina@VS+
 leṡinai!
 leṡinammo!
 leṡinando!
@@ -211633,16 +211633,16 @@ lessicista
 lessiciste!
 lessicisti!
 lèssico
-lessicógrafa~lessicògrafa@V
-lessicógrafe~lessicògrafe@V
-lessicógrafi~lessicògrafi@V
+lessicògrafa~lessicógrafa@V+
+lessicògrafe~lessicógrafe@V+
+lessicògrafi~lessicógrafi@V+
 lessicografia
 lessicogràfica
 lessicogràfiche
 lessicogràfici
 lessicogràfico
 lessicografie
-lessicógrafo~lessicògrafo@V
+lessicògrafo~lessicógrafo@V+
 lessicòloga
 lessicòloghe!
 lessicòlogi!
@@ -212056,8 +212056,8 @@ lèzi
 lèzio
 lezioncina
 lezioncine!
-lezìone~lezióne@A
-lezìoni!
+lezióne
+lezióni!
 leziósa~lezióṡa@S+
 lezióse~lezióṡe@S+
 leziósi~lezióṡi@S+
@@ -212514,8 +212514,8 @@ lievitàvano!
 lievitavate!
 lievitavi!
 lievitavo!
-lievitazìone~lievitazióne@A
-lievitazìoni!
+lievitazióne
+lievitazióni!
 lieviterai!
 lieviteranno!
 lieviterèbbe~lieviterébbe@V!
@@ -213351,8 +213351,8 @@ liquidàvano!
 liquidavate!
 liquidavi!
 liquidavo!
-liquidazìone~liquidazióne@A
-liquidazìoni!
+liquidazióne
+liquidazióni!
 lìquide!
 liquiderai!
 liquideranno!
@@ -213459,8 +213459,8 @@ liscie
 lìscino!
 liscio
 liscivia
-lisciviazìone
-lisciviazìoni!
+lisciviazióne
+lisciviazióni!
 liscivie!
 lisciò	lisciò!
 liṡe
@@ -214022,8 +214022,8 @@ locàvano!
 locavate!
 locavi
 locavo!
-locazìone~locazióne@A
-locazìoni!
+locazióne
+locazióni!
 lòcca!
 lòcchi
 lòcco
@@ -214067,8 +214067,8 @@ locutóre
 locutóri!
 locutrice
 locutrici!
-locuzìone~locuzióne@A
-locuzìoni!
+locuzióne
+locuzióni!
 locò	locò!
 lòda
 lodàbile
@@ -214151,7 +214151,7 @@ lodigiana
 lodigiane!
 lodigiani!
 lodigiano
-lodinéṡe
+lodinése~lodinéṡe@S+:M
 lòdino
 lòdo
 lòdola
@@ -214284,8 +214284,8 @@ logorò	logorò!
 lògos
 logotèta
 logotète!
-logudoréṡe~logudorése@S
-logudoréṡi~logudorési@S
+logudorése~logudoréṡe@S+:M
+logudorési~logudoréṡi@S+:M
 lòica
 loicale
 loicali!
@@ -214335,8 +214335,8 @@ loménti!
 loménto
 lómpi
 lómpo
-londinéṡe~londinése@S
-londinéṡi~londinési@S
+londinése~londinéṡe@S+:M
+londinési~londinéṡi@S+:M
 lóndra!
 lònga!
 longànime
@@ -214639,8 +214639,8 @@ lucana!
 lucane!
 lucani!
 lucano;lùcano
-lucchéṡe~lucchése@S
-lucchéṡi~lucchési@S
+lucchése~lucchéṡe@S+:M
+lucchési~lucchéṡi@S+:M
 lucchétti!
 lucchétto
 lucchi
@@ -214874,9 +214874,9 @@ lucriamo!
 lucriate!
 lùcrino!
 lucro
-lucróṡa
-lucróṡe
-lucróṡi
+lucrósa~lucróṡa@S+:M
+lucróse~lucróṡe@S+:M
+lucrósi~lucróṡi@S+:M
 lucróso~lucróṡo@S+:M
 lucrò	lucrò!
 lùcubra!
@@ -214982,10 +214982,10 @@ lumachicida
 lumachicide!
 lumacóne
 lumacóni
-lumacóṡa!
-lumacóṡe!
-lumacóṡi!
-lumacóṡo
+lumacósa!
+lumacóse!
+lumacósi!
+lumacóso~lumacóṡo@S+:M
 lumbard
 lume
 lumeggiatura
@@ -215297,7 +215297,7 @@ lussavo!
 lussazióne
 lussazióni!
 lussemburghése~lussemburghéṡe@S+
-lussemburghéṡi~lussemburghési@S
+lussemburghési~lussemburghéṡi@S+:M
 lusserai!
 lusseranno!
 lusserèbbe~lusserébbe@V!
@@ -215710,8 +215710,8 @@ maceraste!
 macerasti!
 macerata!
 macerate
-maceratéṡe~maceratése@S
-maceratéṡi!
+maceratése~maceratéṡe@S+:M
+maceratési!
 maceràtevi!
 macerati;màcerati@I
 macerato
@@ -216149,7 +216149,7 @@ magażżinière
 magażżinièri!
 magażżino
 magènta
-maggéṡa~maggésa@S
+maggésa~maggéṡa@S+:M
 maggeṡai!
 maggeṡammo!
 maggeṡando!
@@ -216184,11 +216184,11 @@ maggeṡerésti!
 maggeṡeréte!
 maggeserà	maggeṡerà!
 maggeserò	maggeṡerò!
-maggéṡi~maggési@S
+maggési~maggéṡi@S+:M
 maggeṡiamo!
 maggeṡiate!
 maggéṡino!
-maggéṡo~maggéso@S
+maggéso~maggéṡo@S+:M
 maggesò	maggeṡò!
 maggi
 maggio
@@ -217032,7 +217032,7 @@ malèsci
 malèscia
 malèscio
 malése~maléṡe@S+
-maléṡi~malési@S
+malési~maléṡi@S+:M
 malèssere
 malèsseri
 malèstri!
@@ -217372,8 +217372,8 @@ malvagità	malvagità
 malvai!
 malvale
 malvanno!
-malvaròṡa
-malvaròṡe!
+malvarósa~malvaròṡa@VS+:M
+malvaróse!
 malvaṡia
 malvaṡie!
 malvavischio
@@ -217891,8 +217891,8 @@ manganerésti!
 manganeréte!
 manganerà	manganerà!
 manganerò	manganerò!
-manganéṡe~manganése@S
-manganéṡi!
+manganése~manganéṡe@S+:M
+manganési!
 màngani!
 manganiamo!
 manganiate!
@@ -218935,8 +218935,8 @@ marcherò	marcherò!
 marchésa
 marcheṡati!
 marcheṡato
-marchéṡe~marchése@S
-marchéṡi
+marchése~marchéṡe@S+:M
+marchési~marchéṡi@S+:M
 marchi!
 màrchia!
 marchiai!
@@ -219089,7 +219089,7 @@ maremmani!
 maremmano
 marémme!
 maremóti
-maremóto~maremòto@V
+maremòto~maremóto@V+
 mareomotóre
 mareomotóri!
 marescialla
@@ -219588,8 +219588,8 @@ marsàlano
 marsali
 marsàlino
 marsalo
-marscianéṡe~marscianése@S:T
-marscianéṡi~marscianési@S:T
+marscianése~marscianéṡe@S+:M
+marscianési~marscianéṡi@S+:M
 marsigliése~marsigliéṡe@S+
 marsigliési~marsigliéṡi@S+
 marsina
@@ -221881,7 +221881,7 @@ membrane!
 mémbrano~mèmbrano@V
 membranòfoni!
 membranòfono
-mémbri~mèmbri@V
+mèmbri
 mémbrino~mèmbrino@V
 mèmbro~mémbro@V
 membruta!
@@ -222479,11 +222479,11 @@ meraviglierà	meraviglierà!
 meraviglierò	meraviglierò!
 meravìglino!
 meravìglio!
-meravigliòṡa!
+meravigliósa!
 meravigliosaménte
-meravigliòṡe!
-meravigliòṡi!
-meravigliòṡo~meraviglióṡo@V~meraviglióso@VS
+meraviglióse!
+meravigliósi!
+meraviglióso~meravigliòṡo@VS+:M~meraviglióṡo@S
 meravigliò	meravigliò!
 mèrca!
 mercai!
@@ -223291,8 +223291,8 @@ messidòri!
 messidòro
 méssigli
 méssile!
-messinéṡe~messinése@S
-messinéṡi!
+messinése~messinéṡe@S+:M
+messinési!
 messinscèna
 messinscène!
 mésso
@@ -223700,8 +223700,8 @@ metanìfero
 metano
 metanodótti
 metanodótto
-metanóli!
-metanólo~metanòlo@V
+metanòli!
+metanòlo~metanólo@V+
 metaplàstica!
 metaplàstiche!
 metaplàstici!
@@ -224444,7 +224444,7 @@ midólli!
 midóllo
 midrìaṡi
 mie
-miéi~mièi@V
+mièi~miéi@V+
 mielata
 mielate!
 mièle~miéle@V
@@ -224672,7 +224672,7 @@ migrò	migrò!
 mihrab
 mila
 milanése~milanéṡe@S+
-milanéṡi~milanési@S
+milanési~milanéṡi@S+:M
 milanista
 milaniste!
 milanisti!
@@ -224681,10 +224681,10 @@ miliardari
 miliardaria!
 miliardarie
 miliardario
-miliardéṡima!
-miliardéṡime!
-miliardéṡimi!
-miliardéṡimo~miliardèṡimo@V
+miliardèṡima!
+miliardèṡime!
+miliardèṡimi!
+miliardèṡimo~miliardéṡimo@V+
 miliardi!
 miliardo
 miliare
@@ -224697,10 +224697,10 @@ milioncine!
 milioncini!
 milioncino
 milióne
-milionéṡima!
-milionéṡime!
-milionéṡimi!
-milionéṡimo~milionèṡimo@V
+milionèṡima!
+milionèṡime!
+milionèṡimi!
+milionèṡimo~milionéṡimo@V+
 milióni!
 mìlita
 militai!
@@ -225221,7 +225221,7 @@ minchionerà	minchionerà!
 minchionerò	minchionerò!
 minchionevolézza
 minchionevolézze!
-minchìoni~minchióni@A
+minchióni
 minchioniamo
 minchioniate!
 minchiónino!
@@ -226146,7 +226146,7 @@ miṡericordiósa~miṡericordióṡa@S
 miṡericordiosaménte
 miṡericordióse~miṡericordióṡe@S
 miṡericordiósi~miṡericordióṡi@S
-miṡericordióṡo~miṡericordióso@S
+miṡericordióso~miṡericordióṡo@S+:M
 miṡèrie!
 mìṡero
 miṡèrrima!
@@ -226175,10 +226175,10 @@ miṡoneiṡmo
 miṡoneista
 miṡoneiste!
 miṡoneisti!
-mispréṡa!
-mispréṡe!
-mispréṡi!
-mispréṡo~mispréso@S
+misprésa!
+misprése!
+misprési!
+mispréso~mispréṡo@S+:M
 missa!
 missaggio
 missai!
@@ -227210,7 +227210,7 @@ moglièsca
 mogliescaménte
 moglièsche
 moglièschi
-mogliésco~moglièsco@V
+moglièsco~mogliésco@V+
 mogliettina
 mogliettine!
 mohicana!
@@ -228349,9 +228349,9 @@ montagnòla!
 montagnòle!
 montagnòli!
 montagnòlo
-montagnóṡa
-montagnóṡe
-montagnóṡi
+montagnósa~montagnóṡa@S+:M
+montagnóse~montagnóṡe@S+:M
+montagnósi~montagnóṡi@S+:M
 montagnóso~montagnóṡo@S+:M
 montai!
 montambanchi!
@@ -228441,9 +228441,9 @@ móntino!
 mónto
 montóne
 montóni
-montuóṡa
-montuóṡe
-montuóṡi
+montuósa~montuóṡa@S+:M
+montuóse~montuóṡe@S+:M
+montuósi~montuóṡi@S+:M
 montuosità	montuoṡità
 montuóso~montuóṡo@S+:M
 montura
@@ -228647,9 +228647,9 @@ mòrdan
 mòrdano
 mórde
 mordémmo!
-mordéndo~mordèndo@V
+mordèndo~mordéndo@V+
 mordèndosi!
-mordénte~mordènte@V
+mordènte~mordénte@V+
 mordèntesi!
 mordénti
 morderai!
@@ -229572,10 +229572,10 @@ mottettìstico
 mottétto
 mòtti!
 mòtto
-motuléṡa
-motuléṡe
-motuléṡi
-motuléṡo
+motulésa~motuléṡa@S+:M
+motulése~motuléṡe@S+:M
+motulési~motuléṡi@S+:M
+motuléso~motuléṡo@S+:M
 moù
 movémmo!
 movèndo!
@@ -231701,7 +231701,7 @@ nascóndono!
 nascónere!
 nàscono!
 nascósa!
-nascóṡe
+nascóse~nascóṡe@S+:M
 nascósero!
 nascósi!
 nascóso~nascóṡo@S+:M
@@ -232585,14 +232585,14 @@ nectònico
 nectożòide
 nectożòidi!
 néd
-nederlandéṡe~nederlandése@S
-nederlandéṡi~nederlandési@S
+nederlandése~nederlandéṡe@S+:M
+nederlandési~nederlandéṡi@S+:M
 nederlandòfona!
 nederlandòfone!
 nederlandòfoni!
 nederlandòfono
-neerlandéṡe~neerlandése@S
-neerlandéṡi~neerlandési@S
+neerlandése~neerlandéṡe@S+:M
+neerlandési~neerlandéṡi@S+:M
 nefanda!
 nefande!
 nefandézza
@@ -232778,12 +232778,12 @@ neghiate!
 néghino~nèghino@V
 neghittàggine
 neghittàggini!
-neghittóṡa!
+neghittósa!
 neghittosaménte
-neghittóṡe!
-neghittóṡi!
+neghittóse!
+neghittósi!
 neghittosità	neghittosità
-neghittóṡo
+neghittóso~neghittóṡo@S+:M
 neglèsse!
 neglèssero!
 neglèssi!
@@ -233190,15 +233190,15 @@ neòtteri!
 neòttero
 neoveriṡmi!
 neoveriṡmo
-neożelandéṡe~neożelandése@S
-neożelandéṡi~neożelandési@S
+neożelandése~neożelandéṡe@S+:M
+neożelandési~neożelandéṡi@S+:M
 neożòica!
 neożòiche!
 neożòici!
 neożòico
 nèpa
-nepaléṡe~nepalése@S:T
-nepaléṡi!
+nepalése~nepaléṡe@S+:M
+nepalési!
 nèpe
 nepènte
 nepènti!
@@ -233215,10 +233215,10 @@ nepotìstico
 neppure
 nequitanza
 nequitanze!
-nequitóṡa!
-nequitóṡe!
-nequitóṡi!
-nequitóṡo
+nequitósa!
+nequitóse!
+nequitósi!
+nequitóso~nequitóṡo@S+:M
 nequità	nequità!
 nequizia
 nequizie!
@@ -234646,8 +234646,8 @@ nizzarda
 nizzarde!
 nizzardi!
 nizzardo
-nizzéṡe~nizzése@S
-nizzéṡi!
+nizzése~nizzéṡe@S+:M
+nizzési!
 nò;nó
 nòa
 nobèlio
@@ -235162,8 +235162,8 @@ nòrdici
 nòrdico
 nòrdide
 nòrdidi!
-nordirlandéṡe~nordirlandése@S
-nordirlandéṡi!
+nordirlandése~nordirlandéṡe@S+:M
+nordirlandési!
 nordista
 nordiste
 nordisti!
@@ -235263,17 +235263,17 @@ normoblasti
 normoblasto
 normògrafi!
 normògrafo
-normopéṡo~normopéso@S
-normotéṡa~normotésa@S
-normotéṡe~normotése@S
-normotéṡi~normotési@S
+normopéso~normopéṡo@S+:M
+normotésa~normotéṡa@S+:M
+normotése~normotéṡe@S+:M
+normotési~normotéṡi@S+:M
 normotéso~normotéṡo@S
 norrèna
 norrène
 norrèni
 norrèno
 norvegése~norvegéṡe@S+
-norvegéṡi~norvegési@S
+norvegési~norvegéṡi@S+:M
 nòsco
 noṡocomiale
 noṡocomiali!
@@ -236009,8 +236009,8 @@ nuociuti!
 nuociuto
 nuòra
 nuòre
-nuoréṡe~nuorése@S
-nuoréṡi~nuorési@S
+nuorése~nuoréṡe@S+:M
+nuorési~nuoréṡi@S+:M
 nuòta
 nuotai!
 nuotammo!
@@ -236444,9 +236444,9 @@ oberiate!
 òberino!
 òbero!
 oberò	oberò!
-obéṡa~obèṡa@V
-obéṡe~obèṡe@V
-obéṡi~obèṡi@V
+obésa~obéṡa@S+:M~obèṡa@VS
+obése~obéṡe@S+:M~obèṡe@VS
+obési~obéṡi@S+:M~obèṡi@VS
 obesità	obeṡità
 obèṡo~obéṡo@V
 òbi
@@ -237292,7 +237292,7 @@ oceanogràfico
 oceanografie
 oceanògrafo
 océlli
-océllo~ocèllo@V
+ocèllo~océllo@V+
 ocelót~ocelòt@V+
 ocelòtto
 òche
@@ -237583,10 +237583,10 @@ odoròfora!
 odoròfore!
 odoròfori!
 odoròforo
-odoróṡa!
-odoróṡe!
-odoróṡi!
-odoróṡo
+odorósa!
+odoróse!
+odorósi!
+odoróso~odoróṡo@S+:M
 odorò	odorò!
 òdî
 oèci
@@ -237670,9 +237670,9 @@ offèrtogli
 offertòrio
 offèrtosi!
 offésa~offéṡa@S
-offéṡe~offése@S
+offése~offéṡe@S+:M
 offésero!
-offéṡi~offési@S
+offési~offéṡi@S+:M
 offéso~offéṡo@S
 offésosi!
 officerai!
@@ -238050,10 +238050,10 @@ oleogràfiche
 oleogràfici
 oleogràfico
 oleografie!
-oleóṡa!
-oleóṡe!
-oleóṡi!
-oleóṡo
+oleósa!
+oleóse!
+oleósi!
+oleóso~oleóṡo@S+:M
 oléżża!
 oleżżai!
 oleżżammo!
@@ -239362,10 +239362,10 @@ ontologiṡmo
 ontologista
 ontologiste
 ontologisti
-ontóṡa!
-ontóṡe!
-ontóṡi!
-ontóṡo
+ontósa!
+ontóse!
+ontósi!
+ontóso~ontóṡo@S+:M
 onusta
 onuste
 onusti
@@ -240769,11 +240769,11 @@ orgogliènte!
 orgoglii!
 orgoglimmo!
 orgóglio~orgòglio@V
-orgogliòṡa!
+orgogliósa!
 orgogliosaménte~orgoglioṡaménte@S
-orgogliòṡe!
-orgogliòṡi!
-orgogliòṡo~orgoglióṡo@V~orgoglióso@VS
+orgoglióse!
+orgogliósi!
+orgoglióso~orgogliòṡo@VS+:M~orgoglióṡo@S
 orgoglirai!
 orgogliranno!
 orgoglire
@@ -242514,7 +242514,7 @@ ossimòrica!
 ossimòriche!
 ossimòrici!
 ossimòrico
-ossimóro~ossìmoro@A+~ossimòro@V
+ossimòro~ossimóro@V+~ossìmoro@A+
 ossitagli
 ossitaglio
 ossitocia
@@ -243819,7 +243819,7 @@ ovattò	ovattò!
 ovazióne
 ovazióni!
 óve
-overdòṡe
+overdóse~overdòṡe@VS+:M
 òvest
 ovétti
 ovétto
@@ -244331,8 +244331,8 @@ padènte!
 padi
 padiamo!
 padiate!
-padigliòne~padiglióne@V
-padigliòni
+padiglióne
+padiglióni
 padii!
 padimmo!
 padirai!
@@ -244462,10 +244462,10 @@ paeṡana!
 paeṡane!
 paeṡani!
 paeṡano~paesano@S+
-paéṡe
+paése~paéṡe@S+:M
 paeṡèlli!
 paeṡèllo
-paéṡi
+paési~paéṡi@S+:M
 paeṡini!
 paeṡino
 paeṡùcoli!
@@ -245005,7 +245005,7 @@ palermitani!
 palermitano
 palerà	palerà!
 palerò	palerò!
-paléṡa
+palésa~paléṡa@S+:M
 paleṡai!
 paleṡammo!
 paleṡando!
@@ -245035,7 +245035,7 @@ paleṡàvano!
 paleṡavate!
 paleṡavi!
 paleṡavo!
-paléṡe
+palése~paléṡe@S+:M
 paleṡeménte
 paleṡerai!
 paleṡeranno!
@@ -245049,12 +245049,12 @@ paleṡerésti!
 paleṡeréte!
 paleserà	paleṡerà!
 paleserò	paleṡerò!
-paléṡi
+palési~paléṡi@S+:M
 paleṡiamo!
 paleṡiàmoci!
 paleṡiate!
 paléṡino!
-paléṡo
+paléso~paléṡo@S+:M
 palestinése~palestinéṡe@S+
 palestinési!
 palèstra
@@ -245917,10 +245917,10 @@ pannoniana!
 pannoniane!
 pannoniani!
 pannoniano
-pannóṡa!
-pannóṡe!
-pannóṡi!
-pannóṡo
+pannósa!
+pannóse!
+pannósi!
+pannóso~pannóṡo@S+:M
 panóne!
 panòplia
 panòplie!
@@ -246117,8 +246117,8 @@ paperino
 pàpero
 paperóne
 paperóni!
-paperopoléṡe~paperopolése@S
-paperopoléṡi~paperopolési@S
+paperopolése~paperopoléṡe@S+:M
+paperopolési~paperopoléṡi@S+:M
 paperòtto!
 paperòttolo!
 paperùccio!
@@ -246720,7 +246720,7 @@ parallasse
 parallassi!
 parallèla
 parallelaménte
-paralléle~parallèle@V
+parallèle~paralléle@V+
 parallelepìpeda!
 parallelepìpede!
 parallelepìpedi!
@@ -247189,7 +247189,7 @@ parentètica
 parentètiche
 parentètici
 parentètico
-parénti
+parènti
 parèo
 pareraco!
 parerai!
@@ -247654,11 +247654,11 @@ parsi
 pàrsimo!
 parsimònia
 parsimònie!
-parsimonióṡa!
+parsimoniósa!
 parsimonioṡaménte~parsimoniosaménte@S
-parsimonióṡe!
-parsimonióṡi!
-parsimonióṡo
+parsimonióse!
+parsimoniósi!
+parsimonióso~parsimonióṡo@S+:M
 parso
 parsuto!
 parta
@@ -248582,8 +248582,8 @@ pastoriżżàvano!
 pastoriżżavate!
 pastoriżżavi!
 pastoriżżavo!
-pastoriżżaziòne~pastoriżżazióne@V
-pastoriżżaziòni!
+pastoriżżazióne
+pastoriżżazióni!
 pastoriżżerai!
 pastoriżżeranno!
 pastoriżżerèbbe~pastoriżżerébbe@V!
@@ -249341,7 +249341,7 @@ pavènto
 paventò	paventò!
 pavèra
 pavère!
-pavéṡa
+pavésa~pavéṡa@S+:M
 paveṡai!
 paveṡaio
 paveṡammo!
@@ -249364,7 +249364,7 @@ paveṡàvano!
 paveṡavate!
 paveṡavi!
 paveṡavo!
-pavéṡe~pavése@S
+pavése~pavéṡe@S+:M
 paveṡerai!
 paveṡeranno!
 paveṡerèbbe~paveṡerébbe@V!
@@ -249377,11 +249377,11 @@ paveṡerésti!
 paveṡeréte!
 paveserà	paveṡerà!
 paveserò	paveṡerò!
-pavéṡi~pavési@S
+pavési~pavéṡi@S+:M
 paveṡiamo!
 paveṡiate!
 pavéṡino!
-pavéṡo
+pavéso~pavéṡo@S+:M
 pavesò	paveṡò!
 pavia
 paviani!
@@ -250138,7 +250138,7 @@ pellagra
 pellagre
 pellanda
 pellande!
-pélle;pèlle
+pèlle
 pellegrina
 pellegrinaggio
 pellegrinai!
@@ -250234,7 +250234,7 @@ pellettiżżiate!
 pellettìżżino!
 pellettiżżo!
 pellettizzò	pellettiżżò!
-pélli!
+pèlli
 pellicani!
 pellicano
 pellicceria
@@ -250551,7 +250551,7 @@ peneréste!
 penerésti!
 peneréte!
 pèneri
-pénero~pènero@V
+pènero~pénero@V+
 penerà	penerà!
 penerò	penerò!
 pènetra~penètra@A
@@ -250715,8 +250715,8 @@ penómbra
 penómbre!
 penósa~penóṡa@S+:M
 penosaménte
-penóṡe
-penóṡi
+penóse~penóṡe@S+:M
+penósi~penóṡi@S+:M
 penóso~penóṡo@S+:M
 pènsa!
 pensàbile
@@ -252105,7 +252105,7 @@ perìcoli
 pericoliamo!
 pericoliate!
 perìcolino!
-pèricolo~perìcolo@A
+perìcolo
 pericolósa~pericolóṡa@S+:M
 pericolosaménte~pericoloṡaménte@S
 pericolóse~pericolóṡe@S+:M
@@ -252441,12 +252441,12 @@ perlùstrino!
 perlustro!
 perlustrò	perlustrò
 permafròst
-permalóṡa!
+permalósa!
 permalosaménte
-permalóṡe!
-permalóṡi!
+permalóse!
+permalósi!
 permalosità	permaloṡità~permalosità@S
-permalóṡo
+permalóso~permalóṡo@S+:M
 permane!
 permanémmo!
 permanèndo!
@@ -253821,8 +253821,8 @@ pesantézze!
 peṡanti!
 peṡar~pesar@S
 peṡare~pesare@S
-peṡaréṡe~pesaréṡe@S~peṡarése@S~pesarése@S
-peṡaréṡi~pesaréṡi@S~peṡarési@S~pesarési@S
+peṡarése~peṡaréṡe@S+:M~pesaréṡe@S~pesarése@S
+peṡarési~peṡaréṡi@S+:M~pesaréṡi@S~pesarési@S
 peṡàrono!
 peṡarsi~pesarsi@S
 peṡarti!
@@ -253940,11 +253940,11 @@ pescivéndoli!
 pescivéndolo
 pèsco;pésco
 pesconóce
-pescóṡa!
-pescóṡe!
-pescóṡi!
+pescósa!
+pescóse!
+pescósi!
 pescosità	pescoṡità
-pescóṡo
+pescóso~pescóṡo@S+:M
 pescò	pescò!
 péṡe~pése@S
 peṡerai!
@@ -255045,8 +255045,8 @@ piantumata!
 piantumate!
 piantumati!
 piantumato
-piantumazìone
-piantumazìoni!
+piantumazióne
+piantumazióni!
 piantò	piantò!
 pianura
 pianure
@@ -255563,8 +255563,8 @@ pièmica!
 pièmiche!
 pièmici!
 pièmico
-piemontéṡe~piemontése@S
-piemontéṡi~piemontési@S
+piemontése~piemontéṡe@S+:M
+piemontési~piemontéṡi@S+:M
 piemontesiṡmi!
 piemontesiṡmo
 piemontesiżża!
@@ -257116,10 +257116,10 @@ piscìvore
 piscìvori
 piscìvoro
 pisciò	pisciò!
-piscóṡa!
-piscóṡe!
-piscóṡi!
-piscóṡo
+piscósa!
+piscóse!
+piscósi!
+piscóso~piscóṡo@S+:M
 piṡellata
 piṡellate!
 piṡèlli~pisèlli@S
@@ -257203,8 +257203,8 @@ pistòla;pìstola
 pistòle
 pistolèri!
 pistolèro
-pistoléṡe~pistolése@S
-pistoléṡi!
+pistolése~pistoléṡe@S+:M
+pistolési!
 pistolettata
 pistolettate!
 pistolière
@@ -257526,7 +257526,7 @@ pizzuta
 pizzute
 pizzuti
 pizzuto
-piè	pié~piè@V
+piè	piè~pié@V+
 piò	piò!
 più	più
 piùe	piùe
@@ -258453,10 +258453,10 @@ poderale
 poderali!
 podére
 podéri!
-poderóṡa
+poderósa~poderóṡa@S+:M
 poderosaménte
-poderóṡe
-poderóṡi
+poderóse~poderóṡe@S+:M
+poderósi~poderóṡi@S+:M
 poderóso~poderóṡo@S+:M
 podèsta
 podestaréssa
@@ -259130,8 +259130,8 @@ politicastre
 politicastri
 politicastro
 polìtiche
-politichéṡe~politichése@S
-politichéṡi!
+politichése~politichéṡe@S+:M
+politichési!
 polìtici!
 politiciṡmi!
 politiciṡmo
@@ -259503,7 +259503,7 @@ pométto!
 pòmfi
 pòmfo~pómfo@V
 pómi!
-pómice~pòmice@V
+pòmice~pómice@V+
 pomicerai!
 pomiceranno!
 pomicerèbbe~pomicerébbe@V!
@@ -259516,7 +259516,7 @@ pomicerésti!
 pomiceréte!
 pomicerà	pomicerà!
 pomicerò	pomicerò!
-pómici!
+pòmici;pómici@I!
 pómicia!
 pomiciai!
 pomiciammo!
@@ -259732,8 +259732,8 @@ pontboṡetane!
 pontboṡetani!
 pontboṡetano
 pónte
-ponteacchéṡe
-ponteacchéṡi!
+ponteacchése~ponteacchéṡe@S+:M
+ponteacchési!
 ponteficale
 ponteficali!
 pontéfice~pontèfice@V
@@ -260413,10 +260413,10 @@ porterésti!
 porteréte!
 porterà	porterà
 porterò	porterò
-portéṡa!
-portéṡe!
-portéṡi!
-portéṡo~portéso@S
+portésa!
+portése!
+portési!
+portéso~portéṡo@S+:M
 pòrti~pórti@V
 portiamo!
 portiàmoci!
@@ -260439,7 +260439,7 @@ pòrto~pórto@V
 portogalli!
 portogallo
 portoghése~portoghéṡe@S
-portoghéṡi~portoghési@S
+portoghési~portoghéṡi@S+:M
 portolani!
 portolano
 portóne
@@ -261609,8 +261609,8 @@ pratellina
 pratelline!
 prateria
 praterie!
-pratéṡe~pratése@S
-pratéṡi!
+pratése~pratéṡe@S+:M
+pratési!
 prati!
 pratia!
 pràtica
@@ -263926,7 +263926,7 @@ premiavi!
 premiavo!
 premiazióne
 premiazióni!
-prémier~prèmier@V
+prèmier~prémier@V+
 premierai!
 premieranno!
 premierati!
@@ -264611,7 +264611,7 @@ preriscaldo
 prerogativa
 prerogative!
 preromànica
-préṡa~présa@S
+présa~préṡa@S+:M
 preṡaga!
 preṡagèndo!
 preṡagènte!
@@ -264858,7 +264858,7 @@ prescrivo!
 prescrìvono!
 prescrizióne
 prescrizióni!
-préṡe~prése@S
+prése~préṡe@S+:M
 presedéi!
 presedémmo!
 presedèndo!
@@ -265154,7 +265154,7 @@ preserviate~preṡerviate@S
 presèrvino~preṡèrvino@S
 presèrvo~preṡèrvo@S
 preservò	preservò!
-préṡi~prési@S
+prési~préṡi@S+:M
 prèside~prèṡide@S
 presidènte
 preṡidentéssa
@@ -265715,10 +265715,10 @@ pretésca!
 pretésche!
 pretéschi!
 pretésco
-pretéṡe~pretése@S
+pretése~pretéṡe@S+:M
 pretésero!
-pretéṡi~pretési@S
-pretéṡo~pretéso@S
+pretési~pretéṡi@S+:M
+pretéso~pretéṡo@S+:M
 pretèsta!
 pretestai!
 pretestammo!
@@ -267923,8 +267923,8 @@ profumàvano!
 profumavate!
 profumavi!
 profumavo!
-profumaziòne
-profumaziòni!
+profumazióne
+profumazióni!
 profumerai!
 profumeranno!
 profumerèbbe~profumerébbe@V!
@@ -268220,8 +268220,8 @@ proibìvano!
 proibivate!
 proibivi!
 proibivo!
-proibiziòne~proibizióne@V
-proibiziòni!
+proibizióne
+proibizióni!
 proibizioniṡmi!
 proibizioniṡmo
 proibizionista
@@ -269132,9 +269132,9 @@ proparossìtono
 propatagi
 propatagio
 propedèutica
-propedéutiche!
-propedéutici!
-propedéutico~propedèutico@V
+propedèutiche!
+propedèutici!
+propedèutico~propedéutico@V+
 propèlla!
 propèllano
 propèlle
@@ -269224,10 +269224,10 @@ propensióne
 propensióni!
 propensità	propensità
 propènso
-propéṡa~propésa@S
-propéṡe~propése@S
-propéṡi~propési@S
-propéṡo~propéso@S
+propésa~propéṡa@S+:M
+propése~propéṡe@S+:M
+propési~propéṡi@S+:M
+propéso~propéṡo@S+:M
 pròpi
 pròpia!
 pròpie!
@@ -270044,10 +270044,10 @@ prosterniate!
 prostèrnino!
 prostèrno!
 prosternò	prosternò!
-prostéṡa!
-prostéṡe!
+prostésa!
+prostése!
 pròsteṡi~prostési@AS:T;prostéṡi
-prostéṡo~prostéso@S
+prostéso~prostéṡo@S+:M
 prostètica
 prostètiche
 prostètici
@@ -270291,8 +270291,8 @@ protèrvia
 protèrvie!
 protervità	protervità
 protèrvo
-protéṡa~protésa@S
-protéṡe~protése@S
+protésa~protéṡa@S+:M
+protése~protéṡe@S+:M
 protésero!
 pròteṡi~protési@AS;protéṡi
 protèṡica!
@@ -271157,8 +271157,8 @@ pseudoscientìfica!
 pseudoscientìfiche!
 pseudoscientìfici
 pseudoscientìfico
-pseudosciénza~pseudosciènza@V
-pseudosciénze!
+pseudosciènza~pseudosciénza@V+
+pseudosciènze!
 pseudoscienziata
 pseudoscienziate!
 pseudoscienziati!
@@ -271633,8 +271633,8 @@ pugióne
 pugióni!
 puglia
 puglie!
-pugliéṡe~pugliése@S
-pugliéṡi!
+pugliése~pugliéṡe@S+:M
+pugliési!
 pugna
 pugnace
 pugnaceménte
@@ -271764,7 +271764,7 @@ pulènda
 pulènde!
 pulèndo!
 pulèndosi!
-pulénte~pulènte@V
+pulènte~pulénte@V+
 pulèntesi!
 pulènti
 puléżżi!
@@ -272662,7 +272662,7 @@ purulènta!
 purulènte
 purulènti
 purulènto
-purè	puré~purè@V
+purè	purè~puré@V+
 pus
 pusher
 pushers!
@@ -274540,8 +274540,8 @@ ràbida!
 ràbide!
 ràbidi!
 ràbido
-rabóṡi!
-rabóṡo
+rabósi!
+rabóso~rabóṡo@S+:M
 ràbula
 ràbule
 ràbuli!
@@ -274744,11 +274744,11 @@ raccenniate!
 raccénnino!
 raccénno!
 raccennò	raccennò!
-raccéṡa!
-raccése~raccéṡe@S!
+raccésa!
+raccése!
 raccésero!
-raccési~raccéṡi@S!
-raccéṡo~raccéso@S
+raccési!
+raccéso~raccéṡo@S+:M
 racchetàndosi!
 racchetàntesi!
 racchetarsi
@@ -276120,7 +276120,7 @@ radioripetitóre
 radioripetitóri!
 radiorumóre
 radiorumóri!
-radióṡa
+radiósa~radióṡa@S+:M
 radioscandaglio
 radioscopia
 radioscòpica
@@ -276133,7 +276133,7 @@ radiosegnale
 radiosegnali!
 radiosentièri!
 radiosentièro
-radióṡi
+radiósi~radióṡi@S+:M
 radiosità	radiosità
 radióso~radióṡo@S+:M
 radiosónda
@@ -279057,10 +279057,10 @@ rapprendiamo!
 rapprendiate!
 rapprèndo
 rapprèndono!
-rappréṡa~rapprésa@S
+rapprésa~rappréṡa@S+:M
 rappreṡaglia~rappresaglia@S
 rappreṡaglie~rappresaglie@S
-rappréṡe~rapprése@S
+rapprése~rappréṡe@S+:M
 rappreṡènta!
 rappreṡentàbile
 rappreṡentàbili!
@@ -279117,7 +279117,7 @@ rappreṡèntino!
 rappreṡènto
 rappresentò	rappreṡentò!
 rapprésero!
-rappréṡi~rapprési@S
+rapprési~rappréṡi@S+:M
 rappréso~rappréṡo@S
 rapsòdi!
 rapsodia
@@ -288443,11 +288443,11 @@ riaccertiate!
 riaccèrtino!
 riaccèrto!
 riaccertò	riaccertò!
-riaccéṡa!
-riaccése~riaccéṡe@S!
+riaccésa!
+riaccése!
 riaccésero!
-riaccési~riaccéṡi@S!
-riaccéṡo~riaccéso@S
+riaccési!
+riaccéso~riaccéṡo@S+:M
 riaccésosi!
 riaccètta!
 riaccettai!
@@ -293081,11 +293081,11 @@ riappendiamo!
 riappendiate!
 riappèndo!
 riappèndono!
-riappéṡa!
-riappése~riappéṡe@S!
+riappésa!
+riappése!
 riappésero!
-riappési~riappéṡi@S!
-riappéṡo~riappéso@S
+riappési!
+riappéso~riappéṡo@S+:M
 riappiana!
 riappianai!
 riappianammo!
@@ -293430,11 +293430,11 @@ riapprendiamo!
 riapprendiate!
 riapprèndo!
 riapprèndono!
-riappréṡa!
-riapprése~riappréṡe@S!
+riapprésa!
+riapprése!
 riapprésero!
-riapprési~riappréṡi@S!
-riappréṡo~riappréso@S
+riapprési!
+riappréso~riappréṡo@S+:M
 riapprèssa!
 riappressai!
 riappressammo!
@@ -294112,11 +294112,11 @@ riascendiamo!
 riascendiate!
 riascéndo~riascèndo@V
 riascéndono~riascèndono@V
-riascéṡa!
-riascése~riascéṡe@S!
+riascésa!
+riascése!
 riascésero!
-riascési~riascéṡi@S!
-riascéṡo~riascéso@S
+riascési!
+riascéso~riascéṡo@S+:M
 riasciuga!
 riasciugai!
 riasciugammo!
@@ -295342,11 +295342,11 @@ riattèrro!
 riatterrò	riatterrò!
 riatterà	riatterà!
 riatterò	riatterò!
-riattéṡa!
-riattése~riattéṡe@S!
+riattésa!
+riattése!
 riattésero!
-riattési~riattéṡi@S!
-riattéṡo~riattéso@S
+riattési!
+riattéso~riattéṡo@S+:M
 riatti!
 riattiamo!
 riattiate!
@@ -299256,10 +299256,10 @@ ricomprerésti!
 ricompreréte!
 ricomprerà	ricomprerà!
 ricomprerò	ricomprerò!
-ricompréṡa~ricomprésa@S
-ricompréṡe~ricomprése@S
-ricompréṡi~ricomprési@S
-ricompréṡo~ricompréso@S
+ricomprésa~ricompréṡa@S+:M
+ricomprése~ricompréṡe@S+:M
+ricomprési~ricompréṡi@S+:M
+ricompréso~ricompréṡo@S+:M
 ricomprèssa!
 ricomprèsse!
 ricomprèssero!
@@ -300888,7 +300888,7 @@ ricoveriamo!
 ricoveriàmoci!
 ricoveriate!
 ricòverino~ricóverino@V!
-ricóvero~ricòvero@V
+ricòvero~ricóvero@V+
 ricoverò	ricoverò!
 ricrèa
 ricreai!
@@ -301483,7 +301483,7 @@ ridefinizióne
 ridefinizióni!
 ridefinì	ridefinì!
 ridémmo!
-ridéndo
+ridèndo
 ridèndosene!
 ridèndosi!
 ridènna
@@ -301491,7 +301491,7 @@ ridènne
 ridènte
 ridèntesene!
 ridèntesi!
-ridénti~ridènti@V
+ridènti~ridénti@V+
 ridepóne!
 rideponémmo!
 rideponèndo!
@@ -302009,11 +302009,11 @@ ridiscendiamo!
 ridiscendiate!
 ridiscéndo~ridiscèndo@V
 ridiscéndono~ridiscèndono@V
-ridiscéṡa~ridiscésa@S
-ridiscéṡe~ridiscése@S
+ridiscésa~ridiscéṡa@S+:M
+ridiscése~ridiscéṡe@S+:M
 ridiscésero!
-ridiscéṡi~ridiscési@S
-ridiscéṡo~ridiscéso@S
+ridiscési~ridiscéṡi@S+:M
+ridiscéso~ridiscéṡo@S+:M
 ridisciòlgo
 ridiscórra!
 ridiscórrano!
@@ -302265,11 +302265,11 @@ ridistendiamo!
 ridistendiate!
 ridistèndo!
 ridistèndono!
-ridistéṡa!
-ridistése~ridistéṡe@S!
+ridistésa!
+ridistése!
 ridistésero!
-ridistési~ridistéṡi@S!
-ridistéṡo~ridistéso@S
+ridistési!
+ridistéso~ridistéṡo@S+:M
 ridistìngua!
 ridistìnguano!
 ridistìngue!
@@ -304290,11 +304290,11 @@ riesploriate!
 riesplòrino!
 riesplòro!
 riesplorò	riesplorò!
-riesplòṡa!
-riesplòse~riesplòṡe@S!
+riesplósa!
+riesplòse~riesplóse@V!
 riesplòsero!
-riesplòsi~riesplòṡi@S!
-riesplòṡo
+riesplòsi~riesplósi@V!
+riesplóso~riesplòṡo@VS+:M
 riespóne!
 riesponémmo!
 riesponèndo!
@@ -304627,11 +304627,11 @@ riestendiamo!
 riestendiate!
 riestèndo!
 riestèndono!
-riestéṡa!
-riestése~riestéṡe@S!
+riestésa!
+riestése!
 riestésero!
-riestési~riestéṡi@S!
-riestéṡo~riestéso@S
+riestési!
+riestéso~riestéṡo@S+:M
 riestìngua!
 riestìnguano!
 riestìngue!
@@ -306809,8 +306809,8 @@ rigoglióse~rigoglióṡe@S+:M
 rigogliósi~rigoglióṡi@S+:M
 rigogliosità	rigoglioṡità~rigogliosità@S
 rigoglióso~rigoglióṡo@S+
-rigógoli!
-rigógolo~rigògolo@V
+rigògoli!
+rigògolo~rigógolo@V+
 rigónfi!
 rigónfia!
 rigonfiàbile
@@ -312891,10 +312891,10 @@ rinterziate!
 rintèrzino!
 rintèrzo!
 rinterzò	rinterzò!
-rintéṡa!
-rintéṡe!
-rintéṡi!
-rintéṡo~rintéso@S
+rintésa!
+rintése!
+rintési!
+rintéso~rintéṡo@S+:M
 rintócca!
 rintoccai!
 rintoccammo!
@@ -314764,11 +314764,11 @@ rioffèrse!
 rioffèrsero!
 rioffèrsi!
 rioffèrto!
-riofféṡa!
-rioffése~riofféṡe@S!
+rioffésa!
+rioffése!
 rioffésero!
-rioffési~riofféṡi@S!
-riofféṡo~riofféso@S
+rioffési!
+riofféso~riofféṡo@S+:M
 riòffra!
 riòffrano!
 riòffre!
@@ -315907,7 +315907,7 @@ ripèrse!
 ripèrsero!
 ripèrsi!
 ripèrso
-ripéṡa~ripésa@S
+ripésa~ripéṡa@S+:M
 ripeṡai!
 ripeṡammo!
 ripeṡando!
@@ -315981,11 +315981,11 @@ ripeṡerésti!
 ripeṡeréte!
 ripeserà	ripeṡerà!
 ripeserò	ripeṡerò!
-ripéṡi~ripési@S
+ripési~ripéṡi@S+:M
 ripeṡiamo!
 ripeṡiate!
 ripéṡino~ripésino@S
-ripéṡo~ripéso@S
+ripéso~ripéṡo@S+:M
 ripesò	ripeṡò!
 ripèta!
 ripètano!
@@ -316921,8 +316921,8 @@ riprèndo
 riprèndono!
 riprensióne
 riprensióni!
-ripréṡa~riprésa@S
-ripréṡe~riprése@S
+riprésa~ripréṡa@S+:M
+riprése~ripréṡe@S+:M
 ripreṡènta!
 ripreṡentai!
 ripreṡentammo!
@@ -316973,7 +316973,7 @@ ripreṡèntino!
 ripreṡènto!
 ripresentò	ripreṡentò!
 riprésero!
-ripréṡi~riprési@S
+riprési~ripréṡi@S+:M
 ripréso~ripréṡo@S
 riprésosi!
 riprèsta!
@@ -317016,10 +317016,10 @@ riprestiate!
 riprèstino!
 riprèsto!
 riprestò	riprestò!
-ripretéṡa!
-ripretéṡe!
-ripretéṡi!
-ripretéṡo~ripretéso@S
+ripretésa!
+ripretése!
+ripretési!
+ripretéso~ripretéṡo@S+:M
 riprica
 ripriche!
 riprìstina!
@@ -317903,11 +317903,11 @@ rirendiamo!
 rirendiate!
 rirèndo!
 rirèndono!
-riréṡa!
-rirése~riréṡe@S!
+rirésa!
+rirése!
 rirésero!
-rirési~riréṡi@S!
-riréṡo~riréso@S
+rirési!
+riréso~riréṡo@S+:M
 rirómpa!
 rirómpano!
 rirómpe!
@@ -318611,11 +318611,11 @@ riscendiamo!
 riscendiate!
 riscéndo~riscèndo@V
 riscéndono~riscèndono@V
-riscéṡa~riscésa@S
-riscéṡe~riscése@S
+riscésa~riscéṡa@S+:M
+riscése~riscéṡe@S+:M
 riscésero!
-riscéṡi~riscési@S
-riscéṡo~riscéso@S
+riscési~riscéṡi@S+:M
+riscéso~riscéṡo@S+:M
 rischi
 rischia
 rischiai!
@@ -320529,11 +320529,11 @@ risospèndo!
 risospèndono!
 risospensióne
 risospensióni!
-riṡospéṡa!
-risospése~riṡospéṡe@S!
+riṡospésa!
+risospése~riṡospése@S!
 risospésero!
-risospési~riṡospéṡi@S!
-riṡospéṡo~riṡospéso@S
+risospési~riṡospési@S!
+riṡospéso~riṡospéṡo@S+:M
 risospinga!
 risospìngano!
 risospinge
@@ -321851,11 +321851,11 @@ ristendiamo!
 ristendiate!
 ristèndo!
 ristèndono!
-ristéṡa!
-ristéṡe~ristése@S
+ristésa!
+ristése~ristéṡe@S+:M
 ristésero!
-ristési~ristéṡi@S!
-ristéṡo~ristéso@S
+ristési!
+ristéso~ristéṡo@S+:M
 ristésse!
 ristéssero!
 ristéssi!
@@ -323065,11 +323065,11 @@ ritèrse!
 ritèrsero!
 ritèrsi!
 ritèrso
-ritéṡa!
-ritéṡe~ritése@S
+ritésa!
+ritése~ritéṡe@S+:M
 ritésero!
-ritési~ritéṡi@S!
-ritéṡo~ritéso@S
+ritési!
+ritéso~ritéṡo@S+:M
 riti!
 ritidectomia
 ritidectomie!
@@ -323391,8 +323391,8 @@ ritornàvano!
 ritornavate!
 ritornavi!
 ritornavo
-ritornélli!
-ritornéllo~ritornèllo@V
+ritornèlli!
+ritornèllo~ritornéllo@V+
 ritornerai!
 ritorneranno!
 ritornerèbbe~ritornerébbe@V!
@@ -325443,10 +325443,10 @@ riżòfaghe!
 riżòfagi!
 riżòfago
 riżòma
-riżomatóṡa
-riżomatóṡe
-riżomatóṡi
-riżomatóṡo
+riżomatósa~riżomatóṡa@S+:M
+riżomatóse~riżomatóṡe@S+:M
+riżomatósi~riżomatóṡi@S+:M
+riżomatóso~riżomatóṡo@S+:M
 riżòmi
 riżòmidi
 riżomòrfa
@@ -325536,8 +325536,8 @@ rizzerò	rizzerò!
 rizzi!
 rizziamo!
 rizziate!
-riżżiconéṡe~riżżiconése@S:T
-riżżiconéṡi~riżżiconési@S:T
+riżżiconése~riżżiconéṡe@S+:M
+riżżiconési~riżżiconéṡi@S+:M
 rìzzino!
 rizzo!
 rizzò	rizzò!
@@ -325661,10 +325661,10 @@ robustézza
 robustézze!
 robusti!
 robusto
-robustóṡa!
-robustóṡe!
-robustóṡi!
-robustóṡo
+robustósa!
+robustóse!
+robustósi!
+robustóso~robustóṡo@S+:M
 robò	robò!
 ròca!
 rocàggine
@@ -325860,7 +325860,7 @@ rognóne
 rognóni!
 rògo~rógo@V
 rogò	rogò!
-roiatéṡe
+roiatése~roiatéṡe@S+:M
 rollii!
 rollio
 ròm
@@ -327103,8 +327103,8 @@ rovesciò	rovesciò!
 rovéti!
 rovéto
 róvi!
-rovighéṡe
-rovighéṡi!
+rovighése~rovighéṡe@S+:M
+rovighési!
 rovigòtta!
 rovigòtte!
 rovigòtti!
@@ -327227,8 +327227,8 @@ rożżóri!
 rożżume
 rożżumi
 rua
-ruandéṡe~ruandése@S
-ruandéṡi!
+ruandése~ruandéṡe@S+:M
+ruandési!
 ruba
 rubacchi
 rubàcchia!
@@ -330163,7 +330163,7 @@ sanfediste!
 sanfedisti!
 sangalli!
 sangallo
-sangiovéṡe~sangiovése@S
+sangiovése~sangiovéṡe@S+:M
 sangria
 sangrias!
 sangrie!
@@ -330404,8 +330404,8 @@ sannute!
 sannuti!
 sannuto
 sano
-sanreméṡe~sanremése@S
-sanreméṡi~sanremési@S
+sanremése~sanreméṡe@S+:M
+sanremési~sanreméṡi@S+:M
 sanremòfila
 sanremòfile!
 sanremòfili!
@@ -331019,8 +331019,8 @@ sassaia
 sassaie
 sassaiòla
 sassaiòle
-sassaréṡe~sassarése@S
-sassaréṡi~sassarési@S
+sassarése~sassaréṡe@S+:M
+sassarési~sassaréṡi@S+:M
 sassata
 sassate!
 sassèlla
@@ -331040,10 +331040,10 @@ sassolino
 sàssone
 sàssoni
 sassoniano
-sassóṡa!
-sassóṡe!
-sassóṡi!
-sassóṡo
+sassósa!
+sassóse!
+sassósi!
+sassóso~sassóṡo@S+:M
 sàtana
 satanassi!
 satanasso
@@ -331351,7 +331351,7 @@ savonaroliane!
 savonaroliani!
 savonaroliano
 savonése~savonéṡe@S+
-savonéṡi~savonési@S
+savonési~savonéṡi@S+:M
 savorégge
 savoréggia
 sazi
@@ -334851,10 +334851,10 @@ sbrilluccicherò	ṡbrilluccicherò!
 ṡbrilluccichiate!
 ṡbrillùccichino!
 ṡbrillùccico!
-ṡbrilluccicóṡa!
-ṡbrilluccicóṡe!
-ṡbrilluccicóṡi!
-ṡbrilluccicóṡo~ṡbrilluccicóso@S
+ṡbrilluccicósa!
+ṡbrilluccicóse!
+ṡbrilluccicósi!
+ṡbrilluccicóso~ṡbrilluccicóṡo@S+:M
 sbrilluccicò	ṡbrilluccicò!
 ṡbrina!
 ṡbrinai!
@@ -339575,11 +339575,11 @@ scervellati;scervèllati@I
 scervellato
 scervellàtosi!
 scervelliàmoci!
-scéṡa~scésa@S
-scéṡe~scése@S
+scésa~scéṡa@S+:M
+scése~scéṡe@S+:M
 scésero!
-scéṡi~scési@S
-scéṡo~scéso@S
+scési~scéṡi@S+:M
+scéso~scéṡo@S+:M
 scèttica!
 scèttiche!
 scèttici!
@@ -339817,10 +339817,10 @@ scheggiavi!
 scheggiavo!
 schéggino!
 schéggio
-scheggióṡa!
-scheggióṡe!
-scheggióṡi!
-scheggióṡo
+scheggiósa!
+scheggióse!
+scheggiósi!
+scheggióso~scheggióṡo@S+:M
 scheggiò	scheggiò!
 schèi
 scheletògena
@@ -341287,8 +341287,8 @@ sciando!
 sciangai
 scìano
 sciante!
-sciantóṡa
-sciantóṡe
+sciantósa~sciantóṡa@S+:M
+sciantóse~sciantóṡe@S+:M
 sciapa!
 sciape!
 sciapi!
@@ -345853,9 +345853,9 @@ scorterésti!
 scorteréte!
 scorterà	scorterà!
 scorterò	scorterò!
-scortéṡe~scortése@S
+scortése~scortéṡe@S+:M
 scorteṡeménte
-scortéṡi
+scortési~scortéṡi@S+:M
 scòrti~scórti@V
 scortiamo!
 scortiate!
@@ -345996,10 +345996,10 @@ scoscendiamo!
 scoscendiate!
 scoscéndo~scoscèndo@V
 scoscéndono~scoscèndono@V
-scoscéṡa~scoscésa@S
-scoscéṡe~scoscése@S
+scoscésa~scoscéṡa@S+:M
+scoscése~scoscéṡe@S+:M
 scoscésero!
-scoscéṡi~scoscési@S
+scoscési~scoscéṡi@S+:M
 scoscéso~scoscéṡo@S
 scosciata
 scòsciati;scosciati
@@ -346348,8 +346348,8 @@ scóvolo
 scovò	scovò
 scòzia
 scòzie!
-scozzéṡe~scozzése@S:T
-scozzéṡi~scozzési@S
+scozzése~scozzéṡe@S+:M
+scozzési~scozzéṡi@S+:M
 scozzóna!
 scozzonai!
 scozzonammo!
@@ -350104,10 +350104,10 @@ semidiàfani!
 semidiàfano
 semidii!
 semidio
-semidistéṡa!
-semidistéṡe!
-semidistéṡi!
-semidistéṡo~semidistéso@S
+semidistésa!
+semidistése!
+semidistési!
+semidistéso~semidistéṡo@S+:M
 semidóppia!
 semidóppie!
 semidóppio
@@ -351498,7 +351498,7 @@ servènti
 sèrver
 servétta
 servétte!
-sérvi~sèrvi@V
+sèrvi~sérvi@V+
 serviamo!
 serviàmoci!
 serviate!
@@ -351648,8 +351648,8 @@ sessantunèṡime!
 sessantunèṡimi!
 sessantunèṡimo~sessantunéṡimo@V
 sessantuno
-sessareghéṡe~sessareghése@S:T
-sessareghéṡi~sessareghési@S:T
+sessareghése~sessareghéṡe@S+:M
+sessareghési~sessareghéṡi@S+:M
 sèsse
 sessènne
 sessènni!
@@ -351854,10 +351854,10 @@ setolinaia!
 setolinaio
 setolini!
 setolino;sétolino
-setóṡa!
-setóṡe!
-setóṡi!
-setóṡo
+setósa!
+setóse!
+setósi!
+setóso~setóṡo@S+:M
 sètta
 settàbile
 settàbili!
@@ -353517,10 +353517,10 @@ sfiduciavo!
 sfiducie!
 sfidùcino!
 sfidùcio!
-sfiducióṡa!
-sfiducióṡe!
-sfiducióṡi!
-sfiducióṡo
+sfiduciósa!
+sfiducióse!
+sfiduciósi!
+sfiducióso~sfiducióṡo@S+:M
 sfiduciò	sfiduciò!
 sfidò	sfidò!
 sfiga
@@ -354068,7 +354068,7 @@ sfoglierò	sfoglierò!
 sfòglino!
 sfòglio!
 sfogliò	sfogliò!
-sfógo~sfògo@V
+sfògo~sfógo@V+
 sfogò	sfogò!
 sfólgora!
 sfolgorai!
@@ -354748,7 +354748,7 @@ sfragìstica!
 sfragìstiche!
 sfragìstici!
 sfragìstico
-sfrancéṡa
+sfrancésa~sfrancéṡa@S+:M
 sfranceṡai!
 sfranceṡammo!
 sfranceṡando!
@@ -354782,7 +354782,7 @@ sfranceṡerésti!
 sfranceṡeréte!
 sfranceserà	sfranceṡerà!
 sfranceserò	sfranceṡerò!
-sfrancéṡi
+sfrancési~sfrancéṡi@S+:M
 sfranceṡiamo!
 sfranceṡiate!
 sfrancéṡino!
@@ -356693,8 +356693,8 @@ sgonfierò	ṡgonfierò!
 ṡgonfiòtti!
 ṡgonfiòtto
 sgonfiò	ṡgonfiò!
-ṡgórbia~ṡgòrbia@V
-ṡgórbie!
+ṡgòrbia~ṡgórbia@V+
+ṡgòrbie!
 ṡgòrbio~ṡgórbio@V
 ṡgórga!
 ṡgorgai!
@@ -358129,7 +358129,7 @@ shaviana!
 shaviane!
 shaviani!
 shaviano
-shérpa~shèrpa@V
+shèrpa~shérpa@V+
 shiatsu
 shiatzu!
 shiftare
@@ -358363,7 +358363,7 @@ sierotòssico
 sierovaccinazióne
 sierovaccinazióni!
 siérra
-siésta~sièsta@V
+sièsta~siésta@V+
 siète~siéte@V
 siffatta
 siffattaménte
@@ -358669,10 +358669,10 @@ silenzierà	silenzierà!
 silenzierò	silenzierò!
 silènzino!
 silènzio
-silenzióṡa
+silenziósa~silenzióṡa@S+:M
 silenzioṡaménte~silenziosaménte@S
 silenzióse!
-silenzióṡi
+silenziósi~silenzióṡi@S+:M
 silenzióso~silenzióṡo@S+:M
 silenziò	silenziò
 sìlfide
@@ -358835,7 +358835,7 @@ silològico
 silologie
 silos
 silotése~silotéṡe@S
-silotéṡi~silotési@S
+silotési~silotéṡi@S+:M
 silura
 silurai!
 siluraménti!
@@ -359627,8 +359627,8 @@ sinfoniètta
 sinfoniètte!
 sinforósa
 sinforóse
-singaléṡe~singalése@S
-singaléṡi!
+singalése~singaléṡe@S+:M
+singalési!
 singhiózza!
 singhiozzai!
 singhiozzammo!
@@ -360135,8 +360135,8 @@ sirocchiévole
 sirocchiévoli!
 sirte
 sirti
-sirventéṡe
-sirventéṡi!
+sirventése~sirventéṡe@S+:M
+sirventési!
 siṡma
 siṡmi!
 sìṡmica
@@ -364035,8 +364035,8 @@ snudò	ṡnudò!
 snì	ṡnì
 sò;só
 soave
-soavéṡe~soavése@S:T
-soavéṡi~soavési@S:T
+soavése~soavéṡe@S+:M
+soavési~soavéṡi@S+:M
 soavézza
 soavézze
 soavi
@@ -366054,7 +366054,7 @@ solitaria
 solitarie
 solitario
 sòlite
-sóliti~sòliti@V
+sòliti~sóliti@V+
 sòlito
 solitùdine
 solitùdini
@@ -366329,10 +366329,10 @@ soluzióni!
 sòlva!
 sòlvano!
 solvatai
-sólve~sòlve@V
+sòlve~sólve@V+
 solvéi!
 solvémmo!
-solvéndo
+solvèndo
 solvènte
 solvènti
 solverai!
@@ -366546,7 +366546,7 @@ sommavate!
 sommavi!
 sommavo!
 sómme!
-sommeliér~sommelièr@V
+sommelièr~sommeliér@V+
 sommelière!
 sommerai!
 sommeranno!
@@ -367134,7 +367134,7 @@ sopperivate!
 sopperivi!
 sopperivo!
 sopperì	sopperì
-soppéṡa~soppésa@S
+soppésa~soppéṡa@S+:M
 soppesai!
 soppesammo!
 soppesando!
@@ -367170,11 +367170,11 @@ soppeserésti!
 soppeseréte!
 soppeserà	soppeserà!
 soppeserò	soppeserò!
-soppéṡi~soppési@S
+soppési~soppéṡi@S+:M
 soppesiamo!
 soppesiate!
 soppéṡino~soppésino@S
-soppéṡo~soppéso@S
+soppéso~soppéṡo@S+:M
 soppesò	soppesò!
 soppianta!
 soppiantai!
@@ -367486,10 +367486,10 @@ sopraggravi
 sopraggràvino
 sopraggravio
 sopraggravo
-sopraintéṡa!
-sopraintéṡe!
-sopraintéṡi!
-sopraintéṡo~sopraintéso@S
+sopraintésa!
+sopraintése!
+sopraintési!
+sopraintéso~sopraintéṡo@S+:M
 sopralìnea!
 sopralineai!
 sopralineammo!
@@ -367696,10 +367696,10 @@ soprappósta~soprappòsta@V
 soprappóste~soprappòste@V
 soprappósti~soprappòsti@V
 soprappósto~soprappòsto@V
-soprappréṡa!
-soprappréṡe!
-soprappréṡi!
-soprappréṡo~soprappréso@S
+soprapprésa!
+soprapprése!
+soprapprési!
+soprappréso~soprappréṡo@S+:M
 soprapprèzzi!
 soprapprèzzo
 soprapprofitti!
@@ -367791,10 +367791,10 @@ soprasegniate!
 sopraségnino!
 sopraségno!
 soprasegnò	soprasegnò!
-sopraspéṡa!
-sopraspéṡe!
-sopraspéṡi!
-sopraspéṡo~sopraspéso@S
+sopraspésa!
+sopraspése!
+sopraspési!
+sopraspéso~sopraspéṡo@S+:M
 soprassai!
 soprassalti!
 soprassalto
@@ -368352,11 +368352,11 @@ soprintendiamo!
 soprintendiate!
 soprintèndo!
 soprintèndono!
-soprintéṡa~soprintésa@S
-soprintéṡe~soprintése@S
+soprintésa~soprintéṡa@S+:M
+soprintése~soprintéṡe@S+:M
 soprintésero!
-soprintéṡi~soprintési@S
-soprintéṡo~soprintéso@S
+soprintési~soprintéṡi@S+:M
+soprintéso~soprintéṡo@S+:M
 sopruṡi
 sopruṡo
 sopì	sopì!
@@ -368410,7 +368410,7 @@ sorbastrèlla!
 sorbata
 sorbate!
 sòrbe!
-sorbéndo
+sorbèndo
 sorbèndosi!
 sorbénte
 sorbèntesi!
@@ -368755,8 +368755,8 @@ sorprendiamo!
 sorprendiate!
 sorprèndo
 sorprèndono!
-sorpréṡa~sorprésa@S
-sorpréṡe~sorprése@S
+sorprésa~sorpréṡa@S+:M
+sorprése~sorpréṡe@S+:M
 sorprésero!
 sorprési!
 sorpréso~sorpréṡo@S
@@ -369189,10 +369189,10 @@ sospensivo
 sospensòria!
 sospensòrie!
 sospensòrio
-sospéṡa~sospésa@S
-sospéṡe~sospése@S
+sospésa~sospéṡa@S+:M
+sospése~sospéṡe@S+:M
 sospésero!
-sospéṡi~sospési@S
+sospési~sospéṡi@S+:M
 sospéso~sospéṡo@S
 sospètta!
 sospettàbile
@@ -369839,11 +369839,11 @@ sotterriate!
 sottèrrino!
 sottèrro!
 sotterrò	sotterrò!
-sottéṡa~sottésa@S
-sottéṡe~sottése@S
+sottésa~sottéṡa@S+:M
+sottése~sottéṡe@S+:M
 sottésero!
-sottéṡi~sottési@S
-sottéṡo~sottéso@S
+sottési~sottéṡi@S+:M
+sottéso~sottéṡo@S+:M
 sottigliézza
 sottigliézze!
 sottile
@@ -369931,10 +369931,10 @@ sottintendiamo!
 sottintendiate!
 sottintèndo
 sottintèndono!
-sottintéṡa~sottintésa@S
-sottintéṡe~sottintése@S
+sottintésa~sottintéṡa@S+:M
+sottintése~sottintéṡe@S+:M
 sottintésero!
-sottintéṡi~sottintési@S
+sottintési~sottintéṡi@S+:M
 sottintéso~sottintéṡo@S
 sótto
 sottoalfabetiżżata!
@@ -370063,8 +370063,8 @@ sottofamiglie!
 sottofasce
 sottofascia
 sottofatturare
-sottoféṡa
-sottoféṡe!
+sottofésa~sottoféṡa@S+:M
+sottofése!
 sottofóndi!
 sottofóndo
 sottogamba
@@ -370935,7 +370935,7 @@ sovradòṡi!
 sovradoṡiamo!
 sovradoṡiate!
 sovradòṡino!
-sovradòṡo
+sovradóso~sovradòṡo@VS+:M
 sovradosò	sovradoṡò!
 sovraeccitàbile
 sovraeccitàbili!
@@ -371030,10 +371030,10 @@ sovraimpósta~sovraimpòsta@V
 sovraimpóste~sovraimpòste@V
 sovraimpósti~sovraimpòsti@V
 sovraimpósto~sovraimpòsto@V
-sovraintéṡa!
-sovraintéṡe!
-sovraintéṡi!
-sovraintéṡo~sovraintéso@S
+sovraintésa!
+sovraintése!
+sovraintési!
+sovraintéso~sovraintéṡo@S+:M
 sovraliménta!
 sovralimentai!
 sovralimentammo!
@@ -371502,11 +371502,11 @@ sovrintendiamo!
 sovrintendiate!
 sovrintèndo!
 sovrintèndono!
-sovrintéṡa!
-sovrintése~sovrintéṡe@S!
+sovrintésa!
+sovrintése!
 sovrintésero!
-sovrintési~sovrintéṡi@S!
-sovrintéṡo~sovrintéso@S
+sovrintési!
+sovrintéso~sovrintéṡo@S+:M
 sovrumana
 sovrumane
 sovrumani
@@ -374842,7 +374842,7 @@ sperticàtosi!
 spertichiàmoci!
 spèrto
 sperò	sperò!
-spéṡa~spésa@S
+spésa~spéṡa@S+:M
 spesai!
 spesammo!
 spesando!
@@ -374864,7 +374864,7 @@ spesàvano!
 spesavate!
 spesavi!
 spesavo!
-spéṡe~spése@S
+spése~spéṡe@S+:M
 speserai!
 speseranno!
 speserèbbe~speserébbe@V!
@@ -374878,11 +374878,11 @@ speseréte!
 spésero!
 speserà	speserà!
 speserò	speserò!
-spéṡi~spési@S
+spési~spéṡi@S+:M
 spesiamo!
 spesiate!
 spéṡino~spésino@S
-spéṡo~spéso@S
+spéso~spéṡo@S+:M
 spéssa!
 spessai!
 spessaménte
@@ -375024,10 +375024,10 @@ spettacolìstiche!
 spettacolìstici!
 spettacolìstico
 spettàcolo
-spettacolóṡa
-spettacolóṡe
-spettacolóṡi
-spettacolóṡo
+spettacolósa~spettacolóṡa@S+:M
+spettacolóse~spettacolóṡe@S+:M
+spettacolósi~spettacolóṡi@S+:M
+spettacolóso~spettacolóṡo@S+:M
 spettai!
 spettammo!
 spettando!
@@ -376889,11 +376889,11 @@ splènico
 splènio
 spòcchia
 spòcchie!
-spocchióṡa!
+spocchiósa!
 spocchioṡaménte
-spocchióṡe!
-spocchióṡi!
-spocchióṡo
+spocchióse!
+spocchiósi!
+spocchióso~spocchióṡo@S+:M
 spodèsta!
 spodestai!
 spodestammo!
@@ -382563,10 +382563,10 @@ sterziate!
 stèrzino!
 stèrzo
 sterzò	sterzò!
-stéṡa~stésa@S
-stéṡe~stése@S
+stésa~stéṡa@S+:M
+stése~stéṡe@S+:M
 stésero!
-stéṡi~stési@S
+stési~stéṡi@S+:M
 stéso~stéṡo@S
 stésosi!
 stéssa!
@@ -383407,11 +383407,11 @@ stizzivate!
 stizzivi!
 stizzivo!
 stizzo
-stizzóṡa!
+stizzósa!
 stizzosaménte
-stizzóṡe!
-stizzóṡi!
-stizzóṡo
+stizzóse!
+stizzósi!
+stizzóso~stizzóṡo@S+:M
 stizzì	stizzì!
 stizzò	stizzò!
 stiè	stiè!
@@ -383564,11 +383564,11 @@ stomàchico
 stòmachino!
 stòmaci!
 stòmaco
-stomacóṡa!
+stomacósa!
 stomacoṡaménte
-stomacóṡe!
-stomacóṡi!
-stomacóṡo
+stomacóse!
+stomacósi!
+stomacóso~stomacóṡo@S+:M
 stomacò	stomacò!
 stomàtica!
 stomàtiche!
@@ -383680,10 +383680,10 @@ stòp
 stóppa;stòppa
 stoppacci
 stoppaccio
-stoppaccióṡa!
-stoppaccióṡe!
-stoppaccióṡi!
-stoppaccióṡo
+stoppacciósa!
+stoppaccióse!
+stoppacciósi!
+stoppaccióso~stoppaccióṡo@S+:M
 stoppai!
 stoppammo!
 stoppando!
@@ -387454,9 +387454,9 @@ stùdino!
 studio
 studiòli!
 studiòlo
-studióṡa
-studióṡe
-studióṡi
+studiósa~studióṡa@S+:M
+studióse~studióṡe@S+:M
+studiósi~studióṡi@S+:M
 studióso~studióṡo@S+:M
 studiò	studiò!
 stufa
@@ -388915,8 +388915,8 @@ sudorìpara!
 sudorìpare!
 sudorìpari!
 sudorìparo
-sudtiroléṡe
-sudtiroléṡi!
+sudtirolése~sudtiroléṡe@S+:M
+sudtirolési!
 sudò	sudò
 sue
 suespósta!
@@ -389307,10 +389307,10 @@ sughi
 sugna
 sugne!
 sugo
-sugóṡa
-sugóṡe!
-sugóṡi!
-sugóṡo
+sugósa~sugóṡa@S+:M
+sugóse!
+sugósi!
+sugóso~sugóṡo@S+:M
 suicida
 suicidai!
 suicidammo!
@@ -390488,11 +390488,11 @@ sussidio
 sussidiò	sussidiò!
 sussièghi~sussiéghi@V
 sussiègo
-sussiegóṡa!
+sussiegósa!
 sussiegoṡaménte
-sussiegóṡe!
-sussiegóṡi!
-sussiegóṡo
+sussiegóse!
+sussiegósi!
+sussiegóso~sussiegóṡo@S+:M
 sussista!
 sussìstano!
 sussiste
@@ -391023,11 +391023,11 @@ svanirò	ṡvanirò!
 ṡvanivo!
 ṡvantaggi
 ṡvantaggio
-ṡvantaggióṡa!
+ṡvantaggiósa!
 ṡvantaggiosaménte
-ṡvantaggióṡe!
-ṡvantaggióṡi!
-ṡvantaggióṡo
+ṡvantaggióse!
+ṡvantaggiósi!
+ṡvantaggióso~ṡvantaggióṡo@S+:M
 svanì	ṡvanì!
 ṡvapóra
 ṡvaporai!
@@ -393480,7 +393480,7 @@ tagliàrono!
 tagliarsi
 tagliarti!
 tagliasìgari
-tagliaspéṡe~tagliaspése@S
+tagliaspése~tagliaspéṡe@S+:M
 tagliasse!
 tagliàssero!
 tagliassi!
@@ -394070,10 +394070,10 @@ tandem
 tane!
 tanfi!
 tanfo
-tanfóṡa!
-tanfóṡe!
-tanfóṡi!
-tanfóṡo
+tanfósa!
+tanfóse!
+tanfósi!
+tanfóso~tanfóṡo@S+:M
 tanga
 tàngano!
 tange
@@ -395253,8 +395253,8 @@ taupine!
 taupini!
 taupino
 tauri!
-taurianovéṡe~taurianovése@S:T
-taurianovéṡi~taurianovési@S:T
+taurianovése~taurianovéṡe@S+:M
+taurianovési~taurianovéṡi@S+:M
 taurina!
 taurine!
 taurini!
@@ -396011,8 +396011,8 @@ telericéve
 telericévi
 telericévo
 telericévono
-teleripréṡa
-teleripréṡe!
+teleriprésa~teleripréṡa@S+:M
+teleriprése!
 teleriscalda!
 teleriscaldai!
 teleriscaldaménti!
@@ -397652,8 +397652,8 @@ ternarie
 ternario
 ternata!
 ternate!
-ternatéṡe~ternatése@S:T
-ternatéṡi~ternatési@S:T
+ternatése~ternatéṡe@S+:M
+ternatési~ternatéṡi@S+:M
 ternati!
 ternato
 tèrne!
@@ -398136,7 +398136,7 @@ tessàlici!
 tessàlico
 tessaliòta
 tessalonicése~tessalonicéṡe@S+
-tessalonicéṡi
+tessalonicési~tessalonicéṡi@S+:M
 tèssano!
 tèsse
 tesséi!
@@ -398317,7 +398317,7 @@ testerésti!
 testeréte!
 testerà	testerà!
 testerò	testerò!
-testéṡo
+testéso~testéṡo@S+:M
 tèsti!
 testiamo!
 testiate!
@@ -398777,8 +398777,8 @@ tigne
 tìgnere!
 tignòla~tignóla@V
 tignòle!
-tignóṡa
-tignóṡe!
+tignósa~tignóṡa@S+:M
+tignóse!
 tigóne
 tigóni!
 tigrata!
@@ -399697,7 +399697,7 @@ toffolétta
 toffolétte!
 tòfi!
 tòfo
-tófu~tòfu@V
+tòfu~tófu@V+
 tòga
 togale
 togali!
@@ -400055,7 +400055,7 @@ tòneca!
 tònega!
 tonèma
 tonèmi
-tóner~tòner@V
+tòner~tóner@V+
 tonerai!
 toneranno!
 tonerèbbe~tonerébbe@V!
@@ -400333,10 +400333,10 @@ tórbido
 torbièra
 torbière!
 tòrbo~tórbo@V
-torbóṡa!
-torbóṡe!
-torbóṡi!
-torbóṡo
+torbósa!
+torbóse!
+torbósi!
+torbóso~torbóṡo@S+:M
 tòrca!
 tòrcano!
 tòrce
@@ -400461,8 +400461,8 @@ tòrica
 tòriche
 tòrici
 tòrico
-torinéṡe~torinése@S
-torinéṡi~torinési@S
+torinése~torinéṡe@S+:M
+torinési~torinéṡi@S+:M
 torineṡiṡmi!
 torineṡiṡmo
 torinista
@@ -400665,10 +400665,10 @@ torontoniana!
 torontoniane!
 torontoniani!
 torontoniano
-toróṡa!
-toróṡe!
-toróṡi!
-toróṡo
+torósa!
+toróse!
+torósi!
+toróso~toróṡo@S+:M
 torpèdine
 torpèdini!
 torpedinièra
@@ -402136,7 +402136,7 @@ trafòri~trafóri@V
 traforiamo!
 traforiate!
 trafòrino~trafórino@V
-trafóro~trafòro@V
+trafòro~trafóro@V+
 traforò	traforò!
 trafuga!
 trafugàbile
@@ -403320,11 +403320,11 @@ transcendiamo!
 transcendiate!
 transcéndo~transcèndo@V
 transcéndono~transcèndono@V
-transcéṡa!
-transcése~transcéṡe@S!
+transcésa!
+transcése!
 transcésero!
-transcési~transcéṡi@S!
-transcéṡo~transcéso@S
+transcési!
+transcéso~transcéṡo@S+:M
 transcontinentale
 transcontinentali
 transcórsa!
@@ -403844,8 +403844,8 @@ trapanerésti!
 trapaneréte!
 trapanerà	trapanerà!
 trapanerò	trapanerò!
-trapanéṡe~trapanése@S
-trapanéṡi!
+trapanése~trapanéṡe@S+:M
+trapanési!
 tràpani!
 trapaniamo!
 trapaniate!
@@ -404580,11 +404580,11 @@ trascendiate!
 trascéndo~trascèndo@V
 trascéndono~trascèndono@V
 trascérre
-trascéṡa~trascésa@S
-trascéṡe~trascése@S
+trascésa~trascéṡa@S+:M
+trascése~trascéṡe@S+:M
 trascésero!
-trascéṡi~trascési@S
-trascéṡo~trascéso@S
+trascési~trascéṡi@S+:M
+trascéso~trascéṡo@S+:M
 trascina
 trascinàbile
 trascinàbili!
@@ -408588,8 +408588,8 @@ troncherésti!
 troncheréte!
 troncherà	troncherà!
 troncherò	troncherò!
-tronchéṡe
-tronchéṡi!
+tronchése~tronchéṡe@S+:M
+tronchési!
 tronchétti!
 tronchétto
 trónchi
@@ -409493,7 +409493,7 @@ tuniṡini!
 tuniṡino
 tunnel
 tuo
-tuói~tuòi@V
+tuòi~tuói@V+
 tuòna!
 tuonai!
 tuonammo!
@@ -409712,8 +409712,8 @@ turcasso
 turche
 turcheggiare
 turcheggiato
-turchéṡe~turchése@S
-turchéṡi!
+turchése~turchéṡe@S+:M
+turchési!
 turchi
 turchina
 turchine
@@ -410070,10 +410070,10 @@ ubèra
 ubère
 ùberi;ubèri
 ùbero;ubèro
-ubertóṡa
-ubertóṡe
-ubertóṡi
-ubertóṡo
+ubertósa~ubertóṡa@S+:M
+ubertóse~ubertóṡe@S+:M
+ubertósi~ubertóṡi@S+:M
+ubertóso~ubertóṡo@S+:M
 ubertà	ubertà
 ubi
 ùbica!
@@ -410607,10 +410607,10 @@ uggiolii!
 uggiolio
 ùggiolo!
 uggiolò	uggiolò!
-uggióṡa!
-uggióṡe!
-uggióṡi!
-uggióṡo
+uggiósa!
+uggióse!
+uggiósi!
+uggióso~uggióṡo@S+:M
 ugna
 ugne!
 ùgnere!
@@ -411359,8 +411359,8 @@ ungévano!
 ungevate!
 ungévi!
 ungévo!
-ungheréṡe~ungherése@S
-ungheréṡi!
+ungherése~ungheréṡe@S+:M
+ungherési!
 unghia
 unghiata
 unghiate!
@@ -414142,7 +414142,7 @@ vanagloriati;vanaglòriati
 vanaglòrie!
 vanagloriósa!
 vanagloriosaménte
-vanaglorióṡe
+vanaglorióse~vanaglorióṡe@S+:M
 vanagloriósi~vanaglorióṡi@S+
 vanaglorióso~vanaglorióṡo@S+
 vanaménte
@@ -414422,11 +414422,11 @@ vaniste!
 vanisti!
 vanite!
 vanito!
-vanitóṡa!
+vanitósa!
 vanitosaménte
-vanitóṡe!
-vanitóṡi!
-vanitóṡo
+vanitóse!
+vanitósi!
+vanitóso~vanitóṡo@S+:M
 vanità	vanità
 vaniva!
 vanivamo!
@@ -415903,7 +415903,7 @@ venenóse!
 venenósi!
 venenóso~venenóṡo@S+:M
 venènte!
-vénera~vènera@V
+vènera~vénera@V+
 veneràbile
 veneràbili
 venerabilità	venerabilità
@@ -415979,7 +415979,7 @@ vèneri
 veneriamo!
 veneriate!
 vènerino!
-vénero~vènero@V
+vènero~vénero@V+
 venerà	venerà!
 venerò	venerò!
 vèneta!
@@ -416234,8 +416234,8 @@ ventitré	ventitré
 vènto
 vèntola
 vèntole!
-ventóṡa
-ventóse~ventóṡe@S!
+ventósa~ventóṡa@S+:M
+ventóse!
 ventósi!
 ventóso~ventóṡo@S+:M
 ventottènne
@@ -416277,10 +416277,10 @@ venturìmetro
 venturo
 venturóne
 venturóni!
-venturóṡa!
-venturóṡe!
-venturóṡi!
-venturóṡo
+venturósa!
+venturóse!
+venturósi!
+venturóso~venturóṡo@S+:M
 venuṡiana
 venuṡiane!
 venuṡiani!
@@ -416374,8 +416374,8 @@ verbóse!
 verbósi!
 verbosità	verbosità~verboṡità@S
 verbóso~verbóṡo@S
-vercelléṡe~vercellése@S
-vercelléṡi!
+vercellése~vercelléṡe@S+:M
+vercellési!
 verdacchia!
 verdacchie!
 verdacchio
@@ -418259,14 +418259,14 @@ videointervista
 videointerviste!
 videolènti!
 videolènto
-videoléṡa
-videoléṡe
-videoléṡi
-videoléṡo
+videolésa~videoléṡa@S+:M
+videolése~videoléṡe@S+:M
+videolési~videoléṡi@S+:M
+videoléso~videoléṡo@S+:M
 videolettóre
 videolettóri!
-videolezìone~videolezióne@A
-videolezìoni
+videolezióne
+videolezióni
 videolibri!
 videolibro
 videolùdica!
@@ -418346,8 +418346,8 @@ videoricostruzióne
 videoricostruzióni!
 videoriparatóre
 videoriparatóri!
-videoripréṡa~videoriprésa@S
-videoripréṡe~videoriprése@S
+videoriprésa~videoripréṡa@S+:M
+videoriprése~videoripréṡe@S+:M
 videoriproduttóre
 videoriproduttóri!
 videoriproduzióne
@@ -418842,10 +418842,10 @@ vilipendiate!
 vilipèndio
 vilipèndo
 vilipèndono!
-vilipéṡa~vilipésa@S
-vilipéṡe~vilipése@S
+vilipésa~vilipéṡa@S+:M
+vilipése~vilipéṡe@S+:M
 vilipésero!
-vilipéṡi~vilipési@S
+vilipési~vilipéṡi@S+:M
 vilipéso~vilipéṡo@S
 vilità	vilità
 villa
@@ -418871,8 +418871,8 @@ villano
 villanóne!
 villanzóne
 villanzóni!
-villasantéṡe~villasantése@S:T
-villasantéṡi~villasantési@S:T
+villasantése~villasantéṡe@S+:M
+villasantési~villasantéṡi@S+:M
 ville
 villeggiante
 villeggianti!
@@ -419376,10 +419376,10 @@ viròlogo
 virtuale
 virtuali
 virtualménte
-virtudióṡa!
-virtudióṡe!
-virtudióṡi!
-virtudióṡo
+virtudiósa!
+virtudióse!
+virtudiósi!
+virtudióso~virtudióṡo@S+:M
 virtuósa!
 virtuosaménte
 virtuóse~virtuóṡe@S+
@@ -419937,7 +419937,7 @@ vittoriane!
 vittoriani!
 vittoriano
 vittòrie!
-vittorióṡa
+vittoriósa~vittorióṡa@S+:M
 vittoriosaménte
 vittorióse!
 vittoriósi!
@@ -420694,8 +420694,8 @@ vòglion
 vògliono
 vogliósa~voglióṡa@S+
 vogliosaménte
-voglióṡe
-voglióṡi
+voglióse~voglióṡe@S+:M
+vogliósi~voglióṡi@S+:M
 voglióso~voglióṡo@S+
 vògliti
 vógo
@@ -421951,7 +421951,7 @@ vuotavi!
 vuotavo!
 vuotażucchine~vuotazucchine@Z
 vuotażucchini!
-vuóte
+vuòte
 vuoterai!
 vuoteranno!
 vuoterèbbe~vuoterébbe@V!
@@ -421964,7 +421964,7 @@ vuoterésti!
 vuoteréte!
 vuoterà	vuoterà!
 vuoterò	vuoterò!
-vuóti
+vuòti
 vuotiamo!
 vuotiate!
 vuòtino!
@@ -422065,8 +422065,8 @@ zaffò	żaffò!
 żàini!
 żàino~żaino@A
 żaire
-żairéṡe~żairése@S
-żairéṡi!
+żairése~żairéṡe@S+:M
+żairési!
 żalòfi!
 żalòfo
 żamberlucchi!
@@ -423722,9 +423722,9 @@ zuccherificio~żuccherificio@Z
 żuccherini~zuccherini@Z
 zuccherino~żuccherino@Z~żùccherino@AZ;zùccherino
 zùcchero~żùcchero@Z
-żuccheróṡa~zuccheróṡa@Z~zuccherósa@SZ
-żuccheróṡe~zuccheróṡe@Z~zuccheróse@SZ
-żuccheróṡi~zuccheróṡi@Z~zuccherósi@SZ
+żuccherósa~żuccheróṡa@S+:M~zuccheróṡa@SZ~zuccherósa@Z
+żuccheróse~żuccheróṡe@S+:M~zuccheróṡe@SZ~zuccheróse@Z
+żuccherósi~żuccheróṡi@S+:M~zuccheróṡi@SZ~zuccherósi@Z
 zuccheróso~zuccheróṡo@S+~żuccheróṡo@SZ
 zuccherò	zuccherò!
 żucchétta~zucchétta@Z

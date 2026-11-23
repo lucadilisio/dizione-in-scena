@@ -363,7 +363,7 @@ cicchino	cicchino=aggettivo|cìcchino=terza persona plurale del congiuntivo pres
 ciclopia	ciclopia=presenza di un solo occhio in mezzo alla fronte|ciclòpia=forma di ciclopio
 ciclopie	ciclopie=forma di ciclopia|ciclòpie=forma di ciclopio
 cimentati	cimentati=forma di cimentato|ciméntati=forma di cimentarsi
-cinesi	cinéṡi=plurale di cinese
+cinesi	cinési=plurale di cinese
 ciondolino	ciondolino=forma di ciondolo|cióndolino=terza persona plurale del congiuntivo presente di ciondolare
 circolino	circolino=forma di circolo|cìrcolino=terza persona plurale del congiuntivo presente di circolare
 circondati	circondati=forma di circondato|circóndati=forma di circondarsi
@@ -388,7 +388,7 @@ compenetrati	compenetrati=forma di compenetrato|compènetrati=forma di compenetr
 compensati	compensati=forma di compensato|compènsati=forma di compensarsi
 compita	compita=femminile di compito|còmpita=forma di compitare
 compiti	còmpiti=seconda persona singolare dell'indicativo presente di compitare|cómpiti=sostantivo
-compito	cómpito=ripartizione di un lavoro che si affida a qualcuno o che ci si…|còmpito=prima persona singolare dell'indicativo presente di compitare|compito=arrivato alla fine
+compito	còmpito=prima persona singolare dell'indicativo presente di compitare|compito=arrivato alla fine|cómpito=ripartizione di un lavoro che si affida a qualcuno o che ci si…
 completino	completino=sostantivo|complètino=terza persona plurale del congiuntivo presente di completare
 complimentati	complimentati=forma di complimentato|compliméntati=participio passato maschile plurale di complimentare, complimentarsi
 comprati	comprati=forma di comprato|cómprati=forma di comprarsi
@@ -575,7 +575,6 @@ elettrici	elèttrici=maschile plurale di elettrico|elettrici=forma di elettrice
 eliminati	eliminati=forma di eliminato|elìminati=forma di eliminarsi
 eliofobi	eliòfobi=forma di eliofobo|eliofòbi=forma di eliofobio
 eliotropia	eliotropia=sostantivo|eliotròpia=variante di eliotropio
-elle	èlle=nome italiano per indicare la lettera elle (l)|élle=forma di ella
 elleno	ellèno=aggettivo · sostantivo|élleno=pronome
 emancipati	emancipati=plurale di emancipato|emàncipati=forma di emanciparsi
 embricati	embricati=forma di embricato|émbricati=forma di embricarsi
@@ -598,7 +597,7 @@ esilarati	eṡilarati=forma di esilarato|eṡìlarati=forma di esilararsi
 esili	èṡili=plurale di esile|eṡili=plurale di esilio · seconda persona singolare dell'indicativo presente di esiliare
 esiliati	eṡiliati=forma di esiliato|eṡilìati=forma di esiliarsi
 esonerati	eṡonerati=forma di esonerato|eṡònerati=forma di esonerarsi
-esse	ésse=forma di ella and essa|èsse=sostantivo
+esse	èsse=sostantivo|ésse=forma di ella and essa
 essiccati	essiccati=forma di essiccato|essìccati=forma di essiccarsi
 estasi	èstaṡi=condizione benefica dell'animo e/o dell'anima|estaṡi=forma di estasiare
 este	èste=variante di è|éste=forma di esto
@@ -1030,7 +1029,6 @@ passeggino	passeggino=sostantivo|passéggino=terza persona plurale del congiunti
 passino	passino=utensile da cucina utilizzato per filtrare liquidi; è solitamente…|pàssino=terza persona plurale del congiuntivo presente di passare
 pattino	pàttino=prima persona singolare dell'indicativo presente di pattinare
 pedalino	pedalino=calzino da uomo|pedàlino=forma di pedalare
-pelle	pélle=variante di per|pèlle=rivestimento esterno del corpo dei vertebrati
 pendolino	pendolino=minuto pendolo utilizzato da radiestesisti nelle loro sperimentazioni|pèndolino=forma di pendolare
 pene	pène=organo esterno riproduttivo maschile del corpo animale e umano (in…|péne=plurale di pena
 peni	pèni=plurale di pene|péni=forma di penare

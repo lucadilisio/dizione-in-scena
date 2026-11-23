@@ -4,6 +4,17 @@
 CORREZIONI = {
     'ricetta': 'ricètta',     # lat. recĕpta, come precètto: e aperta (Wikizionario dava ricétta)
     'ricette': 'ricètte',
+    # parole sbagliate nel Gioco, controllate una per una (novembre 2026)
+    'parenti': 'parènti',          # come parènte
+    'frequenti': 'frequènti',      # come frequènte
+    'pericolo': 'perìcolo',        # accento sulla i, non sulla prima e
+    'membri': 'mèmbri',            # come mèmbro
+    'vuote': 'vuòte', 'vuoti': 'vuòti',   # come vuòto
+    'pelle': 'pèlle', 'pelli': 'pèlli',
+    'contemporanei': 'contemporànei',     # come contemporàneo
+    'colpevoli': 'colpévoli',      # come colpévole
+    'finche': 'finché', 'finchè': 'finché',
+    'ella': 'élla', 'elle': 'élle',    # pronome: e chiusa come ésso, éssa
 }
 import pickle, sys, collections
 from ipa import analyze, mark, orth_vowels, ORTHV
@@ -16,7 +27,7 @@ def rec_analyses(w, ipas, src):
         ipa, tags = item if isinstance(item, tuple) else (item, ())
         a = analyze(w, ipa)
         if a and a['stress'] is not None:
-            a['tags'] = tags; a['src'] = src
+            a['tags'] = tags; a['src'] = src; a['ipa'] = ipa
             a['apos'] = src == 'it' and "'" in ipa      # notazione con l'apostrofo (non IPA): poco affidabile
             res.append(a)
     return res
@@ -59,6 +70,8 @@ def variant_str(P, v, info):
 
 import re
 SORDA_TRAD = re.compile(r'^(cas[aeio]|cas[ae]tt|cos[aeio]$|cos[iì]$|nas[oi]$|mes[ei]$|pes[oi]$)')
+CAMBI_EO = []
+EO_CHIUSI = re.compile(r'(on[ei]|ett[aeio]|post[aeio])$')
 lex = {}   # word -> (primary, variants[list], homographs[list], analysis)
 for w, rs in recs.items():
     by_src = {'it': [], 'en': []}
@@ -73,6 +86,14 @@ for w, rs in recs.items():
         by_src['it'] = [an2 for an2 in ([a for a in an if not a.get('apos')] for an in by_src['it']) if an2]
     first = lambda src: by_src[src][0][0] if by_src[src] else None
     va = first('it') or first('en')
+    # l'edizione italiana spesso scrive /e/ /o/ senza distinguere aperte e chiuse (/aˈperto/, /ˈkronaka/):
+    # se nessuna sua trascrizione ha ɛ/ɔ e quella inglese, con lo stesso accento, ha la vocale accentata aperta,
+    # vale l'inglese. Non per i suffissi sempre chiusi (-one, -etto) e i participi di porre (espósto)
+    if by_src['it'] and by_src['en'] and not EO_CHIUSI.search(w):
+        ita = [a for an in by_src['it'] for a in an]; en0 = first('en')
+        if (not any(c in a['ipa'] for a in ita for c in 'ɛɔ') and en0['stress'] == va['stress']
+                and mark(w, en0)[en0['stress']] in 'èò' and mark(w, va)[va['stress']] in 'éó'):
+            va = en0; CAMBI_EO.append(w)
     sa = None; za = None
     for src in ('it', 'en'):
         for an in by_src[src]:
@@ -112,10 +133,30 @@ for w, rs in recs.items():
         if alt:
             info[P] = {'src': set(info.get(alt, {}).get('src', set())) | {'it', 'en'}, 'tags': [], 'moderna': True}
             var = [P] + [v for v in var if v != alt]; P = alt
+    # suffissi con s sorda nella dizione tradizionale anche se Wiktionary li dà sonori:
+    # -ese (francése, paése), participi e passati in -eso/-esi/-ese (préso, compréso, diféso),
+    # aggettivi in -oso (meraviglióso, con la o chiusa). Non i nomi greci in -osi (tubercolòṡi, psicòṡi)
+    m = re.search(r'(é|[òó])ṡ([aeio]|ero)$', P)
+    # (la ò si corregge solo nelle parole lunghe: riposo, sposa, posa restano òṡ; mai in -osi: sclerosi, psicosi)
+    if m and len(w) >= 5 and not (m.group(1) == 'ò' and (len(w) < 8 or w.endswith('osi'))):
+        i = m.start(1)
+        nuovo = P[:i] + ('é' if m.group(1) == 'é' else 'ó') + 's' + P[i + 2:]
+        if nuovo != P:
+            info[P] = {'src': {'it', 'en'}, 'tags': [], 'moderna': True}
+            var = [P] + [v for v in var if v != nuovo]; P = nuovo
+    # errori ricorrenti delle trascrizioni, corretti per regola:
+    # gerundi sempre in -èndo (ridèndo, come vedèndo); -zióne/-ióne mai con l'accento sulla i; condizionale in -rèi
+    fix = P
+    if fix.endswith('éndo') and (w[:-4] + 'ere' in recs or w[:-4] + 'ire' in recs): fix = fix[:-4] + 'èndo'
+    fix = re.sub(r'ì(on[ei])$', r'i\1', fix); fix = re.sub(r'iòn([ei])$', r'ión\1', fix)
+    if re.search(r'ion[ei]$', fix) and not re.search(r'[àèéìòóù]', fix[:-3]) and 'ó' not in fix[-3:]: fix = fix[:-3] + 'ó' + fix[-2:]
+    if fix.endswith('réi'): fix = fix[:-3] + 'rèi'
+    if fix != P:
+        var = [v for v in var if v != fix]; P = fix
     var = [variant_str(P, v, info.get(v)) for v in var]
     lex[w] = (P, var, hom, prim)
 
-print('voci con pronuncia:', len(lex))
+print('voci con pronuncia:', len(lex), '| e/o aperte prese dall\'edizione inglese:', len(CAMBI_EO))
 
 # ---------- forme flesse ----------
 def lcp(a, b):
