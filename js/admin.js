@@ -42,14 +42,49 @@ async function dashboard(app, email) {
       <button class="btn primary" type="submit">Crea gruppo</button>
       <span class="small" id="msg"></span>
     </form>
+    <div class="card row" style="margin-bottom:16px;justify-content:space-between">
+      <span class="small">Parole che i ragazzi sbagliano, di tutti i gruppi e senza nomi: utile per far controllare la dizione del sito.</span>
+      <button class="btn" id="esporta">Scarica le parole sbagliate</button>
+    </div>
     <div id="lista"><div class="loading">Carico i gruppi…</div></div>`;
   $('#out', app).addEventListener('click', async () => { await online.adminLogout(); login(app); });
+  $('#esporta', app).addEventListener('click', async e => {
+    const b = e.currentTarget; b.disabled = true; b.textContent = 'Preparo il file…';
+    try { scarica(await paroleSbagliate()); b.textContent = 'Scarica le parole sbagliate'; }
+    catch (er) { b.textContent = errore(er); }
+    b.disabled = false;
+  });
   $('#nuovo', app).addEventListener('submit', async e => {
     e.preventDefault();
     try { await online.adminCreateGroup($('#nome', app).value); $('#nome', app).value = ''; $('#msg', app).textContent = ''; lista(app); }
     catch (er) { $('#msg', app).textContent = errore(er); }
   });
   lista(app);
+}
+
+// tutte le parole sbagliate, di tutti i gruppi, senza dati dei ragazzi:
+// forma che il sito considera giusta, tipo di domanda, quanti ragazzi la sbagliano, quante volte
+async function paroleSbagliate() {
+  const err = new Map();
+  for (const g of await online.adminGroups()) {
+    for (const r of await online.adminRagazzi(g.id)) {
+      for (const e of Object.values(P.normalizza(r).errori)) {
+        const k = e.prim + '\t' + (e.type || '');
+        const v = err.get(k) || { prim: e.prim, type: e.type || '', chi: 0, n: 0 };
+        v.chi++; v.n += e.tot || e.n || 1; err.set(k, v);
+      }
+    }
+  }
+  const righe = [...err.values()].sort((a, b) => b.chi - a.chi || b.n - a.n || a.prim.localeCompare(b.prim, 'it'));
+  return '# Parole sbagliate nel Gioco di Dizione in Scena (' + new Date().toLocaleDateString('it-IT') + ')\n'
+    + '# forma segnata dal sito\ttipo di domanda\tragazzi che la sbagliano\terrori totali\n'
+    + righe.map(v => [v.prim, v.type, v.chi, v.n].join('\t')).join('\n') + '\n';
+}
+function scarica(testo) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([testo], { type: 'text/plain;charset=utf-8' }));
+  a.download = 'parole-sbagliate.txt'; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 5000);
 }
 
 const errore = e => /permission|PERMISSION_DENIED/i.test(e.message || e.code || '') ? 'Permesso negato: controlla che le regole del database contengano la tua email admin (README).' : (e.message || String(e));
