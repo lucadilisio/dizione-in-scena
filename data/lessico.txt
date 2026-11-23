@@ -198778,7 +198778,7 @@ intenzionati!
 intenzionato
 intenzióne
 intenzióni!
-intèra!
+intéra
 interagèndo!
 interagènte!
 interagiamo!
@@ -199237,7 +199237,7 @@ interduna
 interdunale
 interdunali!
 interdune
-intère!
+intére
 interelettrònica!
 interelettròniche!
 interelettrònici!
@@ -199417,7 +199417,7 @@ intergovernativa!
 intergovernative
 intergovernativi!
 intergovernativo
-intèri!
+intéri
 interiettiva!
 interiettive!
 interiettivi!
@@ -199771,7 +199771,7 @@ internisti!
 intèrno
 internòdi
 internò	internò!
-intèro~intéro@V+
+intéro
 interoceànica
 interoperàbile
 interoperàbili!

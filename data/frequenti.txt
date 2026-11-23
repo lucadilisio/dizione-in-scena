@@ -1283,7 +1283,7 @@ estate
 facilménte
 fòrti!
 fratèlli
-intèro~intéro@V+
+intéro
 legale
 miliardi!
 offèrta
@@ -1436,7 +1436,7 @@ epiṡòdio
 eṡame
 espressióne
 immàgino
-intèra!
+intéra
 inùtile
 lìnee
 operazióne
@@ -6617,7 +6617,7 @@ gabbia
 impòrto
 infezióne
 intèndono!
-intère!
+intére
 invernali
 invia
 inviata
@@ -6738,7 +6738,7 @@ góccia
 grammàtica
 immènso
 incluṡe
-intèri!
+intéri
 introdótta
 investitóri!
 laddóve

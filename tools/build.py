@@ -15,6 +15,7 @@ CORREZIONI = {
     'colpevoli': 'colpévoli',      # come colpévole
     'finche': 'finché', 'finchè': 'finché',
     'ella': 'élla', 'elle': 'élle',    # pronome: e chiusa come ésso, éssa
+    'intero': 'intéro', 'intera': 'intéra', 'interi': 'intéri', 'intere': 'intére',   # e chiusa (verificato dal docente)
 }
 import pickle, sys, collections
 from ipa import analyze, mark, orth_vowels, ORTHV
